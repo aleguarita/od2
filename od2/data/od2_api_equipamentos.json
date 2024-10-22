@@ -1,0 +1,2215 @@
+[
+  {
+    "id": "adaga",
+    "type": "Equipment",
+    "name": "Adaga",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:11:12.833-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Perfurante, Arremesso (9)",
+    "picture": "https://public.olddragon.com.br/jj7a110akavz9zfgrbskuzreoo66",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/adaga.json"
+  },
+  {
+    "id": "agua-benta",
+    "type": "Equipment",
+    "name": "\u00c1gua Benta",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:11.143-03:00",
+    "access": "complete",
+    "cost": 2500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Frasco de 500 ml. Dano \u00e1cido de 1d6 em mortos-vivos e dem\u00f4nios.",
+    "picture": "https://public.olddragon.com.br/0o4z4feaai2h4uggmh7wz3n4rwva",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/agua-benta.json"
+  },
+  {
+    "id": "alabarda",
+    "type": "Equipment",
+    "name": "Alabarda",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:11:24.661-03:00",
+    "access": "complete",
+    "cost": 800,
+    "damage": "1d10",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Cortante, Duas M\u00e3os, Haste",
+    "picture": "https://public.olddragon.com.br/qsm12197xng6n6he2mv17ei1zsxx",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/alabarda.json"
+  },
+  {
+    "id": "alforje",
+    "type": "Equipment",
+    "name": "Alforje",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.601-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Bolsa de carga presa \u00e0 sela e acomodada sobre as ancas do cavalo. Comporta at\u00e9 600 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/alforje.json"
+  },
+  {
+    "id": "algema",
+    "type": "Equipment",
+    "name": "Algema",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:47.011-03:00",
+    "access": "complete",
+    "cost": 1200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Com cadeados; para pulsos ou tornozelos de criaturas P e M.",
+    "picture": "https://public.olddragon.com.br/7w693r5o6wsz1xaxzonk6y96g1zd",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/algema.json"
+  },
+  {
+    "id": "algibeira",
+    "type": "Equipment",
+    "name": "Algibeira",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:09:30.705-03:00",
+    "access": "complete",
+    "cost": 1,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Pequeno saco de couro usado preso ao cinto da roupa. Comporta at\u00e9 50 moedas.",
+    "picture": "https://public.olddragon.com.br/cohqrj5nzu0w8doyfbhtt485k0uf",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/algibeira.json"
+  },
+  {
+    "id": "aljava",
+    "type": "Equipment",
+    "name": "Aljava",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:10:20.223-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "De couro, r\u00edgida para at\u00e9 40 flechas ou 80 virotes. Comporta at\u00e9 150 moedas.",
+    "picture": "https://public.olddragon.com.br/2yre2ma8ot2fj0tvgr1krf97d4wt",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/aljava.json"
+  },
+  {
+    "id": "apito",
+    "type": "Equipment",
+    "name": "Apito",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:39.348-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Pequeno; com cord\u00e3o para pesco\u00e7o.",
+    "picture": "https://public.olddragon.com.br/b7eno7zry7ert400itgo9f1wvk7n",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/apito.json"
+  },
+  {
+    "id": "arco-curto",
+    "type": "Equipment",
+    "name": "Arco Curto",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:08.902-03:00",
+    "access": "complete",
+    "cost": 2500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Disparo (30), Duas M\u00e3os",
+    "picture": "https://public.olddragon.com.br/seuvk6qmar4lnnyw1lxck82k618p",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/arco-curto.json"
+  },
+  {
+    "id": "arco-longo",
+    "type": "Equipment",
+    "name": "Arco Longo",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:15.130-03:00",
+    "access": "complete",
+    "cost": 6000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Disparo (45), Duas M\u00e3os",
+    "picture": "https://public.olddragon.com.br/c2d47jp09e36youq69b8qfdoswf2",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/arco-longo.json"
+  },
+  {
+    "id": "armadura-acolchoada",
+    "type": "Equipment",
+    "name": "Armadura Acolchoada",
+    "concept": "armor",
+    "updated_at": "2023-12-26T22:10:45.587-03:00",
+    "access": "complete",
+    "cost": 500,
+    "damage": null,
+    "bonus_ca": 1,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Leve, Couro.",
+    "picture": "https://public.olddragon.com.br/oop7f4bc49ndh57t3zc9a4ukmmua",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-acolchoada.json"
+  },
+  {
+    "id": "armadura-completa",
+    "type": "Equipment",
+    "name": "Armadura Completa",
+    "concept": "armor",
+    "updated_at": "2023-12-26T22:09:23.667-03:00",
+    "access": "complete",
+    "cost": 200000,
+    "damage": null,
+    "bonus_ca": 7,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Pesada, Metal.",
+    "picture": "https://public.olddragon.com.br/n26cse9282u6cmprkvgfk4w6rldc",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-completa.json"
+  },
+  {
+    "id": "armadura-de-couro",
+    "type": "Equipment",
+    "name": "Armadura de Couro",
+    "concept": "armor",
+    "updated_at": "2023-12-26T22:11:23.397-03:00",
+    "access": "complete",
+    "cost": 2000,
+    "damage": null,
+    "bonus_ca": 2,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Leve, Couro.",
+    "picture": "https://public.olddragon.com.br/xwqkqi78wgktt93vp5tndk6v761p",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-de-couro.json"
+  },
+  {
+    "id": "armadura-de-couro-batido",
+    "type": "Equipment",
+    "name": "Armadura de Couro Batido",
+    "concept": "armor",
+    "updated_at": "2023-12-26T22:10:48.273-03:00",
+    "access": "complete",
+    "cost": 3000,
+    "damage": null,
+    "bonus_ca": 3,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Couro.",
+    "picture": "https://public.olddragon.com.br/zhx8om528n85z2n48f0q9jmzzt8c",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-de-couro-batido.json"
+  },
+  {
+    "id": "armadura-de-placas",
+    "type": "Equipment",
+    "name": "Armadura de Placas",
+    "concept": "armor",
+    "updated_at": "2023-12-26T22:11:27.082-03:00",
+    "access": "complete",
+    "cost": 30000,
+    "damage": null,
+    "bonus_ca": 5,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Pesada, Metal.",
+    "picture": "https://public.olddragon.com.br/xw947pk0i2thl9ybzhtjpfzbun7d",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-de-placas.json"
+  },
+  {
+    "id": "armadura-leve",
+    "type": "Equipment",
+    "name": "Armadura Leve",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.620-03:00",
+    "access": "complete",
+    "cost": 15000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Prote\u00e7\u00e3o de couro para cavalos de guerra. Melhora a CA em 2.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-leve.json"
+  },
+  {
+    "id": "armadura-pesada",
+    "type": "Equipment",
+    "name": "Armadura Pesada",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.637-03:00",
+    "access": "complete",
+    "cost": 50000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Prote\u00e7\u00e3o de metal para cavalos de guerra. Melhora a CA em 4.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-pesada.json"
+  },
+  {
+    "id": "arpeu",
+    "type": "Equipment",
+    "name": "Arp\u00e9u",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:13.801-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Gancho triplo para escaladas (corda vendida separadamente).",
+    "picture": "https://public.olddragon.com.br/qq9zf0e89id0bginox6bucnb9m8z",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/arpeu.json"
+  },
+  {
+    "id": "azagaia",
+    "type": "Equipment",
+    "name": "Azagaia",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:52.767-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Madeira, Perfurante, Arremesso (18), Contra investida.",
+    "picture": "https://public.olddragon.com.br/sn4ajpi0appf916rnkffbgxt7hw1",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/azagaia.json"
+  },
+  {
+    "id": "barril-caixa-grande",
+    "type": "Equipment",
+    "name": "Barril/Caixa grande",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:09:33.358-03:00",
+    "access": "complete",
+    "cost": 500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 10000,
+    "description": "De madeira, refor\u00e7ado para transporte. Capacidade de 200 litros. Comporta at\u00e9 2.000 moedas.",
+    "picture": "https://public.olddragon.com.br/vuqp8chcr3wz7rwh9r0y20eoumri",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/barril-caixa-grande.json"
+  },
+  {
+    "id": "barril-caixa-pequena",
+    "type": "Equipment",
+    "name": "Barril/Caixa pequena",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:09:56.518-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 5000,
+    "description": "De madeira, refor\u00e7ado para transporte. Capacidade de 20 litros. Comporta at\u00e9 200 moedas.",
+    "picture": "https://public.olddragon.com.br/8lmdzf1vhd9dbcb5ttvowjfkpvve",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/barril-caixa-pequena.json"
+  },
+  {
+    "id": "besta",
+    "type": "Equipment",
+    "name": "Besta",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:46.572-03:00",
+    "access": "complete",
+    "cost": 5000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Disparo (54), Duas M\u00e3os, Recarga",
+    "picture": "https://public.olddragon.com.br/su50t98trswyrueqkq0yforynkzb",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/besta.json"
+  },
+  {
+    "id": "besta-de-mao",
+    "type": "Equipment",
+    "name": "Besta de M\u00e3o",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:48.809-03:00",
+    "access": "complete",
+    "cost": 3000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Disparo (36), Recarga",
+    "picture": "https://public.olddragon.com.br/q7hlhjwd6uezjs78gkynp0czbies",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/besta-de-mao.json"
+  },
+  {
+    "id": "bordao-cajado",
+    "type": "Equipment",
+    "name": "Bord\u00e3o/Cajado",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:18.020-03:00",
+    "access": "complete",
+    "cost": 10,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Madeira, Impactante, Duas M\u00e3os.",
+    "picture": "https://public.olddragon.com.br/bqaq0h3tbt8vibat9xra9dq2452k",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/bordao-cajado.json"
+  },
+  {
+    "id": "cadeado",
+    "type": "Equipment",
+    "name": "Cadeado",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:09.937-03:00",
+    "access": "complete",
+    "cost": 1200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Com duas chaves.",
+    "picture": "https://public.olddragon.com.br/o5kxk2np0qkt4ffua2a0ucflmtnz",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cadeado.json"
+  },
+  {
+    "id": "carroca",
+    "type": "Equipment",
+    "name": "Carro\u00e7a",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.657-03:00",
+    "access": "complete",
+    "cost": 40000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Puxada por 1 cavalo. Transporta 1 condutor + 1 passageiro ou 150 kg.  Comporta at\u00e9 4.000 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/carroca.json"
+  },
+  {
+    "id": "carruagem",
+    "type": "Equipment",
+    "name": "Carruagem",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.674-03:00",
+    "access": "complete",
+    "cost": 150000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Puxada por 2 ou + cavalos. Transporta 1 condutor + 4 passageiros ou 350 kg.  Comporta at\u00e9 10.000 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/carruagem.json"
+  },
+  {
+    "id": "cavalo-de-guerra",
+    "type": "Equipment",
+    "name": "Cavalo de Guerra",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.490-03:00",
+    "access": "complete",
+    "cost": 25000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Treinado para combates e para armaduras. Carrega at\u00e9 4.000 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cavalo-de-guerra.json"
+  },
+  {
+    "id": "cavalo-de-montaria",
+    "type": "Equipment",
+    "name": "Cavalo de Montaria",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.509-03:00",
+    "access": "complete",
+    "cost": 7500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Treinado para montaria. Carrega at\u00e9 3.000 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cavalo-de-montaria.json"
+  },
+  {
+    "id": "cavalo-de-tracao",
+    "type": "Equipment",
+    "name": "Cavalo de Tra\u00e7\u00e3o",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.529-03:00",
+    "access": "complete",
+    "cost": 12000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Para trabalhos de tra\u00e7\u00e3o, puxar arados ou ve\u00edculos. Carrega at\u00e9 4.500 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cavalo-de-tracao.json"
+  },
+  {
+    "id": "cimitarra",
+    "type": "Equipment",
+    "name": "Cimitarra",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:59.626-03:00",
+    "access": "complete",
+    "cost": 1500,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.",
+    "picture": "https://public.olddragon.com.br/ebprsdbsgtfwajwxgtyhwtgjeipf",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cimitarra.json"
+  },
+  {
+    "id": "coberta-de-inverno",
+    "type": "Equipment",
+    "name": "Coberta de Inverno",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:11.959-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Grossa de l\u00e3 e peles com 2 x 2 metros.",
+    "picture": "https://public.olddragon.com.br/5n7sz1ifqnrjptugpcwvisqz0kds",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/coberta-de-inverno.json"
+  },
+  {
+    "id": "corda-de-canhamo",
+    "type": "Equipment",
+    "name": "Corda de C\u00e2nhamo",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:13.714-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 2000,
+    "description": "15 metros. Suporta erguer at\u00e9 250 kg.",
+    "picture": "https://public.olddragon.com.br/fi8xwljzmpg8z0hlwhcsea1a9p12",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/corda-de-canhamo.json"
+  },
+  {
+    "id": "corrente",
+    "type": "Equipment",
+    "name": "Corrente",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:17.413-03:00",
+    "access": "complete",
+    "cost": 500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 20000,
+    "description": "15 metros. Suporta erguer at\u00e9 1.000 kg.",
+    "picture": "https://public.olddragon.com.br/0d7mvkebm978ygom7yll69r4nkt5",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/corrente.json"
+  },
+  {
+    "id": "cota-de-malha",
+    "type": "Equipment",
+    "name": "Cota de Malha",
+    "concept": "armor",
+    "updated_at": "2023-12-26T22:10:37.802-03:00",
+    "access": "complete",
+    "cost": 6000,
+    "damage": null,
+    "bonus_ca": 4,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Metal.",
+    "picture": "https://public.olddragon.com.br/vgcgr71g4r6snijigxn1coswl0mu",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cota-de-malha.json"
+  },
+  {
+    "id": "cravos-ganchos",
+    "type": "Equipment",
+    "name": "Cravos/Ganchos",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:22.074-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "5 unidades de cravos ou ganchos para escaladas.",
+    "picture": "https://public.olddragon.com.br/ineq9bjfvl1cd02j5wugu85pryhr",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cravos-ganchos.json"
+  },
+  {
+    "id": "escada",
+    "type": "Equipment",
+    "name": "Escada",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:54.941-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 5000,
+    "description": "3 metros. Com corrim\u00e3o de corda e degrau de ripas de madeira para escaladas.",
+    "picture": "https://public.olddragon.com.br/gzwugetpnky8peyell4dopv7i0bq",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/escada.json"
+  },
+  {
+    "id": "escudo",
+    "type": "Equipment",
+    "name": "Escudo",
+    "concept": "shield",
+    "updated_at": "2023-12-26T22:10:49.426-03:00",
+    "access": "complete",
+    "cost": 800,
+    "damage": null,
+    "bonus_ca": 1,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Leve, M\u00e3o Exclusiva, Madeira.",
+    "picture": "https://public.olddragon.com.br/d2tlv2sycyeqlvj0v62rlxntreox",
+    "fontes": [
+      {
+        "page": 60,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/escudo.json"
+  },
+  {
+    "id": "espada-bastarda",
+    "type": "Equipment",
+    "name": "Espada Bastarda",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:02.919-03:00",
+    "access": "complete",
+    "cost": 1500,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Vers\u00e1til, Cortante",
+    "picture": "https://public.olddragon.com.br/vdl6dk0crggtnjzbl3giv2mnj2c1",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-bastarda.json"
+  },
+  {
+    "id": "espada-curta",
+    "type": "Equipment",
+    "name": "Espada Curta",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:00.528-03:00",
+    "access": "complete",
+    "cost": 600,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Cortante.",
+    "picture": "https://public.olddragon.com.br/f0v37vin450apz72tiheocl21v17",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-curta.json"
+  },
+  {
+    "id": "espada-kundur",
+    "type": "Equipment",
+    "name": "Espada Kundur",
+    "concept": "weapon",
+    "updated_at": "2024-05-26T21:58:40.433-03:00",
+    "access": "complete",
+    "cost": 3000,
+    "damage": "2d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante, Sangrenta (um resultado 19 no ataque com esta arma tamb\u00e9m \u00e9 considerado como um acerto cr\u00edtico para todos os efeitos).",
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-kundur.json"
+  },
+  {
+    "id": "espada-longa",
+    "type": "Equipment",
+    "name": "Espada Longa",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:42.722-03:00",
+    "access": "complete",
+    "cost": 1000,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.",
+    "picture": "https://public.olddragon.com.br/pq4cnk6uxn0ngj86py1enbj54e3y",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa.json"
+  },
+  {
+    "id": "espelho",
+    "type": "Equipment",
+    "name": "Espelho",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:04.759-03:00",
+    "access": "complete",
+    "cost": 700,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Superf\u00edcie de metal polido do tamanho da palma da m\u00e3o.",
+    "picture": "https://public.olddragon.com.br/o6na5xggkp0ophv72myhmqylyse8",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espelho.json"
+  },
+  {
+    "id": "ferramentas-de-ladrao",
+    "type": "Equipment",
+    "name": "Ferramentas de Ladr\u00e3o",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:08.267-03:00",
+    "access": "complete",
+    "cost": 2500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Chave, pin\u00e7a, martelo e serra para arrombar e desarmar armadilhas.",
+    "picture": "https://public.olddragon.com.br/lp9vqh3julrlpa6ojqwom9lbid3m",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/ferramentas-de-ladrao.json"
+  },
+  {
+    "id": "flecha-de-caca",
+    "type": "Equipment",
+    "name": "Flecha de Ca\u00e7a",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:41.151-03:00",
+    "access": "complete",
+    "cost": 10,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Perfurante, Madeira. Peso e pre\u00e7o pelo conjunto de 20 unidades.",
+    "picture": "https://public.olddragon.com.br/1yr0efnqyd7sc860c4wwy43ygjor",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/flecha-de-caca.json"
+  },
+  {
+    "id": "flecha-de-guerra",
+    "type": "Equipment",
+    "name": "Flecha de Guerra",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:11:18.407-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Perfurante. Peso e pre\u00e7o pelo conjunto de 20 unidades.",
+    "picture": "https://public.olddragon.com.br/lo9ah0thyn6lxawku7zqbktjxwdz",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/flecha-de-guerra.json"
+  },
+  {
+    "id": "funda",
+    "type": "Equipment",
+    "name": "Funda",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:10.817-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Impactante, Arremesso (27).",
+    "picture": "https://public.olddragon.com.br/9e7hr0xuxv66b7j59tz0kjwmr6vy",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/funda.json"
+  },
+  {
+    "id": "gibao-iboniano",
+    "type": "Equipment",
+    "name": "Gib\u00e3o Iboniano",
+    "concept": "armor",
+    "updated_at": "2024-05-26T21:58:41.519-03:00",
+    "access": "complete",
+    "cost": 4000,
+    "damage": null,
+    "bonus_ca": 2,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Leve, Couro, Antifuro (esta armadura possui prote\u00e7\u00e3o adicional de +1 contra ataques realizados com o uso de armas perfurantes).",
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/gibao-iboniano.json"
+  },
+  {
+    "id": "giz",
+    "type": "Equipment",
+    "name": "Giz",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:58.770-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Na cor branca para marca\u00e7\u00f5es.",
+    "picture": "https://public.olddragon.com.br/01s685i9a7i0w6l29nljv91qbrzf",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/giz.json"
+  },
+  {
+    "id": "grimorio",
+    "type": "Equipment",
+    "name": "Grim\u00f3rio",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:26.445-03:00",
+    "access": "complete",
+    "cost": 2500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Livro em branco de capa de couro e 128 folhas de papel.",
+    "picture": "https://public.olddragon.com.br/jq73tv0yrj3xg8gluobwmtr018hb",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/grimorio.json"
+  },
+  {
+    "id": "jumento-ou-mula",
+    "type": "Equipment",
+    "name": "Jumento ou Mula",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.547-03:00",
+    "access": "complete",
+    "cost": 3000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Para tra\u00e7\u00e3o ou montaria. Carrega at\u00e9 2.000 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/jumento-ou-mula.json"
+  },
+  {
+    "id": "lamparina",
+    "type": "Equipment",
+    "name": "Lamparina",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:19.069-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Com chama protegida pelo vento. Ilumina em todas as dire\u00e7\u00f5es.",
+    "picture": "https://public.olddragon.com.br/2m9ha1wi6k8sj2ng1vglanowebjw",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/lamparina.json"
+  },
+  {
+    "id": "lanca",
+    "type": "Equipment",
+    "name": "Lan\u00e7a",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:11:06.472-03:00",
+    "access": "complete",
+    "cost": 400,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Madeira, Perfurante, Arremesso (12), Haste, Vers\u00e1til, Contrainvestida.",
+    "picture": "https://public.olddragon.com.br/pa81hn8sily2r8mbziyfo2bh560s",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/lanca.json"
+  },
+  {
+    "id": "lanca-montada",
+    "type": "Equipment",
+    "name": "Lan\u00e7a Montada",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:52.645-03:00",
+    "access": "complete",
+    "cost": 500,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Perfurante, Haste, Duas M\u00e3os, Montada, Contrainvestida.",
+    "picture": "https://public.olddragon.com.br/n1e15lmccr9puarx5dvw53blrgnf",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/lanca-montada.json"
+  },
+  {
+    "id": "lanterna-furta-fogo",
+    "type": "Equipment",
+    "name": "Lanterna furta-fogo",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:40.763-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 2000,
+    "description": "Com chama protegida pelo vento. Ilumina apenas em uma dire\u00e7\u00e3o.",
+    "picture": "https://public.olddragon.com.br/w9w3r3441q94n1p6zkgcjku4hl5a",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/lanterna-furta-fogo.json"
+  },
+  {
+    "id": "maca",
+    "type": "Equipment",
+    "name": "Ma\u00e7a",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:20.465-03:00",
+    "access": "complete",
+    "cost": 600,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Impactante.",
+    "picture": "https://public.olddragon.com.br/u0qho2vaksy012s01bgis52d77ha",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/maca.json"
+  },
+  {
+    "id": "machado",
+    "type": "Equipment",
+    "name": "Machado",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:05.745-03:00",
+    "access": "complete",
+    "cost": 600,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.",
+    "picture": "https://public.olddragon.com.br/ntc1cldiqr36jf9teevyfuklrxyr",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/machado.json"
+  },
+  {
+    "id": "machado-de-batalha",
+    "type": "Equipment",
+    "name": "Machado de Batalha",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:17.824-03:00",
+    "access": "complete",
+    "cost": 1600,
+    "damage": "2d6",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Cortante, Duas M\u00e3os.",
+    "picture": "https://public.olddragon.com.br/4wdwz7qihmwd8zfgvw6yxg8j5odj",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/machado-de-batalha.json"
+  },
+  {
+    "id": "machado-ulbariano",
+    "type": "Equipment",
+    "name": "Machado Ulbariano",
+    "concept": "weapon",
+    "updated_at": "2024-05-26T21:58:40.950-03:00",
+    "access": "complete",
+    "cost": 2000,
+    "damage": "2d6",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Cortante, Duas M\u00e3os, Haste.",
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/machado-ulbariano.json"
+  },
+  {
+    "id": "mangual",
+    "type": "Equipment",
+    "name": "Mangual",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:34.899-03:00",
+    "access": "complete",
+    "cost": 1000,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Impactante.",
+    "picture": "https://public.olddragon.com.br/d1s2denkwn440f3wlmcmrnae5rl3",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/mangual.json"
+  },
+  {
+    "id": "manto",
+    "type": "Equipment",
+    "name": "Manto",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:03.079-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "De tecido de l\u00e3 grossa e resistente para viagens.",
+    "picture": "https://public.olddragon.com.br/yyfd7c8pl5nscw10gy8gmc1ruopm",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/manto.json"
+  },
+  {
+    "id": "martelo",
+    "type": "Equipment",
+    "name": "Martelo",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:18.083-03:00",
+    "access": "complete",
+    "cost": 600,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Arremesso (6), Impactante.",
+    "picture": "https://public.olddragon.com.br/z1yia9k9ada0c2heit7hsdqj7kuj",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/martelo.json"
+  },
+  {
+    "id": "martelo-de-batalha",
+    "type": "Equipment",
+    "name": "Martelo de Batalha",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:43.692-03:00",
+    "access": "complete",
+    "cost": 1200,
+    "damage": "2d4",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Impactante.",
+    "picture": "https://public.olddragon.com.br/stlzhcyly67yk8lwoz2ymjd4gli6",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/martelo-de-batalha.json"
+  },
+  {
+    "id": "martelo-ferramenta",
+    "type": "Equipment",
+    "name": "Martelo (ferramenta)",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:57.959-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Met\u00e1lico; usado para pregos, ganchos de escalada e trabalhos manuais.",
+    "picture": "https://public.olddragon.com.br/87exuu8523bsnol745mq0t26qgrv",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/martelo-ferramenta.json"
+  },
+  {
+    "id": "mochila",
+    "type": "Equipment",
+    "name": "Mochila",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:10:11.648-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "De couro, com compartimentos para exploradores e refor\u00e7o para peso. Adiciona 5 ao valor de carga do personagem. Comporta at\u00e9 400 moedas.",
+    "picture": "https://public.olddragon.com.br/b1v4vw5qx7f5jsj6gmbgt9a7uvke",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/mochila.json"
+  },
+  {
+    "id": "montante",
+    "type": "Equipment",
+    "name": "Montante",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:36.103-03:00",
+    "access": "complete",
+    "cost": 1600,
+    "damage": "1d12",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Cortante, Duas M\u00e3os.",
+    "picture": "https://public.olddragon.com.br/ezdy6m5nk4yetjf55jpkuqus478s",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/montante.json"
+  },
+  {
+    "id": "odre",
+    "type": "Equipment",
+    "name": "Odre",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:09:40.274-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Saco de couro com rolha para l\u00edquidos com capacidade para 1 litro. N\u00e3o comporta moedas.",
+    "picture": "https://public.olddragon.com.br/g9k2pnu01b1xgxecw0ta3wl3kmfv",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/odre.json"
+  },
+  {
+    "id": "oleo",
+    "type": "Equipment",
+    "name": "\u00d3leo",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:23.694-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Frasco com 500 ml.",
+    "picture": "https://public.olddragon.com.br/wckvl6490ihqvlp1qsczrvxpq5fc",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/oleo.json"
+  },
+  {
+    "id": "pa-ou-picareta",
+    "type": "Equipment",
+    "name": "P\u00e1 ou Picareta",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:14.748-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Ferramenta para escava\u00e7\u00f5es.",
+    "picture": "https://public.olddragon.com.br/co53wh50xs2p7rq98m3z8jxm75up",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pa-ou-picareta.json"
+  },
+  {
+    "id": "pe-de-cabra",
+    "type": "Equipment",
+    "name": "P\u00e9 de Cabra",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:28.759-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Ferramenta para arrombamento.",
+    "picture": "https://public.olddragon.com.br/rg7acb6jif6abjoo0gwdc8d2n57i",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pe-de-cabra.json"
+  },
+  {
+    "id": "pederneira",
+    "type": "Equipment",
+    "name": "Pederneira",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:56.256-03:00",
+    "access": "complete",
+    "cost": 5,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Gera fa\u00edscas para acender pavios, lanternas ou fogueiras.",
+    "picture": "https://public.olddragon.com.br/ellztn5dp393562uggz6mninnajl",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pederneira.json"
+  },
+  {
+    "id": "pena-e-tinta",
+    "type": "Equipment",
+    "name": "Pena e Tinta",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:54.428-03:00",
+    "access": "complete",
+    "cost": 800,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Para escrita e desenhos. Frasco de 30 ml.",
+    "picture": "https://public.olddragon.com.br/r2jd8vnh62hk7guz0gh1y11zm28x",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pena-e-tinta.json"
+  },
+  {
+    "id": "pergaminho",
+    "type": "Equipment",
+    "name": "Pergaminho",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:32.133-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "10 folhas soltas, sem encaderna\u00e7\u00e3o.",
+    "picture": "https://public.olddragon.com.br/igbtbt0gng20zbupmpea9de4g2ud",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pergaminho.json"
+  },
+  {
+    "id": "pique",
+    "type": "Equipment",
+    "name": "Pique",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:25.744-03:00",
+    "access": "complete",
+    "cost": 800,
+    "damage": "1d10",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Perfurante, Contrainvestida, Duas M\u00e3os, Haste.",
+    "picture": "https://public.olddragon.com.br/7u2aezb7jt4njxxf1owdbaz82j36",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pique.json"
+  },
+  {
+    "id": "ponei",
+    "type": "Equipment",
+    "name": "P\u00f4nei",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.565-03:00",
+    "access": "complete",
+    "cost": 4000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Para tra\u00e7\u00e3o ou montaria. Carrega at\u00e9 1.500 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/ponei.json"
+  },
+  {
+    "id": "ponei-de-guerra",
+    "type": "Equipment",
+    "name": "P\u00f4nei de Guerra",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.583-03:00",
+    "access": "complete",
+    "cost": 8000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Treinado para combates. Carrega at\u00e9 1.500 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/ponei-de-guerra.json"
+  },
+  {
+    "id": "porrete-clava",
+    "type": "Equipment",
+    "name": "Porrete/Clava",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:11:21.476-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Madeira, Vers\u00e1til, Impactante.",
+    "picture": "https://public.olddragon.com.br/5h3iekj8ky8ev90dowwj87unyqhd",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/porrete-clava.json"
+  },
+  {
+    "id": "porta-mapas",
+    "type": "Equipment",
+    "name": "Porta Mapas",
+    "concept": "container",
+    "updated_at": "2023-12-26T22:09:16.338-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Acomoda at\u00e9 20 folhas de pergaminhos ou mapas. Comporta at\u00e9 50 moedas.",
+    "picture": "https://public.olddragon.com.br/zjwfyvbodvqxmkwd8zmqw8h01mh6",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/porta-mapas.json"
+  },
+  {
+    "id": "racao-de-viagem",
+    "type": "Equipment",
+    "name": "Ra\u00e7\u00e3o de viagem",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:25.367-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Ra\u00e7\u00e3o di\u00e1ria de comida para viagem para uma pessoa.",
+    "picture": "https://public.olddragon.com.br/w0cq11u2sixux6pd9j1pbcw5eeg2",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/racao-de-viagem.json"
+  },
+  {
+    "id": "rede",
+    "type": "Equipment",
+    "name": "Rede",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:49.735-03:00",
+    "access": "complete",
+    "cost": 200,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 2000,
+    "description": "Pode ser usada num ataque em \u00e1rea para enredar inimigos.",
+    "picture": "https://public.olddragon.com.br/obm234xq1egk2eggdkr7ek7h9miv",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/rede.json"
+  },
+  {
+    "id": "saco-de-dormir",
+    "type": "Equipment",
+    "name": "Saco de Dormir",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:15.554-03:00",
+    "access": "complete",
+    "cost": 50,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Para uma pessoa de tamanho P ou M.",
+    "picture": "https://public.olddragon.com.br/ste03nhnemw2b9wgwhw3yoxk7zpw",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/saco-de-dormir.json"
+  },
+  {
+    "id": "saco-de-estopa",
+    "type": "Equipment",
+    "name": "Saco de estopa",
+    "concept": "container",
+    "updated_at": "2023-05-31T22:00:15.471-03:00",
+    "access": "complete",
+    "cost": 5,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Para carregar at\u00e9 15 kg. Quando carregado, reduz pela metade o peso dos objetos em seu interior. Comporta at\u00e9 600 moedas.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/saco-de-estopa.json"
+  },
+  {
+    "id": "selas-e-arreios",
+    "type": "Equipment",
+    "name": "Selas e Arreios",
+    "concept": "vehicle",
+    "updated_at": "2023-05-31T22:00:15.706-03:00",
+    "access": "complete",
+    "cost": 1000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Kit de arreios, sela e correias para montar, para parelha ou para tra\u00e7\u00e3o.",
+    "fontes": [
+      {
+        "page": 64,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/selas-e-arreios.json"
+  },
+  {
+    "id": "simbolo-divino",
+    "type": "Equipment",
+    "name": "S\u00edmbolo divino",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:13.312-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Simples e pequeno, de madeira ou lat\u00e3o, para Afastar Mortos-Vivos.",
+    "picture": "https://public.olddragon.com.br/w6py96hh0mch6z9kfepi7uvz80pp",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/simbolo-divino.json"
+  },
+  {
+    "id": "tenda-pequena",
+    "type": "Equipment",
+    "name": "Tenda pequena",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:44.033-03:00",
+    "access": "complete",
+    "cost": 1000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 3000,
+    "description": "Para at\u00e9 4 pessoas P ou M e com 2 x 2 metros.",
+    "picture": "https://public.olddragon.com.br/uawm7kmctf2o6b0oelbot47y84i5",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/tenda-pequena.json"
+  },
+  {
+    "id": "tocha",
+    "type": "Equipment",
+    "name": "Tocha",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:10:25.208-03:00",
+    "access": "complete",
+    "cost": 100,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "5 unidades.",
+    "picture": "https://public.olddragon.com.br/h6rl9nbulz5s4kre21jz86t449kf",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/tocha.json"
+  },
+  {
+    "id": "traje-de-exploracao",
+    "type": "Equipment",
+    "name": "Traje de explora\u00e7\u00e3o",
+    "concept": "misc",
+    "updated_at": "2023-05-31T21:59:59.458-03:00",
+    "access": "complete",
+    "cost": 300,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 2000,
+    "description": "Cal\u00e7a, cinto, camisa, gib\u00e3o e manto.",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/traje-de-exploracao.json"
+  },
+  {
+    "id": "traje-de-inverno",
+    "type": "Equipment",
+    "name": "Traje de inverno",
+    "concept": "misc",
+    "updated_at": "2023-05-31T21:59:59.529-03:00",
+    "access": "complete",
+    "cost": 500,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 3000,
+    "description": "Cal\u00e7a, cinto, camisa, gib\u00e3o e manto de l\u00e3 e peles para o Inverno.",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/traje-de-inverno.json"
+  },
+  {
+    "id": "traje-nobre",
+    "type": "Equipment",
+    "name": "Traje nobre",
+    "concept": "misc",
+    "updated_at": "2023-05-31T21:59:59.499-03:00",
+    "access": "complete",
+    "cost": 2000,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1500,
+    "description": "Gib\u00e3o, camisa, cal\u00e7a, cinto e manto de materiais nobres.",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/traje-nobre.json"
+  },
+  {
+    "id": "vara-de-exploracao",
+    "type": "Equipment",
+    "name": "Vara de explora\u00e7\u00e3o",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:09:28.106-03:00",
+    "access": "complete",
+    "cost": 10,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "De madeira com 3 metros. Para explora\u00e7\u00e3o e caminhadas.",
+    "picture": "https://public.olddragon.com.br/nl9x8uz38ilceg9yxxhofon1yuti",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/vara-de-exploracao.json"
+  },
+  {
+    "id": "vela",
+    "type": "Equipment",
+    "name": "Vela",
+    "concept": "misc",
+    "updated_at": "2023-12-26T22:11:03.278-03:00",
+    "access": "complete",
+    "cost": 10,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "12 unidades.",
+    "picture": "https://public.olddragon.com.br/9qz6ya48yi8jmmvljeagcgh60pa7",
+    "fontes": [
+      {
+        "page": 62,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/vela.json"
+  },
+  {
+    "id": "virote",
+    "type": "Equipment",
+    "name": "Virote",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:10:27.040-03:00",
+    "access": "complete",
+    "cost": 40,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Perfurante. Peso e pre\u00e7o pelo conjunto de 20 unidades.",
+    "picture": "https://public.olddragon.com.br/2tpy5axk251xtk0ljl5grlo3j40h",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/virote.json"
+  },
+  {
+    "id": "virote-pequeno",
+    "type": "Equipment",
+    "name": "Virote pequeno",
+    "concept": "weapon",
+    "updated_at": "2023-12-26T22:09:57.773-03:00",
+    "access": "complete",
+    "cost": 20,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Perfurante. Peso e pre\u00e7o pelo conjunto de 20 unidades.",
+    "picture": "https://public.olddragon.com.br/otyh51w95dggkf3jygk4buywowpk",
+    "fontes": [
+      {
+        "page": 58,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/virote-pequeno.json"
+  }
+]

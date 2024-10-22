@@ -1,0 +1,3887 @@
+[
+  {
+    "id": "abencoar",
+    "type": "Spell",
+    "name": "Aben\u00e7oar",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:52.797-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "6 turnos",
+    "jp": "especial",
+    "description": "Uma b\u00ean\u00e7\u00e3o \u00e9 concedida pela divindade do conjurador, concedendo ao alvo tocado um b\u00f4nus de +1 nas jogadas de ataque e nas JPS a cada 3 n\u00edveis de conjurador.\n\n[Profanar] \u00e9 a vers\u00e3o reversa para personagens ca\u00f3ticos, concedendo uma penalidade de 1 nas jogadas de ataque e Jogadas de Prote\u00e7\u00e3o do alvo tocado. Uma JPS nega tais efeitos.\n",
+    "reverse_spell": {
+      "id": "profanar",
+      "name": "Profanar",
+      "reverse_spell_url": "https://olddragon.com.br/magias/profanar.json"
+    },
+    "fontes": [
+      {
+        "page": 105,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/abencoar.json"
+  },
+  {
+    "id": "abrir",
+    "type": "Spell",
+    "name": "Abrir",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:52.907-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia pode ser utilizada para dar acesso a qualquer objeto fechado, trancado (mesmo \u00e0 chave) ou emperrado pela dura\u00e7\u00e3o da magia (ou at\u00e9 ser dissipada).\n\n[Trancar] \u00e9 a vers\u00e3o reversa que permite trancar um acesso a qualquer objeto aberto.\n",
+    "reverse_spell": {
+      "id": "trancar",
+      "name": "Trancar",
+      "reverse_spell_url": "https://olddragon.com.br/magias/trancar.json"
+    },
+    "fontes": [
+      {
+        "page": 105,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/abrir.json"
+  },
+  {
+    "id": "adivinhacao",
+    "type": "Spell",
+    "name": "Adivinha\u00e7\u00e3o",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:52.987-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Pedindo ajuda para sua divindade, o conjurador recebe sinais mostrando-lhe um caminho, uma verdade, um evento ou uma atividade em espec\u00edfico.  A resposta desejada lhe ser\u00e1 dada de forma indireta, como um sinal, frase, um enigma, etc.\n",
+    "fontes": [
+      {
+        "page": 105,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/adivinhacao.json"
+  },
+  {
+    "id": "ajuda",
+    "type": "Spell",
+    "name": "Ajuda",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.030-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia concede uma ajuda de sua divindade, anulando a perda de at\u00e9 1d4 pontos de vida +1 a cada 2 n\u00edveis do conjurador, do pr\u00f3ximo dano sofrido pelo conjurador. Pontos de vida anulados que sobram ap\u00f3s o pr\u00f3ximo dano recebido pelo conjurador, devem ser descartados.\n",
+    "fontes": [
+      {
+        "page": 105,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ajuda.json"
+  },
+  {
+    "id": "amaldicoar",
+    "type": "Spell",
+    "name": "Amaldi\u00e7oar",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.438-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "Esta magia remove instantaneamente todas as maldi\u00e7\u00f5es impostas sobre uma criatura ou objeto.  Esta magia n\u00e3o remove maldi\u00e7\u00e3o de armas ou armaduras m\u00e1gicas, mas permite que a criatura usando um desses itens consiga se desfazer deles e dos efeitos que ainda recaiam sobre si.\n\nCertas maldi\u00e7\u00f5es exigem um determinado n\u00edvel do conjurador para serem removidas e, nesses casos, a n\u00e3o ser que esse requisito seja cumprido, o Remover Maldi\u00e7\u00e3o n\u00e3o funcionar\u00e1.\n\n[Amaldi\u00e7oar] \u00e9 a vers\u00e3o reversa e ca\u00f3tica impondo uma maldi\u00e7\u00e3o a uma v\u00edtima que n\u00e3o seja bem-sucedida numa JPS. O alvo amaldi\u00e7oado pode sofrer de um dos quatro efeitos poss\u00edveis, a escolha do conjurador:\n\n  * **Vulnerabilidade do Corpo**: o alvo perde 2 pontos na sua Classe de Armadura;\n\n  * **Fluidez da Mem\u00f3ria**: conjuradores possuem 1-2 chances em 1d6 de se esquecer de qualquer magia que forem conjurar antes desta ser conjurada.\n\n  * **Fraqueza da Alma**: o alvo perde metade dos seus pontos de Constitui\u00e7\u00e3o e dos poss\u00edveis pontos de vida extras que um alto valor de Constitui\u00e7\u00e3o pode conceder.\n\n  * **Inefici\u00eancia da Precis\u00e3o**: todo ataque do alvo \u00e9 um teste dif\u00edcil.\n\nUma maldi\u00e7\u00e3o mant\u00e9m seus efeitos at\u00e9 ser removida por uma magia Remover Maldi\u00e7\u00f5es.\n",
+    "reverse_spell": {
+      "id": "remover-maldicao",
+      "name": "Remover Maldi\u00e7\u00e3o",
+      "reverse_spell_url": "https://olddragon.com.br/magias/remover-maldicao.json"
+    },
+    "fontes": [
+      {
+        "page": 129,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/amaldicoar.json"
+  },
+  {
+    "id": "ampliar-plantas",
+    "type": "Spell",
+    "name": "Ampliar Plantas",
+    "arcane": 4,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-23T14:09:33.480-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "O conjurador provoca um vertiginoso crescimento da vegeta\u00e7\u00e3o. As plantas afetadas se entrela\u00e7am, ficando fortes e vigorosas, espalhando-se e ocupando todo o espa\u00e7o dispon\u00edvel.\n\nCriaturas pequenas e m\u00e9dias levam 1 turno para abrir uma picada com armas de corte e se deslocam apenas 1 metro. Criaturas grandes conseguem abrir passagem deslocando-se 2 metros por rodada.\n",
+    "fontes": [
+      {
+        "page": 106,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ampliar-plantas.json"
+  },
+  {
+    "id": "andar-sobre-as-aguas",
+    "type": "Spell",
+    "name": "Andar sobre as \u00c1guas",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.106-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "2 turnos +1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o alvo tocado adquire a habilidade de andar sobre l\u00edquidos e solos inst\u00e1veis, como se fosse solo firme. Se memorizada como uma magia de 5\u00ba c\u00edrculo, o conjurador poder\u00e1 us\u00e1-la em at\u00e9 dois alvos tocados.\n",
+    "fontes": [
+      {
+        "page": 106,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/andar-sobre-as-aguas.json"
+  },
+  {
+    "id": "animar-cadaveres",
+    "type": "Spell",
+    "name": "Animar Cad\u00e1veres",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.136-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1 turno/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "O conjurador pode dar vida a um cad\u00e1ver ou a uma ossada para criar um zumbi ou um esqueleto, respectivamente. Os mortos-vivos criados desta forma n\u00e3o reconhecem mestres, n\u00e3o cumprem ordens ou aceitam comandos, atacando qualquer um desavisado. Um conjurador pode manter apenas um \u00fanico Animar Cad\u00e1veres por vez no m\u00e1ximo de 1 turno por n\u00edvel. Uma nova conjura\u00e7\u00e3o dissipar\u00e1 a anterior. Mortos-vivos destru\u00eddos n\u00e3o podem ser reanimados.\n",
+    "fontes": [
+      {
+        "page": 106,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/animar-cadaveres.json"
+  },
+  {
+    "id": "aprisionamento",
+    "type": "Spell",
+    "name": "Aprisionamento",
+    "arcane": 9,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.173-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Esta poderosa magia tem como objetivo invocar uma criatura extraplanar e aprision\u00e1-la no plano material at\u00e9 esta aceitar realizar uma tarefa para o conjurador. Quando a tarefa \u00e9 cumprida, a criatura \u00e9 automaticamente enviada ao seu plano original. O conjurador precisa conhecer o verdadeiro nome da criatura convocada e a criatura, uma vez aprisionada no plano material, pode ou n\u00e3o concordar com a chantagem do conjurador, podendo inclusive atac\u00e1-lo.\n\nSe a criatura for bem-sucedida em uma JPS, a magia n\u00e3o funcionar\u00e1 e a criatura permanecer\u00e1 em seu plano original. A melhor forma de se proteger \u00e9 construir, em torno do portal, um c\u00edrculo de prote\u00e7\u00e3o com materiais m\u00edsticos.  Esse c\u00edrculo custa 100 PO para cada dado de vida da criatura a ser convocada.\n\nMesmo assim, h\u00e1 sempre 1 chance em 1d6 do c\u00edrculo de prote\u00e7\u00e3o falhar.\n",
+    "fontes": [
+      {
+        "page": 106,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/aprisionamento.json"
+  },
+  {
+    "id": "aprisionar-alma",
+    "type": "Spell",
+    "name": "Aprisionar Alma",
+    "arcane": 8,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.204-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia cria uma gema de aprisionamento et\u00e9reo com um gatilho inscrito (a \u00faltima palavra da execu\u00e7\u00e3o da magia), fazendo com que a alma de quem segurar a gema e pronunciar a palavra nesta inscrita, tenha imediatamente sua alma sugada para dentro da gema. O valor da gema deve ser proporcional ao poder da alma aprisionada, custando 1.000 PO para cada Dado de Vida da criatura. Almas aprisionadas n\u00e3o morrem e podem retornar para qualquer outro corpo rec\u00e9m-morto, caso a gema seja destru\u00edda.\n",
+    "fontes": [
+      {
+        "page": 106,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/aprisionar-alma.json"
+  },
+  {
+    "id": "arma-abencoada",
+    "type": "Spell",
+    "name": "Arma Aben\u00e7oada",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.235-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1 turno",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao conjurador aben\u00e7oar qualquer arma n\u00e3o m\u00e1gica. Todo ataque com essa arma \u00e9 um ataque f\u00e1cil. Caso a arma aben\u00e7oada seja uma arma natural, de madeira ou de pedra, receber\u00e1 ainda um b\u00f4nus de +1d4 no dano causado.\n",
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/arma-abencoada.json"
+  },
+  {
+    "id": "arma-encantada",
+    "type": "Spell",
+    "name": "Arma Encantada",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.262-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1 turno/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia transforma uma arma mundana em uma arma temporariamente m\u00e1gica, com b\u00f4nus de +1 nas jogadas de ataque e +1 no dano.\n",
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/arma-encantada.json"
+  },
+  {
+    "id": "armadilha-de-fogo",
+    "type": "Spell",
+    "name": "Armadilha de Fogo",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.293-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "JPD reduz",
+    "description": "O personagem cria uma armadilha engatilhada em qualquer objeto que possa ser aberto (como um ba\u00fa, livro, porta, gaveta, etc.), explodindo-o em chamas assim que aberto. A explos\u00e3o causa a todos em um raio de 2m do objeto 1d4 pontos de dano + 1 ponto de dano por n\u00edvel do personagem conjurador. Uma JPD reduz o dano pela metade.  O objeto encantado com esta magia n\u00e3o \u00e9 afetado pelos efeitos desta explos\u00e3o.\n",
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/armadilha-de-fogo.json"
+  },
+  {
+    "id": "aterrorizar",
+    "type": "Spell",
+    "name": "Aterrorizar",
+    "arcane": null,
+    "divine": null,
+    "necromancer": 1,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.329-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "9m + 3m/n\u00edvel",
+    "duration": "1d6 turnos + 1/n\u00edvel",
+    "jp": "JPS nega",
+    "description": "Todas as criaturas com menos de 2 dados de vida e dentro do raio de alcance da magia ficar\u00e3o automaticamente aterrorizadas caso falhem em uma JPS. Criaturas aterrorizadas tremem sem controle, deixando todos os seus testes dif\u00edceis.\n",
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/aterrorizar.json"
+  },
+  {
+    "id": "barreira-mental",
+    "type": "Spell",
+    "name": "Barreira Mental",
+    "arcane": 7,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.378-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "12 turnos",
+    "jp": "JPS nega",
+    "description": "Esta magia confere ao alvo uma esp\u00e9cie de escudo turvador contra efeitos de invas\u00e3o mental, como a realizada pela magia Percep\u00e7\u00e3o Extrassensorial e Clarivid\u00eancia, ou contra a espionagem realizada por um Olho Arcano, bola de cristal e semelhantes.  Qualquer tentativa de localiza\u00e7\u00e3o m\u00e1gica do alvo resultar\u00e1 em uma falha como se este simplesmente n\u00e3o existisse para esses prop\u00f3sitos.\n\nAdicionalmente, o alvo passa a realizar todas as Jogadas de Prote\u00e7\u00e3o contra qualquer efeito mental, como encantamentos e ilus\u00f5es, como um teste muito f\u00e1cil. Um alvo com o intuito de resistir a esta magia precisa ser bem-sucedido em uma JPS para negar seus efeitos.\n",
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/barreira-mental.json"
+  },
+  {
+    "id": "bastao-em-serpente",
+    "type": "Spell",
+    "name": "Bast\u00e3o em Serpente",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.408-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador pode transformar bast\u00f5es ou gravetos n\u00e3o m\u00e1gicos de madeira em serpentes, as quais atacar\u00e3o ao seu comando. A quantidade convertida \u00e9 de 1d4 bast\u00f5es + 1 bast\u00e3o por n\u00edvel do conjurador. Cada serpente possui 1 chance em 1d6 de ser venenosa.\n",
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/bastao-em-serpente.json"
+  },
+  {
+    "id": "bola-de-fogo",
+    "type": "Spell",
+    "name": "Bola de Fogo",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.433-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPD reduz",
+    "description": "Um proj\u00e9til semelhante a uma pequena bola de chamas com 20 cm de di\u00e2metro, disparado pelas m\u00e3os do conjurador e explodindo em chamas no lugar alvo. O raio da explos\u00e3o \u00e9 de 6 metros e o dano \u00e9 de 1d6 por n\u00edvel do conjurador (m\u00e1ximo 10d6). A explos\u00e3o \u00e9 adaptada ao volume dispon\u00edvel.  Um sucesso em uma JPD reduz o dano desta magia pela metade. Se memorizada como uma magia de 7\u00ba c\u00edrculo, a explos\u00e3o pode ser adiada por at\u00e9 10 minutos.\n",
+    "fontes": [
+      {
+        "page": 108,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/bola-de-fogo.json"
+  },
+  {
+    "id": "bom-fruto",
+    "type": "Spell",
+    "name": "Bom Fruto",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.460-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador \u00e9 capaz de aben\u00e7oar 2d4 frutos e torn\u00e1-los m\u00e1gicos. Quem comer destes frutos recuperar\u00e1 1 ponto de vida perdido por n\u00edvel do conjurador. A cada 24 horas, apenas 8 pontos de vida podem ser recuperados com esta magia.\n",
+    "fontes": [
+      {
+        "page": 108,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/bom-fruto.json"
+  },
+  {
+    "id": "carne-em-pedra",
+    "type": "Spell",
+    "name": "Carne em Pedra",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.908-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador consegue transformar peda\u00e7os de pedra em carne. Criaturas petrificadas podem ser restauradas, bem como seus equipamentos, com esta magia. Criaturas de pedra alvos desta magia, como um Golem de Pedra, podem realizar uma JP para negar os efeitos da magia ou ser\u00e3o destru\u00eddas.\n\n[Carne em Pedra] \u00e9 a vers\u00e3o reversa que permite petrificar um alvo assim como todo o seu equipamento. Uma JPS bem-sucedida pode negar os efeitos desta magia.\n",
+    "reverse_spell": {
+      "id": "pedra-em-carne",
+      "name": "Pedra em Carne",
+      "reverse_spell_url": "https://olddragon.com.br/magias/pedra-em-carne.json"
+    },
+    "fontes": [
+      {
+        "page": 125,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/carne-em-pedra.json"
+  },
+  {
+    "id": "causar-doencas",
+    "type": "Spell",
+    "name": "Causar Doen\u00e7as",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.012-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "Esta magia cura as doen\u00e7as e elimina qualquer condi\u00e7\u00e3o proveniente de uma doen\u00e7a em qualquer alvo vivo. Doen\u00e7as mundanas e doen\u00e7as m\u00e1gicas podem ser curadas por esta magia.\n\nCurar Doen\u00e7as tamb\u00e9m pode ser usada para curar e eliminar os efeitos de uma paralisia.\n\n[Causar Doen\u00e7as] \u00e9 a vers\u00e3o reversa que permite causar uma doen\u00e7a ao inv\u00e9s de curar. Se o alvo tocado n\u00e3o passar em uma JPC, sofrer\u00e1 dores terr\u00edveis e debilitantes.\n\nTodos os testes do alvo passam a ser dif\u00edceis, e uma cura natural passa a demorar o dobro do tempo normal. Curas m\u00e1gicas n\u00e3o surtir\u00e3o efeitos. O alvo morre em 2d12 dias se n\u00e3o sofrer uma magia Curar Doen\u00e7as.\n",
+    "reverse_spell": {
+      "id": "curar-doencas",
+      "name": "Curar Doen\u00e7as",
+      "reverse_spell_url": "https://olddragon.com.br/magias/curar-doencas.json"
+    },
+    "fontes": [
+      {
+        "page": 111,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/causar-doencas.json"
+  },
+  {
+    "id": "causar-ferimentos",
+    "type": "Spell",
+    "name": "Causar Ferimentos",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.070-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "JPC evita",
+    "description": "Cura 1d8 pontos de vida. Esta magia tamb\u00e9m pode ser modificada e memorizada como uma magia de:\n\n  * **3\u00ba c\u00edrculo**: para curar 2d8 pontos de vida;\n\n  * **5\u00ba c\u00edrculo**: para curar 3d8 pontos de vida;\n\n  * **7\u00ba c\u00edrculo**: para curar completamente os pontos de vida do alvo, al\u00e9m de curar ferimentos mais espec\u00edficos como membros torcidos, ossos quebrados ou contundidos. Por\u00e9m, n\u00e3o pode regenerar membros amputados ou inutilizados como um olho perfurado.\n\nUma magia de Curar Ferimentos \u00e9 capaz de remover uma infec\u00e7\u00e3o causada pela mordida de um Zumbi, mas n\u00e3o remove os efeitos da paralisia, n\u00e3o cura doen\u00e7as e nem neutraliza venenos ou elimina qualquer outra condi\u00e7\u00e3o de sa\u00fade do alvo, restaurando apenas pontos de vida perdidos.\n\n[Causar Ferimentos] \u00e9 a vers\u00e3o reversa que permite causar dano ao inv\u00e9s de curar. A vers\u00e3o de 7\u00ba c\u00edrculo permite matar o alvo. Uma JPC evita esses efeitos.\n",
+    "reverse_spell": {
+      "id": "curar-ferimentos",
+      "name": "Curar Ferimentos",
+      "reverse_spell_url": "https://olddragon.com.br/magias/curar-ferimentos.json"
+    },
+    "fontes": [
+      {
+        "page": 112,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/causar-ferimentos.json"
+  },
+  {
+    "id": "cerrar-portas",
+    "type": "Spell",
+    "name": "Cerrar Portas",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.485-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros",
+    "duration": "2d6 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao Mago travar qualquer porta ou janela.\n\nQualquer criatura com 3 dados de vida a mais que o conjurador ser\u00e1 capaz de abrir \u00e0 for\u00e7a uma porta/ janela travada por esta magia, mas t\u00e3o logo a pessoa passe por ela, a porta/janela ser\u00e1 novamente travada at\u00e9 a magia acabar ou ser dissipada.\n\nUma magia de Abrir pode destravar a porta/janela travada por uma Cerrar Portas.\n",
+    "fontes": [
+      {
+        "page": 108,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/cerrar-portas.json"
+  },
+  {
+    "id": "chuva-de-meteoros",
+    "type": "Spell",
+    "name": "Chuva de Meteoros",
+    "arcane": 9,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.511-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPD reduz",
+    "description": "Pequenos meteoros saem das m\u00e3os do conjurador e explodem em bolas de fogo onde ele direcionar.  O conjurador pode jogar 4 bolas de fogo normais causando 10d6 pontos de dano, ou 8 bolas de fogo de 3 metros de di\u00e2metro causando 5d6 pontos de dano. Uma JPD reduz o dano pela metade.\n",
+    "fontes": [
+      {
+        "page": 108,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/chuva-de-meteoros.json"
+  },
+  {
+    "id": "clarividencia",
+    "type": "Spell",
+    "name": "Clarivid\u00eancia",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.537-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "12 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao conjurador se concentrar em um lugar espec\u00edfico j\u00e1 conhecido por ele para visualizar o local como se estivesse l\u00e1 fisicamente por meio dos olhos de outra criatura viva.\n\nConcentrando-se por 1 minuto, o conjurador pode detectar e estabelecer uma conex\u00e3o com o alvo no local escolhido em um raio m\u00e1ximo de 18 metros.  Ap\u00f3s a conex\u00e3o estabelecida, o conjurador consegue enxergar como se fosse o alvo por toda a dura\u00e7\u00e3o da magia e enquanto estiver concentrado.\n\nO conjurador pode alterar o alvo da magia saltando para outro na mesma \u00e1rea de efeito, caso se concentre por mais um minuto para estabelecer a conex\u00e3o e desde que ainda esteja dentro da dura\u00e7\u00e3o inicial da magia.\n\nA magia n\u00e3o pode penetrar mais de 60 cent\u00edmetros de pedra e \u00e9 bloqueada at\u00e9 mesmo pela mais fina folha de chumbo.\n",
+    "fontes": [
+      {
+        "page": 108,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/clarividencia.json"
+  },
+  {
+    "id": "clone",
+    "type": "Spell",
+    "name": "Clone",
+    "arcane": 8,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.562-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Por meio desta magia, o conjurador cria um clone perfeito do alvo (incluindo pensamentos e conhecimento) ao retirar deste um peda\u00e7o de carne.\n\nO clone cresce e estar\u00e1 pronto em at\u00e9 1d4 dias. Se o clone ficar pronto enquanto a criatura original ainda estiver viva, o clone tentar\u00e1 de todas as maneiras matar o ser original para substitu\u00ed-lo.\n\nSe o clone ou o original n\u00e3o conseguir destruir o seu alter ego, ambos ficar\u00e3o completamente insanos em 1d4 meses.\n",
+    "fontes": [
+      {
+        "page": 109,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/clone.json"
+  },
+  {
+    "id": "comunhao",
+    "type": "Spell",
+    "name": "Comunh\u00e3o",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.589-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Esta magia faz com que poderes divinos e superiores respondam a at\u00e9 3 perguntas mentalmente ao conjurador. As respostas devem ser sempre dadas com um \u201csim\u201d, \u201cn\u00e3o\u201d ou \u201ctalvez\u201d. Esses poderes superiores apenas responder\u00e3o a uma tentativa de comunh\u00e3o a cada 1d6+6 dias e a, no m\u00e1ximo, 4 vezes a cada ano.\n\nO ritual para realizar uma comunh\u00e3o \u00e9 longo e leva 2d4 horas para responder a cada uma das perguntas.\n",
+    "fontes": [
+      {
+        "page": 109,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/comunhao.json"
+  },
+  {
+    "id": "concha-antimagia",
+    "type": "Spell",
+    "name": "Concha Antimagia",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.618-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "12 turnos",
+    "jp": "nenhuma",
+    "description": "Uma concha de for\u00e7a m\u00e1gica envolve o conjurador, impedindo que qualquer efeito m\u00e1gico entre ou saia da concha. O conjurador pode, mesmo dentro da concha, dissip\u00e1-la quando desejar.\n",
+    "fontes": [
+      {
+        "page": 109,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/concha-antimagia.json"
+  },
+  {
+    "id": "confusao",
+    "type": "Spell",
+    "name": "Confus\u00e3o",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.645-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "12 rodadas",
+    "jp": "JPS nega",
+    "description": "Esta magia causa confus\u00e3o mental em alvos inteligentes, os quais passar\u00e3o a agir de forma aleat\u00f3ria. Uma jogada de 2d6 determinar\u00e1 o efeito: 2-5 atacar\u00e3o o conjurador e seus aliados; 6-8 ficar\u00e3o inativos e confusos; 9-12 atacar\u00e3o uns aos outros. Confus\u00e3o afeta no m\u00e1ximo 2d6 criaturas + 1 criatura adicional a cada 4 n\u00edveis do conjurador. Essas criaturas podem realizar uma JPS para n\u00e3o serem afetadas pela magia.\n",
+    "fontes": [
+      {
+        "page": 109,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/confusao.json"
+  },
+  {
+    "id": "conjurar-animais",
+    "type": "Spell",
+    "name": "Conjurar Animais",
+    "arcane": null,
+    "divine": 6,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.671-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador convoca animais das redondezas como seus aliados. Qual criatura ser\u00e1 conjurada e a quantidade de criaturas ser\u00e1 determinada com uma jogada de 1d6 segundo a lista abaixo.  Tamb\u00e9m dever\u00e1 estar de acordo com a localiza\u00e7\u00e3o do conjurador e com o tamanho do animal:\n\n  * **1-3**: 1d4+2 animais pequenos como Cobra, Hiena, Lobo ou Raposa\n\n  * **4-5**: 1d3+1 animais m\u00e9dios como Tigre, Gorila ou \u00c1guia\n\n  * **6**: 1d3 animais grandes como B\u00fafalo, Rinoceronte ou Urso\n\nOs animais obedecem aos comandos do conjurador at\u00e9 serem feridos, maltratados ou dispensados.\n",
+    "fontes": [
+      {
+        "page": 109,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/conjurar-animais.json"
+  },
+  {
+    "id": "consagrar",
+    "type": "Spell",
+    "name": "Consagrar",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.701-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Consagrar um local faz com que uma \u00e1rea de 12 metros ao redor do local tocado se torne sagrado com os seguintes efeitos:\n\nProte\u00e7\u00e3o: o local \u00e9 protegido contra criaturas do alinhamento oposto ao do conjurador.  Tais criaturas n\u00e3o conseguem entrar, atacar, conjurar magias e nem influenciar nada dentro da \u00e1rea consagrada;\n\nConsagra\u00e7\u00e3o: qualquer corpo enterrado no local n\u00e3o se levantar\u00e1 como morto-vivo.\n",
+    "fontes": [
+      {
+        "page": 110,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/consagrar.json"
+  },
+  {
+    "id": "constricao",
+    "type": "Spell",
+    "name": "Constri\u00e7\u00e3o",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.731-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "1 turno",
+    "jp": "nenhuma",
+    "description": "O conjurador consegue animar todas as plantas dentro do alcance da magia para agarrarem e apertarem todos os seres vivos que passem por ali. Ao tentarem se locomover, os seres vivos ter\u00e3o sua movimenta\u00e7\u00e3o reduzida em 1 para cada rodada que permanecerem dentro da \u00e1rea de efeito.\n",
+    "fontes": [
+      {
+        "page": 110,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/constricao.json"
+  },
+  {
+    "id": "controlar-o-clima",
+    "type": "Spell",
+    "name": "Controlar o Clima",
+    "arcane": 6,
+    "divine": 7,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-21T13:55:00.332-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "240 metros",
+    "duration": "concentra\u00e7\u00e3o",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador \u00e9 capaz de modificar o clima de acordo com sua vontade.  \u00c9 capaz de extinguir ventos, chuvas, nevascas, tornar o c\u00e9u limpo, dissolver um tornado ou at\u00e9 mesmo criar todas essas intemp\u00e9ries em uma \u00e1rea de efeito de 100 metros de raio ao redor do conjurador por n\u00edvel.\n",
+    "fontes": [
+      {
+        "page": 110,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/controlar-o-clima.json"
+  },
+  {
+    "id": "convocar-insetos",
+    "type": "Spell",
+    "name": "Convocar Insetos",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.814-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "1 rodada/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia convoca uma nuvem de insetos que atacar\u00e1 um alvo indicado pelo conjurador.  O alvo pode tentar se desvencilhar dos insetos, reduzindo assim o tempo da dura\u00e7\u00e3o pela metade e levando apenas 1d3 pontos de dano por rodada. Caso deseje ignorar a nuvem, o alvo recebe 1d4 pontos de dano por rodada e todos os seus ataques s\u00e3o tidos como dif\u00edceis.\nO LB3: Monstros & Inimigos traz mais informa\u00e7\u00f5es sobre Enxame de Insetos.\n",
+    "fontes": [
+      {
+        "page": 110,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/convocar-insetos.json"
+  },
+  {
+    "id": "convocar-relampagos",
+    "type": "Spell",
+    "name": "Convocar Rel\u00e2mpagos",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.841-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "150 metros",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "JPD reduz",
+    "description": "Esta magia convoca rel\u00e2mpagos a partir de um c\u00e9u carregado com nuvens negras e prestes a chover (Chuva Leve, Chuva Pesada ou Tempestade), direcionando-os a um ponto espec\u00edfico.\n\nPara convocar um rel\u00e2mpago, o conjurador deve se concentrar por um turno inteiro e, no in\u00edcio do pr\u00f3ximo turno, o rel\u00e2mpago cair\u00e1 em qualquer ponto escolhido por ele, desde que dentro do alcance da magia. Todos dentro de um raio de 3 metros em torno do local atingido pelo rel\u00e2mpago, recebem 2d8 pontos de dano +1d8 pontos de dano adicionais por n\u00edvel do conjurador (m\u00e1ximo de 8d8). Uma JPD reduz esse dano pela metade.\n\nO conjurador ainda pode convocar 1 rel\u00e2mpago a cada 2 turnos (1 para convocar e outro para direcionar) enquanto concentrado e sem realizar nenhuma outra a\u00e7\u00e3o.\n",
+    "fontes": [
+      {
+        "page": 110,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/convocar-relampagos.json"
+  },
+  {
+    "id": "criar-agua",
+    "type": "Spell",
+    "name": "Criar \u00c1gua",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.867-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "6 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia cria uma pequena fonte de \u00e1gua limpa e fresca no ch\u00e3o, em uma parede ou pedra, capaz de criar 200 litros de \u00e1gua sustentando uma quantidade de 12 pessoas e suas montarias por um dia inteiro.\n\nEsta magia tamb\u00e9m pode ser modificada e memorizada como uma magia de 6\u00ba c\u00edrculo, criando 600 litros de \u00e1gua para 36 pessoas e suas montarias.\n",
+    "fontes": [
+      {
+        "page": 111,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/criar-agua.json"
+  },
+  {
+    "id": "criar-alimentos",
+    "type": "Spell",
+    "name": "Criar Alimentos",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.892-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "6 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia cria uma pequena quantidade de comida, o m\u00ednimo para o consumo di\u00e1rio de at\u00e9 2 homens por n\u00edvel do conjurador (at\u00e9 o m\u00e1ximo de 20 homens no 10\u00b0 n\u00edvel). Do 11\u00ba n\u00edvel em diante, o conjurador consegue criar alimentos suficientes para 4 homens por n\u00edvel at\u00e9 um total de 60 homens para um conjurador de 15\u00ba n\u00edvel.\n",
+    "fontes": [
+      {
+        "page": 111,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/criar-alimentos.json"
+  },
+  {
+    "id": "criar-mortos-vivos",
+    "type": "Spell",
+    "name": "Criar Mortos-Vivos",
+    "arcane": null,
+    "divine": null,
+    "necromancer": 2,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.917-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "O conjurador pode dar vida a um cad\u00e1ver ou a uma ossada para criar um zumbi ou um esqueleto, respectivamente. Os mortos-vivos criados desta forma reconhecem seus criadores como mestres e obedecer\u00e3o a seus comandos falados de forma permanente at\u00e9 serem destru\u00eddos. Mortosvivos destru\u00eddos n\u00e3o podem ser recriados.\n\nUm conjurador s\u00f3 pode manter sob seu controle 2 DV de mortos-vivos por n\u00edvel, ou seja, um zumbi ou dois esqueletos. Se uma quantidade maior for criada, esses mortos-vivos ficar\u00e3o descontrolados e agir\u00e3o por conta pr\u00f3pria.\n",
+    "fontes": [
+      {
+        "page": 111,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/criar-mortos-vivos.json"
+  },
+  {
+    "id": "criar-passagens",
+    "type": "Spell",
+    "name": "Criar Passagens",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.943-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "9 metros",
+    "duration": "3 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia cria uma passagem tempor\u00e1ria, como se fosse um buraco atrav\u00e9s de rocha s\u00f3lida (paredes, muros, portas) com cerca de 2 metros de altura e 3 metros de largura. O conjurador pode criar passagens em barreiras de at\u00e9 2 metros de espessura a cada 5 n\u00edveis.\n\nAp\u00f3s o encerramento da dura\u00e7\u00e3o da magia, a passagem se fecha, matando automaticamente todos que estiverem em seu interior.\n",
+    "fontes": [
+      {
+        "page": 111,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/criar-passagens.json"
+  },
+  {
+    "id": "curar-doencas",
+    "type": "Spell",
+    "name": "Curar Doen\u00e7as",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:53.973-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "Esta magia cura as doen\u00e7as e elimina qualquer condi\u00e7\u00e3o proveniente de uma doen\u00e7a em qualquer alvo vivo. Doen\u00e7as mundanas e doen\u00e7as m\u00e1gicas podem ser curadas por esta magia.\n\nCurar Doen\u00e7as tamb\u00e9m pode ser usada para curar e eliminar os efeitos de uma paralisia.\n\n[Causar Doen\u00e7as] \u00e9 a vers\u00e3o reversa que permite causar uma doen\u00e7a ao inv\u00e9s de curar. Se o alvo tocado n\u00e3o passar em uma JPC, sofrer\u00e1 dores terr\u00edveis e debilitantes.\n\nTodos os testes do alvo passam a ser dif\u00edceis, e uma cura natural passa a demorar o dobro do tempo normal. Curas m\u00e1gicas n\u00e3o surtir\u00e3o efeitos. O alvo morre em 2d12 dias se n\u00e3o sofrer uma magia Curar Doen\u00e7as.\n",
+    "reverse_spell": {
+      "id": "causar-doencas",
+      "name": "Causar Doen\u00e7as",
+      "reverse_spell_url": "https://olddragon.com.br/magias/causar-doencas.json"
+    },
+    "fontes": [
+      {
+        "page": 111,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/curar-doencas.json"
+  },
+  {
+    "id": "curar-ferimentos",
+    "type": "Spell",
+    "name": "Curar Ferimentos",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.030-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "JPC evita",
+    "description": "Cura 1d8 pontos de vida. Esta magia tamb\u00e9m pode ser modificada e memorizada como uma magia de:\n\n  * **3\u00ba c\u00edrculo**: para curar 2d8 pontos de vida;\n\n  * **5\u00ba c\u00edrculo**: para curar 3d8 pontos de vida;\n\n  * **7\u00ba c\u00edrculo**: para curar completamente os pontos de vida do alvo, al\u00e9m de curar ferimentos mais espec\u00edficos como membros torcidos, ossos quebrados ou contundidos. Por\u00e9m, n\u00e3o pode regenerar membros amputados ou inutilizados como um olho perfurado.\n\nUma magia de Curar Ferimentos \u00e9 capaz de remover uma infec\u00e7\u00e3o causada pela mordida de um Zumbi, mas n\u00e3o remove os efeitos da paralisia, n\u00e3o cura doen\u00e7as e nem neutraliza venenos ou elimina qualquer outra condi\u00e7\u00e3o de sa\u00fade do alvo, restaurando apenas pontos de vida perdidos.\n\n[Causar Ferimentos] \u00e9 a vers\u00e3o reversa que permite causar dano ao inv\u00e9s de curar. A vers\u00e3o de 7\u00ba c\u00edrculo permite matar o alvo. Uma JPC evita esses efeitos.\n",
+    "reverse_spell": {
+      "id": "causar-ferimentos",
+      "name": "Causar Ferimentos",
+      "reverse_spell_url": "https://olddragon.com.br/magias/causar-ferimentos.json"
+    },
+    "fontes": [
+      {
+        "page": 112,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/curar-ferimentos.json"
+  },
+  {
+    "id": "desejo",
+    "type": "Spell",
+    "name": "Desejo",
+    "arcane": 9,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.090-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "especial",
+    "description": "Tida como a magia mais poderosa j\u00e1 criada, Desejo pode ser fonte de poderes e perigos inimagin\u00e1veis, pois realiza desejos ilimitados do conjurador. Por\u00e9m, pode punir com extrema rigidez desejos amb\u00edguos e malfeitos. Se preparada como uma magia de 9\u00ba c\u00edrculo, o conjurador pode realizar Desejos os quais emulam magias de at\u00e9 8\u00ba c\u00edrculo sem grandes problemas. Mas desejos que almejam efeitos grandiosos e complexos podem ser arriscados, pois a forma como o desejo \u00e9 realizado \u00e9 de extrema import\u00e2ncia. A inten\u00e7\u00e3o original do conjurador pode ser distorcida, realizando um efeito literalmente correto, por\u00e9m indesejado.\n",
+    "fontes": [
+      {
+        "page": 112,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/desejo.json"
+  },
+  {
+    "id": "desintegrar",
+    "type": "Spell",
+    "name": "Desintegrar",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.125-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "\nEsta magia faz mat\u00e9ria (mundana ou m\u00e1gica) desaparecer por completo, virando p\u00f3. O alvo pode fazer uma JPC para evitar a desintegra\u00e7\u00e3o, sofrendo 8d8 pontos de dano.\n",
+    "fontes": [
+      {
+        "page": 113,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/desintegrar.json"
+  },
+  {
+    "id": "detectar-alinhamento",
+    "type": "Spell",
+    "name": "Detectar Alinhamento",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.152-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia possibilita ao conjurador se concentrar por um turno inteiro para detectar a aura de uma pessoa ou objeto, determinando, assim, o seu alinhamento.\n\nAlinhamentos magicamente ocultos s\u00e3o revelados sempre como neutros.\n",
+    "fontes": [
+      {
+        "page": 113,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/detectar-alinhamento.json"
+  },
+  {
+    "id": "detectar-armadilhas",
+    "type": "Spell",
+    "name": "Detectar Armadilhas",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.179-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "9 metros",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador consegue identificar magicamente qualquer armadilha, m\u00e1gica ou n\u00e3o, como se fosse um Ladr\u00e3o, fazendo-as brilhar com uma t\u00eanue luz azulada. Esta magia n\u00e3o revela o funcionamento das armadilhas e nem como desativ\u00e1-las.\n",
+    "fontes": [
+      {
+        "page": 113,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/detectar-armadilhas.json"
+  },
+  {
+    "id": "detectar-invisibilidade",
+    "type": "Spell",
+    "name": "Detectar Invisibilidade",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.205-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador consegue detectar objetos e criaturas invis\u00edveis como se fossem normalmente vis\u00edveis para ele.\n",
+    "fontes": [
+      {
+        "page": 113,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/detectar-invisibilidade.json"
+  },
+  {
+    "id": "disco-flutuante",
+    "type": "Spell",
+    "name": "Disco Flutuante",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.234-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "1,5 metro",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador cria um disco flutuante de 1 metro de di\u00e2metro para o seguir e carregar a sua carga. O disco consegue carregar 50 quilos por n\u00edvel de conjurador. O disco flutua a 1 metro do ch\u00e3o e se mant\u00e9m sempre reto. A n\u00e3o ser que receba outro comando, o disco se manter\u00e1 sempre a 1,5 metro de dist\u00e2ncia de seu conjurador. Quando o efeito da magia acaba, o disco simplesmente desaparece, derrubando tudo o que estava sobre ele. O disco tamb\u00e9m desaparece quando a dist\u00e2ncia entre ele e o conjurador for superior ao alcance da magia ou quando existir uma dist\u00e2ncia superior a 1 metro entre ele e o ch\u00e3o sobre o qual paira.\n",
+    "fontes": [
+      {
+        "page": 113,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/disco-flutuante.json"
+  },
+  {
+    "id": "dissipar-magia",
+    "type": "Spell",
+    "name": "Dissipar Magia",
+    "arcane": 3,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-23T14:09:33.556-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia pode ser usada para dissipar completamente os efeitos de outra magia, lan\u00e7ada sobre um objeto ou \u00e1rea. A jogada para tentar dissipar a magia \u00e9 de 1d20 + n\u00edvel do personagem que est\u00e1 lan\u00e7ando a magia, contra uma dificuldade de 5 + c\u00edrculo da magia a ser dissipada + n\u00edvel do personagem que lan\u00e7ou a magia a ser dissipada.\n\n> Exemplo: um conjurador de 9\u00ba n\u00edvel que tenta dissipar uma magia de 3\u00ba c\u00edrculo lan\u00e7ada por outro conjurador de 8\u00ba n\u00edvel, deve jogar 1d20 e somar seu resultado ao seu n\u00edvel (9).  O resultado precisa ser igual ou maior que a dificuldade de 5 + o c\u00edrculo da magia a ser dissipada (3) + o n\u00edvel do conjurador da magia (8), ou seja, maior ou igual a 16.\n\nMagos s\u00f3 podem dissipar magias arcanas e Cl\u00e9rigos s\u00f3 podem dissipar magias divinas.  Esta magia n\u00e3o \u00e9 capaz de desencantar permanentemente um item m\u00e1gico, mas suprime seus efeitos por 1 turno.\n",
+    "fontes": [
+      {
+        "page": 113,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/dissipar-magia.json"
+  },
+  {
+    "id": "dissipar-o-caos",
+    "type": "Spell",
+    "name": "Dissipar o Caos",
+    "arcane": null,
+    "divine": 6,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.285-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "9 metros",
+    "duration": "1 turno",
+    "jp": "especial",
+    "description": "Esta magia permite ao conjurador criar uma \u00e1rea dissipadora do caos, afugentando ou destruindo todas as criaturas ca\u00f3ticas que se aproximem do conjurador. Cada criatura ca\u00f3tica a entrar na \u00e1rea deve ser bem-sucedida em uma JPS para n\u00e3o ser destru\u00edda imediatamente. Se passar no teste, conseguir\u00e1 fugir e se afastar da \u00e1rea de efeito da magia o mais r\u00e1pido poss\u00edvel. O conjurador precisa ficar im\u00f3vel entoando suas ora\u00e7\u00f5es para sustentar a dura\u00e7\u00e3o de um Dissipar o Caos.\n",
+    "fontes": [
+      {
+        "page": 114,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/dissipar-o-caos.json"
+  },
+  {
+    "id": "drenar-vida",
+    "type": "Spell",
+    "name": "Drenar Vida",
+    "arcane": null,
+    "divine": null,
+    "necromancer": 3,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.310-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "JPC evita",
+    "description": "O alvo tocado pela m\u00e3o do conjurador sofre os efeitos de um ataque de Drenar Vida, drenando 1d4+1 para cada 3 n\u00edveis do Necromante. Os pontos de vida perdidos dessa maneira pelo alvo s\u00e3o imediatamente somados aos atuais pontos de vida do Necromante. Pontos de vida recuperados desta forma n\u00e3o podem ultrapassar o limite de pontos de vida total do Necromante. Um alvo que tenha todos os seus pontos de vida drenados, morrer\u00e1 imediatamente. Um sucesso em uma JPC evita o efeito desta magia.\n",
+    "fontes": [
+      {
+        "page": 114,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/drenar-vida.json"
+  },
+  {
+    "id": "encantar-item",
+    "type": "Spell",
+    "name": "Encantar Item",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.337-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Esta magia \u00e9 utilizada para imbuir efeitos m\u00e1gicos a qualquer item. Ela deve ser lan\u00e7ada sobre o objeto no in\u00edcio do processo e permanecer\u00e1 ativa pelo tempo de dura\u00e7\u00e3o da magia. Se lan\u00e7ada sobre um item m\u00e1gico, todos os efeitos ser\u00e3o realizados normalmente. Cabe ao Mestre determinar eventuais custos e tempo necess\u00e1rio.\n",
+    "fontes": [
+      {
+        "page": 114,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/encantar-item.json"
+  },
+  {
+    "id": "enfeiticar-monstros",
+    "type": "Spell",
+    "name": "Enfeiti\u00e7ar Monstros",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.363-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Esta magia afeta 3d6 monstros n\u00e3o humanoides vivos, m\u00e9dios ou pequenos com at\u00e9 3 DV, ou uma \u00fanica criatura com mais de 3 DV. O alvo passa a considerar o conjurador um amigo respeit\u00e1vel e confi\u00e1vel, obedecendo todas as suas ordens, desde que n\u00e3o haja uma clara amea\u00e7a \u00e0 sua integridade.  Ordens como atacar ser\u00e3o sempre seguidas, mesmo quando o alvo a ser atacado for infinitamente mais poderoso do que o alvo da magia.\n\nUm sucesso em uma JPS nega o efeito desta magia. Se a criatura enfeiti\u00e7ada for ferida, poder\u00e1 realizar uma nova JPS.\n\nAp\u00f3s enfeiti\u00e7ada, o valor da JPS da criatura determina a continua\u00e7\u00e3o da dura\u00e7\u00e3o de Enfeiti\u00e7ar Monstros.\n\n  * **JPS 3 ou menor**: uma JPS por m\u00eas.\n\n  * **JPS 5 ou menor**: uma JPS por semana.\n\n  * **JPS 8 ou menor**: uma JPS por dia.\n\n  * **JPS 10 ou menor**: uma JPS por hora.\n",
+    "fontes": [
+      {
+        "page": 114,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/enfeiticar-monstros.json"
+  },
+  {
+    "id": "enfeiticar-pessoas",
+    "type": "Spell",
+    "name": "Enfeiti\u00e7ar Pessoas",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.389-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Esta magia afeta humanoides vivos, m\u00e9dios ou pequenos. O alvo passa a considerar o conjurador como um amigo respeit\u00e1vel e confi\u00e1vel, obedecendo todas as suas ordens, desde que n\u00e3o haja uma clara amea\u00e7a \u00e0 sua integridade. Ordens como atacar ser\u00e3o sempre seguidas, mesmo quando o alvo a ser atacado for infinitamente mais poderoso do que o alvo da magia. Um sucesso em uma JPS nega o efeito desta magia. Se a criatura enfeiti\u00e7ada for ferida, poder\u00e1 realizar uma nova JPS.\n\nAp\u00f3s enfeiti\u00e7ado, a Intelig\u00eancia do alvo determina a continua\u00e7\u00e3o da dura\u00e7\u00e3o de Enfeiti\u00e7ar Pessoas.\n\n  * **Inepto (3-8)**: uma JPS por m\u00eas.\n\n  * **Mediano (9-12)**: uma JPS por semana.\n\n  * **Inteligente (13-16)**: uma JPS por dia.\n\n  * **G\u00eanio (17-18)**: uma JPS por hora.\n",
+    "fontes": [
+      {
+        "page": 114,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/enfeiticar-pessoas.json"
+  },
+  {
+    "id": "escudo-arcano",
+    "type": "Spell",
+    "name": "Escudo Arcano",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.414-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador invoca um escudo invis\u00edvel que o protege de ataques f\u00edsicos, sejam estes proj\u00e9teis, ataques \u00e0 dist\u00e2ncia, ou corpo a corpo. O Escudo Arcano equivale a uma armadura com b\u00f4nus de +4 e absorve totalmente o dano causado por m\u00edsseis m\u00e1gicos. Se a Classe de Armadura do conjurador j\u00e1 for 14 ou superior, esta n\u00e3o causa efeito, a n\u00e3o ser no que diz respeito \u00e0 absor\u00e7\u00e3o do dano dos m\u00edsseis m\u00e1gicos.\n",
+    "fontes": [
+      {
+        "page": 115,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/escudo-arcano.json"
+  },
+  {
+    "id": "escuridao",
+    "type": "Spell",
+    "name": "Escurid\u00e3o",
+    "arcane": 1,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-12-31T16:17:09.774-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "especial",
+    "duration": "12 turnos",
+    "jp": "JPS nega",
+    "description": "O objeto alvo tocado produz luz t\u00e3o brilhante quanto uma tocha, iluminando uma \u00e1rea com raio de 6 metros.\n\nSe conjurada nos olhos de um alvo a at\u00e9 3m + 1,5m/n\u00edvel do conjurador, a v\u00edtima que n\u00e3o passar em uma JPS fica cega at\u00e9 o final da dura\u00e7\u00e3o da magia. Neste caso, a luz m\u00e1gica se apaga e n\u00e3o causa nenhum outro efeito.\n\n[Escurid\u00e3o] \u00e9 a vers\u00e3o reversa que permite interromper qualquer fonte de luz, apagando tochas, velas, l\u00e2mpadas ou at\u00e9 mesmo dissipando uma magia Luz lan\u00e7ada anteriormente e criando uma \u00e1rea de 4,5 metros de raio de escurid\u00e3o m\u00e1gica, deixando todos dentro da \u00e1rea cegos (mesmo se possu\u00edrem Infravis\u00e3o).\n\nSe conjurada nos olhos de um alvo tocado pelo conjurador, a v\u00edtima que n\u00e3o passar em uma JPS fica cega at\u00e9 o final da dura\u00e7\u00e3o da magia.  Neste caso, a escurid\u00e3o m\u00e1gica some e n\u00e3o causa nenhum outro efeito.\n",
+    "reverse_spell": {
+      "id": "luz",
+      "name": "Luz",
+      "reverse_spell_url": "https://olddragon.com.br/magias/luz.json"
+    },
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/escuridao.json"
+  },
+  {
+    "id": "escuridao-continua",
+    "type": "Spell",
+    "name": "Escurid\u00e3o Cont\u00ednua",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.183-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "permanente",
+    "jp": "JPS nega",
+    "description": "Esta magia tem o mesmo efeito de uma magia Luz, mas com dura\u00e7\u00e3o cont\u00ednua (enquanto desejado pelo conjurador). Se conjurada nos olhos de um alvo a at\u00e9 3m + 1,5m/n\u00edvel do conjurador, a v\u00edtima que n\u00e3o passar em uma JPS fica cega at\u00e9 o final da dura\u00e7\u00e3o da magia. Neste caso, a luz m\u00e1gica se apaga e n\u00e3o causa nenhum outro efeito.\n\n[Escurid\u00e3o Cont\u00ednua] \u00e9 a vers\u00e3o reversa que cria uma \u00e1rea de escurid\u00e3o m\u00e1gica permanente numa \u00e1rea de 4,5 metros de raio, deixando todos dentro da \u00e1rea cegos, inclusive criaturas com Infravis\u00e3o.  Qualquer fonte de luz trazida para dentro da \u00e1rea de escurid\u00e3o ser\u00e1 apagada. Uma Escurid\u00e3o Cont\u00ednua pode ser usada para dissipar os efeitos de uma magia de Luz Cont\u00ednua.\n",
+    "reverse_spell": {
+      "id": "luz-continua",
+      "name": "Luz Cont\u00ednua",
+      "reverse_spell_url": "https://olddragon.com.br/magias/luz-continua.json"
+    },
+    "fontes": [
+      {
+        "page": 120,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/escuridao-continua.json"
+  },
+  {
+    "id": "esfera-gelida",
+    "type": "Spell",
+    "name": "Esfera G\u00e9lida",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.439-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "JPD reduz",
+    "description": "Esta magia pode ser utilizada de tr\u00eas formas diferentes:\n\n  * **Esfera Congelante**: um pequeno globo de mat\u00e9ria congelante se forma na m\u00e3o do conjurador, podendo ser usada para congelar todo e qualquer material l\u00edquido \u00e0 base de \u00e1gua com que entre em contato. Uma superf\u00edcie de 30 m\u00b2 com at\u00e9 20 cm de espessura por n\u00edvel do conjurador pode ser congelada.\n\n  * **Raio G\u00e9lido**: um pequeno e fino raio de energia gelada sai dos dedos do conjurador para atingir uma \u00fanica v\u00edtima, causando 1d4 pontos de dano +1 de dano por n\u00edvel. Uma JPD reduz esse dano pela metade.\n\n  * **Globo de Frio**: uma pedra pequena, do tamanho de uma pedra de funda, \u00e9 criada. Ao ser arremessada, se quebra no impacto causando 6d6 pontos de dano em todas as criaturas em uma dist\u00e2ncia de at\u00e9 3 metros do ponto da explos\u00e3o.  Se o globo n\u00e3o for arremessado, ele se quebrar\u00e1 em at\u00e9 1d4+1 rodadas causando o dano normalmente a todos em uma dist\u00e2ncia de at\u00e9 3 metros.  Uma JPD reduz esse dano pela metade.\n",
+    "fontes": [
+      {
+        "page": 115,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/esfera-gelida.json"
+  },
+  {
+    "id": "esfera-prismatica",
+    "type": "Spell",
+    "name": "Esfera Prism\u00e1tica",
+    "arcane": 9,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.465-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "1 turno/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Uma esfera multicolorida com 3 metros de di\u00e2metro encobre o conjurador como se fosse uma enorme bolha de prote\u00e7\u00e3o. Essa esfera \u00e9 formada por 7 camadas coloridas as quais absorvem todos os ataques f\u00edsicos direcionados ao conjurador.  Cada camada possui caracter\u00edsticas individuais e somem ao absorver um ataque qualquer. Da mais externa para a mais interna:\n\n  * **Vermelha**: causa 12 pontos de dano ao toque e bloqueia magias de 1\u00ba c\u00edrculo;\n\n  * **Laranja**: causa 24 pontos de dano ao toque e bloqueia magias de 1\u00ba a 3\u00ba c\u00edrculo;\n\n  * **Amarela**: causa 48 pontos de dano ao toque e bloqueia magias de 1\u00ba a 4\u00ba c\u00edrculo;\n\n  * **Verde**: causa morte instant\u00e2nea ao toque (JPC evita) e bloqueia magias de 1\u00ba a 5\u00ba c\u00edrculo;\n\n  * **Azul**: petrifica ao toque (JPC evita) e bloqueia todas as magias de 1\u00ba a 6\u00ba c\u00edrculo;\n\n  * **Anil**: destr\u00f3i a alma ao toque, causando a morte (sem Jogada de Prote\u00e7\u00e3o), e bloqueia todas as magias divinas;\n\n  * **Violeta**: causa insanidade ao toque e bloqueia todas as magias arcanas.\n",
+    "fontes": [
+      {
+        "page": 115,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/esfera-prismatica.json"
+  },
+  {
+    "id": "falar-com-animais",
+    "type": "Spell",
+    "name": "Falar com Animais",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.491-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador pode entender e se comunicar na linguagem de um tipo de animal escolhido pelo conjurador dentro de um raio de 18 metros.  Esta magia n\u00e3o obriga o animal a falar com o conjurador, permitindo apenas a capacidade de comunica\u00e7\u00e3o entre eles.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/falar-com-animais.json"
+  },
+  {
+    "id": "falar-com-monstros",
+    "type": "Spell",
+    "name": "Falar com Monstros",
+    "arcane": null,
+    "divine": 6,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.516-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "1 turno",
+    "jp": "nenhuma",
+    "description": "O conjurador passa a entender uma linguagem falada por um monstro espec\u00edfico e consegue se comunicar com ele. Esta magia n\u00e3o obriga o monstro a falar com o conjurador, permitindo apenas a capacidade de comunica\u00e7\u00e3o entre eles.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/falar-com-monstros.json"
+  },
+  {
+    "id": "falar-com-mortos",
+    "type": "Spell",
+    "name": "Falar com Mortos",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.542-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "1 turno",
+    "jp": "especial",
+    "description": "O conjurador pode fazer perguntas a um cad\u00e1ver caso este ainda possua uma boca para responder.  O morto responder\u00e1 a uma pergunta a cada dois n\u00edveis do conjurador, sempre baseando-se em seu conhecimento quando vivo e sempre de forma lac\u00f4nica, curta e direta. Um cad\u00e1ver de alinhamento diferente do conjurador pode realizar uma JPS para se negar a responder a uma pergunta.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/falar-com-mortos.json"
+  },
+  {
+    "id": "falar-com-plantas",
+    "type": "Spell",
+    "name": "Falar com Plantas",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.568-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador \u00e9 capaz de se comunicar, falar, ser entendido e entender uma planta n\u00e3o m\u00e1gica.  O conjurador pode fazer perguntas, receber respostas e at\u00e9 solicitar favores, os quais podem ser atendidos ou n\u00e3o, de acordo com o teste de rea\u00e7\u00e3o da planta. Apenas favores n\u00e3o ofensivos e realiz\u00e1veis ser\u00e3o atendidos.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/falar-com-plantas.json"
+  },
+  {
+    "id": "flecha-acida",
+    "type": "Spell",
+    "name": "Flecha \u00c1cida",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.595-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "45 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPD reduz",
+    "description": "O conjurador bem-sucedido em uma jogada de ataque a dist\u00e2ncia acerta um proj\u00e9til \u00e1cido no alvo, causando 1d4 de dano \u00e1cido regressivo.  Um sucesso em uma JPD reduz o dano \u00e0 metade.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/flecha-acida.json"
+  },
+  {
+    "id": "flecha-de-chamas",
+    "type": "Spell",
+    "name": "Flecha de Chamas",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.622-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "45 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador consegue criar e disparar de suas m\u00e3os flechas de fogo (1 para cada 5 n\u00edveis do conjurador). Cada flecha causa 1d6 pontos de dano pela perfura\u00e7\u00e3o e outros 2d6 pontos de dano por fogo. Uma jogada de ataque \u00e0 dist\u00e2ncia \u00e9 necess\u00e1ria para atingir os alvos com essas flechas. O conjurador pode designar um alvo diferente para cada flecha.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/flecha-de-chamas.json"
+  },
+  {
+    "id": "forca-arcana",
+    "type": "Spell",
+    "name": "For\u00e7a Arcana",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.649-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "3 turnos",
+    "jp": "nenhuma",
+    "description": "Pela dura\u00e7\u00e3o da magia, o alvo recebe 1 ponto extra para cada 5 pontos de For\u00e7a j\u00e1 possu\u00eddos.  Assim, um Guerreiro com For\u00e7a 16 teria seu atributo aumentado para 19, enquanto um conjurador com For\u00e7a 9 teria seu atributo aumentado para 10. O c\u00e1lculo deve ser sempre realizado com o valor original da For\u00e7a do personagem, sem levar em conta outras magias, itens m\u00e1gicos ou demais efeitos que ampliem o valor do atributo original.\n",
+    "fontes": [
+      {
+        "page": 116,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/forca-arcana.json"
+  },
+  {
+    "id": "ilusao",
+    "type": "Spell",
+    "name": "Ilus\u00e3o",
+    "arcane": null,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": 1,
+    "updated_at": "2023-05-31T22:12:54.674-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Enquanto concentrado, o conjurador cria a ilus\u00e3o de uma criatura, objeto ou cena, desde que j\u00e1 tenha a visto anteriormente. A Ilus\u00e3o \u00e9 apenas visual e, apesar de possuir movimentos, n\u00e3o emite sons, n\u00e3o possui cheiro e n\u00e3o irradia temperatura.\n\nSe n\u00e3o for usada para criar um falso ataque, a ilus\u00e3o desaparecer\u00e1 ao ser tocada. Se usada para atacar ou simular um ataque, o alvo poder\u00e1 realizar uma JPS para negar os efeitos da ilus\u00e3o.\n\nA Ilus\u00e3o criada possui CA 11, o mesmo BA do conjurador e desaparece ap\u00f3s a concentra\u00e7\u00e3o do conjurador ser interrompida ou ao ser atingida com sucesso em combate.\n\nUma ilus\u00e3o nunca causa dano real. Ao ser \u201cmorto\u201d por uma ilus\u00e3o, o oponente ficar\u00e1 inconsciente por 1d4 rodadas.\n",
+    "fontes": [
+      {
+        "page": 117,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ilusao.json"
+  },
+  {
+    "id": "ilusao-melhorada",
+    "type": "Spell",
+    "name": "Ilus\u00e3o Melhorada",
+    "arcane": null,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": 2,
+    "updated_at": "2023-05-31T22:12:54.703-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Enquanto concentrado e pelas pr\u00f3ximas 1d3 rodadas ap\u00f3s o t\u00e9rmino da concentra\u00e7\u00e3o, o conjurador cria a ilus\u00e3o de uma criatura, objeto ou cena j\u00e1 vista antes pelo conjurador. A ilus\u00e3o se movimenta, emite sons \u2013 embora n\u00e3o consiga falar ou simular falas com palavras intelig\u00edveis \u2013 e n\u00e3o irradia temperatura.\n\nSe n\u00e3o for usada para criar um falso ataque, a ilus\u00e3o desaparece ao ser tocada. Se usada para atacar ou simular um ataque, o alvo pode realizar uma JPS para negar os efeitos da ilus\u00e3o.\n\nA ilus\u00e3o criada possui CA 14, o mesmo BA do conjurador e desaparece em at\u00e9 1d3 rodadas ap\u00f3s a concentra\u00e7\u00e3o do conjurador ser interrompida ou ao ser atingida com sucesso em combate.\n\nUma ilus\u00e3o nunca causa dano real. Ao ser \u201cmorto\u201d por uma ilus\u00e3o, o oponente ficar\u00e1 inconsciente por 1d4+2 rodadas.\n",
+    "fontes": [
+      {
+        "page": 117,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ilusao-melhorada.json"
+  },
+  {
+    "id": "ilusao-permanente",
+    "type": "Spell",
+    "name": "Ilus\u00e3o Permanente",
+    "arcane": null,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": 5,
+    "updated_at": "2023-05-31T22:12:54.728-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "permanente",
+    "jp": "JPS nega",
+    "description": "Enquanto estiver ativa e at\u00e9 ser dissipada, o conjurador cria a ilus\u00e3o de uma criatura, objeto ou cena, mesmo se nunca vista pelo conjurador. A ilus\u00e3o movimenta-se, emite sons \u2013 inclusive os da fala com palavras intelig\u00edveis \u2013 irradia temperatura, possui odor e \u00e9 sens\u00edvel ao toque dos oponentes, j\u00e1 que n\u00e3o desaparece quando tocada. Se usada para atacar ou simular um ataque, o alvo pode realizar uma JPS para negar os efeitos da ilus\u00e3o.\n\nA Ilus\u00e3o criada possui CA 16, o mesmo BA do conjurador e pontos de vida ilus\u00f3rios iguais ao valor de intelig\u00eancia do conjurador. Esta ilus\u00e3o s\u00f3 desaparece quando dissipada. Ao ser atingida com sucesso em combate perde os pontos de vida ilus\u00f3rios at\u00e9 ser morta ilusoriamente.\n\nUma ilus\u00e3o nunca causa dano real, no entanto, em uma Ilus\u00e3o Permanente, h\u00e1 uma chance de 1 em 1d6 de que o alvo atingido \u2013 que receba 15 ou mais pontos de dano da ilus\u00e3o \u2013 morra de verdade por acreditar estar seriamente ferido. Caso o alvo, ainda que receba 15 ou mais pontos de dano da ilus\u00e3o, n\u00e3o morra pela chance de 1 em 1d6, cair\u00e1 no ch\u00e3o inconsciente por 1 turno.\n",
+    "fontes": [
+      {
+        "page": 117,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ilusao-permanente.json"
+  },
+  {
+    "id": "imobilizar-monstros",
+    "type": "Spell",
+    "name": "Imobilizar Monstros",
+    "arcane": 5,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-23T14:09:33.680-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "6 turnos +1/n\u00edvel",
+    "jp": "JPC evita",
+    "description": "O personagem escolhe at\u00e9 1d4 monstros n\u00e3o humanoides e vivos de tamanho grande ou menor para ficarem imobilizados sem conseguirem sair do lugar, como se estivessem paralisados. Uma JPC evita este efeito.\n\nO conjurador tamb\u00e9m pode escolher um \u00fanico monstro como alvo para imobilizar. Nesse caso, deve realizar uma JPC dif\u00edcil.\n\nMortos-vivos e alvos com 4 DV a mais que o conjurador n\u00e3o s\u00e3o afetados por esta magia.\n",
+    "fontes": [
+      {
+        "page": 118,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/imobilizar-monstros.json"
+  },
+  {
+    "id": "imobilizar-pessoas",
+    "type": "Spell",
+    "name": "Imobilizar Pessoas",
+    "arcane": 3,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-23T14:09:33.620-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "1 turno por n\u00edvel",
+    "jp": "JPC evita",
+    "description": "O conjurador escolhe at\u00e9 1d4 pessoas (humano, semi-humano e humanoides vivos de tamanho grande ou menor) para ficarem imobilizadas sem conseguirem sair do lugar, como se estivessem paralisadas. Uma JPC evita este efeito. Tamb\u00e9m pode escolher uma \u00fanica pessoa como alvo. Nesse caso, deve realizar uma JPC dif\u00edcil. Mortos-vivos e alvos com 4 DV a mais que o conjurador n\u00e3o s\u00e3o afetados por esta magia.\n",
+    "fontes": [
+      {
+        "page": 117,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/imobilizar-pessoas.json"
+  },
+  {
+    "id": "imunidade-a-magia",
+    "type": "Spell",
+    "name": "Imunidade \u00e0 Magia",
+    "arcane": 8,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.809-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1d4 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador pode proteger uma criatura contra efeitos m\u00e1gicos para cada 4 n\u00edveis que possui. Essa prote\u00e7\u00e3o confere ajuste nas jogadas de prote\u00e7\u00e3o:\n\n  * **Magias de 1\u00ba a 3\u00ba c\u00edrculo**: falha apenas com um 20;\n\n  * **Magias de 4\u00ba a 6\u00ba c\u00edrculo**: muito f\u00e1cil;\n\n  * **Magias de 7\u00ba e 8\u00ba c\u00edrculo**: f\u00e1cil.\n",
+    "fontes": [
+      {
+        "page": 118,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/imunidade-a-magia.json"
+  },
+  {
+    "id": "infravisao",
+    "type": "Spell",
+    "name": "Infravis\u00e3o",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.835-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "24 horas",
+    "jp": "nenhuma",
+    "description": "O alvo desta magia adquire infravis\u00e3o de 18 metros, exatamente como um elfo ou an\u00e3o.\n",
+    "fontes": [
+      {
+        "page": 118,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/infravisao.json"
+  },
+  {
+    "id": "invisibilidade",
+    "type": "Spell",
+    "name": "Invisibilidade",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.861-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "O alvo desta magia, seja este uma pessoa ou objeto, se torna totalmente invis\u00edvel. Uma criatura invis\u00edvel n\u00e3o pode ser atacada, a menos que sua localiza\u00e7\u00e3o aproximada seja conhecida.\n\nA magia \u00e9 dissipada se o alvo invis\u00edvel realizar qualquer tipo de ataque ou lan\u00e7ar uma magia.\n",
+    "fontes": [
+      {
+        "page": 118,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/invisibilidade.json"
+  },
+  {
+    "id": "invisibilidade-3-metros",
+    "type": "Spell",
+    "name": "Invisibilidade 3 metros",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.887-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia tem o mesmo efeito de uma magia Invisibilidade, mas afetando todas as criaturas e objetos em uma \u00e1rea de 3 metros de di\u00e2metro de um alvo preferencial. Se uma criatura ou objeto abandonar a \u00e1rea, deixar\u00e3o de estar invis\u00edveis e, mesmo retornando a \u00e1rea, n\u00e3o recuperar\u00e3o a invisibilidade.\n",
+    "fontes": [
+      {
+        "page": 118,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/invisibilidade-3-metros.json"
+  },
+  {
+    "id": "invocar-criaturas",
+    "type": "Spell",
+    "name": "Invocar criaturas",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.914-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador \u00e9 capaz de invocar 2d4 criaturas presentes nas redondezas para lhe auxiliarem. Essas criaturas o servir\u00e3o at\u00e9 o fim da dura\u00e7\u00e3o da magia ou at\u00e9 a derrota de todas as criaturas. As criaturas invocadas levam 1d4 turnos para aparecer e permanecer\u00e3o por mais 6 turnos. A quantidade de DV das criaturas invocadas \u00e9 igual a metade do n\u00edvel do conjurador, ou seja, um conjurador de 5\u00ba n\u00edvel invoca 2d4 criaturas de no m\u00e1ximo 2 DV cada.\n",
+    "fontes": [
+      {
+        "page": 118,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/invocar-criaturas.json"
+  },
+  {
+    "id": "lama-em-pedra",
+    "type": "Spell",
+    "name": "Lama em Pedra",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.964-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "especial",
+    "description": "Com esta magia, o conjurador consegue transformar 30 m\u00b2 de pedra em lama com 3 metros de profundidade, levando 3d6 dias para endurecer.  Criaturas que tentam atravessar a lama t\u00eam seu movimento reduzido \u00e0 metade do normal.  Criaturas de pedra que sejam alvos desta magia, como um Golem de Pedra, podem realizar uma JP para negar os efeitos da magia ou ser\u00e3o destru\u00eddas.\n\n[Lama em Pedra] \u00e9 a vers\u00e3o reversa que permite endurecer at\u00e9 3 m\u00b2 de lama em pedra permanentemente.\n",
+    "reverse_spell": {
+      "id": "pedra-em-lama",
+      "name": "Pedra em Lama",
+      "reverse_spell_url": "https://olddragon.com.br/magias/pedra-em-lama.json"
+    },
+    "fontes": [
+      {
+        "page": 125,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/lama-em-pedra.json"
+  },
+  {
+    "id": "lentidao",
+    "type": "Spell",
+    "name": "Lentid\u00e3o",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.940-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "3 turnos",
+    "jp": "JPC evita",
+    "description": "Todos dentro de uma \u00e1rea de 6 x 6 metros que n\u00e3o passarem em uma JPC ficam lentos. Os deslocamentos ficam reduzidos pela metade.  Os ataques deferidos pelo alvo s\u00e3o dif\u00edceis e os contra o alvo, f\u00e1ceis.\n\n[Velocidade] \u00e9 a vers\u00e3o reversa na qual acelera extremamente o metabolismo de at\u00e9 1 criatura tocada para cada 3 n\u00edveis do conjurador, concedendo ao alvo uma movimenta\u00e7\u00e3o acima do normal. Os deslocamentos ficam multiplicados por dois. Os ataques deferidos pelo alvo s\u00e3o f\u00e1ceis e os contra o alvo, dif\u00edceis. Al\u00e9m disso, o alvo recebe um ataque extra por rodada. A acelera\u00e7\u00e3o \u00e9 prejudicial ao organismo do alvo, envelhecendo-o 10% da idade atual.\n",
+    "reverse_spell": {
+      "id": "velocidade",
+      "name": "Velocidade",
+      "reverse_spell_url": "https://olddragon.com.br/magias/velocidade.json"
+    },
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/lentidao.json"
+  },
+  {
+    "id": "ler-idiomas",
+    "type": "Spell",
+    "name": "Ler Idiomas",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.999-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao conjurador decifrar dire\u00e7\u00f5es, instru\u00e7\u00f5es e f\u00f3rmulas em idiomas desconhecidos. \u00c9 particularmente \u00fatil para mapas de tesouro, muito embora n\u00e3o decifre nenhum enigma ou c\u00f3digo, apenas permitindo ao conjurador compreender o que est\u00e1 escrito.\n",
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ler-idiomas.json"
+  },
+  {
+    "id": "levitacao",
+    "type": "Spell",
+    "name": "Levita\u00e7\u00e3o",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.030-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "6 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador \u00e9 capaz de se mover levitando em uma linha reta vertical. Necessita apenas de uma palavra para ser ativada, podendo ser evocada em qualquer situa\u00e7\u00e3o, at\u00e9 mesmo durante uma queda.\n",
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/levitacao.json"
+  },
+  {
+    "id": "localizar-objetos",
+    "type": "Spell",
+    "name": "Localizar Objetos",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.056-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros + 2m/n\u00edvel",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia d\u00e1 ao conjurador a dire\u00e7\u00e3o correta at\u00e9 um objeto do tipo especificado na descri\u00e7\u00e3o.\n\nO objeto n\u00e3o pode ser algo nunca visto pelo conjurador, apesar de que a magia pode detectar um objeto em uma classe geral de itens conhecidos do conjurador (cadeiras, ouro etc.), mas com uma precis\u00e3o ainda menor.\n\nEsta magia n\u00e3o permite a localiza\u00e7\u00e3o de criaturas vivas ou animadas.\n",
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/localizar-objetos.json"
+  },
+  {
+    "id": "luz",
+    "type": "Spell",
+    "name": "Luz",
+    "arcane": 1,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-23T14:09:33.741-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "especial",
+    "duration": "12 turnos",
+    "jp": "JPS nega",
+    "description": "O objeto alvo tocado produz luz t\u00e3o brilhante quanto uma tocha, iluminando uma \u00e1rea com raio de 6 metros.\n\nSe conjurada nos olhos de um alvo a at\u00e9 3m + 1,5m/n\u00edvel do conjurador, a v\u00edtima que n\u00e3o passar em uma JPS fica cega at\u00e9 o final da dura\u00e7\u00e3o da magia. Neste caso, a luz m\u00e1gica se apaga e n\u00e3o causa nenhum outro efeito.\n\n[Escurid\u00e3o] \u00e9 a vers\u00e3o reversa que permite interromper qualquer fonte de luz, apagando tochas, velas, l\u00e2mpadas ou at\u00e9 mesmo dissipando uma magia Luz lan\u00e7ada anteriormente e criando uma \u00e1rea de 4,5 metros de raio de escurid\u00e3o m\u00e1gica, deixando todos dentro da \u00e1rea cegos (mesmo se possu\u00edrem Infravis\u00e3o).\n\nSe conjurada nos olhos de um alvo tocado pelo conjurador, a v\u00edtima que n\u00e3o passar em uma JPS fica cega at\u00e9 o final da dura\u00e7\u00e3o da magia.  Neste caso, a escurid\u00e3o m\u00e1gica some e n\u00e3o causa nenhum outro efeito.\n",
+    "reverse_spell": {
+      "id": "escuridao",
+      "name": "Escurid\u00e3o",
+      "reverse_spell_url": "https://olddragon.com.br/magias/escuridao.json"
+    },
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/luz.json"
+  },
+  {
+    "id": "luz-continua",
+    "type": "Spell",
+    "name": "Luz Cont\u00ednua",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.140-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "permanente",
+    "jp": "JPS nega",
+    "description": "Esta magia tem o mesmo efeito de uma magia Luz, mas com dura\u00e7\u00e3o cont\u00ednua (enquanto desejado pelo conjurador). Se conjurada nos olhos de um alvo a at\u00e9 3m + 1,5m/n\u00edvel do conjurador, a v\u00edtima que n\u00e3o passar em uma JPS fica cega at\u00e9 o final da dura\u00e7\u00e3o da magia. Neste caso, a luz m\u00e1gica se apaga e n\u00e3o causa nenhum outro efeito.\n\n[Escurid\u00e3o Cont\u00ednua] \u00e9 a vers\u00e3o reversa que cria uma \u00e1rea de escurid\u00e3o m\u00e1gica permanente numa \u00e1rea de 4,5 metros de raio, deixando todos dentro da \u00e1rea cegos, inclusive criaturas com Infravis\u00e3o.  Qualquer fonte de luz trazida para dentro da \u00e1rea de escurid\u00e3o ser\u00e1 apagada. Uma Escurid\u00e3o Cont\u00ednua pode ser usada para dissipar os efeitos de uma magia de Luz Cont\u00ednua.\n",
+    "reverse_spell": {
+      "id": "escuridao-continua",
+      "name": "Escurid\u00e3o Cont\u00ednua",
+      "reverse_spell_url": "https://olddragon.com.br/magias/escuridao-continua.json"
+    },
+    "fontes": [
+      {
+        "page": 120,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/luz-continua.json"
+  },
+  {
+    "id": "magia-astral",
+    "type": "Spell",
+    "name": "Magia Astral",
+    "arcane": 9,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.204-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "O conjurador consegue projetar a sua forma astral para outros locais, ficando vis\u00edvel apenas a outras criaturas que tamb\u00e9m estejam sob forma astral. Enquanto estiver nesta forma, o conjurador pode lan\u00e7ar magias e se deslocar para onde desejar a uma velocidade de 150 km/h, mas, caso ultrapasse o limite de 1km de dist\u00e2ncia de seu corpo f\u00edsico, n\u00e3o conseguir\u00e1 mais retornar ao seu corpo, ficando preso \u00e0 forma astral para sempre.\n\nEsta magia funciona enquanto o conjurador desejar ou at\u00e9 ser dissipada.\n",
+    "fontes": [
+      {
+        "page": 120,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/magia-astral.json"
+  },
+  {
+    "id": "magia-da-morte",
+    "type": "Spell",
+    "name": "Magia da Morte",
+    "arcane": null,
+    "divine": null,
+    "necromancer": 5,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.232-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros + 1/n\u00edvel",
+    "duration": "instant\u00e2nea",
+    "jp": "JPC evita",
+    "description": "Um raio de energia negativa sai das m\u00e3os do conjurador, matando 2d6 criaturas com 4 dados de vida ou menos as quais estejam dentro do alcance da magia (a magia afeta por ordem de proximidade em rela\u00e7\u00e3o ao conjurador). Uma JPC evita os efeitos desta magia. Esta magia faz o Necromante perder 90% dos seus pontos de vida atuais. Um Necromante com 36 pontos de vida seria reduzido imediatamente a 3 pontos de vida.\n",
+    "fontes": [
+      {
+        "page": 121,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/magia-da-morte.json"
+  },
+  {
+    "id": "maos-flamejantes",
+    "type": "Spell",
+    "name": "M\u00e3os Flamejantes",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.258-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros + 1/n\u00edvel",
+    "duration": "instant\u00e2nea",
+    "jp": "JPD reduz",
+    "description": "Ao formar um leque com as m\u00e3os, o conjurador emite um raio triangular de fogo afetando todos na \u00e1rea de alcance da magia. Cada criatura atingida recebe 1d3 pontos de dano +2 pontos de dano adicionais por n\u00edvel do conjurador at\u00e9 um m\u00e1ximo de +20. Uma JPD reduz o dano pela metade.\n",
+    "fontes": [
+      {
+        "page": 122,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/maos-flamejantes.json"
+  },
+  {
+    "id": "martelo-espiritual",
+    "type": "Spell",
+    "name": "Martelo Espiritual",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.286-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3m + 1,5m/n\u00edvel",
+    "duration": "1d6 turnos + 1/n\u00edvel",
+    "jp": "especial",
+    "description": "Esta magia cria um martelo de energia o qual pode ser usado pelo conjurador para atacar qualquer alvo dentro de seu alcance. O martelo possui um b\u00f4nus de ataque +1 para cada 5 n\u00edveis do conjurador, e causa 1d4 pontos de dano al\u00e9m de receber um b\u00f4nus no dano de +1 por n\u00edvel do conjurador.  Uma JPC do conjurador deve ser realizada pelo conjurador sempre que este for atacado. Uma falha significa que o martelo foi dissipado.\n",
+    "fontes": [
+      {
+        "page": 120,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/martelo-espiritual.json"
+  },
+  {
+    "id": "medo",
+    "type": "Spell",
+    "name": "Medo",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.311-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "1 rodada/n\u00edvel",
+    "jp": "JPS nega",
+    "description": "Esta magia cria um sentimento aterrorizante nas criaturas dentro de seu alcance. Uma falha na JPS faz as criaturas afetadas sa\u00edrem correndo por toda a dura\u00e7\u00e3o da magia. H\u00e1 1-4 chances em 1d6 de as criaturas soltarem qualquer objeto que estejam segurando.\n",
+    "fontes": [
+      {
+        "page": 120,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/medo.json"
+  },
+  {
+    "id": "mensagem",
+    "type": "Spell",
+    "name": "Mensagem",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.336-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "O conjurador pode escolher 1 alvo a cada 3 n\u00edveis para sussurrar uma mensagem e receber uma resposta sem que as outras criaturas fora do efeito percebam. Para funcionar, todos os alvos da magia precisam compreender o idioma falado.  Al\u00e9m disso, n\u00e3o pode haver nenhum obst\u00e1culo f\u00edsico ou m\u00e1gico atrapalhando a comunica\u00e7\u00e3o.\n",
+    "fontes": [
+      {
+        "page": 121,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/mensagem.json"
+  },
+  {
+    "id": "metamorfose",
+    "type": "Spell",
+    "name": "Metamorfose",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.362-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3m + 1,5m/n\u00edvel",
+    "duration": "permanente",
+    "jp": "JPC evita",
+    "description": "O conjurador consegue modificar fisicamente a forma de uma criatura (com no m\u00e1ximo o dobro dos DV do conjurador) para que esta se pare\u00e7a com outro tipo de criatura, mas n\u00e3o \u00e9 poss\u00edvel clonar um indiv\u00edduo espec\u00edfico. Uma JPC consegue evitar esse efeito caso o alvo deseje resistir. O alvo metamorfoseado mant\u00e9m o mesmo n\u00famero de DV e PV, mas adquire as habilidades especiais, ataques e capacidades f\u00edsicas do novo tipo de criatura, assim como o comportamento, alinhamento e intelig\u00eancia. Um an\u00e3o metamorfoseado em uma g\u00e1rgula n\u00e3o s\u00f3 se parecer\u00e1 como uma, mas agir\u00e1 e pensar\u00e1 como uma g\u00e1rgula, podendo inclusive voar. Todas as criaturas metamorfoseadas retornam a sua forma original quando mortas.\n",
+    "fontes": [
+      {
+        "page": 121,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/metamorfose.json"
+  },
+  {
+    "id": "metamorfosear-se",
+    "type": "Spell",
+    "name": "Metamorfosear-se",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.388-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "6 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "O conjurador consegue modificar fisicamente sua pr\u00f3pria forma para um tipo de criatura (com no m\u00e1ximo o dobro dos DV do conjurador) para se parecer com outro tipo de criatura, mas nunca para clonar um indiv\u00edduo espec\u00edfico.\n\nO conjurador mant\u00e9m o mesmo n\u00famero de DV, PV, JP. Adquire ainda os ataques f\u00edsicos e movimentos da criatura na qual se metamorfoseou, mas n\u00e3o \u00e9 capaz de usar suas habilidades especiais n\u00e3o f\u00edsicas, como imunidades, resist\u00eancias, baforadas etc. Enquanto est\u00e1 metamorfoseado, o conjurador perde a capacidade de conjurar magias. Se morrer enquanto metamorfoseado, retornar\u00e1 a sua forma original.\n",
+    "fontes": [
+      {
+        "page": 121,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/metamorfosear-se.json"
+  },
+  {
+    "id": "meteoros-instantaneos",
+    "type": "Spell",
+    "name": "Meteoros Instant\u00e2neos",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.418-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "O conjurador se torna capaz de conjurar e arremessar 1 esfera flamejante de fogo por n\u00edvel, causando 2d4 pontos de dano de fogo.  O conjurador deve ser bem-sucedido em uma jogada de ataque \u00e0 dist\u00e2ncia para atingir um alvo, sendo capaz de arremessar um \u00fanico meteoro por rodada.\n\nQuando conjurados, os meteoros ficam dispon\u00edveis para serem arremessados por at\u00e9 24 horas, at\u00e9 todos serem arremessados ou at\u00e9 a magia ser dissipada. O conjurador n\u00e3o precisa se concentrar para manter os meteoros dispon\u00edveis durante este tempo.\n",
+    "fontes": [
+      {
+        "page": 121,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/meteoros-instantaneos.json"
+  },
+  {
+    "id": "miragem",
+    "type": "Spell",
+    "name": "Miragem",
+    "arcane": null,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": 3,
+    "updated_at": "2023-05-31T22:12:55.446-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "especial",
+    "description": "O conjurador cria uma ilus\u00e3o a qual esconde, dentro da \u00e1rea de alcance da magia, o verdadeiro terreno. Todos os sentidos s\u00e3o afetados, mas os poss\u00edveis efeitos causados pelo terreno verdadeiro n\u00e3o \u2013 um fosso de lava ainda \u00e9 um fosso de lava capaz de matar queimado qualquer desavisado, mesmo aparentando ser um campo florido.\n\nSe a altera\u00e7\u00e3o do terreno criada pela ilus\u00e3o for sutil, uma JPS \u00e9 permitida, no entanto, se a mudan\u00e7a causar suspeita, uma JPS f\u00e1cil \u00e9 permitida para negar a ilus\u00e3o. Apenas alvos bem-sucedidos ficam livres dos efeitos, e a ilus\u00e3o persiste at\u00e9 o fim de sua dura\u00e7\u00e3o.\n\nCaso uma criatura seja v\u00edtima da ilus\u00e3o (caindo em um precip\u00edcio aparentando ser uma floresta, por exemplo), todos os observadores recebem automaticamente o direito a uma JPS muito f\u00e1cil.\n",
+    "fontes": [
+      {
+        "page": 121,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/miragem.json"
+  },
+  {
+    "id": "missao",
+    "type": "Spell",
+    "name": "Miss\u00e3o",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.473-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Esta magia obriga um alvo a realizar uma miss\u00e3o \u00e0 escolha do conjurador. Uma JPS nega esse efeito no alvo. Se o alvo se desviar da miss\u00e3o ou se negar a cumpri-la, ser\u00e1 acometido de uma maldi\u00e7\u00e3o que drena 1 ponto de For\u00e7a por dia at\u00e9 que volte a se empenhar na conclus\u00e3o da miss\u00e3o. Se chegar \u00e0 For\u00e7a 0, o alvo morrer\u00e1 imediatamente.\n\n[Remover Miss\u00e3o] \u00e9 a vers\u00e3o reversa que permite ao conjurador remover qualquer efeito de uma Miss\u00e3o conjurada em um alvo. Para surtir efeito, o conjurador precisa ter ao menos 2 n\u00edveis a mais que o conjurador da magia Miss\u00e3o original.\n",
+    "reverse_spell": {
+      "id": "remover-missao",
+      "name": "Remover Miss\u00e3o",
+      "reverse_spell_url": "https://olddragon.com.br/magias/remover-missao.json"
+    },
+    "fontes": [
+      {
+        "page": 122,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/missao.json"
+  },
+  {
+    "id": "misseis-magicos",
+    "type": "Spell",
+    "name": "M\u00edsseis M\u00e1gicos",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.530-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "45 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Um m\u00edssil m\u00e1gico voa para onde o conjurador direcionar, acertando automaticamente os alvos.  Para atingir uma criatura, \u00e9 preciso que ela esteja na linha de vis\u00e3o do conjurador, o qual pode lan\u00e7ar 1 M\u00edssil M\u00e1gico a cada 3 n\u00edveis, causando um dano de 1d4 pontos +1 por n\u00edvel, at\u00e9 um m\u00e1ximo de +5. Assim, o conjurador conjura 2 m\u00edsseis no 4\u00ba n\u00edvel, 3 m\u00edsseis no 7\u00ba, 4 m\u00edsseis no 10\u00ba, e 5 m\u00edsseis no 13\u00ba. Esses m\u00edsseis adicionais podem ser direcionados para alvos distintos desde que a dist\u00e2ncia entre os alvos n\u00e3o seja superior a 18 metros.\n",
+    "fontes": [
+      {
+        "page": 122,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/misseis-magicos.json"
+  },
+  {
+    "id": "muralha-de-energia",
+    "type": "Spell",
+    "name": "Muralha de Energia",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.556-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "6 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "O conjurador cria uma muralha de energia invis\u00edvel com at\u00e9 90 cent\u00edmetros de espessura, 15 metros de altura e 15 metros de comprimento ao seu redor. Nenhum efeito m\u00e1gico de um conjurador de n\u00edvel inferior \u00e9 capaz de ultrapassar a muralha, mas pessoas e proj\u00e9teis sim.\n",
+    "fontes": [
+      {
+        "page": 123,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/muralha-de-energia.json"
+  },
+  {
+    "id": "muralha-de-ferro",
+    "type": "Spell",
+    "name": "Muralha de Ferro",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.582-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "6 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "O conjurador cria uma muralha de ferro resistente com at\u00e9 90 cent\u00edmetros de espessura, 15 metros de altura e 15 metros de comprimento.  Nada que n\u00e3o seja normalmente capaz de ultrapassar ferro nestas condi\u00e7\u00f5es consegue ultrapassar a muralha.\n",
+    "fontes": [
+      {
+        "page": 123,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/muralha-de-ferro.json"
+  },
+  {
+    "id": "neutralizar-veneno",
+    "type": "Spell",
+    "name": "Neutralizar Veneno",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.608-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Esta magia anula quaisquer efeitos de venenos em a\u00e7\u00e3o dentro do corpo de um alvo vivo, mas n\u00e3o recupera pontos de vida perdidos devido ao veneno e nem revive uma v\u00edtima morta devido aos efeitos de um veneno.\n",
+    "fontes": [
+      {
+        "page": 123,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/neutralizar-veneno.json"
+  },
+  {
+    "id": "nevoa-mortal",
+    "type": "Spell",
+    "name": "N\u00e9voa Mortal",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.634-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "12 metros",
+    "duration": "1 rodada/n\u00edvel",
+    "jp": "especial",
+    "description": "Vapores sulfurosos e altamente venenosos formam uma pesada e densa nuvem com 9 metros de di\u00e2metro em todas as dire\u00e7\u00f5es, movendo-se a favor do vento por 6 metros por rodada, ou, caso n\u00e3o haja vento, afastando-se do conjurador em linha reta. Qualquer criatura a ter contato com a n\u00e9voa sofrer\u00e1 1 ponto de dano por rodada, e criaturas com menos de 5 DV devem realizar tamb\u00e9m uma JPC para evitar a morte.\n\nA n\u00e9voa, por ser mais pesada do que o ar, desce escadas, fossos e al\u00e7ap\u00f5es, mas n\u00e3o \u00e9 capaz de subir estes mesmos obst\u00e1culos.\n",
+    "fontes": [
+      {
+        "page": 123,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/nevoa-mortal.json"
+  },
+  {
+    "id": "olho-arcano",
+    "type": "Spell",
+    "name": "Olho Arcano",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.659-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "6 turnos",
+    "jp": "especial",
+    "description": "O conjurador cria um olho flutuante e invis\u00edvel com 2,5cm de di\u00e2metro o qual envia ao conjurador informa\u00e7\u00f5es visuais.\n\nO Olho Arcano pode ser criado em qualquer lugar dentro da linha de vis\u00e3o do conjurador, mas pode percorrer qualquer dist\u00e2ncia sem limita\u00e7\u00e3o, movendo-se a 10 metros por rodada. O Olho pode viajar em qualquer dire\u00e7\u00e3o, mas n\u00e3o conseguir\u00e1 atravessar barreiras s\u00f3lidas e nem viajar atrav\u00e9s dos planos.\n\nO Olho s\u00f3 se move enquanto o conjurador mantiver a concentra\u00e7\u00e3o na magia. Se o conjurador for atacado, \u00e9 preciso fazer uma JPC para que o Olho n\u00e3o fique parado por um turno.\n",
+    "fontes": [
+      {
+        "page": 123,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/olho-arcano.json"
+  },
+  {
+    "id": "oracao",
+    "type": "Spell",
+    "name": "Ora\u00e7\u00e3o",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.687-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Todos os aliados em um raio de at\u00e9 9 metros do conjurador passam a realizar suas Jogadas de Prote\u00e7\u00e3o com ajuste f\u00e1cil, enquanto seus inimigos declarados passam a fazer suas Jogadas de Prote\u00e7\u00e3o com ajuste dif\u00edcil.\n\nEsse b\u00f4nus \u00e9 ampliado quando o conjurador possui 10 n\u00edveis, passando a ser muito f\u00e1cil/muito dif\u00edcil.\n\nOs efeitos desta magia dura 1 turno para cada 5 n\u00edveis do conjurador.\n",
+    "fontes": [
+      {
+        "page": 124,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/oracao.json"
+  },
+  {
+    "id": "palavra-do-poder-atordoar",
+    "type": "Spell",
+    "name": "Palavra do Poder: Atordoar",
+    "arcane": 7,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.714-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "5 metros/n\u00edvel",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "O conjurador \u00e9 capaz de atordoar um alvo proferindo uma \u00fanica palavra, sem direito a uma Jogada de Prote\u00e7\u00e3o desde que o alvo seja capaz de ouvir a palavra dita pelo conjurador. O alvo n\u00e3o precisa compreend\u00ea-la. Se o alvo estiver com:\n\n  * **6 DV ou menos**: fica atordoado por at\u00e9 2d6+3 rodadas.\n\n  * **7 a 9 DV**: fica atordoado por 1d6+1 rodadas.\n\n  * **10 DV ou mais**: n\u00e3o sofrer\u00e1 os efeitos desta magia.\n\nUm personagem atordoado por esta magia mant\u00e9m seus pontos de vida, mas n\u00e3o consegue realizar nenhuma atividade f\u00edsica como se mover, resistir, atacar ou conjurar magias, podendo falar apenas hesitantemente um m\u00e1ximo de 1d4+2 palavras por rodada.\n",
+    "fontes": [
+      {
+        "page": 124,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/palavra-do-poder-atordoar.json"
+  },
+  {
+    "id": "palavra-do-poder-matar",
+    "type": "Spell",
+    "name": "Palavra do Poder: Matar",
+    "arcane": 9,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.740-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros/n\u00edvel",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "O conjurador \u00e9 capaz de matar um alvo proferindo uma \u00fanica palavra, sem direito a uma Jogada de Prote\u00e7\u00e3o desde que o alvo seja capaz de ouvir a palavra dita pelo conjurador. O alvo n\u00e3o precisa compreend\u00ea-la. Se o alvo estiver com:\n\n  * **5O PV ou menos**: morre imediatamente.\n\n  * **51 PV ou mais**: n\u00e3o sofrer\u00e1 os efeitos desta magia.\n",
+    "fontes": [
+      {
+        "page": 124,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/palavra-do-poder-matar.json"
+  },
+  {
+    "id": "palavra-sagrada",
+    "type": "Spell",
+    "name": "Palavra Sagrada",
+    "arcane": null,
+    "divine": 7,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.767-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "O conjurador \u00e9 capaz de afetar um alvo proferindo apenas uma \u00fanica palavra, sem direito a uma Jogada de Prote\u00e7\u00e3o, desde que o alvo seja capaz de ouvir a palavra dita pelo conjurador. O alvo n\u00e3o precisa compreend\u00ea-la. Se o alvo tiver:\n\n  * **4 DV ou menos**: morre imediatamente.\n\n  * **5 DV a 8 DV**: fica atordoado por at\u00e9 2d6+3 rodadas.\n\n  * **9 DV a 12 DV**: fica atordoado por 1d6+1 rodadas.\n\n  * **13 DV ou mais**: n\u00e3o sofrer\u00e1 os efeitos desta magia.\n\nUm personagem atordoado por esta magia mant\u00e9m seus pontos de vida, mas n\u00e3o consegue realizar nenhuma atividade f\u00edsica como se mover, resistir, atacar ou conjurar magias, podendo falar apenas hesitantemente um m\u00e1ximo de 1d4+2 palavras por rodada.\n",
+    "fontes": [
+      {
+        "page": 124,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/palavra-sagrada.json"
+  },
+  {
+    "id": "partir-agua",
+    "type": "Spell",
+    "name": "Partir \u00c1gua",
+    "arcane": null,
+    "divine": 6,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.791-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Se diante de uma massa de \u00e1gua, o conjurador consegue separ\u00e1-la, abrindo um caminho seguro e seco para passagem. Essa passagem se fechar\u00e1 t\u00e3o logo termine a dura\u00e7\u00e3o da magia ou quando o conjurador assim desejar.\n",
+    "fontes": [
+      {
+        "page": 124,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/partir-agua.json"
+  },
+  {
+    "id": "passagem-secreta",
+    "type": "Spell",
+    "name": "Passagem Secreta",
+    "arcane": 7,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.817-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Esta magia cria uma passagem secreta e invis\u00edvel em uma parede, muro ou outra superf\u00edcie com at\u00e9 50 cent\u00edmetros de largura.\n\nO conjurador poder\u00e1 conjurar essa magia apenas uma vez por n\u00edvel, ou seja, ao utiliz\u00e1-la uma vez s\u00f3 poder\u00e1 fazer uso dela novamente ap\u00f3s subir um n\u00edvel na sua classe de conjurador. A passagem criada fica ativa at\u00e9 o conjurador usar esta magia novamente.\n",
+    "fontes": [
+      {
+        "page": 124,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/passagem-secreta.json"
+  },
+  {
+    "id": "patas-de-aranha",
+    "type": "Spell",
+    "name": "Patas de Aranha",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.844-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1 turno",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao alvo andar sobre as paredes ou tetos como se fossem um piso horizontal.  Nestas condi\u00e7\u00f5es, um teste de escalar n\u00e3o \u00e9 necess\u00e1rio e o alvo pode se deslocar com o seu movimento base sem nenhuma redu\u00e7\u00e3o, por\u00e9m os efeitos da gravidade ainda s\u00e3o sentidos, ou seja, objetos soltos nos bolsos ou na roupa do alvo podem se desprender e cair normalmente.\n",
+    "fontes": [
+      {
+        "page": 125,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/patas-de-aranha.json"
+  },
+  {
+    "id": "pedra-em-carne",
+    "type": "Spell",
+    "name": "Pedra em Carne",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.869-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Com esta magia, o conjurador consegue transformar peda\u00e7os de pedra em carne. Criaturas petrificadas podem ser restauradas, bem como seus equipamentos, com esta magia. Criaturas de pedra alvos desta magia, como um Golem de Pedra, podem realizar uma JP para negar os efeitos da magia ou ser\u00e3o destru\u00eddas.\n\n[Carne em Pedra] \u00e9 a vers\u00e3o reversa que permite petrificar um alvo assim como todo o seu equipamento. Uma JPS bem-sucedida pode negar os efeitos desta magia.\n",
+    "reverse_spell": {
+      "id": "carne-em-pedra",
+      "name": "Carne em Pedra",
+      "reverse_spell_url": "https://olddragon.com.br/magias/carne-em-pedra.json"
+    },
+    "fontes": [
+      {
+        "page": 125,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/pedra-em-carne.json"
+  },
+  {
+    "id": "pedra-em-lama",
+    "type": "Spell",
+    "name": "Pedra em Lama",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.925-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "especial",
+    "description": "Com esta magia, o conjurador consegue transformar 30 m\u00b2 de pedra em lama com 3 metros de profundidade, levando 3d6 dias para endurecer.  Criaturas que tentam atravessar a lama t\u00eam seu movimento reduzido \u00e0 metade do normal.  Criaturas de pedra que sejam alvos desta magia, como um Golem de Pedra, podem realizar uma JP para negar os efeitos da magia ou ser\u00e3o destru\u00eddas.\n\n[Lama em Pedra] \u00e9 a vers\u00e3o reversa que permite endurecer at\u00e9 3 m\u00b2 de lama em pedra permanentemente.\n",
+    "reverse_spell": {
+      "id": "lama-em-pedra",
+      "name": "Lama em Pedra",
+      "reverse_spell_url": "https://olddragon.com.br/magias/lama-em-pedra.json"
+    },
+    "fontes": [
+      {
+        "page": 125,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/pedra-em-lama.json"
+  },
+  {
+    "id": "penitencia",
+    "type": "Spell",
+    "name": "Penit\u00eancia",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.990-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Esta magia remove o fardo causado por pecados cometidos pelo alvo, mesmo se cometidos sem consci\u00eancia ou involuntariamente.\n\nEle deve estar efetivamente arrependido e buscando penit\u00eancia pelos seus atos, e deve aceitar a conjura\u00e7\u00e3o da magia sobre ele.\n\nEsta magia pode restaurar os poderes de Paladinos ca\u00eddos ou Cl\u00e9rigos que tenham perdido a conex\u00e3o com a sua f\u00e9.\n",
+    "fontes": [
+      {
+        "page": 126,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/penitencia.json"
+  },
+  {
+    "id": "percepcao-extrassensorial",
+    "type": "Spell",
+    "name": "Percep\u00e7\u00e3o Extrassensorial",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.015-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "12 turnos",
+    "jp": "nenhuma",
+    "description": "Concentrando-se por 1 minuto, o conjurador pode detectar e entender os pensamentos de outras criaturas dentro de um raio m\u00e1ximo de 18 metros, ainda que n\u00e3o compartilhem o mesmo idioma. A magia n\u00e3o pode penetrar mais de 60 cent\u00edmetros de pedra e \u00e9 bloqueada at\u00e9 mesmo pela mais fina folha de chumbo.\n\nSe mais de duas criaturas estiverem na \u00e1rea de efeito, o conjurador precisa concentrar-se um turno adicional para selecionar exatamente os pensamentos que deseja perceber.\n",
+    "fontes": [
+      {
+        "page": 126,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/percepcao-extrassensorial.json"
+  },
+  {
+    "id": "permanencia",
+    "type": "Spell",
+    "name": "Perman\u00eancia",
+    "arcane": 8,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.041-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia tem a habilidade de dar a qualquer magia arcana de 1\u00ba, 2\u00ba e 3\u00ba c\u00edrculos a dura\u00e7\u00e3o permanente. Esta magia n\u00e3o surte efeito em magias que originalmente possuem dura\u00e7\u00e3o instant\u00e2nea e nem nas que causem dano diretamente como Bola de Fogo ou Rel\u00e2mpago.\n",
+    "fontes": [
+      {
+        "page": 126,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/permanencia.json"
+  },
+  {
+    "id": "porta-dimensional",
+    "type": "Spell",
+    "name": "Porta Dimensional",
+    "arcane": 4,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-06-23T14:09:33.761-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPS nega",
+    "description": "Com esta magia, o conjurador abre um portal entre um local vis\u00edvel e outro tamb\u00e9m vis\u00edvel a no m\u00e1ximo 100 metros um do outro. O personagem sempre chega ao lugar desejado, desde que dentro do alcance da magia e caso consiga visualizar seu destino. O personagem pode levar pelo portal todo o equipamento que conseguir carregar, al\u00e9m de uma criatura de tamanho m\u00e9dio para cada 3 n\u00edveis do conjurador. Uma criatura grande equivale a duas criaturas m\u00e9dias. Todas as criaturas a serem transportadas devem estar em contato umas com as outras e, caso o alvo esteja sendo transportado \u00e0 for\u00e7a, pode realizar uma JPS para n\u00e3o ser transportado.\n",
+    "fontes": [
+      {
+        "page": 126,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/porta-dimensional.json"
+  },
+  {
+    "id": "portal",
+    "type": "Spell",
+    "name": "Portal",
+    "arcane": 8,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.092-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "1d4 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia abre uma fenda dimensional com outro plano de exist\u00eancia, permitindo ao personagem invocar um ser espec\u00edfico chamando pelo seu nome. Existe 1 chance em 1d6 de outra criatura aproveitar a oportunidade para ultrapassar o portal, bem como 1 chance em 1d6 do ser escolhido n\u00e3o se interessar pela invoca\u00e7\u00e3o.  Seres invocados atrav\u00e9s de um portal n\u00e3o ser\u00e3o necessariamente amistosos com o conjurador.\n",
+    "fontes": [
+      {
+        "page": 126,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/portal.json"
+  },
+  {
+    "id": "praga-de-insetos",
+    "type": "Spell",
+    "name": "Praga de Insetos",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.117-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "144 metros",
+    "duration": "1 dia",
+    "jp": "nenhuma",
+    "description": "Esta magia convoca uma tempestade de insetos de todos os tipos e formas sob o controle do conjurador. Esses insetos impedem a vis\u00e3o para al\u00e9m de 3 metros, destroem toda a vida vegetal por onde passam e trazem terror a pessoas e outras criaturas. A nuvem cobre aproximadamente uma \u00e1rea com raio de 24 metros. Qualquer criatura com 2 DV ou menos que entre na nuvem, deve fugir aterrorizada sem direito a uma Jogada de Prote\u00e7\u00e3o.\n\nA magia pode ser sustentada pelo conjurador por at\u00e9 um dia, e ser\u00e1 dissipada se o conjurador deixar de se concentrar nela.\n",
+    "fontes": [
+      {
+        "page": 126,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/praga-de-insetos.json"
+  },
+  {
+    "id": "profanar",
+    "type": "Spell",
+    "name": "Profanar",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:52.875-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "6 turnos",
+    "jp": "especial",
+    "description": "Uma b\u00ean\u00e7\u00e3o \u00e9 concedida pela divindade do conjurador, concedendo ao alvo tocado um b\u00f4nus de +1 nas jogadas de ataque e nas JPS a cada 3 n\u00edveis de conjurador.\n\n[Profanar] \u00e9 a vers\u00e3o reversa para personagens ca\u00f3ticos, concedendo uma penalidade de 1 nas jogadas de ataque e Jogadas de Prote\u00e7\u00e3o do alvo tocado. Uma JPS nega tais efeitos.\n",
+    "reverse_spell": {
+      "id": "abencoar",
+      "name": "Aben\u00e7oar",
+      "reverse_spell_url": "https://olddragon.com.br/magias/abencoar.json"
+    },
+    "fontes": [
+      {
+        "page": 105,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/profanar.json"
+  },
+  {
+    "id": "protecao-contra-alinhamento",
+    "type": "Spell",
+    "name": "Prote\u00e7\u00e3o contra Alinhamento",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.170-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "12 turnos",
+    "jp": "nenhuma",
+    "description": "Escolha um alinhamento. Esta magia cria uma barreira de prote\u00e7\u00e3o m\u00e1gica invis\u00edvel ao redor do conjurador, protegendo-o de criaturas do alinhamento escolhido.\n\n**Jogada de Prote\u00e7\u00e3o**: dentro da barreira de prote\u00e7\u00e3o, todas as Jogadas de Prote\u00e7\u00e3o contra efeitos oriundos do alinhamento escolhido s\u00e3o consideradas como teste f\u00e1cil.\n\n**Ataques**: criaturas do alinhamento escolhido que atacam o conjurador dentro da barreira realizam um ataque dif\u00edcil para atingi-lo.\n\nCriaturas invocadas, convocadas ou enfeiti\u00e7adas por conjurador do alinhamento escolhido n\u00e3o conseguem entrar dentro da barreira, mas ainda podem desferir ataques dif\u00edceis \u00e0 dist\u00e2ncia contra o conjurador.\n",
+    "fontes": [
+      {
+        "page": 127,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/protecao-contra-alinhamento.json"
+  },
+  {
+    "id": "protecao-contra-projeteis",
+    "type": "Spell",
+    "name": "Prote\u00e7\u00e3o contra Proj\u00e9teis",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.221-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "12 turnos",
+    "jp": "nenhuma",
+    "description": "O conjurador cria um campo invis\u00edvel repelente a proj\u00e9teis n\u00e3o m\u00e1gicos, como flechas, pedras de funda e virotes de bestas, al\u00e9m de armas arremessadas como adagas ou martelos.\n\nEsta magia n\u00e3o protege contra proj\u00e9teis grandes, como pedras arremessadas por um gigante ou muni\u00e7\u00e3o de uma catapulta.\n",
+    "fontes": [
+      {
+        "page": 128,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/protecao-contra-projeteis.json"
+  },
+  {
+    "id": "protecao-contra-temperatura",
+    "type": "Spell",
+    "name": "Prote\u00e7\u00e3o contra Temperatura",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.196-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia faz com que calor ou frio extremos se tornem inofensivos para o alvo. Temperaturas de -25\u00b0 a at\u00e9 55\u00b0 s\u00e3o percebidas como temperaturas amenas. Al\u00e9m disso, todas as Jogadas de Prote\u00e7\u00e3o para resistir a qualquer efeito m\u00e1gico ou n\u00e3o m\u00e1gico provenientes de frio ou calor extremos, como baforadas de drag\u00e3o ou bolas de fogo, reduzem o dano sofrido em 1 ponto por dado de dano recebido.\n\nDesta forma, um dano de 3d6, passar\u00e1 a causar 3d6-3 pontos de dano. J\u00e1 um dano de 2d4, passar\u00e1 a causar 2d4-2 de dano.\n",
+    "fontes": [
+      {
+        "page": 127,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/protecao-contra-temperatura.json"
+  },
+  {
+    "id": "proteger-fortalezas",
+    "type": "Spell",
+    "name": "Proteger Fortalezas",
+    "arcane": 6,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.143-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "especial",
+    "description": "Esta magia \u00e9 utilizada para proteger uma fortaleza, abrangendo uma \u00e1rea de at\u00e9 200 m\u00b2 por n\u00edvel de conjurador, e at\u00e9 8 metros de altura.  Os diversos andares de uma fortaleza podem ser protegidos com magias diferentes, e o efeito dessa prote\u00e7\u00e3o \u00e9 determinado pelo seu conjurador:\n\n  * **Neblina**: preenche todos os corredores, obscurecendo a vis\u00e3o al\u00e9m de 2 metros. Uma criatura no meio da neblina e a mais de 2 metros de dist\u00e2ncia \u00e9 um alvo dif\u00edcil de ser atingido em um ataque.\n\n  * **Trancas m\u00e1gicas**: todas as portas na \u00e1rea est\u00e3o sob o efeito da magia Trancar.\n\n  * **Teias**: ocupam todas as escadas do local, com funcionamento semelhante ao da magia Teia.  Mesmo queimadas, as teias crescem novamente em 10 minutos.\n\n  * **Confus\u00e3o**: em todos os lugares em que houver uma escolha a ser feita \u2013 cruzamentos de corredores, por exemplo \u2013 as criaturas ser\u00e3o afetadas por uma confus\u00e3o mental que d\u00e1 1-3 chances em 1d6 de acreditarem que est\u00e3o seguindo na dire\u00e7\u00e3o errada. JPS nega esse efeito.\n\n  * **Portas secretas**: uma porta para cada n\u00edvel do conjurador \u00e9 coberta por uma ilus\u00e3o que faz com que seja igual a uma parede. Essa magia impede que a porta secreta seja localizada inclusive por elfos.\n",
+    "fontes": [
+      {
+        "page": 127,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/proteger-fortalezas.json"
+  },
+  {
+    "id": "purificar-alimentos",
+    "type": "Spell",
+    "name": "Purificar Alimentos",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.255-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia purifica comida e \u00e1gua suficiente para doze pessoas durante um dia, removendo apodrecimento, venenos, contamina\u00e7\u00f5es ou qualquer outro efeito negativo n\u00e3o m\u00e1gico.\n",
+    "fontes": [
+      {
+        "page": 128,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/purificar-alimentos.json"
+  },
+  {
+    "id": "queda-suave",
+    "type": "Spell",
+    "name": "Queda Suave",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.291-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "10 metros/n\u00edvel",
+    "duration": "1 rodada/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia faz com que alvos em queda livre caiam lentamente at\u00e9 o ch\u00e3o, numa velocidade segura de 20 metros por rodada, ou seja, lenta o suficiente para n\u00e3o causar dano.\n\nEsta magia pode ser conjurada com um gatilho formado por um gesto ou palavra \u00fanica, algo r\u00e1pido o suficiente para conjur\u00e1-la at\u00e9 mesmo no meio de uma queda inesperada e sem gastar movimento ou a\u00e7\u00e3o durante um combate.\n\nObjetos arremessados ou disparados como pedras, flechas ou adagas podem ser alvo de uma Queda Suave se pesarem at\u00e9 100 kg para cada 5 n\u00edveis do conjurador.\n\nComo esta magia atua apenas em objetos em queda livre, n\u00e3o \u00e9 poss\u00edvel conjur\u00e1-la para interromper voos ou para prejudicar ataques de armas corpo a corpo ou rasantes de criaturas voadoras.\n",
+    "fontes": [
+      {
+        "page": 128,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/queda-suave.json"
+  },
+  {
+    "id": "recipiente-arcano",
+    "type": "Spell",
+    "name": "Recipiente Arcano",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.319-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "especial",
+    "jp": "especial",
+    "description": "O conjurador cria um recipiente arcano contendo sua pr\u00f3pria for\u00e7a vital, podendo ser usado para possuir o corpo de outras criaturas. O recipiente deve ser um objeto inanimado e deve estar a at\u00e9 9 metros de dist\u00e2ncia do conjurador.\n\nDurante a transfer\u00eancia o conjurador entra num estado de transe, pr\u00f3ximo a um coma, e n\u00e3o \u00e9 capaz de se defender ou de realizar qualquer outra a\u00e7\u00e3o. Se o corpo do conjurador for destru\u00eddo, a sua for\u00e7a vital fica presa no recipiente at\u00e9 conseguir realizar uma possess\u00e3o. Se o recipiente for destru\u00eddo nesta fase, o conjurador morre imediatamente.\n\n  * **Possuindo**: quando a for\u00e7a vital do conjurador estiver no recipiente, o conjurador pode tentar possuir o corpo de outra criatura a at\u00e9 36 metros do recipiente. A v\u00edtima pode realizar uma JPS para negar a possess\u00e3o.  Se bem-sucedida, fica imune a uma nova possess\u00e3o por um turno. Se falhar, o conjurador consegue possuir o corpo da v\u00edtima pelo tempo desejado por ele, retornando sua for\u00e7a vital para seu pr\u00f3prio corpo no final do processo.\n\n  * **Possu\u00eddo**: o conjurador passa a controlar totalmente o corpo da v\u00edtima ap\u00f3s possu\u00ed-lo, mas n\u00e3o conseguir\u00e1 conjurar magias durante uma possess\u00e3o. Se o recipiente \u00e9 destru\u00eddo durante a possess\u00e3o, a for\u00e7a vital do conjurador fica presa no corpo possu\u00eddo, mas, se o corpo possu\u00eddo morrer, a for\u00e7a vital migra para o recipiente. Se ambos forem destru\u00eddos ao mesmo tempo, o conjurador morre imediatamente.\n",
+    "fontes": [
+      {
+        "page": 128,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/recipiente-arcano.json"
+  },
+  {
+    "id": "reflexos",
+    "type": "Spell",
+    "name": "Reflexos",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.345-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "A magia cria 1d4+1 reflexos do conjurador, que, como espelhos, agem em perfeita sincronia com ele. Os atacantes n\u00e3o podem distinguir os reflexos do original, podendo atacar uma das imagens ao inv\u00e9s do conjurador verdadeiro. Em caso de sucesso no ataque, haver\u00e1 1-3 chances em 1d6 do alvo atingido ser o reflexo. Caso o ataque seja direcionado a uma \u00e1rea na qual estejam tanto o conjurador quanto o seu reflexo, essa jogada \u00e9 dispensada.  Um reflexo atingido \u00e9 imediatamente dissipado.\n",
+    "fontes": [
+      {
+        "page": 129,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/reflexos.json"
+  },
+  {
+    "id": "relampago",
+    "type": "Spell",
+    "name": "Rel\u00e2mpago",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.372-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "54 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPD reduz",
+    "description": "Apontando o dedo para um alvo, o conjurador emite um raio de sua m\u00e3o causando 1d8 pontos de dano +1d8 de dano para cada 2 n\u00edveis do conjurador at\u00e9 um m\u00e1ximo de 10d8. O rel\u00e2mpago ricochetear\u00e1 no primeiro alvo e atingir\u00e1 outra criatura \u00e0 escolha do conjurador (desde que esta criatura esteja a at\u00e9 6 metros de dist\u00e2ncia do primeiro alvo), recebendo 1d6 pontos de dano +1d6 pontos de dano a cada 2 n\u00edveis de conjurador at\u00e9 um m\u00e1ximo de 10d6. O rel\u00e2mpago poder\u00e1 ainda atingir uma terceira criatura \u00e0 escolha do conjurador (desde que esteja a at\u00e9 6 metros de dist\u00e2ncia da segunda criatura atingida), e receber\u00e1 1d4 pontos de dano a cada 2 n\u00edveis de conjurador at\u00e9 um m\u00e1ximo de 10d4. Uma JPD reduz o dano desta magia pela metade.\n",
+    "fontes": [
+      {
+        "page": 129,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/relampago.json"
+  },
+  {
+    "id": "remover-maldicao",
+    "type": "Spell",
+    "name": "Remover Maldi\u00e7\u00e3o",
+    "arcane": null,
+    "divine": 4,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.398-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "Esta magia remove instantaneamente todas as maldi\u00e7\u00f5es impostas sobre uma criatura ou objeto.  Esta magia n\u00e3o remove maldi\u00e7\u00e3o de armas ou armaduras m\u00e1gicas, mas permite que a criatura usando um desses itens consiga se desfazer deles e dos efeitos que ainda recaiam sobre si.\n\nCertas maldi\u00e7\u00f5es exigem um determinado n\u00edvel do conjurador para serem removidas e, nesses casos, a n\u00e3o ser que esse requisito seja cumprido, o Remover Maldi\u00e7\u00e3o n\u00e3o funcionar\u00e1.\n\n[Amaldi\u00e7oar] \u00e9 a vers\u00e3o reversa e ca\u00f3tica impondo uma maldi\u00e7\u00e3o a uma v\u00edtima que n\u00e3o seja bem-sucedida numa JPS. O alvo amaldi\u00e7oado pode sofrer de um dos quatro efeitos poss\u00edveis, a escolha do conjurador:\n\n  * **Vulnerabilidade do Corpo**: o alvo perde 2 pontos na sua Classe de Armadura;\n\n  * **Fluidez da Mem\u00f3ria**: conjuradores possuem 1-2 chances em 1d6 de se esquecer de qualquer magia que forem conjurar antes desta ser conjurada.\n\n  * **Fraqueza da Alma**: o alvo perde metade dos seus pontos de Constitui\u00e7\u00e3o e dos poss\u00edveis pontos de vida extras que um alto valor de Constitui\u00e7\u00e3o pode conceder.\n\n  * **Inefici\u00eancia da Precis\u00e3o**: todo ataque do alvo \u00e9 um teste dif\u00edcil.\n\nUma maldi\u00e7\u00e3o mant\u00e9m seus efeitos at\u00e9 ser removida por uma magia Remover Maldi\u00e7\u00f5es.\n",
+    "reverse_spell": {
+      "id": "amaldicoar",
+      "name": "Amaldi\u00e7oar",
+      "reverse_spell_url": "https://olddragon.com.br/magias/amaldicoar.json"
+    },
+    "fontes": [
+      {
+        "page": 129,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/remover-maldicao.json"
+  },
+  {
+    "id": "remover-medo",
+    "type": "Spell",
+    "name": "Remover Medo",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.454-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia tem dois efeitos: anular permanentemente qualquer efeito de medo (oriundo de magia ou n\u00e3o) que esteja incidindo no alvo; ou conceder aos alvos o benef\u00edcio de realizar testes muito f\u00e1ceis de JPS para negar efeitos de medo por 1 turno.\n\nO segundo efeito s\u00f3 ser\u00e1 poss\u00edvel se o alvo n\u00e3o estiver previamente sob efeito de qualquer tipo de medo.\n\nEsta magia afeta uma criatura tocada para cada 4 n\u00edveis do conjurador.\n",
+    "fontes": [
+      {
+        "page": 129,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/remover-medo.json"
+  },
+  {
+    "id": "remover-missao",
+    "type": "Spell",
+    "name": "Remover Miss\u00e3o",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:55.513-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "toque",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Esta magia obriga um alvo a realizar uma miss\u00e3o \u00e0 escolha do conjurador. Uma JPS nega esse efeito no alvo. Se o alvo se desviar da miss\u00e3o ou se negar a cumpri-la, ser\u00e1 acometido de uma maldi\u00e7\u00e3o que drena 1 ponto de For\u00e7a por dia at\u00e9 que volte a se empenhar na conclus\u00e3o da miss\u00e3o. Se chegar \u00e0 For\u00e7a 0, o alvo morrer\u00e1 imediatamente.\n\n[Remover Miss\u00e3o] \u00e9 a vers\u00e3o reversa que permite ao conjurador remover qualquer efeito de uma Miss\u00e3o conjurada em um alvo. Para surtir efeito, o conjurador precisa ter ao menos 2 n\u00edveis a mais que o conjurador da magia Miss\u00e3o original.\n",
+    "reverse_spell": {
+      "id": "missao",
+      "name": "Miss\u00e3o",
+      "reverse_spell_url": "https://olddragon.com.br/magias/missao.json"
+    },
+    "fontes": [
+      {
+        "page": 122,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/remover-missao.json"
+  },
+  {
+    "id": "resistir-a-energia",
+    "type": "Spell",
+    "name": "Resistir \u00e0 Energia",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.480-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "6 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia confere ao alvo prote\u00e7\u00e3o limitada contra um tipo espec\u00edfico de energia (\u00e1cido, frio, eletricidade, fogo, s\u00f4nico etc.). Toda JP de um alvo desta magia contra a energia selecionada \u00e9 considerada f\u00e1cil.\n\nA magia tamb\u00e9m protege o equipamento do alvo.  Esta magia amplia apenas os efeitos da resist\u00eancia contra a energia. Outros efeitos secund\u00e1rios, como o gelo escorregadio, permanecem ativos.\n",
+    "fontes": [
+      {
+        "page": 130,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/resistir-a-energia.json"
+  },
+  {
+    "id": "respirar-na-agua",
+    "type": "Spell",
+    "name": "Respirar na \u00c1gua",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.506-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "9 metros",
+    "duration": "24 horas",
+    "jp": "nenhuma",
+    "description": "Todos os alvos dentro do alcance desta magia poder\u00e3o respirar dentro da \u00e1gua pelas pr\u00f3ximas 24 horas. Esta magia n\u00e3o afeta a capacidade das pessoas de respirar normalmente ao sa\u00edrem da \u00e1gua e n\u00e3o confere qualquer habilidade para nadar ou se deslocar dentro da \u00e1gua.\n",
+    "fontes": [
+      {
+        "page": 130,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/respirar-na-agua.json"
+  },
+  {
+    "id": "restauracao",
+    "type": "Spell",
+    "name": "Restaura\u00e7\u00e3o",
+    "arcane": null,
+    "divine": 7,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.531-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Esta magia concede ao conjurador a habilidade de restaurar 1d4 n\u00edveis e pontos de atributos perdidos no alvo tocado. Pontos de Constitui\u00e7\u00e3o perdidos devido \u00e0 Reviver Mortos n\u00e3o s\u00e3o recuperados com esta magia.\n",
+    "fontes": [
+      {
+        "page": 130,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/restauracao.json"
+  },
+  {
+    "id": "reverter-gravidade",
+    "type": "Spell",
+    "name": "Reverter Gravidade",
+    "arcane": 7,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.560-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "5 metros/n\u00edvel",
+    "duration": "1 rodada/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia faz com que tudo dentro do alcance da magia \u201ccaia\u201d para cima. Objetos soltos, pessoas, criaturas, tudo sobe ao teto como se estivesse caindo. O dano normal para queda deve ser aplicado. Objetos fr\u00e1geis se quebrar\u00e3o no processo como se fossem no ch\u00e3o. Com o fim da magia, todos cair\u00e3o novamente ao solo, recebendo mais uma vez o dano de queda.\n",
+    "fontes": [
+      {
+        "page": 130,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/reverter-gravidade.json"
+  },
+  {
+    "id": "reviver-mortos",
+    "type": "Spell",
+    "name": "Reviver Mortos",
+    "arcane": null,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.585-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao conjurador trazer um alvo de volta \u00e0 vida, desde que esteja de posse do cad\u00e1ver intacto e que o alvo n\u00e3o tenha morrido h\u00e1 mais de 5 dias. Ser trazido de volta \u00e0 vida desta forma faz com que 1d6 pontos de Constitui\u00e7\u00e3o sejam perdidos, sem possibilidade de restaura\u00e7\u00e3o.  Alvos revividos, para se recuperarem do trauma da magia, precisam de 1 dia de repouso por ponto de Constitui\u00e7\u00e3o perdido. Durante este tempo de recupera\u00e7\u00e3o, o alvo revivido fica em um estado semelhante ao coma, totalmente desacordado.\n",
+    "fontes": [
+      {
+        "page": 130,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/reviver-mortos.json"
+  },
+  {
+    "id": "roupa-encantada",
+    "type": "Spell",
+    "name": "Roupa Encantada",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.611-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia encanta a roupa do conjurador, aumentando a sua classe de armadura.  O conjurador recebe um b\u00f4nus de +2 na CA e um b\u00f4nus de +1 a cada 3 n\u00edveis acima do n\u00edvel 5. Esse b\u00f4nus \u00e9 cumulativo com o b\u00f4nus de armadura normal do conjurador.\n",
+    "fontes": [
+      {
+        "page": 130,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/roupa-encantada.json"
+  },
+  {
+    "id": "santuario",
+    "type": "Spell",
+    "name": "Santu\u00e1rio",
+    "arcane": null,
+    "divine": 1,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.637-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "1 turno + 1/n\u00edvel",
+    "jp": "JPS nega",
+    "description": "Esta magia cria uma aura de prote\u00e7\u00e3o no conjurador.  Todos que desejarem atacar o conjurador, devem realizar uma JPS. Caso falhem, n\u00e3o conseguir\u00e3o atac\u00e1-lo, ignorando sua presen\u00e7a at\u00e9 o final do efeito da magia.\n\nSantu\u00e1rio n\u00e3o protege do efeito de magias de \u00e1rea, e perde o efeito (dissipando-se) caso o conjurador ataque ou conjure magias de ataque.\n",
+    "fontes": [
+      {
+        "page": 131,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/santuario.json"
+  },
+  {
+    "id": "silencio",
+    "type": "Spell",
+    "name": "Sil\u00eancio",
+    "arcane": null,
+    "divine": 2,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.662-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "54 metros",
+    "duration": "12 turnos",
+    "jp": "nenhuma",
+    "description": "Um sil\u00eancio m\u00e1gico cai sobre uma \u00e1rea de 4,5 metros de raio ao redor do alvo, ou objeto alvo, movendo-se com ele. Nenhum barulho emitido dentro da \u00e1rea pode ser ouvido al\u00e9m de seus limites, n\u00e3o importa o qu\u00e3o alto for. N\u00e3o \u00e9 poss\u00edvel conjurar magias dentro de uma \u00e1rea sob o efeito da magia Sil\u00eancio.\n",
+    "fontes": [
+      {
+        "page": 131,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/silencio.json"
+  },
+  {
+    "id": "simbolo",
+    "type": "Spell",
+    "name": "S\u00edmbolo",
+    "arcane": 8,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.687-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "especial",
+    "duration": "especial",
+    "jp": "nenhuma",
+    "description": "Esta magia cria uma runa m\u00e1gica similar a uma escrita que pode ser instalada em um objeto como uma porta, muro, passagem ou ainda flutuando, mas de forma fixa, em pleno ar. Quando uma criatura viva (que n\u00e3o seja o pr\u00f3prio conjurador) passar pelo s\u00edmbolo ou tocar o objeto onde o s\u00edmbolo est\u00e1 instalado, o s\u00edmbolo \u00e9 ativado imediatamente.\n\nUma vez instalado, \u00e9 imposs\u00edvel mudar o tipo do s\u00edmbolo ou a sua localiza\u00e7\u00e3o. \u00c9 preciso escolh\u00ea-lo durante a conjura\u00e7\u00e3o da magia. Os s\u00edmbolos mais conhecidos s\u00e3o:\n\n  * **S\u00edmbolo da Morte**: mata imediatamente qualquer criatura com menos de 10 DV, sem direito a nenhuma JP. Nada acontece com alvos de 10 DV ou mais.\n\n  * **S\u00edmbolo da Disc\u00f3rdia**: causa os mesmos efeitos da magia Confus\u00e3o, sem direito a nenhuma JP. Esta condi\u00e7\u00e3o \u00e9 permanente ou at\u00e9 ser removida.\n\n  * **S\u00edmbolo do Medo**: causa os mesmos efeitos da magia Medo, sem direito a nenhuma JP.\n\n  * **S\u00edmbolo da Loucura**: causa insanidade na v\u00edtima que age desconexa com a realidade.  Ela n\u00e3o pode atacar, conjurar magias, usar habilidades de ra\u00e7a ou classe e deve ser vigiada de perto para n\u00e3o causar problemas ou mesmo desaparecer. Esta condi\u00e7\u00e3o \u00e9 permanente ou at\u00e9 ser removida.\n\n  * **S\u00edmbolo do Atordoamento**: atordoa imediatamente qualquer criatura com menos de 10 DV, sem direito a nenhuma JP. Nada acontece com alvos de 10 DV ou mais. Causa os mesmos efeitos da magia Palavra do Poder: Atordoar. \n\n  * **S\u00edmbolo do Sono**: adormece imediatamente qualquer criatura com menos de 10 DV, sem direito a nenhuma JP. Nada acontece com alvos de 10 DV ou mais. Causa os mesmos efeitos da magia Sono, mas com dura\u00e7\u00e3o de 1d10+10 horas.\n",
+    "fontes": [
+      {
+        "page": 131,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/simbolo.json"
+  },
+  {
+    "id": "simbolo-de-protecao",
+    "type": "Spell",
+    "name": "S\u00edmbolo de Prote\u00e7\u00e3o",
+    "arcane": null,
+    "divine": 3,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.712-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "O S\u00edmbolo de Prote\u00e7\u00e3o cria um gatilho de ativa\u00e7\u00e3o condicional em uma passagem ou objeto, protegendo-o de alvos que n\u00e3o supram os requisitos para acess\u00e1-lo (como uma determinada ra\u00e7a, classe, alinhamento, religi\u00e3o ou senha secreta). Os efeitos do acesso n\u00e3o permitido devem ser dados por outra magia conjurada em conjunto com S\u00edmbolo de Prote\u00e7\u00e3o, ou, caso n\u00e3o use nenhuma outra magia, 1d4 de dano por n\u00edvel do conjurador que instalou o s\u00edmbolo.\n",
+    "fontes": [
+      {
+        "page": 131,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/simbolo-de-protecao.json"
+  },
+  {
+    "id": "simulacro",
+    "type": "Spell",
+    "name": "Simulacro",
+    "arcane": 7,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.738-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "O conjurador cria uma c\u00f3pia de si pr\u00f3prio, ou de outro alvo tocado, a partir de um boneco feito de qualquer material s\u00f3lido o suficiente para resistir ao ritual. O boneco ent\u00e3o \u00e9 encantado e toma formas semelhantes \u00e0s do alvo, sendo ao mesmo tempo muito parecido com o original, mas nitidamente diferente, caso comparados lado a lado.\n\nO simulacro \u00e9 uma criatura m\u00e1gica podendo ser detectada por meio de magia e \u00e9 quase id\u00eantica ao alvo, com os poderes equivalentes a uma criatura com 1/4 dos n\u00edveis do original + 1 n\u00edvel. Ou seja, um simulacro de uma criatura com 8 DV possui apenas 3 DV.\n\nO simulacro n\u00e3o copia poderes m\u00e1gicos, embora consiga emular poderes raciais e de classe, respeitando a limita\u00e7\u00e3o de n\u00edveis.\n",
+    "fontes": [
+      {
+        "page": 132,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/simulacro.json"
+  },
+  {
+    "id": "som-ilusorio",
+    "type": "Spell",
+    "name": "Som Ilus\u00f3rio",
+    "arcane": null,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": 1,
+    "updated_at": "2023-05-31T22:12:56.765-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "9 metros +1/n\u00edvel",
+    "duration": "especial",
+    "jp": "JPS nega",
+    "description": "Enquanto mantiver sua concentra\u00e7\u00e3o, o conjurador cria uma ilus\u00e3o sonora de qualquer barulho, fala ou som, j\u00e1 ouvida anteriormente por ele. O som ilus\u00f3rio pode se mover, aumentar ou diminuir de volume, e o conjurador pode control\u00e1-lo enquanto concentrado. Uma JPS nega os efeitos.\n",
+    "fontes": [
+      {
+        "page": 132,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/som-ilusorio.json"
+  },
+  {
+    "id": "sono",
+    "type": "Spell",
+    "name": "Sono",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.790-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "4d4 turnos",
+    "jp": "nenhuma",
+    "description": "Esta magia coloca inimigos em um sono encantado, sem direito a uma Jogada de Prote\u00e7\u00e3o.  Ela afeta criaturas baseada em seus dados de vida, afetando 1d4+1 DV para cada 5 n\u00edveis do conjurador. As primeiras criaturas afetadas s\u00e3o sempre as com menos dados de vida dentro do alcance da magia. Dados de vida remanescentes ap\u00f3s a contagem s\u00e3o desperdi\u00e7ados.\n\nCriaturas adormecidas por esta magia permanecem dormindo at\u00e9 o final de sua dura\u00e7\u00e3o, ou at\u00e9 serem acordadas. S\u00e3o atacadas como se estivessem indefesas e despertar\u00e3o ap\u00f3s levarem o dano.\n",
+    "fontes": [
+      {
+        "page": 132,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/sono.json"
+  },
+  {
+    "id": "teia",
+    "type": "Spell",
+    "name": "Teia",
+    "arcane": 2,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.819-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros",
+    "duration": "48 turnos",
+    "jp": "nenhuma",
+    "description": "Teias fibrosas e grudentas preenchem uma \u00e1rea de at\u00e9 3 x 3 x 6 metros, tornando essa \u00e1rea extremamente dif\u00edcil de ser atravessada. Ser\u00e1 considerada enredada qualquer pessoa que entrar numa \u00e1rea preenchida por essa magia, al\u00e9m de n\u00e3o poder realizar nenhuma outra a\u00e7\u00e3o f\u00edsica que n\u00e3o seja tentar se desvencilhar da teia.\n\n**Desvencilhar**: para se desvencilhar \u00e9 necess\u00e1rio ser bem-sucedido em um teste de For\u00e7a [D].\n\n**Inflam\u00e1vel**: a teia \u00e9 um material altamente inflam\u00e1vel, podendo queimar totalmente em duas rodadas. Criaturas presas na teia recebem 1d6 de dano por rodada.\n",
+    "fontes": [
+      {
+        "page": 132,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/teia.json"
+  },
+  {
+    "id": "telecinesia",
+    "type": "Spell",
+    "name": "Telecinesia",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.845-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "36 metros",
+    "duration": "6 rodadas",
+    "jp": "JPS nega",
+    "description": "O conjurador \u00e9 capaz de erguer e mover objetos ou criaturas apenas com o poder da sua mente, enquanto concentrado. Se perder a concentra\u00e7\u00e3o ou levar dano, a magia se dissipar\u00e1 imediatamente.\n\nA quantidade de peso que pode ser movida (com movimento 6) \u00e9 de at\u00e9 10 kg por n\u00edvel do conjurador.  Este tamb\u00e9m \u00e9 capaz de arremessar o que est\u00e1 sendo erguido, desde que tenha no m\u00e1ximo \u00bc do peso permitido, a at\u00e9 15 metros de dist\u00e2ncia.  O alvo desta magia pode realizar uma JPS para negar seus efeitos.\n",
+    "fontes": [
+      {
+        "page": 132,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/telecinesia.json"
+  },
+  {
+    "id": "teleporte",
+    "type": "Spell",
+    "name": "Teleporte",
+    "arcane": 5,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.870-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "3 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPS nega",
+    "description": "Esta magia transporta o conjurador e/ou outro personagem tocado, junto dos seus equipamentos, at\u00e9 um destino determinado pelo conjurador e sem limite de dist\u00e2ncia, desde que no mesmo plano de exist\u00eancia. Teleporte possui uma chance de ser bem-sucedido e o conhecimento do conjurador sobre o local influencia fortemente o resultado, mas pode produzir resultados catastr\u00f3ficos:\n\n  * **Conhecimento Exato**: o conjurador j\u00e1 esteve no local, conhece detalhadamente ou fez previamente um estudo minucioso do destino.  Chance de 1-5 em 1d6.\n\n  * **Conhecimento M\u00e9dio**: o conjurador nunca esteve no local, mas sabe onde fica e como chegar l\u00e1, ou ent\u00e3o estudou por mapas ou outra forma de visualiza\u00e7\u00e3o. Chance de 1-3 em 1d6.\n\n  * **Conhecimento Fraco**: o conjurador n\u00e3o sabe onde o destino fica e nem como chegar at\u00e9 l\u00e1, no m\u00e1ximo ouviu descri\u00e7\u00f5es sobre o lugar.  Chance de 1-2 em 1d6.\n\nEm caso de sucesso no teste, o teleporte ocorre no n\u00edvel do solo, sem problemas e no local pretendido pelo conjurador.\n\n**Falha no teste**: caso o teste n\u00e3o seja bem-sucedido, lance um dado para cada situa\u00e7\u00e3o... \n\nchance de **1-4 em 1d6** do destino estar errado at\u00e9 1d6 + 4 km em qualquer dire\u00e7\u00e3o;\n\nchance de **1-2 em 1d6** do destino estar 1d10 x 3 m acima do n\u00edvel do solo, podendo resultar em dano por queda;\n\nchance de **1 em 1d6** do destino estar abaixo do n\u00edvel do solo, resultando em morte imediata.\n\nO alvo desta magia pode realizar uma JPS para negar seus efeitos.\n",
+    "fontes": [
+      {
+        "page": 133,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/teleporte.json"
+  },
+  {
+    "id": "tempestade-glacial",
+    "type": "Spell",
+    "name": "Tempestade Glacial",
+    "arcane": 4,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.897-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "JPD reduz",
+    "description": "Esta magia cria um v\u00f3rtice c\u00f4nico de gelo e neve com 6 metros de di\u00e2metro, causando 1d6 de dano por frio a todas as criaturas dentro da tempestade. Adicionalmente, a tempestade expele granizo em todas as dire\u00e7\u00f5es, causando um dano adicional de 1d6 (devido os estilha\u00e7os de gelo expelidos) em quem estiver at\u00e9 6 metros de dist\u00e2ncia do centro da tempestade. Uma JPD reduz o dano pela metade.\n",
+    "fontes": [
+      {
+        "page": 134,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/tempestade-glacial.json"
+  },
+  {
+    "id": "terremoto",
+    "type": "Spell",
+    "name": "Terremoto",
+    "arcane": null,
+    "divine": 7,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.924-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "O conjurador sacode o solo, mais precisamente um raio de 15 metros + 1 metro/n\u00edvel, fazendo-o tremer como se fosse um grande terremoto.  Fissuras no solo s\u00e3o abertas, rios transbordam, encostas caem, montanhas deslizam, avalanches de neve s\u00e3o formadas, etc. H\u00e1 uma chance de 1-5 em 1d6 de constru\u00e7\u00f5es pequenas e fr\u00e1geis serem reduzidas a escombros, e uma chance de 1-2 em 1d6 de constru\u00e7\u00f5es resistentes terem o mesmo fim.\n\nCriaturas na \u00e1rea de um terremoto precisam de sucesso numa JPD para se manterem de p\u00e9 e se deslocarem a um ter\u00e7o de sua movimenta\u00e7\u00e3o normal. H\u00e1 ainda 1 chance em 1d6 de uma fenda na terra se abrir e engolir qualquer criatura na \u00e1rea de efeito.\n\nCriaturas alvos de uma fenda podem realizar um JPD para se segurar em qualquer coisa, anulando assim a queda e a morte.\n",
+    "fontes": [
+      {
+        "page": 134,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/terremoto.json"
+  },
+  {
+    "id": "toque-sombrio",
+    "type": "Spell",
+    "name": "Toque Sombrio",
+    "arcane": null,
+    "divine": null,
+    "necromancer": 1,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.949-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "instant\u00e2nea",
+    "jp": "especial",
+    "description": "O conjurador bem-sucedido em um ataque de toque contra um alvo vivo faz com que este perca 1d4 pontos de vida. Adicionalmente, o alvo tem 1-3 chances em 1d6 de perder 1 ponto de For\u00e7a caso n\u00e3o seja bem-sucedido em uma JPC.\n\nUm alvo reduzido a zero pontos de For\u00e7a morre imediatamente.\n",
+    "fontes": [
+      {
+        "page": 135,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/toque-sombrio.json"
+  },
+  {
+    "id": "trancar",
+    "type": "Spell",
+    "name": "Trancar",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:52.962-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "permanente",
+    "jp": "nenhuma",
+    "description": "Esta magia pode ser utilizada para dar acesso a qualquer objeto fechado, trancado (mesmo \u00e0 chave) ou emperrado pela dura\u00e7\u00e3o da magia (ou at\u00e9 ser dissipada).\n\n[Trancar] \u00e9 a vers\u00e3o reversa que permite trancar um acesso a qualquer objeto aberto.\n",
+    "reverse_spell": {
+      "id": "abrir",
+      "name": "Abrir",
+      "reverse_spell_url": "https://olddragon.com.br/magias/abrir.json"
+    },
+    "fontes": [
+      {
+        "page": 105,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/trancar.json"
+  },
+  {
+    "id": "velocidade",
+    "type": "Spell",
+    "name": "Velocidade",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:54.979-03:00",
+    "reverse": true,
+    "access": "complete",
+    "range": "72 metros",
+    "duration": "3 turnos",
+    "jp": "JPC evita",
+    "description": "Todos dentro de uma \u00e1rea de 6 x 6 metros que n\u00e3o passarem em uma JPC ficam lentos. Os deslocamentos ficam reduzidos pela metade.  Os ataques deferidos pelo alvo s\u00e3o dif\u00edceis e os contra o alvo, f\u00e1ceis.\n\n[Velocidade] \u00e9 a vers\u00e3o reversa na qual acelera extremamente o metabolismo de at\u00e9 1 criatura tocada para cada 3 n\u00edveis do conjurador, concedendo ao alvo uma movimenta\u00e7\u00e3o acima do normal. Os deslocamentos ficam multiplicados por dois. Os ataques deferidos pelo alvo s\u00e3o f\u00e1ceis e os contra o alvo, dif\u00edceis. Al\u00e9m disso, o alvo recebe um ataque extra por rodada. A acelera\u00e7\u00e3o \u00e9 prejudicial ao organismo do alvo, envelhecendo-o 10% da idade atual.\n",
+    "reverse_spell": {
+      "id": "lentidao",
+      "name": "Lentid\u00e3o",
+      "reverse_spell_url": "https://olddragon.com.br/magias/lentidao.json"
+    },
+    "fontes": [
+      {
+        "page": 119,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/velocidade.json"
+  },
+  {
+    "id": "ventriloquismo",
+    "type": "Spell",
+    "name": "Ventriloquismo",
+    "arcane": 1,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:56.975-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "18 metros",
+    "duration": "2 turnos",
+    "jp": "nenhuma",
+    "description": "Qualquer som produzido com a boca pelo conjurador, e em qualquer l\u00edngua conhecida por ele, \u00e9 transferido para outra pessoa ou objeto dentro do alcance da magia.\n",
+    "fontes": [
+      {
+        "page": 135,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/ventriloquismo.json"
+  },
+  {
+    "id": "visao",
+    "type": "Spell",
+    "name": "Vis\u00e3o",
+    "arcane": 7,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:57.003-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "instant\u00e2nea",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao conjurador se concentrar em um local tranquilo e obter respostas de uma pergunta em forma de uma vis\u00e3o enviada por uma entidade superior.\n\nA qualidade da revela\u00e7\u00e3o da vis\u00e3o est\u00e1 ligada \u00e0 como a entidade se sentir\u00e1 com a pergunta do conjurador. O Mestre deve lan\u00e7ar em segredo 1d6 e montar a vis\u00e3o de resposta de acordo com o resultado:\n\n  * **1**: A entidade se sente ultrajada e revela uma vis\u00e3o falsa com informa\u00e7\u00f5es falsas e desconexas.\n\n  * **2**: A entidade se sente desrespeitada com a frivolidade da quest\u00e3o e ignora o conjurador.\n\n  * **3-5**: A entidade se mostra indiferente, mas envia uma vis\u00e3o menor e interpretativa.\n\n  * **6**: A entidade se sente compelida a ajudar e envia uma vis\u00e3o reveladora.\n",
+    "fontes": [
+      {
+        "page": 135,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/visao.json"
+  },
+  {
+    "id": "visao-da-verdade",
+    "type": "Spell",
+    "name": "Vis\u00e3o da Verdade",
+    "arcane": 6,
+    "divine": 5,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-12-31T16:16:15.792-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "pessoal",
+    "duration": "1d4 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia permite ao conjurador ver dentro de um raio de 36 metros as coisas como elas realmente s\u00e3o. O conjurador fica imune a ilus\u00f5es, escurid\u00f5es m\u00e1gicas ou normais; enxerga criaturas e objetos invis\u00edveis como se fossem vis\u00edveis e tamb\u00e9m portas secretas ou camufladas; visualiza a forma verdadeira de criaturas modificadas ou transformadas.\n\nUma Vis\u00e3o da Verdade tamb\u00e9m pode ser usada para enxergar os alinhamentos reais das criaturas e objetos, al\u00e9m de dar uma no\u00e7\u00e3o aproximada do poder das criaturas dentro da \u00e1rea de efeito.\n",
+    "fontes": [
+      {
+        "page": 135,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/visao-da-verdade.json"
+  },
+  {
+    "id": "voo",
+    "type": "Spell",
+    "name": "Voo",
+    "arcane": 3,
+    "divine": null,
+    "necromancer": null,
+    "illusionist": null,
+    "updated_at": "2023-05-31T22:12:57.055-03:00",
+    "reverse": false,
+    "access": "complete",
+    "range": "toque",
+    "duration": "1d6 turnos + 1/n\u00edvel",
+    "jp": "nenhuma",
+    "description": "Esta magia d\u00e1 ao alvo tocado pelo conjurador o poder de voar com movimento 18 enquanto a magia durar. O movimento de voo \u00e9 livre, podendo o alvo se mover em qualquer dire\u00e7\u00e3o, subir ou descer, assim como levitar ou pairar.\n",
+    "fontes": [
+      {
+        "page": 135,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/magias/voo.json"
+  }
+]

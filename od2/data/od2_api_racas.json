@@ -1,0 +1,614 @@
+[
+  {
+    "id": "anao",
+    "type": "CharacterRace",
+    "name": "An\u00e3o",
+    "flavor": "Orgulhosos Habitantes dos Sal\u00f5es sob a Montanha.",
+    "movement": 6,
+    "infravision": 18,
+    "alignment_tendency": "ordeiro",
+    "abilities": [
+      {
+        "name": "Mineradores",
+        "description": "Por mil\u00eanios, an\u00f5es aprendem desde cedo a avaliar passagens e condi\u00e7\u00f5es de muralhas e portais.\n\nPor isso s\u00e3o capazes de detectar, mesmo que n\u00e3o estejam analisando ativamente, com um resultado de 1 em 1d6, anomalias em pedras, como armadilhas em cavernas ou fossos escondidos, ou com um resultado de 1-2 em 1d6 caso estejam efetivamente procurando.\n"
+      },
+      {
+        "name": "Vigoroso",
+        "description": "Os an\u00f5es s\u00e3o muito resistentes aos efeitos que afetem seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPC.\n"
+      },
+      {
+        "name": "Armas grandes",
+        "description": "S\u00e3o restritas para an\u00f5es que podem usar apenas armas m\u00e9dias e pequenas. Armas grandes forjadas como um item racial an\u00e3o s\u00e3o consideradas armas m\u00e9dias para um an\u00e3o.\n"
+      },
+      {
+        "name": "Inimigos",
+        "description": "An\u00f5es s\u00e3o inimigos naturais e disputam territ\u00f3rio com orcs, ogros e hobgoblins e, por isso, os ataques dos an\u00f5es contra essas criaturas s\u00e3o considerados ataques f\u00e1ceis.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 22,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/anao.json"
+  },
+  {
+    "id": "anao-das-montanhas",
+    "type": "CharacterRace",
+    "name": "An\u00e3o das Montanhas",
+    "flavor": "Sub-Ra\u00e7a de An\u00e3o.",
+    "movement": 6,
+    "infravision": 18,
+    "alignment_tendency": "ordeiro",
+    "abilities": [
+      {
+        "name": "Engenheiros",
+        "description": "Por mil\u00eanios, an\u00f5es das montanhas constru\u00edram, alargaram e aprofundaram seus t\u00faneis no interior das montanhas. Assim, aprendem desde cedo a avaliar passagens, escoras e paredes, conseguindo determinar com 1-2 chances em 1d6 um tremor, uma avalanche, um desmoronamento ou condi\u00e7\u00f5es de estabilidade de qualquer constru\u00e7\u00e3o de pedra."
+      },
+      {
+        "name": "Vigoroso",
+        "description": "Os an\u00f5es das montanhas s\u00e3o muito resistentes aos efeitos que afetem seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPC.\n"
+      },
+      {
+        "name": "Armas grandes",
+        "description": "S\u00e3o restritas para an\u00f5es das montanhas que podem usar apenas armas m\u00e9dias e pequenas. Armas grandes forjadas como um item racial an\u00e3o s\u00e3o consideradas armas m\u00e9dias para um an\u00e3o.\n"
+      },
+      {
+        "name": "Inimigos",
+        "description": "An\u00f5es das montanhas s\u00e3o inimigos naturais e disputam territ\u00f3rio com orcs, ogros e hobgoblins e, por isso, os ataques dos an\u00f5es das montanhas contra essas criaturas s\u00e3o considerados ataques f\u00e1ceis.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 6,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/anao-das-montanhas.json"
+  },
+  {
+    "id": "anao-das-profundezas",
+    "type": "CharacterRace",
+    "name": "An\u00e3o das Profundezas",
+    "flavor": "Sub-Ra\u00e7a de An\u00e3o.",
+    "movement": 6,
+    "infravision": 18,
+    "alignment_tendency": "ordeiro",
+    "abilities": [
+      {
+        "name": "Pr\u00f3ximos da Terra",
+        "description": "An\u00f5es das profundezas se sentem confort\u00e1veis quando est\u00e3o nos subterr\u00e2neos e, por isso, curam um ponto de vida adicional ao repousarem debaixo da terra. Ao contr\u00e1rio, quando estiverem a c\u00e9u aberto e fora dos subterr\u00e2neos, curam um ponto de vida a menos."
+      },
+      {
+        "name": "Vigoroso",
+        "description": "Os an\u00f5es das profundezas s\u00e3o muito resistentes aos efeitos que afetem seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPC.\n"
+      },
+      {
+        "name": "Armas grandes",
+        "description": "S\u00e3o restritas para an\u00f5es das profundezas que podem usar apenas armas m\u00e9dias e pequenas. Armas grandes forjadas como um item racial an\u00e3o s\u00e3o consideradas armas m\u00e9dias para um an\u00e3o das profundezas.\n"
+      },
+      {
+        "name": "Inimigos",
+        "description": "An\u00f5es das profundezas s\u00e3o inimigos naturais e disputam territ\u00f3rio com orcs, ogros e hobgoblins e, por isso, os ataques dos an\u00f5es das profundezas contra essas criaturas s\u00e3o considerados ataques f\u00e1ceis.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 6,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/anao-das-profundezas.json"
+  },
+  {
+    "id": "elfo",
+    "type": "CharacterRace",
+    "name": "Elfo",
+    "flavor": "Misteriosos, Longevos e Graciosos habitantes das Florestas.",
+    "movement": 9,
+    "infravision": 18,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Percep\u00e7\u00e3o Natural",
+        "description": "A forma como as casas \u00e9lficas s\u00e3o constru\u00eddas, respeitando a forma natural das \u00e1rvores e abrigos, d\u00e1 aos elfos uma percep\u00e7\u00e3o especial no que diz respeito a portas e passagens n\u00e3o convencionais e at\u00e9 mesmo secretas.\n\nAo passarem a at\u00e9 6 metros de uma porta secreta, mesmo que n\u00e3o a estejam procurando, os elfos podem detect\u00e1-la com um resultado 1 em 1d6, ou com um resultado de 1-2 em 1d6 caso estejam efetivamente procurando pela porta secreta.\n"
+      },
+      {
+        "name": "Graciosos",
+        "description": "Os elfos controlam com precis\u00e3o seus movimentos no espa\u00e7o ao redor do seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPD.\n"
+      },
+      {
+        "name": "Arma Racial",
+        "description": "Os elfos possuem familiaridade com o arqueirismo, o qual consideram uma arte marcial, recebendo um b\u00f4nus de +1 nos danos causados em seus ataques \u00e0 dist\u00e2ncia com os arcos.\n"
+      },
+      {
+        "name": "Imunidades",
+        "description": "Os elfos s\u00e3o imunes a efeitos ou magias que envolvam sono e tamb\u00e9m contra a paralisa\u00e7\u00e3o causada por um Ghoul.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 20,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/elfo.json"
+  },
+  {
+    "id": "elfo-cinzento",
+    "type": "CharacterRace",
+    "name": "Elfo Cinzento",
+    "flavor": "Sub-Ra\u00e7a de Elfo.",
+    "movement": 9,
+    "infravision": 18,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Estudioso Arcano",
+        "description": "Por dominar a confec\u00e7\u00e3o de itens m\u00e1gicos, um elfo cinzento possui 1 chance em 1d6 de identificar a inten\u00e7\u00e3o de um item m\u00e1gico, conseguindo saber se o Mago que o confeccionou era ordeiro, neutro ou ca\u00f3tico. O elfo cinzento n\u00e3o \u00e9 capaz de determinar a fun\u00e7\u00e3o, o funcionamento ou qualquer outra informa\u00e7\u00e3o sobre o item m\u00e1gico, sendo capaz apenas de identificar se o item \u00e9 ca\u00f3tico (ou n\u00e3o) e, portanto, amaldi\u00e7oado."
+      },
+      {
+        "name": "Graciosos",
+        "description": "Os elfos cinzentos controlam com precis\u00e3o seus movimentos no espa\u00e7o ao redor do seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPD.\n"
+      },
+      {
+        "name": "Arma Racial",
+        "description": "Os elfos cinzentos possuem familiaridade com o arqueirismo, o qual consideram uma arte marcial, recebendo um b\u00f4nus de +1 nos danos causados em seus ataques \u00e0 dist\u00e2ncia com os arcos.\n"
+      },
+      {
+        "name": "Imunidades",
+        "description": "Os elfos cinzentos s\u00e3o imunes a efeitos ou magias que envolvam sono e tamb\u00e9m contra a paralisa\u00e7\u00e3o causada por um Ghoul.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 7,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/elfo-cinzento.json"
+  },
+  {
+    "id": "elfo-silvestre",
+    "type": "CharacterRace",
+    "name": "Elfo Silvestre",
+    "flavor": "Sub-Ra\u00e7a de Elfo.",
+    "movement": 9,
+    "infravision": 18,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Silvestres",
+        "description": "Por estarem habituados a vida nos ermos, ao estarem em uma floresta, os elfos silvestres sempre conseguem encontrar comida e \u00e1gua para si e para seus companheiros, nunca se perdem e todos os acampamentos montados por eles em uma floresta s\u00e3o considerados seguros."
+      },
+      {
+        "name": "Graciosos",
+        "description": "Os elfos silvestres controlam com precis\u00e3o seus movimentos no espa\u00e7o ao redor do seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPD.\n"
+      },
+      {
+        "name": "Arma Racial",
+        "description": "Os elfos silvestres possuem familiaridade com o arqueirismo, o qual consideram uma arte marcial, recebendo um b\u00f4nus de +1 nos danos causados em seus ataques \u00e0 dist\u00e2ncia com os arcos.\n"
+      },
+      {
+        "name": "Imunidades",
+        "description": "Os elfos silvestres s\u00e3o imunes a efeitos ou magias que envolvam sono e tamb\u00e9m contra a paralisa\u00e7\u00e3o causada por um Ghoul.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 7,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/elfo-silvestre.json"
+  },
+  {
+    "id": "gnomo",
+    "type": "CharacterRace",
+    "name": "Gnomo",
+    "flavor": "Os desconfiados, mas galhofeiros, habitantes de minas.",
+    "movement": 6,
+    "infravision": 18,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Avaliadores",
+        "description": "Precisos, gnomos possuem a habilidade de conhecer o real valor de objetos de arte, gemas, joias ou outros objetos de luxo finamente trabalhados, possuindo 1-4 chances em 1d6 de acertar o valor real do item.\n\nSe o resultado for um 5, a avalia\u00e7\u00e3o se dar\u00e1 25% abaixo do valor real, se for um 6, ser\u00e1 25% acima do valor real. Este teste deve ser realizado, em segredo, pelo Mestre.\n"
+      },
+      {
+        "name": "Sagazes e Vigorosos",
+        "description": "Os gnomos s\u00e3o muito espertos e desconfiados, al\u00e9m de vigorosos contra efeitos negativos que afetem sua mente e corpo, assim, podem escolher entre receber um b\u00f4nus de +1 em uma das duas jogadas de prote\u00e7\u00e3o, JPC ou JPS.\n"
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Por serem pequenos, mas mineradores e forjadores, gnomos n\u00e3o possuem restri\u00e7\u00f5es em rela\u00e7\u00e3o a armaduras, mas precisam adquiri-las junto a comunidades de sua ra\u00e7a.\n\nEntretanto, um gnomo n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um gnomo s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 16,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/gnomo.json"
+  },
+  {
+    "id": "gnomo-das-florestas",
+    "type": "CharacterRace",
+    "name": "Gnomo das Florestas",
+    "flavor": "Sub-Ra\u00e7a de Gnomo.",
+    "movement": 6,
+    "infravision": 18,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Falar com Animais",
+        "description": "Como habitante das florestas, gnomos t\u00eam a habilidade de falar com as criaturas silvestres possuindo 1-4 chances em 1d6 de conseguir estabelecer uma comunica\u00e7\u00e3o compreens\u00edvel por at\u00e9 1 turno.\n\nSe o resultado for um 5 ou 6, a criatura falar\u00e1, mas responder\u00e1 apenas com informa\u00e7\u00f5es erradas e mentiras. Este teste deve ser realizado em segredo pelo Mestre.\n"
+      },
+      {
+        "name": "Sagazes e Vigorosos",
+        "description": "Os gnomos das florestas s\u00e3o muito espertos e desconfiados, al\u00e9m de vigorosos contra efeitos negativos que afetem sua mente e corpo, assim, podem escolher entre receber um b\u00f4nus de +1 em uma das duas jogadas de prote\u00e7\u00e3o, JPC ou JPS.\n"
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Por serem pequenos, mas mineradores e forjadores, gnomos das florestas n\u00e3o possuem restri\u00e7\u00f5es em rela\u00e7\u00e3o a armaduras, mas precisam adquiri-las junto a comunidades de sua ra\u00e7a.\n\nEntretanto, um gnomo das florestas n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um gnomo das florestas s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 8,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/gnomo-das-florestas.json"
+  },
+  {
+    "id": "grizzi",
+    "type": "CharacterRace",
+    "name": "Grizzi",
+    "flavor": "Os aventureiros mais irritantemente criativos de Kadur.",
+    "movement": 6,
+    "infravision": 0,
+    "alignment_tendency": "caotico",
+    "abilities": [
+      {
+        "name": "Escaladores",
+        "description": "O formato de seus p\u00e9s os tornam perfeitos escaladores, conseguindo escalar com uma chance de 1-2 em 1d6. Se o Grizzi adotar a classe Ladr\u00e3o, ele acrescenta ainda um b\u00f4nus de 1 no seu talento Escalar."
+      },
+      {
+        "name": "Exasperar",
+        "description": "Um grizzi que conseguir passar uma rodada completa xingando um alvo, faz com que na rodada seguinte este alvo realize todos os testes como se fossem testes dif\u00edceis."
+      },
+      {
+        "name": "Pequenos",
+        "description": "Devido \u00e0 baixa estatura e agilidade, todos os ataques provenientes de criaturas grandes ou maiores s\u00e3o considerados ataques dif\u00edceis para acertar um Grizzi."
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Por n\u00e3o terem tradi\u00e7\u00e3o na forja de armaduras, os Grizzis usam apenas armaduras de couro, a n\u00e3o ser que a armadura seja confeccionada especialmente para ele.\n\nUm grizzi n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um Grizzi s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/grizzi.json"
+  },
+  {
+    "id": "halfling",
+    "type": "CharacterRace",
+    "name": "Halfling",
+    "flavor": "Os mais Perspicazes e Curiosos Aventureiros.",
+    "movement": 6,
+    "infravision": 0,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Furtivos",
+        "description": "S\u00e3o especialistas em se esconder e em passar despercebidos, conseguindo se esconder com uma chance de 1-2 em 1d6. Se o Halfling adotar a classe Ladr\u00e3o, ele acrescenta ainda um b\u00f4nus de 1 no seu talento Furtividade.\n"
+      },
+      {
+        "name": "Destemidos",
+        "description": "Os halflings s\u00e3o muito resistentes a efeitos que afetem sua for\u00e7a de vontade, recebendo um b\u00f4nus de +1 em qualquer teste de JPS.\n"
+      },
+      {
+        "name": "Bons de Mira",
+        "description": "Pela tradi\u00e7\u00e3o racial de jogos de arremesso, para os halflings qualquer ataque \u00e0 dist\u00e2ncia com uma arma de arremesso \u00e9 considerado um ataque f\u00e1cil.\n"
+      },
+      {
+        "name": "Pequenos",
+        "description": "Devido \u00e0 baixa estatura e agilidade, todos os ataques provenientes de criaturas grandes ou maiores s\u00e3o considerados ataques dif\u00edceis para acertar um halfling.\n"
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Por n\u00e3o terem tradi\u00e7\u00e3o na forja de armaduras, os halflings usam apenas armaduras de couro, a n\u00e3o ser se armadura for confeccionada especialmente para ele.\n\nUm halfling n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um halfling s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 24,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/halfling.json"
+  },
+  {
+    "id": "halfling-robusto",
+    "type": "CharacterRace",
+    "name": "Halfling Robusto",
+    "flavor": "Sub-Ra\u00e7a de Halfling.",
+    "movement": 6,
+    "infravision": 0,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Esconder-se nos T\u00faneis",
+        "description": "Robustos s\u00e3o especialistas em passar despercebidos, conseguindo se esconder com uma chance de 1-2 em 1d6 quando est\u00e3o em t\u00faneis, cavernas e no subterr\u00e2neo em geral.\n\nSe o robusto adotar a classe Ladr\u00e3o, \u00e9 acrescentado um b\u00f4nus de 1 no seu talento Furtividade.\n"
+      },
+      {
+        "name": "Destemidos",
+        "description": "Os halflings robustos s\u00e3o muito resistentes a efeitos que afetem sua for\u00e7a de vontade, recebendo um b\u00f4nus de +1 em qualquer teste de JPS.\n"
+      },
+      {
+        "name": "Bons de Mira",
+        "description": "Pela tradi\u00e7\u00e3o racial de jogos de arremesso, para os halflings robustos qualquer ataque \u00e0 dist\u00e2ncia com uma arma de arremesso \u00e9 considerado um ataque f\u00e1cil.\n"
+      },
+      {
+        "name": "Pequenos",
+        "description": "Devido \u00e0 baixa estatura e agilidade, todos os ataques provenientes de criaturas grandes ou maiores s\u00e3o considerados ataques dif\u00edceis para acertar um halfling robusto.\n"
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Por n\u00e3o terem tradi\u00e7\u00e3o na forja de armaduras, os halflings robustos usam apenas armaduras de couro, a n\u00e3o ser se armadura for confeccionada especialmente para ele.\n\nUm halfling robusto n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um halfling robusto s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 7,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/halfling-robusto.json"
+  },
+  {
+    "id": "halfling-tipossalto",
+    "type": "CharacterRace",
+    "name": "Halfling Tipossalto",
+    "flavor": "Sub-Ra\u00e7a de Halfling.",
+    "movement": 6,
+    "infravision": 0,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "Esconder-se na Mata",
+        "description": "Tipossaltos s\u00e3o especialistas em esconder-se em bosques e florestas em geral. Possuem uma chance de 1 em 1d6 de se esconder nestas condi\u00e7\u00f5es, exatamente como a Furtividade de um Ladr\u00e3o e, portanto, indetect\u00e1vel mesmo caso algu\u00e9m o procure.\n\nSe o tipossalto adotar a classe Ladr\u00e3o, \u00e9 acrescentado um b\u00f4nus de 1 no seu talento Furtividade.\n"
+      },
+      {
+        "name": "Destemidos",
+        "description": "Os halflings tipossaltos s\u00e3o muito resistentes a efeitos que afetem sua for\u00e7a de vontade, recebendo um b\u00f4nus de +1 em qualquer teste de JPS.\n"
+      },
+      {
+        "name": "Bons de Mira",
+        "description": "Pela tradi\u00e7\u00e3o racial de jogos de arremesso, para os halflings tipossaltos qualquer ataque \u00e0 dist\u00e2ncia com uma arma de arremesso \u00e9 considerado um ataque f\u00e1cil.\n"
+      },
+      {
+        "name": "Pequenos",
+        "description": "Devido \u00e0 baixa estatura e agilidade, todos os ataques provenientes de criaturas grandes ou maiores s\u00e3o considerados ataques dif\u00edceis para acertar um halfling tipossalto.\n"
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Por n\u00e3o terem tradi\u00e7\u00e3o na forja de armaduras, os halflings tipossaltos usam apenas armaduras de couro, a n\u00e3o ser se armadura for confeccionada especialmente para ele.\n\nUm halfling tipossalto n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um halfling tipossalto s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 8,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
+        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/halfling-tipossalto.json"
+  },
+  {
+    "id": "humano",
+    "type": "CharacterRace",
+    "name": "Humano",
+    "flavor": "Os mais Comuns, Vers\u00e1teis e Adapt\u00e1veis Aventureiros.",
+    "movement": 9,
+    "infravision": 0,
+    "alignment_tendency": null,
+    "abilities": [
+      {
+        "name": "Aprendizado",
+        "description": "Humanos aprendem tudo o que se prop\u00f5em a fazer de forma muito mais r\u00e1pida que as outras ra\u00e7as. Com isso, um humano recebe um b\u00f4nus de 10% sobre toda experi\u00eancia (XP) recebida.\n"
+      },
+      {
+        "name": "Adaptabilidade",
+        "description": "Os humanos s\u00e3o muito adapt\u00e1veis e diversos entre si, fazendo com que possam escolher onde alocar um b\u00f4nus nas suas Jogadas de Prote\u00e7\u00e3o. Humanos recebem um b\u00f4nus de +1 em uma \u00fanica JP \u00e0 sua escolha.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 18,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/humano.json"
+  },
+  {
+    "id": "meio-elfo",
+    "type": "CharacterRace",
+    "name": "Meio-Elfo",
+    "flavor": "Metade de dois mundos, sem pertencer a nenhum deles.",
+    "movement": 9,
+    "infravision": 9,
+    "alignment_tendency": "caotico",
+    "abilities": [
+      {
+        "name": "Aprendizado",
+        "description": "Meio-elfos compartilham, mesmo parcialmente, o aprendizado acelerado dos humanos. Com isso, um meio-elfo recebe um b\u00f4nus de **5% sobre** toda experi\u00eancia (XP) que receber.\n"
+      },
+      {
+        "name": "Graciosos e Vigorosos",
+        "description": "Os meio-elfos misturam a graciosidade do movimento dos elfos com a resist\u00eancia de um corpo mesti\u00e7o e de origem plural, assim, podem escolher entre receber um b\u00f4nus de +1 em uma das duas jogadas de prote\u00e7\u00e3o, JPC ou JPD.\n"
+      },
+      {
+        "name": "Idioma Extra",
+        "description": "Os meio-elfos recebem um idioma extra (escolhido entre o \u00e9lfico e o idioma falado pela sua contraparte humana).\n"
+      },
+      {
+        "name": "Imunidades",
+        "description": "Os meio-elfos s\u00e3o imunes a magias ou efeitos que envolvam sono e a paralisa\u00e7\u00e3o causada por um Ghoul.\n"
+      }
+    ],
+    "fontes": [
+      {
+        "page": 14,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/meio-elfo.json"
+  },
+  {
+    "id": "meio-elfo-kaduriano",
+    "type": "CharacterRace",
+    "name": "Meio-Elfo Kaduriano",
+    "flavor": "Os aventureiros desprezados por sua origem e perseguidos pelo que s\u00e3o.",
+    "movement": 9,
+    "infravision": 9,
+    "alignment_tendency": "caotico",
+    "abilities": [
+      {
+        "name": "Aprendizado",
+        "description": "Meio-elfos compartilham, mesmo parcialmente, o aprendizado acelerado dos humanos. Com isso, um meio-elfo recebe um b\u00f4nus de **5% sobre** toda experi\u00eancia (XP) que receber."
+      },
+      {
+        "name": "Graciosos e Vigorosos",
+        "description": "Os meio-elfos misturam a graciosidade do movimento dos elfos com a resist\u00eancia de um corpo mesti\u00e7o e de origem plural, assim, podem escolher entre receber um b\u00f4nus de +1 em uma das duas jogadas de prote\u00e7\u00e3o, JPC ou JPD."
+      },
+      {
+        "name": "Idioma Extra",
+        "description": "Os meio-elfos recebem um idioma extra (escolhido entre o \u00e9lfico e o idioma falado pela sua contraparte humana)."
+      },
+      {
+        "name": "Imunidades",
+        "description": "Os meio-elfos s\u00e3o imunes a magias ou efeitos que envolvam sono e a paralisa\u00e7\u00e3o causada por um Ghoul."
+      },
+      {
+        "name": "Sono Atribulado",
+        "description": "Seu sono \u00e9 agitado e pouco saud\u00e1vel. Recuperam apenas metade dos pontos de vida devido o descanso, ou levam o dobro de tempo para recuperarem pontos de vida perdidos."
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/meio-elfo-kaduriano.json"
+  },
+  {
+    "id": "tenebrum",
+    "type": "CharacterRace",
+    "name": "Tenebrum",
+    "flavor": "Os marginalizados aventureiros frutos de experimentos arcanos horrendos.",
+    "movement": 9,
+    "infravision": 0,
+    "alignment_tendency": "neutro",
+    "abilities": [
+      {
+        "name": "P\u00e1ria",
+        "description": "Tenebruns possuem uma penalidade de 4 em qualquer teste de rea\u00e7\u00e3o que realizem, e por serem malquistos e ignorados possuem sempre uma chance de 1 em 1d6 de n\u00e3o serem percebidos, notados e totalmente ignorados."
+      },
+      {
+        "name": "Perito em Facas",
+        "description": "Um Tenebrum realiza qualquer ataque com adagas ou facas como um ataque f\u00e1cil, e se portarem uma segunda faca ou adaga, recebem um b\u00f4nus de 1 na sua CA exatamente como um escudo o faria."
+      },
+      {
+        "name": "Cura Imposs\u00edvel",
+        "description": "Tenebruns n\u00e3o se curam naturalmente, nem magicamente. No entanto, beber 500ml de sangue humano fresco funciona para curar 1d4 pontos de vida. Al\u00e9m disso podem repor membros perdidos com membros de cad\u00e1veres ou transferir seus c\u00e9rebros imortais de corpo caso necess\u00e1rio."
+      },
+      {
+        "name": "Restri\u00e7\u00f5es",
+        "description": "Devida a sua natureza totalmente espec\u00edfica, Tenebruns n\u00e3o conseguem conjurar, nem serem alvos diretos de magias, sejam estas arcanas ou divinas. A explos\u00e3o de uma bola de fogo ainda os afetar\u00e1, mas uma magia de cura jamais far\u00e1 efeito."
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/racas/tenebrum.json"
+  }
+]

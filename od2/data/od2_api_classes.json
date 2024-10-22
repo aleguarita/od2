@@ -1,0 +1,3293 @@
+[
+  {
+    "id": "academico",
+    "type": "CharacterClass",
+    "name": "Acad\u00eamico",
+    "flavor": "Um Acad\u00eamico \u00e9 um Cl\u00e9rigo especialista motivado pelo amplo desejo de conhecimento, reverenciando as ci\u00eancias, estudos e o ac\u00famulo de informa\u00e7\u00f5es concedidas pelo deus Curioso.",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "S\u00f3 podem usar armas impactantes.",
+    "magic_items_description": "Pode usar qualquer item m\u00e1gico.",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "restrictions": {
+      "alignments": [
+        "neutro"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 600000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Divinas",
+        "description": "Um Acad\u00eamico \u00e9 capaz de lan\u00e7ar magias divinas diariamente a partir do 1\u00ba n\u00edvel. Para prepar\u00e1-las, o Acad\u00eamico deve rezar para o Pante\u00e3o e pedir que magias lhe sejam concedidas naquele dia, respeitando os seus limites de n\u00edvel e de sabedoria."
+      },
+      {
+        "level": 1,
+        "name": "Conhecimento Acad\u00eamico",
+        "description": "O Acad\u00eamico \u00e9 capaz de identificar monstros e animais al\u00e9m de conhecer seus ataques e defesas, habilidades e fraquezas, al\u00e9m dos seus h\u00e1bitos mais comuns com 1-2 chances em 1d6."
+      },
+      {
+        "level": 3,
+        "name": "Decifrar Linguagens",
+        "description": "Com seu conhecimento acad\u00eamico, \u00e9 capaz tamb\u00e9m de decifrar linguagens, identificando idiomas, alfabetos e pictogramas, decodificar documentos e inscri\u00e7\u00f5es conhecendo ao menos a ideia geral do texto. A chance de conseguir usar a habilidade Conhecimento Acad\u00eamico evolui para 1-3 chances em 1d6."
+      },
+      {
+        "level": 6,
+        "name": "Lendas e Tradi\u00e7\u00f5es",
+        "description": "Com seu conhecimento acad\u00eamico, \u00e9 capaz tamb\u00e9m de identificar lendas, tradi\u00e7\u00f5es, eventos, personalidades e vultos hist\u00f3ricos, al\u00e9m de curiosidades e perigos de lugares, regi\u00f5es e cidades. O Acad\u00eamico conhece ainda um rumor adicional sobre o lugar em quest\u00e3o por modificador de sabedoria que possuir. A chance de conseguir usar a habilidade Conhecimento Acad\u00eamico evolui para 1-4 chances em 1d6."
+      },
+      {
+        "level": 10,
+        "name": "Identificar itens",
+        "description": "Permite ao Acad\u00eamico, ao observar minuciosamente um item m\u00e1gico por ao menos 1d4 turnos e com uma chance de 1-2 em 1d6, identificar seus prop\u00f3sitos gerais (exemplo \u2014 esta \u00e9 uma espada encantada para ser usada contra licantropos; ou ainda \u2014 estas botas parecem ter sido costuradas por elfos) mesmo que suas fun\u00e7\u00f5es exatas n\u00e3o sejam reveladas.\n\nItens m\u00e1gicos ca\u00f3ticos se camuflam e n\u00e3o podem ser reconhecidos desta maneira, sempre for\u00e7ando um reconhecimento errado do seu prop\u00f3sito geral."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Acad\u00eamico de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 35,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/clerigo.json",
+    "url": "https://olddragon.com.br/classes/academico.json"
+  },
+  {
+    "id": "anao-aventureiro",
+    "type": "CharacterClass",
+    "name": "An\u00e3o Aventureiro",
+    "flavor": "",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {
+      "races": [
+        "anao"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Arma Racial",
+        "description": "O An\u00e3o Aventureiro mant\u00e9m todas as habilidades raciais recebidas por ser um an\u00e3o e, devido ao intenso treinamento, atinge um grau de especializa\u00e7\u00e3o em machados ou martelos, recebendo um b\u00f4nus de +2 no dano da arma escolhida. Esta arma passa a ser tratada como sua arma racial."
+      },
+      {
+        "level": 3,
+        "name": "Duro na Queda",
+        "description": "O An\u00e3o Aventureiro, deste n\u00edvel em diante, passa a jogar seus pontos de vida com 1d12 em vez de 1d10 at\u00e9 o 10\u00ba n\u00edvel. Adicionalmente, o An\u00e3o Aventureiro pode optar por escolher o valor m\u00e9dio do dado de vida (6) ao inv\u00e9s de jog\u00e1-lo do 3\u00ba ao 10\u00ba n\u00edvel."
+      },
+      {
+        "level": 6,
+        "name": "Basti\u00e3o Racial",
+        "description": "O An\u00e3o Aventureiro intensifica seu treinamento contra os principais inimigos da sua ra\u00e7a \u2013 Orcs, Ogros e Hobgoblins \u2013 e, por isso, os ataques destas criaturas contra um An\u00e3o Aventureiro s\u00e3o considerados ataques dif\u00edceis."
+      },
+      {
+        "level": 10,
+        "name": "Ataque Extra",
+        "description": "O An\u00e3o Aventureiro adquire um segundo ataque com sua arma racial escolhida no 1\u00ba n\u00edvel (machado ou martelo).\n\nEste segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa, com a mesma BA usada no primeiro ataque."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O An\u00e3o Aventureiro de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 22,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/guerreiro.json",
+    "url": "https://olddragon.com.br/classes/anao-aventureiro.json"
+  },
+  {
+    "id": "arqueiro",
+    "type": "CharacterClass",
+    "name": "Arqueiro",
+    "flavor": "",
+    "armors_description": "Apenas armaduras de couro ou, caso contr\u00e1rio, n\u00e3o conseguir\u00e1 usar suas habilidades de arqueiro.",
+    "weapons_description": "Apenas armas pequenas, por\u00e9m pode utilizar qualquer tipo de arco.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Aparar",
+        "description": "Um Arqueiro pode, ap\u00f3s receber um ataque f\u00edsico que o atinja e antes da jogada de dano desse ataque, escolher sacrificar seu escudo ou uma arma que esteja portando para absorver todo o dano do ataque recebido.\n\nArmas e Escudos usados em um aparar ficar\u00e3o inutilizados e danificados. Armas e Escudos m\u00e1gicos possuem uma chance de 1-2 em 1d6 de se danificarem, reduzindo seus b\u00f4nus (de ataque/ defesa) em 1 de modo que um escudo +3 ao ser usado em um aparar, e se danificado, passa ter como b\u00f4nus de defesa +2 e assim sucessivamente.\n\nUm item m\u00e1gico que perder todos os b\u00f4nus estar\u00e1 permanentemente destru\u00eddo. Apenas ataques provenientes de inimigos grandes ou menores poder\u00e3o ser aparados."
+      },
+      {
+        "level": 1,
+        "name": "Maestria de Armas",
+        "description": "O Arqueiro se torna Mestre em uma arma \u00e0 sua escolha, recebendo um b\u00f4nus de +1 no dano daquela arma."
+      },
+      {
+        "level": 1,
+        "name": "Tiros em Curva",
+        "description": "O Arqueiro domina a t\u00e9cnica de usar flechas desbalanceadas para realizar tiros em curva e com par\u00e1bolas perfeitas. Para ele, n\u00e3o s\u00e3o considerados ataques dif\u00edceis: tiros contra alvos com cobertura, alvos al\u00e9m da dist\u00e2ncia permitida pelo arco e alvos engajados em combate corpo a corpo."
+      },
+      {
+        "level": 3,
+        "name": "Puxada Aprimorada",
+        "description": "O Arqueiro consegue puxar seu arco acima das capacidades consideradas normais, extraindo o melhor de sua arma. O Arqueiro pode acrescentar seu modificador de For\u00e7a nos danos do seu ataque com arcos."
+      },
+      {
+        "level": 6,
+        "name": "Truques com Flechas",
+        "description": "O Arqueiro \u00e9 capaz de realizar truques com seus disparos, podendo grampear alvos na madeira macia, desarm\u00e1-los ou para realizar outros efeitos como, por exemplo, modificar uma flecha para que ela possa apitar ao se deslocar no ar. O Arqueiro realiza um ataque normal contra a CA + DV do alvo e, se for bem-sucedido, o alvo deve decidir entre sofrer as consequ\u00eancias do ataque com truque ou receber o dano normalmente. O Mestre deve ser consultado sobre os efeitos dos truques e a possibilidade de realiz\u00e1-los."
+      },
+      {
+        "level": 10,
+        "name": "Tiro R\u00e1pido",
+        "description": "O Arqueiro recebe neste n\u00edvel a habilidade de realizar um segundo disparo durante sua a\u00e7\u00e3o de combate."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Arqueiro de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 23,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/guerreiro.json",
+    "url": "https://olddragon.com.br/classes/arqueiro.json"
+  },
+  {
+    "id": "assassino",
+    "type": "CharacterClass",
+    "name": "Assassino",
+    "flavor": "",
+    "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
+    "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Assassino.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 550000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Talentos de Ladr\u00e3o",
+        "description": "Assassinos possuem algumas habilidades as quais representam seus principais campos de atua\u00e7\u00e3o, come\u00e7ando com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir como desejar.",
+        "level3": "Recebe 2 pontos para evoluir seus talentos.",
+        "level6": "Recebe 2 pontos para evoluir seus talentos.",
+        "level10": "Recebe 2 pontos para evoluir seus talentos."
+      },
+      {
+        "level": 1,
+        "name": "Ataque Assassino",
+        "description": "Ao atacar ap\u00f3s ter se aproximado do inimigo furtivamente, o Assassino \u00e9 capaz de realizar um ataque muito f\u00e1cil, causando dano multiplicado por 2."
+      },
+      {
+        "level": 3,
+        "name": "Espreitar",
+        "description": "O Assassino que passa uma rodada completa sem agir, apenas observando os movimentos do seu alvo e reconhecendo os pontos fracos deste, transforma o seu primeiro ataque contra este alvo em um ataque f\u00e1cil. Se o Assassino passar 4 rodadas completas observando-o, o ataque passa a ser muito f\u00e1cil."
+      },
+      {
+        "level": 6,
+        "name": "Assassinato",
+        "description": "Ao desferir um _Ataque Assassino_, abre m\u00e3o do ataque normal para tentar um golpe fatal, matando imediatamente o alvo. A chance do golpe ser bem-sucedido \u00e9 de 1-2 em 1d6. No 10\u00ba n\u00edvel, a chance evolui para 1-3 em 1d6. Cada DV do alvo, igual ou acima do DV do Assassino, reduz a chance b\u00e1sica em 1 em 1d6. Caso o _Assassinato_ falhe, o alvo n\u00e3o recebe dano e fica imune a um novo Assassinato at\u00e9 o Assassino evoluir para o pr\u00f3ximo n\u00edvel."
+      },
+      {
+        "level": 10,
+        "name": "Ataque Mortal",
+        "description": "O Assassino evolui seu _Ataque Assassino_, causando dano multiplicado por 3."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Assassino de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 30,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/ladrao.json",
+    "url": "https://olddragon.com.br/classes/assassino.json"
+  },
+  {
+    "id": "barbaro",
+    "type": "CharacterClass",
+    "name": "B\u00e1rbaro",
+    "flavor": "B\u00e1rbaros s\u00e3o Guerreiros nascidos em culturas remotas de regi\u00f5es distantes e r\u00fasticas, em comunh\u00e3o com a terra.",
+    "armors_description": "Apenas armaduras de couro, ou perder\u00e1 acesso a todas as suas habilidades de B\u00e1rbaro.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "N\u00e3o pode usar nenhum item m\u00e1gico, ou perder\u00e1 acesso a todas as suas habilidades de B\u00e1rbaro.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Aparar",
+        "description": "Um B\u00e1rbaro pode, ap\u00f3s receber um ataque f\u00edsico que o atinja e antes da jogada de dano desse ataque, escolher sacrificar seu escudo ou uma arma que esteja portando para absorver todo o dano do ataque recebido.\n\nArmas e Escudos usados em um aparar ficar\u00e3o inutilizados e danificados. Armas e Escudos m\u00e1gicos possuem uma chance de 1-2 em 1d6 de se danificarem, reduzindo seus b\u00f4nus (de ataque/ defesa) em 1 de modo que um escudo +3 ao ser usado em um aparar, e se danificado, passa ter como b\u00f4nus de defesa +2 e assim sucessivamente.\n\nUm item m\u00e1gico que perder todos os b\u00f4nus estar\u00e1 permanentemente destru\u00eddo. Apenas ataques provenientes de inimigos grandes ou menores poder\u00e3o ser aparados."
+      },
+      {
+        "level": 1,
+        "name": "Maestria em Arma",
+        "description": "O B\u00e1rbaro se torna Mestre em uma arma \u00e0 sua escolha, recebendo um b\u00f4nus de +1 no dano daquela arma."
+      },
+      {
+        "level": 1,
+        "name": "Vigor B\u00e1rbaro",
+        "description": "A cada n\u00edvel, o B\u00e1rbaro recebe um B\u00f4nus de +2 nos seus pontos de vida adicionais \u00e0 tabela de Guerreiro e um b\u00f4nus de +2 na sua JPC."
+      },
+      {
+        "level": 3,
+        "name": "Talentos Selvagens",
+        "description": "O B\u00e1rbaro adquire alguns talentos ligados \u00e0 sua vida nos ermos selvagens:\n\n* **Escalar** escalam como Ladr\u00f5es qualquer superf\u00edcie natural como \u00e1rvores, barrancos, encostas rochosas, escorregadias ou n\u00e3o, com 1-3 chances em 1d6. Em caso de falha, B\u00e1rbaros caem da metade da altura total da escalada, recebendo 1d6 pontos de dano para cada 3 metros da queda.\n* **Camuflagem Natural** em ambientes naturais, como vegeta\u00e7\u00e3o rasteira ou \u00e1rvores com uma chance de 1-2 em 1d6. O mestre deve lan\u00e7ar os dados em segredo para que o B\u00e1rbaro n\u00e3o saiba se sua tentativa de camuflagem foi bem-sucedida ou n\u00e3o."
+      },
+      {
+        "level": 6,
+        "name": "Surpresa Selvagem",
+        "description": "O B\u00e1rbaro \u00e9 capaz de surpreender seus inimigos em ambientes naturais com uma chance de 1-4 em 1d6, mesmo quando em tocaia com aliados n\u00e3o B\u00e1rbaros.\n\nAl\u00e9m disso, um B\u00e1rbaro s\u00f3 \u00e9 surpreendido em ambientes naturais com uma chance de 1 em 1d6."
+      },
+      {
+        "level": 10,
+        "name": "For\u00e7a do Totem",
+        "description": "O B\u00e1rbaro \u00e9 capaz de atingir qualquer criatura que necessite de uma arma m\u00e1gica +1 ou melhor para ser ferida."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O B\u00e1rbaro de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 30,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/guerreiro.json",
+    "url": "https://olddragon.com.br/classes/barbaro.json"
+  },
+  {
+    "id": "bardo",
+    "type": "CharacterClass",
+    "name": "Bardo",
+    "flavor": "O Bardo \u00e9 um personagem ligado \u00e0s artes e \u00e0 performance. S\u00e3o viajantes, rep\u00f3rteres da vida cotidiana e divulgadores de feitos \u00e9picos.",
+    "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
+    "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Bardo.",
+    "magic_items_description": "Podem usar todos os pergaminhos m\u00e1gicos com metade dos n\u00edveis que possuir.",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 550000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Ouvir Ru\u00eddos",
+        "description": "O Bardo consegue ouvir ru\u00eddos como uma conversa do outro lado de uma porta ou sons de monstros se aproximando. Para isso, ele deve estar em um ambiente silencioso, como em uma masmorra e fora de um combate.\n\nO Bardo possui uma chance de 1-2 em 1d6 para conseguir ouvir ru\u00eddos.",
+        "level3": "A chance aumenta para 1-3 em 1d6.",
+        "level6": "A chance aumenta para 1-4 em 1d6.",
+        "level10": "A chance aumenta para 1-5 em 1d6."
+      },
+      {
+        "level": 1,
+        "name": "Talentos de Ladr\u00e3o",
+        "description": "Bardos possuem algumas habilidades as quais representam seus principais campos de atua\u00e7\u00e3o, come\u00e7ando com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir como desejar.",
+        "level3": "Recebe 2 pontos para evoluir seus talentos.",
+        "level6": "Recebe 2 pontos para evoluir seus talentos.",
+        "level10": "Recebe 2 pontos para evoluir seus talentos."
+      },
+      {
+        "level": 1,
+        "name": "Influenciar",
+        "description": "O Bardo por meio da m\u00fasica, orat\u00f3rias e baladas heroicas consegue influenciar as rea\u00e7\u00f5es de monstros ou personagens do Mestre com uma chance de 1-2 em 1d6. O Bardo recebe um modificador de +1 ou -1 no Teste de Rea\u00e7\u00e3o destas audi\u00eancias para melhorar a rea\u00e7\u00e3o dos alvos (+1) ou para torn\u00e1-los mais hostis (-1)."
+      },
+      {
+        "level": 3,
+        "name": "Inspirar",
+        "description": "O Bardo se for capaz de passar ao menos uma rodada atuando, e enquanto continuar mantendo a atua\u00e7\u00e3o, consegue que seus aliados se tornem mais confiantes no sucesso. Um alvo inspirado pelo Bardo faz com que seus testes de atributos e ataques fiquem como se fossem um n\u00edvel mais f\u00e1cil do que realmente s\u00e3o, tornando, por exemplo, testes muito dif\u00edceis em apenas testes dif\u00edceis."
+      },
+      {
+        "level": 6,
+        "name": "Fascinar",
+        "description": "O Bardo por meio da m\u00fasica, orat\u00f3ria e baladas heroicas consegue deixar uma audi\u00eancia de monstros ou personagens do Mestre n\u00e3o hostis, que tenham at\u00e9 2 Dados de vida a cada 3 n\u00edveis do Bardo, desde que entenda o idioma usado pelo Bardo, envolvida e concentrada no seu desempenho art\u00edstico."
+      },
+      {
+        "level": 10,
+        "name": "Usar Pergaminhos",
+        "description": "O Bardo adquire a habilidade de Usar Pergaminhos como se fosse um Mago com metade dos n\u00edveis que possuir."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Bardo de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 41,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/ladrao.json",
+    "url": "https://olddragon.com.br/classes/bardo.json"
+  },
+  {
+    "id": "bruxo",
+    "type": "CharacterClass",
+    "name": "Bruxo",
+    "flavor": "",
+    "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
+    "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Bruxos.",
+    "magic_items_description": "Podem usar todos os tipos.",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Rituais",
+        "description": "O Bruxo se concentra no efeito desejado iniciando um pequeno ritual de palavras e gestos que canalizam o poder extraplanar no seu corpo, realizando o efeito da magia.\n\n- **Metal**: Objetos de metal como armas, armaduras, escudos etc. atrapalham a canaliza\u00e7\u00e3o do ritual, impedindo a conjura\u00e7\u00e3o das magias. Se estiver em contato com objetos de metal, o Bruxo possui 1-2 chances em 1d6 de perder o ritual sem que qualquer efeito ocorra.\n- **Execu\u00e7\u00e3o**: Um ritual leva uma rodada para ser executado. Uma magia conjurada nesta rodada iniciar\u00e1 seus efeitos no in\u00edcio da pr\u00f3xima rodada, antes das outras a\u00e7\u00f5es.\n- **Lista de Rituais**: O Bruxo pode escolher livremente suas magias dentre todas as magias dos c\u00edrculos dispon\u00edveis para seu n\u00edvel, como se estivessem escritas no seu grim\u00f3rio.\n- **Rituais Extras**: O Bruxo n\u00e3o recebe magias adicionais por um alto valor de Intelig\u00eancia."
+      },
+      {
+        "level": 1,
+        "name": "Iniciado",
+        "description": "O Bruxo consegue conjurar magias de 1\u00ba c\u00edrculo e pode usar armaduras leves sem prejudicar seus rituais."
+      },
+      {
+        "level": 3,
+        "name": "M\u00e9dium",
+        "description": "O Bruxo consegue conjurar magias de 2\u00ba c\u00edrculo e pode usar armas grandes sem prejudicar seus rituais."
+      },
+      {
+        "level": 6,
+        "name": "Conjurador",
+        "description": "O Bruxo consegue conjurar magias de 3\u00ba c\u00edrculo e pode usar armaduras m\u00e9dias sem prejudicar seus rituais."
+      },
+      {
+        "level": 10,
+        "name": "Entidade",
+        "description": "O Bruxo consegue conjurar magias de 4\u00ba, 5\u00ba e 6\u00ba c\u00edrculos, desde que seu n\u00edvel permita acesso a estes c\u00edrculos, e pode usar todas as armaduras ou armas sem prejudicar seus rituais."
+      },
+      {
+        "level": 1,
+        "name": "Ler Magias",
+        "description": "Um Bruxo \u00e9 capaz de uma vez ao dia por n\u00edvel decifrar e ler inscri\u00e7\u00f5es m\u00e1gicas em qualquer lugar, mesmo que n\u00e3o entenda a mensagem a qual elas querem passar.\n\nEsta habilidade n\u00e3o permite identificar as propriedades m\u00e1gicas de um item m\u00e1gico, nem \u00e9 necess\u00e1ria para lan\u00e7ar magias escritas, mas permitir\u00e1 identificar qual magia est\u00e1 escrita ali."
+      },
+      {
+        "level": 1,
+        "name": "Detectar Magias",
+        "description": "Um Bruxo \u00e9 capaz de uma vez ao dia por n\u00edvel perceber em lugares, pessoas ou coisas em uma \u00e1rea de at\u00e9 9m + 3m por n\u00edvel, a presen\u00e7a de magia, desde que esteja concentrado e procurando ativamente por isso.\n\nO Bruxo percebe uma t\u00eanue aura m\u00e1gica ao redor dos lugares, pessoas ou coisas encantadas, mas n\u00e3o \u00e9 capaz de identificar a magia, o n\u00edvel de poder do conjurador ou o efeito presente no alvo.\n\nUm Bruxo precisa se concentrar 1d8 rodadas na \u00e1rea desejada para conseguir detectar, caso haja, alguma presen\u00e7a m\u00e1gica. Esse tempo cai para 1d4 rodadas no 6\u00ba n\u00edvel e para 1 rodada no 10\u00ba n\u00edvel."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Bruxo de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 34,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/mago.json",
+    "url": "https://olddragon.com.br/classes/bruxo.json"
+  },
+  {
+    "id": "clerigo",
+    "type": "CharacterClass",
+    "name": "Cl\u00e9rigo",
+    "flavor": "Aventureiro religioso e devoto das for\u00e7as divinas do pante\u00e3o.\nDeterminado e virtuoso, protege a todos usando seus milagres divinos.\n",
+    "armors_description": "Podem usar todas as armaduras.",
+    "weapons_description": "S\u00f3 podem usar armas impactantes. Usar armas cortantes ou perfurantes faz o Cl\u00e9rigo perder suas magias at\u00e9 realizar uma penit\u00eancia para restaurar o abalo na sua f\u00e9.",
+    "magic_items_description": "O Cl\u00e9rigo \u00e9 capaz de usar todos os tipos de itens m\u00e1gicos desde que sejam ordeiros.",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 550000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Divinas",
+        "description": "Um Cl\u00e9rigo \u00e9 capaz de lan\u00e7ar magias divinas diariamente a partir do 1\u00ba n\u00edvel. Para prepar\u00e1-las, o Cl\u00e9rigo deve rezar para o Pante\u00e3o e pedir que magias lhe sejam concedidas naquele dia, respeitando os seus limites de n\u00edvel e de sabedoria."
+      },
+      {
+        "level": 1,
+        "name": "Afastar Mortos-Vivos",
+        "description": "O Cl\u00e9rigo \u00e9 capaz de invocar o nome e o poder de sua divindade brandindo seu s\u00edmbolo sagrado, fazendo os mortos-vivos a at\u00e9 18 metros e que n\u00e3o passem em um teste de moral no final da rodada, se contorcerem e tentarem a todo custo fugir do Cl\u00e9rigo.\n\n**Reduzir a P\u00f3**: Se o morto-vivo n\u00e3o passar no Teste de Moral e o resultado dos dados for igual (tirando dois 4 nos dados, ou dois 5, ou ainda dois 6) o morto-vivo n\u00e3o \u00e9 apenas afastado, mas tamb\u00e9m destru\u00eddo e reduzido a p\u00f3.\n\n**Alvo**: Todos os mortos-vivos num raio de at\u00e9 18 metros do Cl\u00e9rigo s\u00e3o afetados pelo Afastar Mortos-vivos. Mortos-vivos bem-sucedidos no teste de moral no final da rodada ficam imunes a um novo Afastar Mortos-vivos proferidos por este Cl\u00e9rigo, at\u00e9 este adquirir um novo n\u00edvel.",
+        "level3": "O Cl\u00e9rigo recebe um b\u00f4nus de +1 nos seus testes de Afastar Mortos-Vivos e pode tentar Afastar Mortos-Vivos duas vezes ao dia.",
+        "level10": "O Cl\u00e9rigo recebe um b\u00f4nus de +2 nos seus testes de Afastar Mortos-Vivos e pode tentar Afastar Mortos-Vivos tr\u00eas vezes ao dia."
+      },
+      {
+        "level": 1,
+        "name": "Cura Milagrosa",
+        "description": "Cl\u00e9rigos podem trocar uma magia previamente memorizada por uma magia de Curar Ferimentos de 1\u00ba c\u00edrculo.",
+        "level6": "O Cl\u00e9rigo evolui seu poder de Cura, podendo trocar uma magia memorizada por Curar Ferimentos de 3\u00ba c\u00edrculo, que cura at\u00e9 2d8 pontos de vida.",
+        "level10": "O Cl\u00e9rigo evolui seu poder de Cura, podendo trocar uma magia memorizada por Curar Ferimentos de 5\u00ba c\u00edrculo, que cura at\u00e9 3d8 pontos de vida."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Cl\u00e9rigo de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 32,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/classes/clerigo.json"
+  },
+  {
+    "id": "druida",
+    "type": "CharacterClass",
+    "name": "Druida",
+    "flavor": "Um Druida \u00e9 um Cl\u00e9rigo especialista silvestre, tendo como sua divindade a Deusa-M\u00e3e da natureza e as for\u00e7as dela al\u00e9m do neutro equil\u00edbrio da roda da vida.",
+    "armors_description": "N\u00e3o pode usar nenhuma armadura met\u00e1lica.",
+    "weapons_description": "N\u00e3o pode usar nenhuma arma met\u00e1lica.",
+    "magic_items_description": "Pode usar qualquer item m\u00e1gico.",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "restrictions": {
+      "alignments": [
+        "neutro"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 600000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Divinas",
+        "description": "Um Druida \u00e9 capaz de lan\u00e7ar magias divinas diariamente a partir do 1\u00ba n\u00edvel. Para prepar\u00e1-las, o Druida deve rezar para o Pante\u00e3o e pedir que magias lhe sejam concedidas naquele dia, respeitando os seus limites de n\u00edvel e de sabedoria."
+      },
+      {
+        "level": 1,
+        "name": "Herbalismo",
+        "description": "O Druida adquire a habilidade de Herbalismo sendo capaz de identificar plantas, animais e reconhecer \u00e1gua pura e segura para o consumo."
+      },
+      {
+        "level": 3,
+        "name": "Previd\u00eancia",
+        "description": "O Druida adquire a habilidade da Previd\u00eancia nos acampamentos os quais monta. Acampamentos criados nos ermos por um Druida sempre ser\u00e3o do tipo seguro."
+      },
+      {
+        "level": 6,
+        "name": "Transforma\u00e7\u00e3o",
+        "description": "O Druida pode Assumir a Forma de um animal pequeno n\u00e3o-m\u00e1gico at\u00e9 3 vezes ao dia.",
+        "level6": "O Druida pode Assumir a Forma de um animal pequeno n\u00e3o-m\u00e1gico de at\u00e9 6 DV por at\u00e9 3 vezes ao dia.\n\nO Druida pode adotar uma habilidade especial deste animal como, por exemplo, o abra\u00e7o de um Urso, mas mant\u00e9m todas as suas pr\u00f3prias estat\u00edsticas como b\u00f4nus de ataque, Jogadas de Prote\u00e7\u00e3o, classe de armadura e pontos de vida.",
+        "level10": "O Druida evolui sua capacidade de Assumir a Forma de animais at\u00e9 3 vezes ao dia, podendo assumir a forma de um animal n\u00e3o-m\u00e1gico de qualquer tamanho com at\u00e9 10 DV.\n\nO Druida pode adotar todas as habilidades especiais deste animal como, por exemplo, o abra\u00e7o de um Urso, mas mant\u00e9m todas as suas pr\u00f3prias estat\u00edsticas como b\u00f4nus de ataque, Jogadas de Prote\u00e7\u00e3o, classe de armadura e pontos de vida."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Druida de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 34,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/clerigo.json",
+    "url": "https://olddragon.com.br/classes/druida.json"
+  },
+  {
+    "id": "elfo-aventureiro",
+    "type": "CharacterClass",
+    "name": "Elfo Aventureiro",
+    "flavor": "",
+    "armors_description": "Podem usar todas armaduras.",
+    "weapons_description": "Podem usar todas armas.",
+    "magic_items_description": "Podem usar todos os tipos.",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "restrictions": {
+      "races": [
+        "elfo"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Treinamento Racial",
+        "description": "O Elfo Aventureiro mant\u00e9m todas as habilidades raciais recebidas por ser um elfo e, devido ao intenso treinamento marcial, recebe a cada n\u00edvel um b\u00f4nus de +1 nos seus pontos de vida adicionais \u00e0 tabela de Mago.\nAl\u00e9m disso, deixam de possuir restri\u00e7\u00f5es quanto ao uso de armas ou armaduras como um Mago.\n\nSeu treinamento nas suas armas raciais, cimitarras ou arcos concedem a eles um b\u00f4nus de +2 no dano da arma escolhida. Esta arma passa a ser tratada como sua arma racial."
+      },
+      {
+        "level": 3,
+        "name": "Brilho M\u00e1gico",
+        "description": "O Elfo Aventureiro come\u00e7a a dominar as artes arcanas na pr\u00e1tica, sendo capaz de conjurar uma \u00fanica magia de 1\u00ba c\u00edrculo por dia, como um Mago de 1\u00ba n\u00edvel.\nTodas as regras de conjura\u00e7\u00e3o, uso de armaduras, memoriza\u00e7\u00e3o, lista de magias e grim\u00f3rio de um Mago s\u00e3o compartilhadas por um Elfo Aventureiro.\nSe estiver usando um escudo ou armadura, um Elfo Aventureiro possui 1-3 chances em 1d6 de perder a magia sem que qualquer efeito ocorra."
+      },
+      {
+        "level": 6,
+        "name": "Esplendor Arcano",
+        "description": "Elfo Aventureiro passa a ser capaz de lan\u00e7ar magias arcanas diariamente como um Mago cinco n\u00edveis abaixo do seu. Um Elfo Aventureiro de 6\u00ba n\u00edvel memoriza e lan\u00e7a magias como um Mago de 1\u00ba n\u00edvel. Se estiver usando um escudo ou armadura, um Elfo Aventureiro possui 1-2 chances em 1d6 de perder a magia sem que qualquer efeito ocorra."
+      },
+      {
+        "level": 10,
+        "name": "Ataque Extra",
+        "description": "O Elfo Aventureiro adquire um segundo ataque com sua arma racial escolhida no 1\u00ba n\u00edvel (cimitarra ou arco). Este segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa com a mesma BA usada no primeiro ataque."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Elfo Aventureiro de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 35,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/mago.json",
+    "url": "https://olddragon.com.br/classes/elfo-aventureiro.json"
+  },
+  {
+    "id": "feiticeiro-clerigo",
+    "type": "CharacterClass",
+    "name": "Feiticeiro (Cl\u00e9rigo)",
+    "flavor": "N\u00e3o se conhece a origem dos Feiticeiros nem a causa da sua exist\u00eancia. A natureza do seu poder m\u00e1gico \u00e9 totalmente misterioso.",
+    "armors_description": "Podem usar todas as armaduras.",
+    "weapons_description": "S\u00f3 podem usar armas impactantes. Usar armas cortantes ou perfurantes faz o Feiticeiro (Cl\u00e9rigo) perder suas magias at\u00e9 realizar uma penit\u00eancia para restaurar o abalo na sua f\u00e9.",
+    "magic_items_description": "O Feiticeiro (Cl\u00e9rigo) \u00e9 capaz de usar todos os tipos de itens m\u00e1gicos desde que sejam ordeiros.",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Sangue M\u00edstico",
+        "description": "O sangue m\u00edstico do Feiticeiro (Cl\u00e9rigo) desperta e concede aleatoriamente a ele uma magia arcana de 1\u00ba c\u00edrculo. O Feiticeiro (Cl\u00e9rigo) \u00e9 capaz de lan\u00e7ar uma \u00fanica magia ao dia (sem qualquer tipo de memoriza\u00e7\u00e3o) e deve seguir normalmente todas as regras de conjura\u00e7\u00e3o de magias arcanas.",
+        "level3": "recebe uma magia extra de 2\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar duas magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha qualquer uma magia por uma magia de 2\u00ba c\u00edrculo.",
+        "level6": "recebe uma magia extra de 3\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar tr\u00eas magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha, qualquer uma magia de 2\u00ba c\u00edrculo por uma magia de 3\u00ba c\u00edrculo, ou duas magias de 1\u00ba c\u00edrculo por uma de 2\u00ba c\u00edrculo.",
+        "level10": "recebe uma magia extra de 4\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar quatro magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha, qualquer uma magia de 1\u00ba ou 2\u00ba c\u00edrculos por uma magia de 3\u00ba ou 4\u00ba c\u00edrculos, na propor\u00e7\u00e3o de 1 para 1, ou seja, uma magia de 2\u00ba c\u00edrculo equivale a duas de 1\u00ba c\u00edrculo, tr\u00eas de 1\u00ba c\u00edrculo a uma de 3\u00ba e assim sucessivamente."
+      },
+      {
+        "level": 1,
+        "name": "Magias Divinas",
+        "description": "Um Feiticeiro (Cl\u00e9rigo) \u00e9 capaz de lan\u00e7ar magias divinas diariamente a partir do 1\u00ba n\u00edvel. Para prepar\u00e1-las, o Feiticeiro (Cl\u00e9rigo) deve rezar para o Pante\u00e3o e pedir que magias lhe sejam concedidas naquele dia, respeitando os seus limites de n\u00edvel e de sabedoria."
+      },
+      {
+        "level": 1,
+        "name": "Afastar Mortos-Vivos",
+        "description": "O Feiticeiro (Cl\u00e9rigo) \u00e9 capaz de invocar o nome e o poder de sua divindade brandindo seu s\u00edmbolo sagrado, fazendo os mortos-vivos a at\u00e9 18 metros e que n\u00e3o passem em um teste de moral no final da rodada, se contorcerem e tentarem a todo custo fugir do Feiticeiro (Cl\u00e9rigo).\n\n**Reduzir a P\u00f3**: Se o morto-vivo n\u00e3o passar no Teste de Moral e o resultado dos dados for igual (tirando dois 4 nos dados, ou dois 5, ou ainda dois 6) o morto-vivo n\u00e3o \u00e9 apenas afastado, mas tamb\u00e9m destru\u00eddo e reduzido a p\u00f3.\n\n**Alvo**: Todos os mortos-vivos num raio de at\u00e9 18 metros do Feiticeiro (Cl\u00e9rigo) s\u00e3o afetados pelo Afastar Mortos-vivos. Mortos-vivos bem-sucedidos no teste de moral no final da rodada ficam imunes a um novo Afastar Mortos-vivos proferidos por este Feiticeiro (Cl\u00e9rigo), at\u00e9 este adquirir um novo n\u00edvel.",
+        "level3": "O Feiticeiro (Cl\u00e9rigo) recebe um b\u00f4nus de +1 nos seus testes de Afastar Mortos-Vivos e pode tentar Afastar Mortos-Vivos duas vezes ao dia.",
+        "level10": "O Feiticeiro (Cl\u00e9rigo) recebe um b\u00f4nus de +2 nos seus testes de Afastar Mortos-Vivos e pode tentar Afastar Mortos-Vivos tr\u00eas vezes ao dia."
+      },
+      {
+        "level": 1,
+        "name": "Cura Milagrosa",
+        "description": "Cl\u00e9rigos podem trocar uma magia previamente memorizada por uma magia de Curar Ferimentos de 1\u00ba c\u00edrculo.",
+        "level6": "O Feiticeiro (Cl\u00e9rigo) evolui seu poder de Cura, podendo trocar uma magia memorizada por Curar Ferimentos de 3\u00ba c\u00edrculo, que cura at\u00e9 2d8 pontos de vida.",
+        "level10": "O Feiticeiro (Cl\u00e9rigo) evolui seu poder de Cura, podendo trocar uma magia memorizada por Curar Ferimentos de 5\u00ba c\u00edrculo, que cura at\u00e9 3d8 pontos de vida."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Feiticeiro (Cl\u00e9rigo) de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/clerigo.json",
+    "url": "https://olddragon.com.br/classes/feiticeiro-clerigo.json"
+  },
+  {
+    "id": "feiticeiro-guerreiro",
+    "type": "CharacterClass",
+    "name": "Feiticeiro (Guerreiro)",
+    "flavor": "N\u00e3o se conhece a origem dos Feiticeiros nem a causa da sua exist\u00eancia. A natureza do seu poder m\u00e1gico \u00e9 totalmente misterioso.",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Sangue M\u00edstico",
+        "description": "O sangue m\u00edstico do Feiticeiro (Guerreiro) desperta e concede aleatoriamente a ele uma magia arcana de 1\u00ba c\u00edrculo. O Feiticeiro (Guerreiro) \u00e9 capaz de lan\u00e7ar uma \u00fanica magia ao dia (sem qualquer tipo de memoriza\u00e7\u00e3o) e deve seguir normalmente todas as regras de conjura\u00e7\u00e3o de magias arcanas.",
+        "level3": "recebe uma magia extra de 2\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar duas magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha qualquer uma magia por uma magia de 2\u00ba c\u00edrculo.",
+        "level6": "recebe uma magia extra de 3\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar tr\u00eas magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha, qualquer uma magia de 2\u00ba c\u00edrculo por uma magia de 3\u00ba c\u00edrculo, ou duas magias de 1\u00ba c\u00edrculo por uma de 2\u00ba c\u00edrculo.",
+        "level10": "recebe uma magia extra de 4\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar quatro magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha, qualquer uma magia de 1\u00ba ou 2\u00ba c\u00edrculos por uma magia de 3\u00ba ou 4\u00ba c\u00edrculos, na propor\u00e7\u00e3o de 1 para 1, ou seja, uma magia de 2\u00ba c\u00edrculo equivale a duas de 1\u00ba c\u00edrculo, tr\u00eas de 1\u00ba c\u00edrculo a uma de 3\u00ba e assim sucessivamente."
+      },
+      {
+        "level": 1,
+        "name": "Aparar",
+        "description": "Um Feiticeiro (Guerreiro) pode, ap\u00f3s receber um ataque f\u00edsico que o atinja e antes da jogada de dano desse ataque, escolher sacrificar seu escudo ou uma arma que esteja portando para absorver todo o dano do ataque recebido.\n\nArmas e Escudos usados em um aparar ficar\u00e3o inutilizados e danificados. Armas e Escudos m\u00e1gicos possuem uma chance de 1-2 em 1d6 de se danificarem, reduzindo seus b\u00f4nus (de ataque/defesa) em 1 de modo que um escudo +3 ao ser usado em um aparar, e se danificado, passa ter como b\u00f4nus de defesa +2 e assim sucessivamente.\n\nUm item m\u00e1gico que perder todos os b\u00f4nus estar\u00e1 permanentemente destru\u00eddo. Apenas ataques provenientes de inimigos grandes ou menores poder\u00e3o ser aparados."
+      },
+      {
+        "level": 1,
+        "name": "Maestria em Arma",
+        "description": "O Feiticeiro (Guerreiro) se torna Mestre em uma arma \u00e0 sua escolha, recebendo um b\u00f4nus de +1 no dano daquela arma.",
+        "level3": "O Feiticeiro (Guerreiro) evolui sua maestria para uma segunda arma \u00e0 sua escolha e melhora o b\u00f4nus no dano de ambas as armas para +2.",
+        "level10": "O Feiticeiro (Guerreiro) evolui sua maestria para todas as armas semelhantes \u00e0quelas que ele j\u00e1 possui maestria, recebendo b\u00f4nus em todas as armas pertencentes a estes grupos.\n\nOs grupos de armas dispon\u00edveis s\u00e3o: cortantes, perfurante, impactantes, disparos, hastes ou arremesso. Todas as armas desses grupos melhoram seus b\u00f4nus de dano para +3.\n"
+      },
+      {
+        "level": 6,
+        "name": "Ataque Extra",
+        "description": "Um Feiticeiro (Guerreiro) no 6\u00ba n\u00edvel adquire um segundo ataque, corpo a corpo ou \u00e0 dist\u00e2ncia, com uma mesma arma na qual possua maestria.\n\nEste segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa com a mesma BA usada no primeiro ataque."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Feiticeiro (Guerreiro) de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/guerreiro.json",
+    "url": "https://olddragon.com.br/classes/feiticeiro-guerreiro.json"
+  },
+  {
+    "id": "feiticeiro-ladrao",
+    "type": "CharacterClass",
+    "name": "Feiticeiro (Ladr\u00e3o)",
+    "flavor": "N\u00e3o se conhece a origem dos Feiticeiros nem a causa da sua exist\u00eancia. A natureza do seu poder m\u00e1gico \u00e9 totalmente misterioso.",
+    "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
+    "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para Feiticeiros (Ladr\u00f5es).",
+    "magic_items_description": "N\u00e3o podem usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Sangue M\u00edstico",
+        "description": "O sangue m\u00edstico do Feiticeiro (Ladr\u00e3o) desperta e concede aleatoriamente a ele uma magia arcana de 1\u00ba c\u00edrculo. O Feiticeiro (Ladr\u00e3o) \u00e9 capaz de lan\u00e7ar uma \u00fanica magia ao dia (sem qualquer tipo de memoriza\u00e7\u00e3o) e deve seguir normalmente todas as regras de conjura\u00e7\u00e3o de magias arcanas.",
+        "level3": "recebe uma magia extra de 2\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar duas magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha qualquer uma magia por uma magia de 2\u00ba c\u00edrculo.",
+        "level6": "recebe uma magia extra de 3\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar tr\u00eas magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha, qualquer uma magia de 2\u00ba c\u00edrculo por uma magia de 3\u00ba c\u00edrculo, ou duas magias de 1\u00ba c\u00edrculo por uma de 2\u00ba c\u00edrculo.",
+        "level10": "recebe uma magia extra de 4\u00ba c\u00edrculo escolhida aleatoriamente, passando a conjurar quatro magias por dia. Al\u00e9m disso, pode trocar \u00e0 sua escolha, qualquer uma magia de 1\u00ba ou 2\u00ba c\u00edrculos por uma magia de 3\u00ba ou 4\u00ba c\u00edrculos, na propor\u00e7\u00e3o de 1 para 1, ou seja, uma magia de 2\u00ba c\u00edrculo equivale a duas de 1\u00ba c\u00edrculo, tr\u00eas de 1\u00ba c\u00edrculo a uma de 3\u00ba e assim sucessivamente."
+      },
+      {
+        "level": 1,
+        "name": "Ataque Furtivo",
+        "description": "O Feiticeiro (Ladr\u00e3o) que ataca ap\u00f3s ter se aproximado do inimigo furtivamente, \u00e9 capaz de realizar um ataque muito f\u00e1cil, causando dano multiplicado por 2.",
+        "level6": "O dano do Ataque Furtivo \u00e9 multiplicado por 3.",
+        "level10": "O dano do Ataque Furtivo \u00e9 multiplicado por 4."
+      },
+      {
+        "level": 1,
+        "name": "Ouvir Ru\u00eddos",
+        "description": "O Feiticeiro (Ladr\u00e3o) consegue ouvir ru\u00eddos como uma conversa do outro lado de uma porta ou sons de monstros se aproximando. Para isso, ele deve estar em um ambiente silencioso, como em uma masmorra e fora de um combate.\n\nO Feiticeiro (Ladr\u00e3o) possui uma chance de 1-2 em 1d6 para conseguir ouvir ru\u00eddos.",
+        "level3": "A chance aumenta para 1-3 em 1d6.",
+        "level6": "A chance aumenta para 1-4 em 1d6.",
+        "level10": "A chance aumenta para 1-5 em 1d6."
+      },
+      {
+        "level": 1,
+        "name": "Talentos de Ladr\u00e3o",
+        "description": "Feiticeiros (Ladr\u00f5es) possuem algumas habilidades as quais representam seus principais campos de atua\u00e7\u00e3o, come\u00e7ando com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir como desejar.",
+        "level3": "Recebe 2 pontos para evoluir seus talentos.",
+        "level6": "Recebe 2 pontos para evoluir seus talentos.",
+        "level10": "Recebe 2 pontos para evoluir seus talentos."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Feiticeiro (Ladr\u00e3o) de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/ladrao.json",
+    "url": "https://olddragon.com.br/classes/feiticeiro-ladrao.json"
+  },
+  {
+    "id": "guerreiro",
+    "type": "CharacterClass",
+    "name": "Guerreiro",
+    "flavor": "Aventureiros especializados em combate, est\u00e3o sempre na linha de frente e s\u00e3o mortais quando desembainham suas armas.",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 600000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Aparar",
+        "description": "Um Guerreiro pode, ap\u00f3s receber um ataque f\u00edsico que o atinja e antes da jogada de dano desse ataque, escolher sacrificar seu escudo ou uma arma que esteja portando para absorver todo o dano do ataque recebido.\n\nArmas e Escudos usados em um aparar ficar\u00e3o inutilizados e danificados. Armas e Escudos m\u00e1gicos possuem uma chance de 1-2 em 1d6 de se danificarem, reduzindo seus b\u00f4nus (de ataque/defesa) em 1 de modo que um escudo +3 ao ser usado em um aparar, e se danificado, passa ter como b\u00f4nus de defesa +2 e assim sucessivamente.\n\nUm item m\u00e1gico que perder todos os b\u00f4nus estar\u00e1 permanentemente destru\u00eddo. Apenas ataques provenientes de inimigos grandes ou menores poder\u00e3o ser aparados."
+      },
+      {
+        "level": 1,
+        "name": "Maestria em Arma",
+        "description": "O Guerreiro se torna Mestre em uma arma \u00e0 sua escolha, recebendo um b\u00f4nus de +1 no dano daquela arma.",
+        "level3": "O Guerreiro evolui sua maestria para uma segunda arma \u00e0 sua escolha e melhora o b\u00f4nus no dano de ambas as armas para +2.",
+        "level10": "O Guerreiro evolui sua maestria para todas as armas semelhantes \u00e0quelas que ele j\u00e1 possui maestria, recebendo b\u00f4nus em todas as armas pertencentes a estes grupos.\n\nOs grupos de armas dispon\u00edveis s\u00e3o: cortantes, perfurante, impactantes, disparos, hastes ou arremesso. Todas as armas desses grupos melhoram seus b\u00f4nus de dano para +3.\n"
+      },
+      {
+        "level": 6,
+        "name": "Ataque Extra",
+        "description": "Um Guerreiro no 6\u00ba n\u00edvel adquire um segundo ataque, corpo a corpo ou \u00e0 dist\u00e2ncia, com uma mesma arma na qual possua maestria.\n\nEste segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa com a mesma BA usada no primeiro ataque."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Guerreiro de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 28,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/classes/guerreiro.json"
+  },
+  {
+    "id": "halfling-aventureiro",
+    "type": "CharacterClass",
+    "name": "Halfling Aventureiro",
+    "flavor": "",
+    "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
+    "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Halfling Aventureiro.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "restrictions": {
+      "races": [
+        "halfling"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 550000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Talentos de Ladr\u00e3o",
+        "description": "Halflings Aventureiros possuem algumas habilidades as quais representam seus principais campos de atua\u00e7\u00e3o, come\u00e7ando com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir como desejar.",
+        "level3": "Recebe 2 pontos para evoluir seus talentos.",
+        "level6": "Recebe 2 pontos para evoluir seus talentos.",
+        "level10": "Recebe 2 pontos para evoluir seus talentos."
+      },
+      {
+        "level": 1,
+        "name": "Arma Racial",
+        "description": "O Halfling Aventureiro mant\u00e9m todas as habilidades raciais recebidas por ser um halfling e, devido ao intenso treinamento, atinge um grau de especializa\u00e7\u00e3o em uma arma de arremesso \u00e0 sua escolha, recebendo um b\u00f4nus de +2 no dano da arma escolhida. Esta arma passa a ser tratada como sua arma racial."
+      },
+      {
+        "level": 3,
+        "name": "Valente",
+        "description": "O Halfling Aventureiro possui em suas veias o sangue dos mais destemido dos halflings, tornando-se imune a qualquer efeito de medo, terror, horror ou semelhantes. Qualquer tentativa de amedront\u00e1-lo o tornar\u00e1 mais corajoso, transformando seus testes de atributo, jogada de prote\u00e7\u00e3o ou ataque em testes f\u00e1ceis."
+      },
+      {
+        "level": 6,
+        "name": "No Alvo",
+        "description": "Devido ao constante treinamento, o Halfling Aventureiro evolui ainda mais a habilidade natural de mira em arremessos. Deste ponto em diante, qualquer ataque \u00e0 dist\u00e2ncia realizado com sua arma racial \u00e9 considerado um ataque muito f\u00e1cil."
+      },
+      {
+        "level": 10,
+        "name": "Arremesso Extra",
+        "description": "O Halfling Aventureiro adquire um segundo arremesso por ataque quando empunhando sua arma racial. Este segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa com a mesma BA usada no primeiro ataque."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Halfling Aventureiro de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 31,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/ladrao.json",
+    "url": "https://olddragon.com.br/classes/halfling-aventureiro.json"
+  },
+  {
+    "id": "ilusionista",
+    "type": "CharacterClass",
+    "name": "Ilusionista",
+    "flavor": "O Ilusionista \u00e9 um personagem ligado \u00e0s artes das ilus\u00f5es, o que significa oculta\u00e7\u00f5es, prestidigita\u00e7\u00e3o e manipula\u00e7\u00e3o da realidade.",
+    "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
+    "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Ilusionistas.",
+    "magic_items_description": "Podem usar todos os tipos.",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Arcanas",
+        "description": "Um Ilusionista \u00e9 capaz de lan\u00e7ar magias arcanas diariamente. Para memoriz\u00e1-las, o Ilusionista deve estudar seu livro de magias, o grim\u00f3rio, e decidir quais magias ser\u00e3o memorizadas naquele dia.\n\n**Grim\u00f3rio**: Livro no qual o Ilusionista escreve sua cole\u00e7\u00e3o de magias, como um grande livro de receitas arcanas. Sem ele, um Ilusionista perde a capacidade de memorizar novas magias. Por isso, um Ilusionista zeloso guardar\u00e1 seu grim\u00f3rio como se fosse a pr\u00f3pria vida.\n\n**Magias Iniciais**: No 1\u00ba n\u00edvel, o grim\u00f3rio do Ilusionista cont\u00e9m tr\u00eas magias de 1\u00ba c\u00edrculo \u00e0 escolha do Ilusionista e uma magia escolhida aleatoriamente da sua lista de magias de 1\u00ba c\u00edrculo.\n\n**Novas Magias**: Um Ilusionista pode acrescentar livremente novas magias ao seu grim\u00f3rio copiando de outros grim\u00f3rios ou de pergaminhos.\n\n**C\u00edrculos Superiores**: Um Ilusionista pode escrever no grim\u00f3rio magias de c\u00edrculos acima de sua capacidade, mas n\u00e3o pode memoriz\u00e1-las at\u00e9 atingir o n\u00edvel necess\u00e1rio."
+      },
+      {
+        "level": 1,
+        "name": "Ler Magias",
+        "description": "Um Ilusionista \u00e9 capaz de uma vez ao dia por n\u00edvel decifrar e ler inscri\u00e7\u00f5es m\u00e1gicas em qualquer lugar, mesmo que n\u00e3o entenda a mensagem a qual elas querem passar.\n\nEsta habilidade n\u00e3o permite identificar as propriedades m\u00e1gicas de um item m\u00e1gico, nem \u00e9 necess\u00e1ria para lan\u00e7ar magias escritas, mas permitir\u00e1 identificar qual magia est\u00e1 escrita ali."
+      },
+      {
+        "level": 1,
+        "name": "Detectar Magias",
+        "description": "Um Ilusionista \u00e9 capaz de uma vez ao dia por n\u00edvel perceber em lugares, pessoas ou coisas em uma \u00e1rea de at\u00e9 9m + 3m por n\u00edvel, a presen\u00e7a de magia, desde que esteja concentrado e procurando ativamente por isso.\n\nO Ilusionista percebe uma t\u00eanue aura m\u00e1gica ao redor dos lugares, pessoas ou coisas encantadas, mas n\u00e3o \u00e9 capaz de identificar a magia, o n\u00edvel de poder do conjurador ou o efeito presente no alvo.\n\nUm Ilusionista precisa se concentrar 1d8 rodadas na \u00e1rea desejada para conseguir detectar, caso haja, alguma presen\u00e7a m\u00e1gica. Esse tempo cai para 1d4 rodadas no 6\u00ba n\u00edvel e para 1 rodada no 10\u00ba n\u00edvel."
+      },
+      {
+        "level": 1,
+        "name": "Magias Exclusivas",
+        "description": "O Ilusionista escreve em seu grim\u00f3rio Ilus\u00e3o e Som Ilus\u00f3rio, exclusivas para Ilusionistas.\n\n- **Sem Memorizar**: Magias exclusivas n\u00e3o precisam ser memorizadas para serem conjuradas pelo Ilusionista.\n- **Usos por dia**: Cada magia exclusiva do Ilusionista em seu grim\u00f3rio pode ser usada at\u00e9 uma vez ao dia, adicionalmente \u00e0s magias di\u00e1rias do Ilusionista.\n- **Usos Adicionais**: Caso outros usos sejam realizados, a magia exclusiva consumir\u00e1 o espa\u00e7o ocupado na mem\u00f3ria do Ilusionista por outra magia j\u00e1 previamente memorizada.\n- **Jogada de Prote\u00e7\u00e3o**: Todas as Jogadas de Prote\u00e7\u00e3o contra as magias exclusivas s\u00e3o realizadas com um teste dif\u00edcil."
+      },
+      {
+        "level": 3,
+        "name": "Ilus\u00e3o Melhorada",
+        "description": "O Ilusionista escreve esta magia exclusiva em seu grim\u00f3rio."
+      },
+      {
+        "level": 6,
+        "name": "Miragem",
+        "description": "O Ilusionista escreve esta magia exclusiva em seu grim\u00f3rio."
+      },
+      {
+        "level": 10,
+        "name": "Ilus\u00e3o Permanente",
+        "description": "O Ilusionista escreve esta magia exclusiva em seu grim\u00f3rio."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Ilusionista de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 44,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/mago.json",
+    "url": "https://olddragon.com.br/classes/ilusionista.json"
+  },
+  {
+    "id": "ladrao",
+    "type": "CharacterClass",
+    "name": "Ladr\u00e3o",
+    "flavor": "Aventureiro t\u00e1ctico, perito em sobreviver em masmorras.\nFurtivo, trai\u00e7oeiro e fatal quando ataca suas v\u00edtimas sorrateiramente.\n",
+    "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
+    "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para Ladr\u00f5es.",
+    "magic_items_description": "N\u00e3o podem usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1000
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 4000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 7000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 14000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 24000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 34000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 44000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 88000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 180000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 260000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 340000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 420000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 500000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Ataque Furtivo",
+        "description": "O Ladr\u00e3o que ataca ap\u00f3s ter se aproximado do inimigo furtivamente, \u00e9 capaz de realizar um ataque muito f\u00e1cil, causando dano multiplicado por 2.",
+        "level6": "O dano do Ataque Furtivo \u00e9 multiplicado por 3.",
+        "level10": "O dano do Ataque Furtivo \u00e9 multiplicado por 4."
+      },
+      {
+        "level": 1,
+        "name": "Ouvir Ru\u00eddos",
+        "description": "O Ladr\u00e3o consegue ouvir ru\u00eddos como uma conversa do outro lado de uma porta ou sons de monstros se aproximando. Para isso, ele deve estar em um ambiente silencioso, como em uma masmorra e fora de um combate.\n\nO Ladr\u00e3o possui uma chance de 1-2 em 1d6 para conseguir ouvir ru\u00eddos.",
+        "level3": "A chance aumenta para 1-3 em 1d6.",
+        "level6": "A chance aumenta para 1-4 em 1d6.",
+        "level10": "A chance aumenta para 1-5 em 1d6."
+      },
+      {
+        "level": 1,
+        "name": "Talentos de Ladr\u00e3o",
+        "description": "Ladr\u00f5es possuem algumas habilidades as quais representam seus principais campos de atua\u00e7\u00e3o, come\u00e7ando com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir como desejar.",
+        "level3": "Recebe 2 pontos para evoluir seus talentos.",
+        "level6": "Recebe 2 pontos para evoluir seus talentos.",
+        "level10": "Recebe 2 pontos para evoluir seus talentos."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Ladr\u00e3o de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 36,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/classes/ladrao.json"
+  },
+  {
+    "id": "legionario",
+    "type": "CharacterClass",
+    "name": "Legion\u00e1rio",
+    "flavor": "Legion\u00e1rios s\u00e3o conhecidos por serem soldados bem treinados e organizados. Por\u00e9m, sempre devem estar dispon\u00edveis para servir a sua legi\u00e3o 1d4 meses por ano. Dependendo de onde se encontrem, Legion\u00e1rios s\u00e3o respeitados, temidos ou ainda odiados.",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Aparar",
+        "description": "Um Legion\u00e1rio pode, ap\u00f3s receber um ataque f\u00edsico que o atinja e antes da jogada de dano desse ataque, escolher sacrificar seu escudo ou uma arma que esteja portando para absorver todo o dano do ataque recebido.\n\nArmas e Escudos usados em um aparar ficar\u00e3o inutilizados e danificados. Armas e Escudos m\u00e1gicos possuem uma chance de 1-2 em 1d6 de se danificarem, reduzindo seus b\u00f4nus (de ataque/defesa) em 1 de modo que um escudo +3 ao ser usado em um aparar, e se danificado, passa ter como b\u00f4nus de defesa +2 e assim sucessivamente.\n\nUm item m\u00e1gico que perder todos os b\u00f4nus estar\u00e1 permanentemente destru\u00eddo. Apenas ataques provenientes de inimigos grandes ou menores poder\u00e3o ser aparados."
+      },
+      {
+        "level": 1,
+        "name": "Maestria em Arma",
+        "description": "O Legion\u00e1rio se torna Mestre em uma arma \u00e0 sua escolha, recebendo um b\u00f4nus de +1 no dano daquela arma."
+      },
+      {
+        "level": 1,
+        "name": "Soldado",
+        "description": "O Legion\u00e1rio recebe um equipamento e soldo de acordo com a hierarquia que ocupa na legi\u00e3o. Inicialmente ele recebe um soldo de 10 PP por semana e um conjunto de equipamento composto pela arma padr\u00e3o da legi\u00e3o, escudo e armadura de couro. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +1 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.\n\nEste segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa com a mesma BA usada no primeiro ataque.",
+        "level3": "**Sargento**: O Legion\u00e1rio passa a receber um soldo de 30 PP por semana e seu equipamento evolui para arma da legi\u00e3o, escudo e cota de malhas. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +2 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.",
+        "level6": "**Capit\u00e3o**: O Legion\u00e1rio passa a receber um soldo de 60 PP por semana e seu equipamento evolui para arma da legi\u00e3o, escudo e armadura de placas. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +3 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.",
+        "level10": "**Comandante**: O Legion\u00e1rio passa a receber um soldo de 100 PP por semana e seu equipamento evolui para arma padr\u00e3o, escudo e armadura completa. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +4 nos danos causados pela espada curta e outro b\u00f4nus de +1 no seu CA."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Legion\u00e1rio de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/guerreiro.json",
+    "url": "https://olddragon.com.br/classes/legionario.json"
+  },
+  {
+    "id": "mago",
+    "type": "CharacterClass",
+    "name": "Mago",
+    "flavor": "Aventureiro estudioso, especializado nas artes arcanas, dedicado a conjurar magias escritas em grim\u00f3rios e pergaminhos.",
+    "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
+    "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Magos.",
+    "magic_items_description": "Podem usar todos os tipos.",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 650000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Arcanas",
+        "description": "Um Mago \u00e9 capaz de lan\u00e7ar magias arcanas diariamente. Para memoriz\u00e1-las, o Mago deve estudar seu livro de magias, o grim\u00f3rio, e decidir quais magias ser\u00e3o memorizadas naquele dia.\n\n**Grim\u00f3rio**: Livro no qual o Mago escreve sua cole\u00e7\u00e3o de magias, como um grande livro de receitas arcanas. Sem ele, um Mago perde a capacidade de memorizar novas magias. Por isso, um Mago zeloso guardar\u00e1 seu grim\u00f3rio como se fosse a pr\u00f3pria vida.\n\n**Magias Iniciais**: No 1\u00ba n\u00edvel, o grim\u00f3rio do Mago cont\u00e9m tr\u00eas magias de 1\u00ba c\u00edrculo \u00e0 escolha do Mago e uma magia escolhida aleatoriamente da sua lista de magias de 1\u00ba c\u00edrculo.\n\n**Novas Magias**: Um Mago pode acrescentar livremente novas magias ao seu grim\u00f3rio copiando de outros grim\u00f3rios ou de pergaminhos.\n\n**C\u00edrculos Superiores**: Um Mago pode escrever no grim\u00f3rio magias de c\u00edrculos acima de sua capacidade, mas n\u00e3o pode memoriz\u00e1-las at\u00e9 atingir o n\u00edvel necess\u00e1rio."
+      },
+      {
+        "level": 1,
+        "name": "Ler Magias",
+        "description": "Um Mago \u00e9 capaz de uma vez ao dia por n\u00edvel decifrar e ler inscri\u00e7\u00f5es m\u00e1gicas em qualquer lugar, mesmo que n\u00e3o entenda a mensagem a qual elas querem passar.\n\nEsta habilidade n\u00e3o permite identificar as propriedades m\u00e1gicas de um item m\u00e1gico, nem \u00e9 necess\u00e1ria para lan\u00e7ar magias escritas, mas permitir\u00e1 identificar qual magia est\u00e1 escrita ali."
+      },
+      {
+        "level": 1,
+        "name": "Detectar Magias",
+        "description": "Um Mago \u00e9 capaz de uma vez ao dia por n\u00edvel perceber em lugares, pessoas ou coisas em uma \u00e1rea de at\u00e9 9m + 3m por n\u00edvel, a presen\u00e7a de magia, desde que esteja concentrado e procurando ativamente por isso.\n\nO Mago percebe uma t\u00eanue aura m\u00e1gica ao redor dos lugares, pessoas ou coisas encantadas, mas n\u00e3o \u00e9 capaz de identificar a magia, o n\u00edvel de poder do conjurador ou o efeito presente no alvo.\n\nUm Mago precisa se concentrar 1d8 rodadas na \u00e1rea desejada para conseguir detectar, caso haja, alguma presen\u00e7a m\u00e1gica. Esse tempo cai para 1d4 rodadas no 6\u00ba n\u00edvel e para 1 rodada no 10\u00ba n\u00edvel."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Mago de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 42,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/classes/mago.json"
+  },
+  {
+    "id": "necromante",
+    "type": "CharacterClass",
+    "name": "Necromante",
+    "flavor": "O Necromante \u00e9 um estudioso dos fatos obscuros os quais cercam a vida e a morte, estudando as energias m\u00edsticas que interferem nos efeitos destes conceitos sobre os seres vivos ou n\u00e3o.",
+    "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
+    "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Necromantes.",
+    "magic_items_description": "Podem usar todos os tipos.",
+    "hp": 4,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 0,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 3000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 6000
+      },
+      "4": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 10000
+      },
+      "5": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 13000
+      },
+      "6": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 26000
+      },
+      "7": {
+        "ba": 2,
+        "jp": 7,
+        "xp": 36000
+      },
+      "8": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 46000
+      },
+      "9": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 56000
+      },
+      "10": {
+        "ba": 3,
+        "jp": 10,
+        "xp": 112000
+      },
+      "11": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 220000
+      },
+      "12": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 340000
+      },
+      "13": {
+        "ba": 4,
+        "jp": 10,
+        "xp": 460000
+      },
+      "14": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 580000
+      },
+      "15": {
+        "ba": 5,
+        "jp": 13,
+        "xp": 700000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Arcanas",
+        "description": "Um Necromante \u00e9 capaz de lan\u00e7ar magias arcanas diariamente. Para memoriz\u00e1-las, o Necromante deve estudar seu livro de magias, o grim\u00f3rio, e decidir quais magias ser\u00e3o memorizadas naquele dia.\n\n**Grim\u00f3rio**: Livro no qual o Necromante escreve sua cole\u00e7\u00e3o de magias, como um grande livro de receitas arcanas. Sem ele, um Necromante perde a capacidade de memorizar novas magias. Por isso, um Necromante zeloso guardar\u00e1 seu grim\u00f3rio como se fosse a pr\u00f3pria vida.\n\n**Magias Iniciais**: No 1\u00ba n\u00edvel, o grim\u00f3rio do Necromante cont\u00e9m tr\u00eas magias de 1\u00ba c\u00edrculo \u00e0 escolha do Mago e uma magia escolhida aleatoriamente da sua lista de magias de 1\u00ba c\u00edrculo.\n\n**Novas Magias**: Um Necromante pode acrescentar livremente novas magias ao seu grim\u00f3rio copiando de outros grim\u00f3rios ou de pergaminhos.\n\n**C\u00edrculos Superiores**: Um Necromante pode escrever no grim\u00f3rio magias de c\u00edrculos acima de sua capacidade, mas n\u00e3o pode memoriz\u00e1-las at\u00e9 atingir o n\u00edvel necess\u00e1rio."
+      },
+      {
+        "level": 1,
+        "name": "Ler Magias",
+        "description": "Um Necromante \u00e9 capaz de uma vez ao dia por n\u00edvel decifrar e ler inscri\u00e7\u00f5es m\u00e1gicas em qualquer lugar, mesmo que n\u00e3o entenda a mensagem a qual elas querem passar.\n\nEsta habilidade n\u00e3o permite identificar as propriedades m\u00e1gicas de um item m\u00e1gico, nem \u00e9 necess\u00e1ria para lan\u00e7ar magias escritas, mas permitir\u00e1 identificar qual magia est\u00e1 escrita ali."
+      },
+      {
+        "level": 1,
+        "name": "Detectar Magias",
+        "description": "Um Necromante \u00e9 capaz de uma vez ao dia por n\u00edvel perceber em lugares, pessoas ou coisas em uma \u00e1rea de at\u00e9 9m + 3m por n\u00edvel, a presen\u00e7a de magia, desde que esteja concentrado e procurando ativamente por isso.\n\nO Necromante percebe uma t\u00eanue aura m\u00e1gica ao redor dos lugares, pessoas ou coisas encantadas, mas n\u00e3o \u00e9 capaz de identificar a magia, o n\u00edvel de poder do conjurador ou o efeito presente no alvo.\n\nUm Necromante precisa se concentrar 1d8 rodadas na \u00e1rea desejada para conseguir detectar, caso haja, alguma presen\u00e7a m\u00e1gica. Esse tempo cai para 1d4 rodadas no 6\u00ba n\u00edvel e para 1 rodada no 10\u00ba n\u00edvel."
+      },
+      {
+        "level": 1,
+        "name": "Magias Exclusivas",
+        "description": "O Necromante escreve em seu grim\u00f3rio, Toque Sombrio e Aterrorizar, exclusivas para Necromantes.\n\n- **Sem Memorizar**: Magias exclusivas n\u00e3o precisam ser memorizadas para serem conjuradas pelo Necromante.\n- **Usos por dia**: Cada magia exclusiva do Necromante em seu grim\u00f3rio pode ser usada at\u00e9 uma vez ao dia, adicionalmente \u00e0s magias di\u00e1rias do Necromante.\n- **Usos Adicionais**: Caso outros usos sejam realizados, a magia exclusiva consumir\u00e1 o espa\u00e7o ocupado na mem\u00f3ria do Necromante por outra magia j\u00e1 previamente memorizada.\n- **Jogada de Prote\u00e7\u00e3o**: Todas as Jogadas de Prote\u00e7\u00e3o contra as magias exclusivas s\u00e3o realizadas com um teste dif\u00edcil."
+      },
+      {
+        "level": 3,
+        "name": "Criar Mortos-Vivos",
+        "description": "O Necromante escreve esta magia exclusiva em seu grim\u00f3rio."
+      },
+      {
+        "level": 6,
+        "name": "Drenar Vida",
+        "description": "O Necromante escreve esta magia exclusiva em seu grim\u00f3rio."
+      },
+      {
+        "level": 10,
+        "name": "Magia da Morte",
+        "description": "O Necromante escreve esta magia exclusiva em seu grim\u00f3rio."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Necromante de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 45,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/mago.json",
+    "url": "https://olddragon.com.br/classes/necromante.json"
+  },
+  {
+    "id": "paladino",
+    "type": "CharacterClass",
+    "name": "Paladino",
+    "flavor": "O Paladino \u00e9 um her\u00f3i cavalheiresco, errante, destemido e de car\u00e1ter inquestion\u00e1vel que segue o caminho da ordem da verdade e da lei, estando sempre disposto a proteger os fracos e a lutar pela erradica\u00e7\u00e3o do caos.",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 10,
+    "high_level_hp_bonus": 2,
+    "restrictions": {
+      "alignments": [
+        "ordeiro"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 2500
+      },
+      "3": {
+        "ba": 3,
+        "jp": 6,
+        "xp": 5000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 6,
+        "xp": 8500
+      },
+      "5": {
+        "ba": 5,
+        "jp": 8,
+        "xp": 11500
+      },
+      "6": {
+        "ba": 6,
+        "jp": 8,
+        "xp": 23000
+      },
+      "7": {
+        "ba": 7,
+        "jp": 10,
+        "xp": 33000
+      },
+      "8": {
+        "ba": 8,
+        "jp": 10,
+        "xp": 43000
+      },
+      "9": {
+        "ba": 9,
+        "jp": 11,
+        "xp": 53000
+      },
+      "10": {
+        "ba": 10,
+        "jp": 11,
+        "xp": 106000
+      },
+      "11": {
+        "ba": 11,
+        "jp": 13,
+        "xp": 210000
+      },
+      "12": {
+        "ba": 12,
+        "jp": 13,
+        "xp": 320000
+      },
+      "13": {
+        "ba": 13,
+        "jp": 14,
+        "xp": 430000
+      },
+      "14": {
+        "ba": 14,
+        "jp": 14,
+        "xp": 540000
+      },
+      "15": {
+        "ba": 15,
+        "jp": 16,
+        "xp": 650000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Aparar",
+        "description": "Um Paladino pode, ap\u00f3s receber um ataque f\u00edsico que o atinja e antes da jogada de dano desse ataque, escolher sacrificar seu escudo ou uma arma que esteja portando para absorver todo o dano do ataque recebido.\n\nArmas e Escudos usados em um aparar ficar\u00e3o inutilizados e danificados. Armas e Escudos m\u00e1gicos possuem uma chance de 1-2 em 1d6 de se danificarem, reduzindo seus b\u00f4nus (de ataque/defesa) em 1 de modo que um escudo +3 ao ser usado em um aparar, e se danificado, passa ter como b\u00f4nus de defesa +2 e assim sucessivamente.\n\nUm item m\u00e1gico que perder todos os b\u00f4nus estar\u00e1 permanentemente destru\u00eddo. Apenas ataques provenientes de inimigos grandes ou menores poder\u00e3o ser aparados."
+      },
+      {
+        "level": 1,
+        "name": "Maestria em Arma",
+        "description": "O Paladino se torna Mestre em uma arma \u00e0 sua escolha, recebendo um b\u00f4nus de +1 no dano daquela arma.\n"
+      },
+      {
+        "level": 1,
+        "name": "Imunidade a Doen\u00e7as",
+        "description": "O Paladino adquire imunidade a qualquer tipo de doen\u00e7a, seja mundana ou m\u00e1gica. Danos e outros efeitos n\u00e3o causam nenhum efeito, como se n\u00e3o fosse contagiado."
+      },
+      {
+        "level": 3,
+        "name": "Cura pelas M\u00e3os",
+        "description": "O Paladino adquire a habilidade de curar pela simples imposi\u00e7\u00e3o das suas m\u00e3os, at\u00e9 uma vez por dia.\n\nO alvo tocado cura 1 ponto de vida por n\u00edvel do Paladino. Essa habilidade n\u00e3o cura doen\u00e7as e nem regenera membros amputados, mas pode ser usada para prestar aux\u00edlio a um alvo que esteja agonizando."
+      },
+      {
+        "level": 6,
+        "name": "Aura de Prote\u00e7\u00e3o",
+        "description": "O Paladino adquire a habilidade de criar uma barreira permanente de prote\u00e7\u00e3o ao seu redor, exatamente como o efeito da magia Prote\u00e7\u00e3o contra Alinhamento, a qual o protege contra criaturas ca\u00f3ticas."
+      },
+      {
+        "level": 10,
+        "name": "Espada Sagrada",
+        "description": "O Paladino, ao derrotar um inimigo ca\u00f3tico de grande poder, adquire uma espada m\u00e1gica a qual, ap\u00f3s ser consagrada \u00e0 sua causa, se converte em uma Espada Sagrada com \u00edmpeto e poderes contra o caos.\n\nUma Espada Sagrada mant\u00e9m todos os b\u00f4nus normais de uma espada m\u00e1gica, mas passa a ser imbu\u00edda tamb\u00e9m com um b\u00f4nus especial de +5 nos danos e nos ataques contra criaturas ca\u00f3ticas."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Paladino de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 31,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/guerreiro.json",
+    "url": "https://olddragon.com.br/classes/paladino.json"
+  },
+  {
+    "id": "proscrito",
+    "type": "CharacterClass",
+    "name": "Proscrito",
+    "flavor": "",
+    "armors_description": "Pode usar todas as armaduras.",
+    "weapons_description": "Pode usar todas as armas.",
+    "magic_items_description": "O Poscrito \u00e9 capaz de usar todos os tipos de itens m\u00e1gicos.",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 4,
+        "jp": 7,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 4,
+        "jp": 7,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 4,
+        "jp": 7,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 6,
+        "jp": 9,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 6,
+        "jp": 9,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 6,
+        "jp": 9,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 8,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 8,
+        "jp": 11,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 8,
+        "jp": 11,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 10,
+        "jp": 13,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 10,
+        "jp": 13,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 10,
+        "jp": 13,
+        "xp": 600000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Cura Natural",
+        "description": "Apesar de incapaz de conjurar magias de cura, gra\u00e7as a sua experi\u00eancia acumulada em cuidar de enfermos, um Proscrito desenvolve a habilidade de curar ferimentos como um curandeiro ou m\u00e9dico, aumentando para 2 a cura natural de um alvo ou para 1d4+1 para alvos que permane\u00e7am em repouso. A Cura Natural do Proscrito pode ser usada para evitar a morte de personagens agonizando."
+      },
+      {
+        "level": 3,
+        "name": "Treinamento em Combate",
+        "description": "Abandonando as ora\u00e7\u00f5es, estudos e medita\u00e7\u00f5es, o Proscrito usa seu tempo livre para melhorar seu treinamento em combate. Al\u00e9m da possibilidade de usar qualquer arma ou armadura, um Proscrito recebe um b\u00f4nus de +1 na sua BA em rela\u00e7\u00e3o a BA de um Cl\u00e9rigo padr\u00e3o."
+      },
+      {
+        "level": 6,
+        "name": "Afetar Mortos-Vivos",
+        "description": "Mesmo sem o poder da sua f\u00e9 para afastar ou destruir mortos-vivos, o Proscrito \u00e9 capaz de, uma vez por dia, afetar negativamente os mortos-vivos, for\u00e7ando um teste de moral aos mortos-vivos presentes. O Proscrito n\u00e3o faz isso para afast\u00e1-los, e sim para transformar todos os seus ataques em ataques dif\u00edceis. Mortos-vivos que passarem no teste de moral n\u00e3o ser\u00e3o afetados."
+      },
+      {
+        "level": 10,
+        "name": "Misticismo",
+        "description": "Sua antiga divindade, por pena ou premiando a persist\u00eancia, concede ao Proscrito a habilidade de conjurar magias divi- nas de 1\u00ba c\u00edrculo de acordo com a tabela padr\u00e3o de Cl\u00e9rigo (3.2) correspondente ao seu n\u00edvel. Esta conjura\u00e7\u00e3o segue todas as regras normais para conjura\u00e7\u00e3o de magias divinas."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Poscrito de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 27,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/clerigo.json",
+    "url": "https://olddragon.com.br/classes/proscrito.json"
+  },
+  {
+    "id": "ranger",
+    "type": "CharacterClass",
+    "name": "Ranger",
+    "flavor": "O Ranger \u00e9 um personagem oriundo dos ermos dedicado a patrulhar uma \u00e1rea silvestre, natural ou selvagem protegendo-a de bestas e monstros.",
+    "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
+    "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Ranger.",
+    "magic_items_description": "N\u00e3o podem usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
+    "hp": 6,
+    "high_level_hp_bonus": 1,
+    "restrictions": {},
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 1500
+      },
+      "3": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 3000
+      },
+      "4": {
+        "ba": 2,
+        "jp": 5,
+        "xp": 5500
+      },
+      "5": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 8500
+      },
+      "6": {
+        "ba": 3,
+        "jp": 8,
+        "xp": 17000
+      },
+      "7": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 27000
+      },
+      "8": {
+        "ba": 4,
+        "jp": 8,
+        "xp": 37000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 47000
+      },
+      "10": {
+        "ba": 5,
+        "jp": 11,
+        "xp": 94000
+      },
+      "11": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 190000
+      },
+      "12": {
+        "ba": 6,
+        "jp": 11,
+        "xp": 280000
+      },
+      "13": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 370000
+      },
+      "14": {
+        "ba": 7,
+        "jp": 14,
+        "xp": 460000
+      },
+      "15": {
+        "ba": 8,
+        "jp": 14,
+        "xp": 550000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Talentos de Ladr\u00e3o",
+        "description": "Rangers possuem algumas habilidades as quais representam seus principais campos de atua\u00e7\u00e3o, come\u00e7ando com 2 pontos em cada um dos cinco talentos e 2 pontos adicionais para distribuir como desejar.",
+        "level3": "Recebe 2 pontos para evoluir seus talentos.",
+        "level6": "Recebe 2 pontos para evoluir seus talentos.",
+        "level10": "Recebe 2 pontos para evoluir seus talentos."
+      },
+      {
+        "level": 1,
+        "name": "Restri\u00e7\u00e3o",
+        "description": "O Ranger n\u00e3o pode acumular mais tesouros do que \u00e9 capaz de carregar. Em contrapartida, os Rangers jamais se perdem enquanto estiverem nos ermos."
+      },
+      {
+        "level": 1,
+        "name": "Inimigo Mortal",
+        "description": "Assumindo seu papel de guardi\u00e3o de uma regi\u00e3o dos ermos, adota um inimigo que assola sua regi\u00e3o para combat\u00ea-lo.\n\nInimigos Mortais podem ser escolhidos dentre Orcs, Goblins, Homens Lagartos, Trolls ou Gigantes. Contra estas criaturas, todo ataque \u00e9 considerado um **ataque f\u00e1cil** e todo **teste de rea\u00e7\u00e3o** possui uma penalizador de -2"
+      },
+      {
+        "level": 3,
+        "name": "Combativo",
+        "description": "O Ranger passa a poder usar armas grandes e escudos sem penalidades, mas continua limitado a usar Armaduras Leves."
+      },
+      {
+        "level": 6,
+        "name": "Previd\u00eancia",
+        "description": "O Ranger est\u00e1 sempre alerta e prevenido quando estiver nos ermos. Nestas condi\u00e7\u00f5es, um Ranger s\u00f3 pode ser surpreendido com um resultado de 1 em 1d6, e todo acampamento criado por um Ranger nos ermos sempre ser\u00e1 do tipo seguro."
+      },
+      {
+        "level": 10,
+        "name": "Companheiro Animal",
+        "description": "Uma criatura dos ermos adota o Ranger como aliado e realiza favores, como atacar, vigiar, enviar mensagens ou algo semelhante e n\u00e3o ofensivo a si pr\u00f3prio (como, por exemplo, se matar).\n\nSe um companheiro animal morrer, h\u00e1 1-4 chances em 1d6 de um novo companheiro surgir a cada novo n\u00edvel adquirido pelo Ranger."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Ranger de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 40,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb1.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/ladrao.json",
+    "url": "https://olddragon.com.br/classes/ranger.json"
+  },
+  {
+    "id": "xama",
+    "type": "CharacterClass",
+    "name": "Xam\u00e3",
+    "flavor": "",
+    "armors_description": "N\u00e3o pode usar nenhuma armadura met\u00e1lica.",
+    "weapons_description": "N\u00e3o pode usar nenhuma arma met\u00e1lica.",
+    "magic_items_description": "Pode usar qualquer item m\u00e1gico.",
+    "hp": 8,
+    "high_level_hp_bonus": 1,
+    "restrictions": {
+      "alignments": [
+        "neutro"
+      ]
+    },
+    "levels": {
+      "1": {
+        "ba": 1,
+        "jp": 5
+      },
+      "2": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 2000
+      },
+      "3": {
+        "ba": 1,
+        "jp": 5,
+        "xp": 4000
+      },
+      "4": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 7000
+      },
+      "5": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 10000
+      },
+      "6": {
+        "ba": 3,
+        "jp": 7,
+        "xp": 20000
+      },
+      "7": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 30000
+      },
+      "8": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 40000
+      },
+      "9": {
+        "ba": 5,
+        "jp": 9,
+        "xp": 50000
+      },
+      "10": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 100000
+      },
+      "11": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 200000
+      },
+      "12": {
+        "ba": 7,
+        "jp": 11,
+        "xp": 300000
+      },
+      "13": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 400000
+      },
+      "14": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 500000
+      },
+      "15": {
+        "ba": 9,
+        "jp": 13,
+        "xp": 600000
+      }
+    },
+    "abilities": [
+      {
+        "level": 1,
+        "name": "Magias Divinas",
+        "description": "Um Xam\u00e3 \u00e9 capaz de lan\u00e7ar magias divinas diariamente a partir do 1\u00ba n\u00edvel. Para prepar\u00e1-las, o Xam\u00e3 deve rezar para o Pante\u00e3o e pedir que magias lhe sejam concedidas naquele dia, respeitando os seus limites de n\u00edvel e de sabedoria."
+      },
+      {
+        "level": 1,
+        "name": "Animal Sagrado",
+        "description": "O Xam\u00e3 seleciona um animal ou criatura para representar sua divindade junto a sua tribo. Sempre que este s\u00edmbolo divino estiver presente, o Xam\u00e3 pode fazer seus seguidores realizarem ataques f\u00e1ceis durante um combate, enquanto for capaz de proferir can\u00e7\u00f5es sagradas e ritmadas, colocando todos em transe."
+      },
+      {
+        "level": 3,
+        "name": "Cura Tot\u00eamica",
+        "description": "Assim como um Cl\u00e9rigo, o Xam\u00e3 recebe a habilidade de trocar uma das suas magias preparadas previamente por uma magia de Curar Ferimentos de 1\u00ba c\u00edrculo a qual cura 1d8 pontos de vida."
+      },
+      {
+        "level": 6,
+        "name": "F\u00faria",
+        "description": "O Xam\u00e3 pode iniciar uma cantoria sagrada e ritmada para estimular um dos seus seguidores a entrar em f\u00faria. Um alvo aliado, enquanto o Xam\u00e3 for capaz de manter a cantoria ritual\u00edstica, sobe o dado de dano da sua arma para o dado imediatamente superior (d4 para d6, d6 para d8 etc.) e realiza todos seus ataques como ataques muito f\u00e1ceis. Em contrapartida, o furioso passa a ser considerado um alvo f\u00e1cil para todos os ataques que receber."
+      },
+      {
+        "level": 10,
+        "name": "F\u00faria da Natureza",
+        "description": "O Xam\u00e3 invoca o poder de sua divindade natural representada em uma for\u00e7a da natureza, recebendo a habilidade de trocar uma das suas magias preparadas de 5\u00ba c\u00edrculo pela magia de 7\u00ba c\u00edrculo Controlar o Clima.\n\nUm Xam\u00e3 \u00e9 capaz de conjurar esta magia mesmo se ainda n\u00e3o tiver acesso \u00e0s magias de 7\u00ba c\u00edrculo."
+      },
+      {
+        "level": 11,
+        "name": "Reputa\u00e7\u00e3o",
+        "description": "O Xam\u00e3 de alto n\u00edvel atinge um grau superior de reconhecimento pelos seus feitos, obtendo Reputa\u00e7\u00e3o 1 em 1d6. O valor de Reputa\u00e7\u00e3o evolui em 1 at\u00e9 o m\u00e1ximo de 1-5 em 1d6 no 15\u00ba n\u00edvel."
+      }
+    ],
+    "fontes": [
+      {
+        "page": 26,
+        "compact": false,
+        "livro_url": "https://olddragon.com.br/livros/lb2.json",
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "livro_url": "https://olddragon.com.br/livros/srd.json",
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_class_url": "https://olddragon.com.br/classes/clerigo.json",
+    "url": "https://olddragon.com.br/classes/xama.json"
+  }
+]

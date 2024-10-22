@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lb1",
+    "type": "DigitalItem",
+    "title": "Livro I: Regras B\u00e1sicas",
+    "url": "https://olddragon.com.br/livros/lb1.json"
+  },
+  {
+    "id": "lb2",
+    "type": "DigitalItem",
+    "title": "Livro II: Regras Expandidas",
+    "url": "https://olddragon.com.br/livros/lb2.json"
+  },
+  {
+    "id": "lb3",
+    "type": "DigitalItem",
+    "title": "Livro III: Monstros & Inimigos",
+    "url": "https://olddragon.com.br/livros/lb3.json"
+  },
+  {
+    "id": "srd",
+    "type": "DigitalItem",
+    "title": "SRD: Documento de Refer\u00eancia",
+    "url": "https://olddragon.com.br/livros/srd.json"
+  },
+  {
+    "id": "arkhi",
+    "type": "DigitalItem",
+    "title": "Cen\u00e1rio de Campanha: ARKHI",
+    "url": "https://olddragon.com.br/livros/arkhi.json"
+  },
+  {
+    "id": "valansia",
+    "type": "DigitalItem",
+    "title": "Cen\u00e1rio de Campanha: Her\u00f3is de Valansia",
+    "url": "https://olddragon.com.br/livros/valansia.json"
+  },
+  {
+    "id": "cl1",
+    "type": "DigitalItem",
+    "title": "CL1: O Forte das Terras Marginais",
+    "url": "https://olddragon.com.br/livros/cl1.json"
+  },
+  {
+    "id": "nc1",
+    "type": "DigitalItem",
+    "title": "NC1: O Templo Perdido de Thur-Amon",
+    "url": "https://olddragon.com.br/livros/nc1.json"
+  },
+  {
+    "id": "nc2",
+    "type": "DigitalItem",
+    "title": "NC2: O Monte do Desbrio",
+    "url": "https://olddragon.com.br/livros/nc2.json"
+  },
+  {
+    "id": "tu1",
+    "type": "DigitalItem",
+    "title": "TU1: A \u00daltima Caravana do Outono",
+    "url": "https://olddragon.com.br/livros/tu1.json"
+  },
+  {
+    "id": "tu2",
+    "type": "DigitalItem",
+    "title": "TU2: A Tumba dos Reis Serpentes",
+    "url": "https://olddragon.com.br/livros/tu2.json"
+  },
+  {
+    "id": "odday21",
+    "type": "DigitalItem",
+    "title": "OD Day 2021: Os Salo\u0303es Eternos de Thalaknasus",
+    "url": "https://olddragon.com.br/livros/odday21.json"
+  },
+  {
+    "id": "odday22",
+    "type": "DigitalItem",
+    "title": "OD Day 2022: Os Ap\u00f3statas do Deus Polvo",
+    "url": "https://olddragon.com.br/livros/odday22.json"
+  },
+  {
+    "id": "odday23",
+    "type": "DigitalItem",
+    "title": "OD Day 2023: O Covil Flamejante de Rezingar",
+    "url": "https://olddragon.com.br/livros/odday23.json"
+  },
+  {
+    "id": "ermos",
+    "type": "DigitalItem",
+    "title": "Guia de Campanha: Ermos",
+    "url": "https://olddragon.com.br/livros/ermos.json"
+  },
+  {
+    "id": "legiao",
+    "type": "DigitalItem",
+    "title": "Monstros & Inimigos II: N\u00f3s Somos a Legi\u00e3o",
+    "url": "https://olddragon.com.br/livros/legiao.json"
+  },
+  {
+    "id": "legiao-od2",
+    "type": "DigitalItem",
+    "title": "Jogando Legi\u00e3o com Old Dragon 2",
+    "url": "https://olddragon.com.br/livros/legiao-od2.json"
+  },
+  {
+    "id": "kit-do-jogador",
+    "type": "DigitalItem",
+    "title": "Kit do Jogador",
+    "url": "https://olddragon.com.br/livros/kit-do-jogador.json"
+  },
+  {
+    "id": "kit-do-mestre",
+    "type": "DigitalItem",
+    "title": "Kit do Mestre",
+    "url": "https://olddragon.com.br/livros/kit-do-mestre.json"
+  },
+  {
+    "id": "caveira",
+    "type": "DigitalItem",
+    "title": "A Marca da Caveira",
+    "url": "https://olddragon.com.br/livros/caveira.json"
+  }
+]

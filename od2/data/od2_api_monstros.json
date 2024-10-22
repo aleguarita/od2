@@ -1,0 +1,3710 @@
+[
+  {
+    "id": "ajudante",
+    "type": "Monster",
+    "name": "Ajudante",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "",
+    "encounters": null,
+    "encounters_lair": null,
+    "xp": "5",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "3",
+    "ca": "10",
+    "jp": "4",
+    "mo": 7,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 0,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 78,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/ajudante.json"
+  },
+  {
+    "id": "aprendiz",
+    "type": "Monster",
+    "name": "Aprendiz",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "",
+    "encounters": null,
+    "encounters_lair": null,
+    "xp": "5",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "3",
+    "ca": "10",
+    "jp": "4",
+    "mo": 7,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 0,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 77,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/aprendiz.json"
+  },
+  {
+    "id": "arqueiro-mercenario",
+    "type": "Monster",
+    "name": "Arqueiro (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "12",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arco curto +1 (1d8)",
+        "times": 1,
+        "description": "Arco curto",
+        "ba": 1,
+        "damage_description": "1d8",
+        "damage": "1d8",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Espada curta +1 (1d6)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 1,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Custo: 4 PO por m\u00eas."
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json",
+    "url": "https://olddragon.com.br/monstros/arqueiro-mercenario.json"
+  },
+  {
+    "id": "bando-de-saminther",
+    "type": "Monster",
+    "name": "Bando de Saminther",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Fan\u00e1tico**: Enquanto Saminther estiver em combate, todos do seu Bando fazem o teste de moral com um b\u00f4nus de +1.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "p",
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "12",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada curta +1 (1d6+1)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 1,
+        "damage_description": "1d6+1",
+        "damage": "1d6",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday22.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/bando-de-saminther.json"
+  },
+  {
+    "id": "basilisco",
+    "type": "Monster",
+    "name": "Basilisco",
+    "flavor": "Este r\u00e9ptil gigantesco espreita suas v\u00edtimas, surpreendendo-as com seu olhar petrificante.",
+    "concept": "besta",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Detectar invisibilidade**: pode enxergar normalmente qualquer alvo invis\u00edvel, seja por magia ou habilidade.\n\n  * **Petrifica\u00e7\u00e3o**: o alvo que tiver contato com seus olhos deve ser bem-sucedido em uma JPC ou virar\u00e1 pedra, voltando ao normal apenas por meios m\u00e1gicos. O efeito do olhar alcan\u00e7a 15 metros e, caso o basilisco veja o pr\u00f3prio olhar, tamb\u00e9m pode ficar petrificado.\n\n  * **Camuflagem**: quando im\u00f3vel, surpreende o grupo em 1-4 em 1d6.",
+    "encounters": "1d6",
+    "encounters_lair": "1d6",
+    "xp": "340",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 3,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+4",
+    "pv": "34",
+    "ca": "16",
+    "jp": "9",
+    "mo": 8,
+    "dv": "6",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +6 (1d10+2)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 6,
+        "damage_description": "1d10+2",
+        "damage": "1d10",
+        "damage_bonus": 2,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 23,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      },
+      {
+        "page": 44,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/basilisco.json"
+  },
+  {
+    "id": "besouro-cascudo-gigante",
+    "type": "Monster",
+    "name": "Besouro Cascudo Gigante",
+    "flavor": "Um besouro gigante que habita locais f\u00e9tidos e cheios de lixo.",
+    "concept": "inseto",
+    "size": "medio",
+    "habitats": [
+      "subterraneos"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "Besouros com mais ou menos um metro de altura, de casco grosso e particularmente fedorentos. Sua cabe\u00e7a possui pequenos chifres que lembram pin\u00e7as. Sua carapa\u00e7a costuma variar entre preto e tons escuros de verde ou marrom, e cobrem um par de asas usadas para saltar pequenas dist\u00e2ncias\n\n**Odor:** cheiro de mat\u00e9ria podre e dejetos.\n\n**Som:** passos abafados.\n\n## Combate\n\nCostumam prender-se nas paredes ou no teto para, ent\u00e3o, saltar sobre os alvos com uma manobra de investida.\n\n  * **Investida**: se ainda n\u00e3o engajado em combate, pode usar a manobra de investida para causar o dobro de dano do ataque.\n\n## Ecologia\n\nCostumam viver em lugares \u00famidos e escuros, como cavernas e ru\u00ednas abandonadas. Alimentam-se de mat\u00e9ria em decomposi\u00e7\u00e3o, agindo como uma esp\u00e9cie de \u201clixeiros\u201d da natureza. Consomem cad\u00e1veres, fungos, comida podre, dejetos e o que mais encontrarem.\n\n## Utilidades\n\nA saliva dos Besouros Cascudos Gigantes \u00e9 muito corrosiva, podendo ser usada para confeccionar \u00e1cidos mais concentrados.",
+    "picture": "https://public.olddragon.com.br/d9r5oqerks8slw6cjy4ov335lcfa",
+    "thumb_picture": "https://public.olddragon.com.br/20mh8r690n5zd26mwqgtjt9tachd",
+    "encounters": "1",
+    "encounters_lair": "1d6",
+    "xp": "50",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": 6,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "17",
+    "jp": "5",
+    "mo": 7,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +2 (1d6+6)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 2,
+        "damage_description": "1d6+6",
+        "damage": "1d6",
+        "damage_bonus": 6,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 18,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday23.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/besouro-cascudo-gigante.json"
+  },
+  {
+    "id": "besteiro-mercenario",
+    "type": "Monster",
+    "name": "Besteiro (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "13",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Besta +1 (1d6)",
+        "times": 1,
+        "description": "Besta",
+        "ba": 1,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Espada curta +1 (1d6)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 1,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Custo: 5 PO por m\u00eas."
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json",
+    "url": "https://olddragon.com.br/monstros/besteiro-mercenario.json"
+  },
+  {
+    "id": "bugbear",
+    "type": "Monster",
+    "name": "Bugbear",
+    "flavor": "Parentes dos Goblins, mas maiores e perigosos. Preferem emboscar suas v\u00edtimas e atac\u00e1-las de surpresa.",
+    "concept": "humanoide",
+    "size": "grande",
+    "habitats": [
+      "colinas",
+      "montanhas",
+      "subterraneos"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Classe de armadura**: Bugbears possuem CA 13 ou 15 quando usam armadura de couro.\n\n  * **Infravis\u00e3o**: 18 metros\n\n  * **Emboscar**: surpreende seus inimigos com um resultado de 1-3 em 1d6, realizando seus ataques como ataques f\u00e1ceis na primeira rodada.",
+    "encounters": "2d4",
+    "encounters_lair": "5d4",
+    "xp": "75",
+    "treasure": "sx2",
+    "treasure_lair": "f",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "16",
+    "ca": "13/15",
+    "jp": "6",
+    "mo": 9,
+    "dv": "3",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +4 (Arma +1)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 4,
+        "damage_description": "Arma +1",
+        "damage": null,
+        "damage_bonus": 1,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 171,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 25,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/bugbear.json"
+  },
+  {
+    "id": "capanga-de-yaris",
+    "type": "Monster",
+    "name": "Capanga de Yaris",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "p",
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "13",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada curta +1 (1d6+1)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 1,
+        "damage_description": "1d6+1",
+        "damage": "1d6",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday22.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/capanga-de-yaris.json"
+  },
+  {
+    "id": "cavaleiro-de-guerra-mercenario",
+    "type": "Monster",
+    "name": "Cavaleiro de Guerra (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "50",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 16,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "17",
+    "jp": "5",
+    "mo": 9,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada bastarda +2 (1d8+1)",
+        "times": 1,
+        "description": "Espada bastarda",
+        "ba": 2,
+        "damage_description": "1d8+1",
+        "damage": "1d8",
+        "damage_bonus": 1,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Lan\u00e7a longa +2 (1d8+1)",
+        "times": 1,
+        "description": "Lan\u00e7a longa",
+        "ba": 2,
+        "damage_description": "1d8+1",
+        "damage": "1d8",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Montado: Cavalo de Guerra.",
+      "Custo: 20 PO por m\u00eas."
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json",
+    "url": "https://olddragon.com.br/monstros/cavaleiro-de-guerra-mercenario.json"
+  },
+  {
+    "id": "cavaleiro-leve-mercenario",
+    "type": "Monster",
+    "name": "Cavaleiro Leve (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "25",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 18,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "14",
+    "jp": "5",
+    "mo": 9,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada longa +1 (1d8+1)",
+        "times": 1,
+        "description": "Espada longa",
+        "ba": 1,
+        "damage_description": "1d8+1",
+        "damage": "1d8",
+        "damage_bonus": 1,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Lan\u00e7a longa +1 (1d8+1)",
+        "times": 1,
+        "description": "Lan\u00e7a longa",
+        "ba": 1,
+        "damage_description": "1d8+1",
+        "damage": "1d8",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Montado: Cavalo de Guerra.",
+      "Custo: 10 PO por m\u00eas."
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json",
+    "url": "https://olddragon.com.br/monstros/cavaleiro-leve-mercenario.json"
+  },
+  {
+    "id": "cavalo-de-guerra",
+    "type": "Monster",
+    "name": "Cavalo de Guerra",
+    "flavor": "Domesticados e treinados para carregar cavaleiros em combates.",
+    "concept": "animal",
+    "size": "grande",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Correr**: pode correr com movimento 15 durante 1 turno.\n  * **Preparado**: pode ser usado em combate e \u00e9 treinado no uso de armaduras.\n  * **Investida**: se ainda n\u00e3o engajado em combate, pode usar a manobra de investida para aumentar o dano do ataque do seu cavaleiro.\n  * **Combatente**: \u00e9 capaz de atacar no mesmo turno que seu combatente.\n  * **Carga**: carrega at\u00e9 4.000 moedas ou 2.000 moedas e um montador.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "0",
+    "encounters_lair": "0",
+    "xp": "35",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 12,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13",
+    "jp": "5",
+    "mo": 9,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "2 \u00d7 Coice +3 (1d6)",
+        "times": 2,
+        "description": "Coice",
+        "ba": 3,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 16,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/cavalo-de-guerra.json"
+  },
+  {
+    "id": "cavalo-de-montaria",
+    "type": "Monster",
+    "name": "Cavalo de Montaria",
+    "flavor": "Domesticado e treinado para carregar cavaleiros por terrenos acidentados por longas dista\u0302ncias.",
+    "concept": "animal",
+    "size": "grande",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Correr**: pode correr com movimento 18 durante 1 turno ou 15 durante 2 turnos\n  * **Carga**: carrega at\u00e9 3.000 moedas ou 1.500 moedas e um montador.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "0",
+    "encounters_lair": "0",
+    "xp": "35",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 12,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13",
+    "jp": "5",
+    "mo": 7,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Coice +2 (1d4)",
+        "times": 1,
+        "description": "Coice",
+        "ba": 2,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 16,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/cavalo-de-montaria.json"
+  },
+  {
+    "id": "cobra-constritora",
+    "type": "Monster",
+    "name": "Cobra Constritora",
+    "flavor": "T\u00edpica dos p\u00e2ntanos, a Cobra Constritora \u00e9 forte e perigosa.",
+    "concept": "animal",
+    "size": "pequeno",
+    "habitats": [
+      "pantanos"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Agarrar**: Quando um ataque de mordida \u00e9 bem-sucedido, a Cobra Constritora agarra a v\u00edtima causando 2d4 de dano por rodada.  Um teste de for\u00e7a bem-sucedido livra da constri\u00e7\u00e3o.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "1d6",
+    "encounters_lair": "1d6",
+    "xp": "75",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "15",
+    "ca": "14",
+    "jp": "6",
+    "mo": 8,
+    "dv": "3",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +4 (1d4 + Constri\u00e7\u00e3o)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 4,
+        "damage_description": "1d4 + Constri\u00e7\u00e3o",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 16,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/cobra-constritora.json"
+  },
+  {
+    "id": "cubo-gelatinoso",
+    "type": "Monster",
+    "name": "Cubo Gelatinoso",
+    "flavor": "Move-se sorrateiramente nos corredores das masmorras absorvendo e dissolvendo tudo o que consegue fagocitar.",
+    "concept": "gosma",
+    "size": "grande",
+    "habitats": [
+      "subterraneos"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Surpresa**: surpreende seus inimigos com um resultado de 1-4 em 1d6.\n\n  * **Paralisia**: o alvo deve ser bem-sucedido em uma JPC ou ficar\u00e1 paralisado por 2d4 turnos.\n\n  * **Imunidades**: imune aos efeitos do frio e da eletricidade.",
+    "encounters": "1",
+    "encounters_lair": "0",
+    "xp": "150",
+    "treasure": "v",
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "20",
+    "ca": "12",
+    "jp": "6",
+    "mo": 12,
+    "dv": "4",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Toque +4 (2d4 + Paralisia)",
+        "times": 1,
+        "description": "Toque",
+        "ba": 4,
+        "damage_description": "2d4 + Paralisia",
+        "damage": "2d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 171,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 37,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/cubo-gelatinoso.json"
+  },
+  {
+    "id": "dragao-vermelho",
+    "type": "Monster",
+    "name": "Drag\u00e3o Vermelho",
+    "flavor": "Ancestrais, orgulhosos e poderosos. Vivem em seus covis, inteligentemente escondidos nas montanhas e colinas. Organizam emboscadas a viajantes e admiram seus tesouros acumulados.",
+    "concept": "dragao",
+    "size": "imenso",
+    "habitats": [
+      "montanhas"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Baforada**: o Drag\u00e3o Vermelho pode, 3 vezes ao dia, abdicar dos seus ataques f\u00edsicos para liberar uma baforada de fogo com a forma de cone com 9 metros de largura e 27 metros de dist\u00e2ncia. O dano de uma baforada \u00e9 igual ao n\u00famero de seus dados de vida em d10. Ou seja, um Drag\u00e3o Vermelho causa 10d10 de dano em todos na \u00e1rea de efeito da baforada. Um teste de JPD pode reduzir o dano pela metade.\n\n  * **Imunidade**: um Drag\u00e3o Vermelho \u00e9 imune a qualquer efeito de fogo.\n\n  * **Magias**: um Drag\u00e3o Vermelho pode conjurar magias como se fosse um Mago de 7\u00ba n\u00edvel.",
+    "encounters": "1d4",
+    "encounters_lair": "1d4",
+    "xp": "1475",
+    "treasure": null,
+    "treasure_lair": "h",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": 18,
+    "mvo": null,
+    "dv_bonus": "+10",
+    "pv": "60",
+    "ca": "21",
+    "jp": "12",
+    "mo": 10,
+    "dv": "10",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +8 (4d8)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 8,
+        "damage_description": "4d8",
+        "damage": "4d8",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "2 \u00d7 Garras +11 (1d8+6)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 11,
+        "damage_description": "1d8+6",
+        "damage": "1d8",
+        "damage_bonus": 6,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 172,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 60,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/dragao-vermelho.json"
+  },
+  {
+    "id": "elemental-das-chamas",
+    "type": "Monster",
+    "name": "Elemental das Chamas",
+    "flavor": "Uma chama viva com um leve fio de consci\u00eancia.",
+    "concept": "besta",
+    "size": "pequeno",
+    "habitats": [
+      "subterraneos",
+      "extraplanar"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "Uma esp\u00e9cie de chama ambulante, mais ou menos do tamanho de uma fogueira de acampamento. S\u00e3o Elementais do Fogo muito jovens que s\u00f3 come\u00e7aram a despertar sua consci\u00eancia agora. Por isso, costumam ser ainda mais imprevis\u00edveis do que suas vers\u00f5es adultas.\n\n**Odor:** cheiro de fuma\u00e7a.\n\n**Som:** crepitar de uma fogueira.\n\n## Combate\n\nTentam incendiar o que houver de inflam\u00e1vel por perto, sendo particularmente atra\u00eddos por madeira seca, papel e palha.\n\n  * **Bloqueio**: um Elemental das Chamas n\u00e3o pode ultrapassar uma fonte de \u00e1gua mais profunda que sua altura.\n\n  * **Potencializado**: um ataque realizado a um alvo formado ou ligado ao frio causa 1d8 de dano adicional.\n\n  * **Imunidades**: um Elemental das Chamas \u00e9 imune ao dano de qualquer arma n\u00e3o m\u00e1gica e a qualquer dano proveniente de fogo, ainda que m\u00e1gico.\n\n  * **Vulnerabilidade**: um Elemental das Chamas leva dano dobrado de qualquer ataque proveniente de uma fonte de \u00e1gua.\n\n## Ecologia\n\nIrritadi\u00e7os e euf\u00f3ricos como Elementais do Fogo, por\u00e9m quase sem mente ou consci\u00eancia, estes seres ca\u00f3ticos geralmente surgem espontaneamente em grandes inc\u00eandios e tentam consumir tudo o que houver de inflam\u00e1vel ao seu alcance.",
+    "picture": "https://public.olddragon.com.br/zrxir30gnankikwgu0xbss2i8tvp",
+    "thumb_picture": "https://public.olddragon.com.br/u98cqho64cusnxfr4bl75iht5t53",
+    "encounters": "1d4",
+    "encounters_lair": "2d6",
+    "xp": "65",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13",
+    "jp": "5",
+    "mo": 9,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Pancada +2 (1d8)",
+        "times": 1,
+        "description": "Pancada",
+        "ba": 2,
+        "damage_description": "1d8",
+        "damage": "1d8",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 19,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday23.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/elemental-das-chamas.json"
+  },
+  {
+    "id": "esqueleto",
+    "type": "Monster",
+    "name": "Esqueleto",
+    "flavor": "Mortos-vivos normalmente usados como guardi\u00f5es de locais antigos e esquecidos. Sem medo, atacam at\u00e9 ca\u00edrem aos peda\u00e7os.",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Silencioso**: n\u00e3o produz som algum ao movimentar-se e se mant\u00e9m silencioso at\u00e9 atacar.\n\n  * **Morto-vivo**: imune a frio, magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou demais formas m\u00e1gicas de interferir na mente de seres vivos. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n\n  * **Corpo de Osso**: armas impactantes causam o dobro de dano nos Esqueletos, mas, em contrapartida, armas perfurantes causam metade do ano.\n\n  * **Inabal\u00e1vel**: mortos-vivos n\u00e3o fazem testes de moral, a n\u00e3o ser quando sofrem o efeito de um Afastar Mortos-Vivos.",
+    "encounters": "3d4",
+    "encounters_lair": "3d10",
+    "xp": "15",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "13",
+    "jp": "6",
+    "mo": 7,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +2 (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 2,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 66,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/arkhi.json"
+      },
+      {
+        "page": 78,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 172,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 76,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      },
+      {
+        "page": 14,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/esqueleto.json"
+  },
+  {
+    "id": "esqueleto-sibilante",
+    "type": "Monster",
+    "name": "Esqueleto Sibilante",
+    "flavor": "Mortos-vivos normalmente usados como guardi\u00f5es de locais antigos e esquecidos. Sem medo, atacam at\u00e9 ca\u00edrem aos peda\u00e7os.",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Silencioso**: n\u00e3o produz som algum ao movimentar-se e se mant\u00e9m silencioso at\u00e9 atacar.\n\n  * **Morto-vivo**: imune a frio, magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou demais formas m\u00e1gicas de interferir na mente de seres vivos. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n\n  * **Corpo de Osso**: armas impactantes causam o dobro de dano nos Esqueletos, mas, em contrapartida, armas perfurantes causam metade do ano.\n\n  * **Inabal\u00e1vel**: mortos-vivos n\u00e3o fazem testes de moral, a n\u00e3o ser quando sofrem o efeito de um Afastar Mortos-Vivos.",
+    "encounters": "3d4",
+    "encounters_lair": "3d10",
+    "xp": "15",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "13",
+    "jp": "4",
+    "mo": 7,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada curta +2 (1d6)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 2,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [],
+    "fontes": [
+      {
+        "page": 42,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/esqueleto.json",
+    "url": "https://olddragon.com.br/monstros/esqueleto-sibilante.json"
+  },
+  {
+    "id": "fera-do-pantano",
+    "type": "Monster",
+    "name": "Fera do P\u00e2ntano",
+    "flavor": "Sapos antropom\u00f3rficos cru\u00e9is. Costumam ca\u00e7ar suas v\u00edtimas em bandos.",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "pantanos"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "De pele esverdeada, as Feras do P\u00e2ntano se parecem com sapos humanoides, com longos e finos dedos e uma papada que incha quando emitem sua fala levemente pr\u00f3xima a um coaxar.\n\nVestem armaduras de couro ou trapos feitos de peles de animais pantanosos.\n\n## Combate\n\nViolentas e ca\u00f3ticas, perseguem suas v\u00edtimas at\u00e9 onde lhes for poss\u00edvel, abatendo-as com crueldade e efici\u00eancia.\n\nSe estiverem em inferioridade num\u00e9rica, preferir\u00e3o emboscar suas v\u00edtimas, aguardando escondidos ou submersos para atacar com a m\u00e1xima vantagem.\n\n  * **Classe de armadura**: possuem CA 13 ou 15 quando usam armadura de couro.\n\n  * **Emboscar**: podem prender a respira\u00e7\u00e3o por at\u00e9 10 minutos sob a \u00e1gua, atacando de surpresa e ganhando a iniciativa.\n\n  * **Saliva paralisante**: 1 vez por combate podem lan\u00e7ar um cuspe \u00e0 5 metros de dist\u00e2ncia capaz de paralisar a v\u00edtima por 1d4-2 rodadas, a menos que esta passe em uma JPD.\n\n## Ecologia\n\nEstas criaturas se nominam em seu pr\u00f3prio idioma como Bullywugs ou sapos que pensam.  Vivem em tribos primitivas onde a viol\u00eancia \u00e9 uma forma comum de resolver as coisas.\n\nCostumam se estabelecem em locais \u00famidos e selvagens, de prefer\u00eancia longe de qualquerr assentamento humano, em p\u00e2ntanos, charcos e\n\nS\u00e3o temerosos \u00e0 magia, com sentimentos mistos entre admira\u00e7\u00e3o e \u00f3dio e isso far\u00e1 com que ataques conjuradores arcanos sempre antes dos demais inimigos.\n\nOs filhotes s\u00e3o criados e protegidos em lagos, por f\u00eameas guerreiras. Se for preciso, estas guerreiras lutar\u00e3o at\u00e9 a morte para proteger os girinos da tribo.\n\n## Utilidades\n\nS\u00e1bios costumam comprar as bolsas excretoras de saliva de uma Fera do P\u00e2ntano com o objetivo de estudar seu veneno paralisante.",
+    "picture": "https://public.olddragon.com.br/j1wwh46cov6879bl3vo1n4s3ayed",
+    "thumb_picture": "https://public.olddragon.com.br/5co0u0fyunh2ezuzlg80xz8esiot",
+    "encounters": "2d4",
+    "encounters_lair": "4d6",
+    "xp": "25",
+    "treasure": "q",
+    "treasure_lair": "b",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": 12,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13/15",
+    "jp": "5",
+    "mo": 8,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Chicote +3 (1d4+2)",
+        "times": 1,
+        "description": "Chicote",
+        "ba": 3,
+        "damage_description": "1d4+2",
+        "damage": "1d4",
+        "damage_bonus": 2,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Tridente +2 (1d6+2)",
+        "times": 1,
+        "description": "Tridente",
+        "ba": 2,
+        "damage_description": "1d6+2",
+        "damage": "1d6",
+        "damage_bonus": 2,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 80,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/fera-do-pantano.json"
+  },
+  {
+    "id": "fungo-pigmeu",
+    "type": "Monster",
+    "name": "Fungo Pigmeu",
+    "flavor": "Conhecidos como povo bolor, vivem em cavernas \u00famidas ou florestas escuras, sempre ca\u00e7ando para sobreviver.",
+    "concept": "planta",
+    "size": "pequeno",
+    "habitats": [
+      "pantanos",
+      "florestas",
+      "subterraneos"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Mesclar**: podem mesclar-se em \u00e1reas cobertas com fungos, tornando-se invis\u00edveis.  S\u00e3o detectados apenas com 1 chance em 1d6.\n\n  * **Esporos**: ao morrerem, explodem numa nuvem de esporos atingindo 9 metros de raio.  Alvos devem ser bem-sucedidos numa JPC ou ficar\u00e3o com muita tosse, impedidos de agir por 1d4 rodadas.\n\n  * **Inflam\u00e1veis**: fogo causa dano dobrado nestas criaturas.",
+    "encounters": "1d12",
+    "encounters_lair": "3d10 x 10",
+    "xp": "25",
+    "treasure": null,
+    "treasure_lair": "k",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "6",
+    "ca": "13",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +3 (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 3,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 173,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 85,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/fungo-pigmeu.json"
+  },
+  {
+    "id": "garra-mumificada",
+    "type": "Monster",
+    "name": "Garra Mumificada",
+    "flavor": "",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n* **Estrangular**: se uma Garra Mumificada acertar um ataque, al\u00e9m do dano, consegue agarrar a v\u00edtima. A cada rodada a Garra Mumificada estrangular\u00e1 a v\u00edtima, causando 1d6 de dano adicional, at\u00e9 ser removida.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": null,
+    "encounters_lair": null,
+    "xp": "35",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13",
+    "jp": "3",
+    "mo": 12,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Garra +2 (1d4)",
+        "times": 1,
+        "description": "Garra",
+        "ba": 2,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 42,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/garra-mumificada.json"
+  },
+  {
+    "id": "ghoul",
+    "type": "Monster",
+    "name": "Ghoul",
+    "flavor": "Morto-vivo grotesco. Passa todo o tempo procurando carne de semi-humanos para se alimentar.",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Silencioso**: n\u00e3o produz som algum ao movimentar-se e se mant\u00e9m silencioso at\u00e9 atacar.\n\n  * **Morto-vivo**: imune a frio, magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou demais formas m\u00e1gicas de interferir na mente de seres vivos. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n\n  * **Paralisia**: alvo atingido por um Ghoul deve ser bem-sucedido em uma JPC ou ficar\u00e1 paralisado por at\u00e9 1d6 turnos. Elfos s\u00e3o imunes \u00e0 habilidade de Paralisia de um Ghoul.\n\n  * **Inabal\u00e1vel**: mortos-vivos n\u00e3o fazem testes de moral, a n\u00e3o ser quando sofrem o efeito de um Afastar Mortos-Vivos.",
+    "encounters": "1d6",
+    "encounters_lair": "2d8",
+    "xp": "95",
+    "treasure": null,
+    "treasure_lair": "b",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "15",
+    "ca": "14",
+    "jp": "7",
+    "mo": 8,
+    "dv": "3",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +3 (1d3 + Paralisia)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 3,
+        "damage_description": "1d3 + Paralisia",
+        "damage": "1d3",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "2 \u00d7 Garras +3 (1d4 + Paralisia)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 3,
+        "damage_description": "1d4 + Paralisia",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 68,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/arkhi.json"
+      },
+      {
+        "page": 77,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 173,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 89,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/ghoul.json"
+  },
+  {
+    "id": "gigante-da-colina",
+    "type": "Monster",
+    "name": "Gigante da Colina",
+    "flavor": "Com 4 metros de altura, estes gigantes aterrorizam comunidades vizinhas com seus ataques em grupo.",
+    "concept": "gigante",
+    "size": "imenso",
+    "habitats": [
+      "colinas",
+      "montanhas"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Classe de armadura**: possuem CA 16 ou 17 quando usam armadura acolchoada.\n\n  * **Golpe Potente**: se conseguir causar, com uma pancada ou arma, uma quantidade de dano superior a for\u00e7a do alvo, este \u00e9 arremessado 1d6 metros para tr\u00e1s.",
+    "encounters": "1d4",
+    "encounters_lair": "2d4",
+    "xp": "1600",
+    "treasure": "rx4",
+    "treasure_lair": "f",
+    "mv": 12,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+6",
+    "pv": "61",
+    "ca": "16/17",
+    "jp": "13",
+    "mo": 10,
+    "dv": "11",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +11 (Arma +6)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 11,
+        "damage_description": "Arma +6",
+        "damage": null,
+        "damage_bonus": 6,
+        "weapon": true
+      },
+      {
+        "text": "1 \u00d7 Pedrada +11 (2d8)",
+        "times": 1,
+        "description": "Pedrada",
+        "ba": 11,
+        "damage_description": "2d8",
+        "damage": "2d8",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 174,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 90,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/gigante-da-colina.json"
+  },
+  {
+    "id": "goblin",
+    "type": "Monster",
+    "name": "Goblin",
+    "flavor": "Usam armas comuns e t\u00e1ticas simples de combate, contando com a for\u00e7a dos n\u00fameros para sobrepujar os advers\u00e1rios.",
+    "concept": "humanoide",
+    "size": "pequeno",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Classe de armadura**: Goblins possuem CA 11 ou 13 quando usam armadura de couro.\n\n  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "2d4",
+    "encounters_lair": "6d10",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "b",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "-1",
+    "pv": "4",
+    "ca": "11/13",
+    "jp": "5",
+    "mo": 7,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +2 (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 2,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 174,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 96,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      },
+      {
+        "page": 25,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/goblin.json"
+  },
+  {
+    "id": "goblin-fungico",
+    "type": "Monster",
+    "name": "Goblin F\u00fangico",
+    "flavor": "Usam armas comuns e t\u00e1ticas simples de combate, contando com a for\u00e7a dos n\u00fameros para sobrepujar os advers\u00e1rios.",
+    "concept": "humanoide",
+    "size": "pequeno",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Classe de armadura**: Goblins possuem CA 11 ou 13 quando usam armadura de couro.\n\n  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "2d4",
+    "encounters_lair": "6d10",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "b",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "13",
+    "jp": "4",
+    "mo": 7,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +2 (1d4)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 2,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [],
+    "fontes": [
+      {
+        "page": 45,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/goblin.json",
+    "url": "https://olddragon.com.br/monstros/goblin-fungico.json"
+  },
+  {
+    "id": "gosma-esqueleto",
+    "type": "Monster",
+    "name": "Gosma Esqueleto",
+    "flavor": "Mortos-vivos normalmente usados como guardi\u00f5es de locais antigos e esquecidos. Sem medo, atacam at\u00e9 ca\u00edrem aos peda\u00e7os.",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Silencioso**: n\u00e3o produz som algum ao movimentar-se e se mant\u00e9m silencioso at\u00e9 atacar.\n\n  * **Morto-vivo**: imune a frio, magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou demais formas m\u00e1gicas de interferir na mente de seres vivos. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n\n  * **Corpo de Osso**: armas impactantes causam o dobro de dano nos Esqueletos, mas, em contrapartida, armas perfurantes causam metade do ano.\n\n  * **Inabal\u00e1vel**: mortos-vivos n\u00e3o fazem testes de moral, a n\u00e3o ser quando sofrem o efeito de um Afastar Mortos-Vivos.",
+    "encounters": "3d4",
+    "encounters_lair": "3d10",
+    "xp": "15",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13",
+    "jp": "4",
+    "mo": 12,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Pancada +2 (1d4)",
+        "times": 1,
+        "description": "Pancada",
+        "ba": 2,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": 0,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Indestrut\u00edveis: qualquer ataque que o atinja \u00e9 imediatamente repelido pela gosma, evitando todo tipo de dano.",
+      "Imunidades: fogo, \u00e1cido, ataques f\u00edsicos ou m\u00e1gicos, magia Afastar mortos-vivos ou qualquer outra fonte de dano.",
+      "Especial: existem apenas 4 Gosmas Esqueletos na Masmorra. Ap\u00f3s derrotar todos, petrificando-os com o Basilisco ou empurrando-os no abismo, ignore este tipo de resultado da tabela de encontros aleat\u00f3rios."
+    ],
+    "fontes": [
+      {
+        "page": 43,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/esqueleto.json",
+    "url": "https://olddragon.com.br/monstros/gosma-esqueleto.json"
+  },
+  {
+    "id": "grande-xama-kobold",
+    "type": "Monster",
+    "name": "Grande Xam\u00e3 Kobold",
+    "flavor": "Humanoides pequenos e covardes que armam armadilhas para surpreenderem seus advers\u00e1rios.",
+    "concept": "humanoide",
+    "size": "pequeno",
+    "habitats": [
+      "colinas",
+      "montanhas",
+      "subterraneos"
+    ],
+    "alignment": "caotico",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "4d4",
+    "encounters_lair": "6d10",
+    "xp": "150",
+    "treasure": "p",
+    "treasure_lair": "c",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "20",
+    "ca": "13",
+    "jp": "6",
+    "mo": 10,
+    "dv": "4",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Bord\u00e3o +1 (1d6)",
+        "times": 1,
+        "description": "Bord\u00e3o",
+        "ba": 1,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Magia como Cl\u00e9rigo de 2\u00ba n\u00edvel."
+    ],
+    "fontes": [
+      {
+        "page": 16,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday23.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/kobold.json",
+    "url": "https://olddragon.com.br/monstros/grande-xama-kobold.json"
+  },
+  {
+    "id": "guarda-do-grifo-branco",
+    "type": "Monster",
+    "name": "Guarda do Grifo Branco",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "ordeiro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Montado**: cavalo de guerra.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "50",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "17",
+    "jp": "5",
+    "mo": 10,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada bastarda +2 (1d8+2)",
+        "times": 1,
+        "description": "Espada bastarda",
+        "ba": 2,
+        "damage_description": "1d8+2",
+        "damage": "1d8",
+        "damage_bonus": 2,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday22.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/guarda-do-grifo-branco.json"
+  },
+  {
+    "id": "hobgoblin",
+    "type": "Monster",
+    "name": "Hobgoblin",
+    "flavor": "Militarizados, usam t\u00e1ticas avan\u00e7adas de guerrilha, tornando-os em grandes for\u00e7as mercen\u00e1rias.",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "ordeiro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Classe de armadura**: Hobglobins possuem CA 11 ou 16 quando usam cota de malha e escudo.\n\n  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "1d6",
+    "encounters_lair": "4d6",
+    "xp": "15",
+    "treasure": "s",
+    "treasure_lair": "e",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "6",
+    "ca": "11/16",
+    "jp": "5",
+    "mo": 9,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +3 (1d8+1)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 3,
+        "damage_description": "1d8+1",
+        "damage": "1d8",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 75,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 175,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 110,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/hobgoblin.json"
+  },
+  {
+    "id": "homem-lagarto",
+    "type": "Monster",
+    "name": "Homem Lagarto",
+    "flavor": "Selvagens reptilianos. Atacam de forma desordenada com lan\u00e7as e fundas, devastando povoados.",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "planicies",
+      "pantanos"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Lutar at\u00e9 morrer**: quando encurralados, recebem +1 no ataque e dano at\u00e9 o fim do combate.",
+    "encounters": "2d4",
+    "encounters_lair": "6d6",
+    "xp": "35",
+    "treasure": "p",
+    "treasure_lair": "j",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": 6,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "11",
+    "ca": "15",
+    "jp": "5",
+    "mo": 8,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +2 (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 2,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      },
+      {
+        "text": "1 \u00d7 Garra +2 (1d4)",
+        "times": 1,
+        "description": "Garra",
+        "ba": 2,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 175,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 112,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/homem-lagarto.json"
+  },
+  {
+    "id": "ix-manter",
+    "type": "Monster",
+    "name": "Ix Manter",
+    "flavor": "",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Silencioso**: n\u00e3o produz som algum ao movimentar-se e se mant\u00e9m silencioso at\u00e9 atacar.\n\n  * **Morto-vivo**: imune a frio, magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou demais formas m\u00e1gicas de interferir na mente de seres vivos. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n\n  * **Aura Aterrorizante**: qualquer criatura com 4 dados de vida ou menos e a at\u00e9 30 metros do Lich, capaz de ver ou perceb\u00ea-lo, \u00e9 afetada pela Aura Aterrorizante do Lich que afugenta todos por 1d4 turnos. Nenhuma Jogada de Prote\u00e7\u00e3o pode anular o efeito desta Aura Aterrorizante. H\u00e1 1-4 chances em 1d6 de uma de uma pessoa em fuga deixar cair o que estiver carregando.\n\n  * **Paralisia**: alvo atingido por um Lich deve ser bem-sucedido em uma JPC ou ficar\u00e1 paralisado permanentemente ou at\u00e9 uma Curar Doen\u00e7as ser lan\u00e7ada por um Cl\u00e9rigo.\n\n  * **Magias**: um Lich pode lan\u00e7ar magias como um Necromante de 15\u00ba n\u00edvel.\n\n",
+    "picture": "https://public.olddragon.com.br/3c1ltehme2bxxzcm1on4gic9lmdx",
+    "thumb_picture": "https://public.olddragon.com.br/2x2itutpjnonehmjkqpm9yr809ca",
+    "encounters": "",
+    "encounters_lair": "",
+    "xp": "4975",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "100",
+    "ca": "20",
+    "jp": "16",
+    "mo": 12,
+    "dv": "20",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Toque +8 (1d10 + Paralisia)",
+        "times": 1,
+        "description": "Toque",
+        "ba": 8,
+        "damage_description": "1d10 + Paralisia",
+        "damage": "1d10",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 45,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/ix-manter.json"
+  },
+  {
+    "id": "javali",
+    "type": "Monster",
+    "name": "Javali",
+    "flavor": "Estes porcos selvagens e ferozes vivem nas florestas e plan\u00edcies. Costumam atacar ao menor sinal de perigo.",
+    "concept": "animal",
+    "size": "pequeno",
+    "habitats": [
+      "colinas",
+      "florestas",
+      "planicies"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Investida**: se ainda n\u00e3o engajado em combate, pode usar a manobra de investida para causar o dobro de dano com suas presas.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "1d6",
+    "encounters_lair": "1d6",
+    "xp": "75",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 10,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "15",
+    "ca": "13",
+    "jp": "6",
+    "mo": 9,
+    "dv": "3",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Presa +4 (2d4)",
+        "times": 1,
+        "description": "Presa",
+        "ba": 4,
+        "damage_description": "2d4",
+        "damage": "2d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 17,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/javali.json"
+  },
+  {
+    "id": "jumento-mula",
+    "type": "Monster",
+    "name": "Jumento/Mula",
+    "flavor": "Resultado do cruzamento entre burro e cavalo. \u00c9 semelhante a um cavalo leve, mas um pouco mais r\u00fastico.",
+    "concept": "animal",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Firme**: pode ser levado ao interior de masmorras.\n  * **Teimoso**: uma vez ao dia, h\u00e1 1 chance em 1d6 de empacar por 1 turno sem sair do lugar.\n  * **Carga**: carrega ou puxa at\u00e9 2.000 moedas ou 1.000 moedas e um montador.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "0",
+    "encounters_lair": "0",
+    "xp": "15",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "14",
+    "jp": "5",
+    "mo": 7,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Coice +1 (1d4)",
+        "times": 1,
+        "description": "Coice",
+        "ba": 1,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 17,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/jumento-mula.json"
+  },
+  {
+    "id": "kobold",
+    "type": "Monster",
+    "name": "Kobold",
+    "flavor": "Humanoides pequenos e covardes que armam armadilhas para surpreenderem seus advers\u00e1rios.",
+    "concept": "humanoide",
+    "size": "pequeno",
+    "habitats": [
+      "colinas",
+      "montanhas",
+      "subterraneos"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "4d4",
+    "encounters_lair": "6d10",
+    "xp": "5",
+    "treasure": "p",
+    "treasure_lair": "c",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "2",
+    "ca": "12",
+    "jp": "4",
+    "mo": 5,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 0,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      },
+      {
+        "text": "2 \u00d7 Mordidas +1 (1d4)",
+        "times": 2,
+        "description": "Mordidas",
+        "ba": 1,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 69,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 176,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 118,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/kobold.json"
+  },
+  {
+    "id": "kobold-desarmado",
+    "type": "Monster",
+    "name": "Kobold Desarmado",
+    "flavor": "Humanoides pequenos e covardes que armam armadilhas para surpreenderem seus advers\u00e1rios.",
+    "concept": "humanoide",
+    "size": "pequeno",
+    "habitats": [
+      "colinas",
+      "montanhas",
+      "subterraneos"
+    ],
+    "alignment": "caotico",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "4d4",
+    "encounters_lair": "6d10",
+    "xp": "5",
+    "treasure": "p",
+    "treasure_lair": "c",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "2",
+    "ca": "11",
+    "jp": "4",
+    "mo": 5,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "2 \u00d7 Mordidas (1d4)",
+        "times": 2,
+        "description": "Mordidas",
+        "ba": 0,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [],
+    "fontes": [
+      {
+        "page": 70,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 17,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday23.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/kobold.json",
+    "url": "https://olddragon.com.br/monstros/kobold-desarmado.json"
+  },
+  {
+    "id": "kobold-filhote",
+    "type": "Monster",
+    "name": "Kobold Filhote",
+    "flavor": "Humanoides pequenos e covardes que armam armadilhas para surpreenderem seus advers\u00e1rios.",
+    "concept": "humanoide",
+    "size": "pequeno",
+    "habitats": [
+      "colinas",
+      "montanhas",
+      "subterraneos"
+    ],
+    "alignment": "caotico",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "4d4",
+    "encounters_lair": "6d10",
+    "xp": "5",
+    "treasure": "p",
+    "treasure_lair": "c",
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "2",
+    "ca": "11",
+    "jp": "4",
+    "mo": 5,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "2 \u00d7 Mordidas (1d4)",
+        "times": 2,
+        "description": "Mordidas",
+        "ba": 0,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [],
+    "fontes": [
+      {
+        "page": 17,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday23.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/kobold.json",
+    "url": "https://olddragon.com.br/monstros/kobold-filhote.json"
+  },
+  {
+    "id": "lobo",
+    "type": "Monster",
+    "name": "Lobo",
+    "flavor": "Can\u00eddeos que vivem em geleiras, montanhas e florestas geladas. Vivem em grupos e fazem disso sua principal for\u00e7a de combate.",
+    "concept": "animal",
+    "size": "medio",
+    "habitats": [
+      "colinas",
+      "florestas",
+      "geleiras",
+      "montanhas"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Alcateia**: O moral de um Lobo \u00e9 8 se estiver em grupos de 4 ou mais.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "2d6",
+    "encounters_lair": "3d6",
+    "xp": "175",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 12,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+2",
+    "pv": "12",
+    "ca": "13",
+    "jp": "5",
+    "mo": 6,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +2 (1d6)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 2,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 17,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/lobo.json"
+  },
+  {
+    "id": "morlok",
+    "type": "Monster",
+    "name": "Morlok",
+    "flavor": "Comedores de carne \u00e9lfifica dos subterr\u00e2neos. Usam seus sentidos agu\u00e7ados para surpreender suas v\u00edtimas.",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "subterraneos"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "Morloks s\u00e3o humanoides antrop\u00f3fagos com pele cinza e \u00famida ao toque. Possuem cabelos ensebados e escorridos pela cabe\u00e7a, sempre na cor branca. Contam com grandes garras nos p\u00e9s, que se dobram como se fossem m\u00e3os, conferindo-lhes extrema facilidade em escalar superf\u00edcies e escavar.\n\n**Som**: som surdo de passos ritmados.\n\n**Odor**: terra molhada rec\u00e9m revirada.\n\n## Combate\n\nTotalmente cegos, usam seu olfato agu\u00e7ado e sua camuflagem natural para surpreender e atacar seus inimigos nos subterr\u00e2neos e nas florestas que habitam.\n\n  * **Inimigo Natural**: Morloks odeiam a civiliza\u00e7\u00e3o \u00e9lfica e far\u00e3o de tudo para destru\u00ed-los. Contra estas criaturas, todo ataque do Morlock \u00e9 considerado um ataque f\u00e1cil.\n  * **Sentidos Agu\u00e7ados**: seu olfato e sentido s\u00edsmico o permite sentir odores e vibra\u00e7\u00f5es no solo a at\u00e9 30 metros de onde estiver. Ele consegue identificar movimento, perceber a exata localiza\u00e7\u00e3o de uma presa e identificar o tamanho e a quantidade de inimigos na \u00e1rea.\n  * **Camuflagem**: quando im\u00f3vel, surpreende seus inimigos com uma chance de 1-4 em 1d6.\n  * **Imunidades**: s\u00e3o imunes a ataques visuais, efeitos visuais, ilus\u00f5es, e outras formas de ataque que dependam da vis\u00e3o.\n\n## Ecologia\n\nOs Morloks vivem dentro da terra fofa das florestas de Kadur, onde criam t\u00faneis e c\u00e2maras complexas. Possuem sociedade matriarcal, em queas f\u00eameas morbidamente obesas ficam protegidas enquanto possuem diversos machos de quem exigem que tragam suas capturas.\n\n## Utilidades\n\nTanto os altos elfos tarkarianos como os Elfos Cinzentos Elmarianos costumam pagar bem por cabe\u00e7as de Morloks abatidas. Isso movimenta um grande contingente de Ca\u00e7adores de Recompensas em busca de dinheiro aparentemente f\u00e1cil e da oportunidade de aproveitar a situa\u00e7\u00e3o e comercializar alguns bens de luxo com as comunidades \u00e9lficas.",
+    "picture": "https://public.olddragon.com.br/njrhdfiuf9qm4hfpk5063vj5salw",
+    "thumb_picture": "https://public.olddragon.com.br/ijwvvj8rdoitfj3ygk6nfldpb6am",
+    "encounters": "1d8",
+    "encounters_lair": "4d6",
+    "xp": "95",
+    "treasure": "q",
+    "treasure_lair": "b",
+    "mv": 9,
+    "mvc": null,
+    "mve": 6,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "15",
+    "ca": "14",
+    "jp": "5",
+    "mo": 9,
+    "dv": "3",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Machado +1 (1d6+2)",
+        "times": 1,
+        "description": "Machado",
+        "ba": 1,
+        "damage_description": "1d6+2",
+        "damage": "1d6",
+        "damage_bonus": 2,
+        "weapon": false
+      },
+      {
+        "text": "2 \u00d7 Garras +2 (1d4+1)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 2,
+        "damage_description": "1d4+1",
+        "damage": "1d4",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/morlok.json"
+  },
+  {
+    "id": "ogro",
+    "type": "Monster",
+    "name": "Ogro",
+    "flavor": "Tolos, agressivos e gananciosos, servem a quem puder pagar seu pre\u00e7o.",
+    "concept": "gigante",
+    "size": "grande",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Golpe Potente**: se conseguir causar, com uma pancada ou arma, uma quantidade de dano superior a for\u00e7a do alvo, este \u00e9 arremessado 1d4 metros para tr\u00e1s.",
+    "encounters": "1d6",
+    "encounters_lair": "2d6",
+    "xp": "125",
+    "treasure": "tx2",
+    "treasure_lair": "d",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+4",
+    "pv": "24",
+    "ca": "15",
+    "jp": "7",
+    "mo": 10,
+    "dv": "4",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +5 (Arma +6)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 5,
+        "damage_description": "Arma +6",
+        "damage": null,
+        "damage_bonus": 6,
+        "weapon": true
+      },
+      {
+        "text": "1 \u00d7 Pancada +4 (1d6+4)",
+        "times": 1,
+        "description": "Pancada",
+        "ba": 4,
+        "damage_description": "1d6+4",
+        "damage": "1d6",
+        "damage_bonus": 4,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 118,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 176,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 139,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/ogro.json"
+  },
+  {
+    "id": "orc",
+    "type": "Monster",
+    "name": "Orc",
+    "flavor": "Selvagens e brutais, visam a expans\u00e3o de seus territ\u00f3rios por meio de invas\u00f5es e constantes ataques aos outros povos.",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Classe de armadura**: possuem CA 11 ou 14 quando usam armadura de couro e escudo.\n\n  * **Infravis\u00e3o**: 18 metros.",
+    "encounters": "2d4",
+    "encounters_lair": "1d6x10",
+    "xp": "15",
+    "treasure": "s",
+    "treasure_lair": "b+c",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+1",
+    "pv": "6",
+    "ca": "11/14",
+    "jp": "5",
+    "mo": 9,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Arma +3 (Arma)",
+        "times": 1,
+        "description": "Arma",
+        "ba": 3,
+        "damage_description": "Arma",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": true
+      }
+    ],
+    "fontes": [
+      {
+        "page": 74,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 177,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 141,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": 27,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/nc2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/orc.json"
+  },
+  {
+    "id": "orc-branco",
+    "type": "Monster",
+    "name": "Orc Branco",
+    "flavor": "Ainda mais selvagens e b\u00e9licos que seus parentes, estes orcs aterrorizam as plan\u00edcies geladas onde vivem.",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "geleiras"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "Vindos do norte gelado e entre os mais selvagens guerreiros, Orcs Brancos tra\u00e7am suas origens desde os grandes ca\u00e7adores de drag\u00f5es brancos. S\u00e3o especialistas em viver em clima \u00e1rtico, em montanhas geladas e geleiras no norte.\n\nPossuem a pele em tons que v\u00e3o do branco ao cinza p\u00e1lido. Seus pelos s\u00e3o grossos, densos e claros, levemente amarelados.\n\nSeus olhos possuem uma terceira p\u00e1lpebra que filtra os raios solares nos dias claros o que erroneamente faz com que sejam descritos como orcs com olhos brancos.\n\n## Combate\n\nAtacam com f\u00faria e selvageria, muitas vezes sem se preocuparem sequer com fuga ou rendi\u00e7\u00e3o.\n\n## Combate\n\n  * **Classe de armadura**: possuem CA 13 ou 15 quando usam armadura de couro.\n  * **Resist\u00eancia ao Frio**: orcs brancos recebem metade do dano proveniente de uma fonte ligada ao frio ou gelo e fazem seus testes de resist\u00eancia contra estes elementos como um teste muito f\u00e1cil.\n  * **Infravis\u00e3o**: 18 metros.\n\n## Ecologia\n\nOrcs Brancos s\u00e3o extremamente b\u00e9licos, selvagens e se reproduzem rapidamente.\n\nAntes dos invernos costumam migrar para terras mais ao sul para se protegerem do frio intenso e esse movimento migrat\u00f3rio costuma causar constantes conflitos. Com os homens buscando proteger suas terras destas invas\u00f5es.\n\nEssa din\u00e2mica anual \u00e9 fonte de conflitos sem fim na regi\u00e3o norte.\n\n## Utilidades\n\nNorklunds costumam pagar bem por filhotes de Orcs Brancos para serem exibidos como animais em feiras e mercados pelo Reino.",
+    "picture": "https://public.olddragon.com.br/mz76j96mz4nq1lh40j1l4tiobko3",
+    "thumb_picture": "https://public.olddragon.com.br/6u97zuj3ycda5o2imws12n5xtz20",
+    "encounters": "2d4",
+    "encounters_lair": "1d6x10",
+    "xp": "35",
+    "treasure": "s",
+    "treasure_lair": "b+c",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": 12,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13/15",
+    "jp": "6",
+    "mo": 9,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Machado +3 (1d8+3)",
+        "times": 1,
+        "description": "Machado",
+        "ba": 3,
+        "damage_description": "1d8+3",
+        "damage": "1d8",
+        "damage_bonus": 3,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Soco +3 (1d4+2)",
+        "times": 1,
+        "description": "Soco",
+        "ba": 3,
+        "damage_description": "1d4+2",
+        "damage": "1d4",
+        "damage_bonus": 2,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/orc-branco.json"
+  },
+  {
+    "id": "piqueiro-mercenario",
+    "type": "Monster",
+    "name": "Piqueiro (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "12",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada curta +1 (1d6)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 1,
+        "damage_description": "1d6",
+        "damage": "1d6",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Pique +1 (1d10)",
+        "times": 1,
+        "description": "Pique",
+        "ba": 1,
+        "damage_description": "1d10",
+        "damage": "1d10",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Custo: 3 PO por m\u00eas."
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json",
+    "url": "https://olddragon.com.br/monstros/piqueiro-mercenario.json"
+  },
+  {
+    "id": "pudim-negro",
+    "type": "Monster",
+    "name": "Pudim Negro",
+    "flavor": "Esta criatura semelhante a uma enorme ameba negra ataca tudo o que encontra pela frente com seus golpes \u00e1cidos.",
+    "concept": "gosma",
+    "size": "grande",
+    "habitats": [
+      "subterraneos"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Imunidades**: imune aos efeitos do frio e da eletricidade.\n\n  * **\u00c1cido**: ap\u00f3s um ataque bem-sucedido, a saliva do Pudim Negro come\u00e7a a corroer qualquer material org\u00e2nico que tiver contato. Este \u00e1cido \u00e9 capaz de atingir armas e armaduras causando uma penalidade no dano (no caso de armas) ou na prote\u00e7\u00e3o (no caso de armaduras) de 1 a cada ataque bem-sucedido. Se um equipamento receber uma quantidade de dano igual ao seu dano de dano (4 para 1d4 de dano) ou igual ao b\u00f4nus na CA (4 para uma cota de malha) o equipamento estar\u00e1 permanentemente destru\u00eddo.\n\n  * **Divis\u00e3o**: todo ataque de arma de corte que cause 8 ou mais pontos de dano ao Pudim Negro pode causar sua divis\u00e3o em duas criaturas diferentes, ambas com metade dos pontos de vida da criatura atual. Estas duas novas criaturas s\u00e3o tratadas como criaturas diferentes, com a\u00e7\u00f5es, ataques e pontos de vida diferentes, por\u00e9m, caso sejam derrotadas, concedem os pontos de experi\u00eancia apenas uma \u00fanica vez. Todas as estat\u00edsticas do Pudim Negro se mant\u00eam inalteradas.",
+    "encounters": "1",
+    "encounters_lair": "0",
+    "xp": "1325",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": 6,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "50",
+    "ca": "15",
+    "jp": "11",
+    "mo": 12,
+    "dv": "10",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +11 (3d8)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 11,
+        "damage_description": "3d8",
+        "damage": "3d8",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 148,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      },
+      {
+        "page": 43,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/pudim-negro.json"
+  },
+  {
+    "id": "rato-gigante",
+    "type": "Monster",
+    "name": "Rato Gigante",
+    "flavor": "Enormes com quase 1 metro de comprimento, fei\u00e7\u00f5es monstruosas e muito mais ferozes do que um rato comum.",
+    "concept": "animal",
+    "size": "pequeno",
+    "habitats": [
+      "subterraneos"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Doen\u00e7a**: um rato possui 1 chance em 1d6 de transmitir Febre do Esgoto a um alvo mordido. Um alvo mordido que falhar em uma JPC, ficar\u00e1 doente e com valor de Constitui\u00e7\u00e3o igual a 1 por 1d6 dias.\n\n  * **Medo de Fogo**: na presen\u00e7a de fogo, um teste de MO deve ser feito para determinar se Ratos Gigantes fogem ou n\u00e3o do combate.",
+    "encounters": "3d6",
+    "encounters_lair": "3d10",
+    "xp": "10",
+    "treasure": null,
+    "treasure_lair": "c",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": 6,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "2",
+    "ca": "13",
+    "jp": "4",
+    "mo": 8,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +1 (1d3 + Doen\u00e7a)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 1,
+        "damage_description": "1d3 + Doen\u00e7a",
+        "damage": "1d3",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 177,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 150,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/rato-gigante.json"
+  },
+  {
+    "id": "rezingar",
+    "type": "Monster",
+    "name": "Rezingar",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Magia**: como Mago de 8\u00ba n\u00edvel.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "695",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "40",
+    "ca": "17",
+    "jp": "11",
+    "mo": 12,
+    "dv": "8",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Cajado +2 (1d4-1)",
+        "times": 1,
+        "description": "Cajado",
+        "ba": 2,
+        "damage_description": "1d4-1",
+        "damage": "1d4",
+        "damage_bonus": -1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 15,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday23.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/rezingar.json"
+  },
+  {
+    "id": "serpente",
+    "type": "Monster",
+    "name": "Serpente",
+    "flavor": "",
+    "concept": "animal",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Veneno**: causa morte em 1d10 turnos caso falhe num teste de JPC\n\n  * Possui 1 chance em 1d6 de ser uma serpente venenosa.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": null,
+    "encounters_lair": null,
+    "xp": "15",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "14",
+    "jp": "5",
+    "mo": 12,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +1 (1d3 ou 1d3 + Veneno)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 1,
+        "damage_description": "1d3 ou 1d3 + Veneno",
+        "damage": "1d3",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 107,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 121,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/serpente.json"
+  },
+  {
+    "id": "sibilante-guardiao-petreo",
+    "type": "Monster",
+    "name": "Sibilante Guardi\u00e3o P\u00e9treo",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "grande",
+    "habitats": [],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **T\u00e1tica de Combate**: a cada rodada, um Sibilante Guardi\u00e3o P\u00e9treo pode executar um dos tr\u00eas ataques especiais:\n  * **Puxar Escudo**: o Guardi\u00e3o atrai magicamente um escudo preso na parede diretamente para sua m\u00e3o, melhorando sua CA em 1. O voo do escudo causa 1d6 de dano se atingir algum oponente que esteja no caminho.\n  * **Saltar e Atacar**: o Guardi\u00e3o salta no ar e ataca um alvo a at\u00e9 6 metros de dist\u00e2ncia. Ele n\u00e3o cair\u00e1 sobre os alvos, mas qualquer criatura adjacente ao local onde ele cair recebe 1d4 de dano adicional e cai no ch\u00e3o. Este dano adicional e a queda podem ser evitados completamente por uma JPD bem-sucedida.\n  * **Corte G\u00eameo**: o Guardi\u00e3o golpeia dois alvos com sua espada em um mesmo ataque. Os alvos devem estar engajados em combate e pr\u00f3ximos entre si. O Guardi\u00e3o realiza uma \u00fanica jogada de ataque contra os dois CA, causando, se bem-sucedido, 1d8+4 pontos em cada alvo atingido.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": null,
+    "encounters_lair": null,
+    "xp": "125",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "30",
+    "ca": "16",
+    "jp": "6",
+    "mo": 12,
+    "dv": "6",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Pancada +4 (1d6+4)",
+        "times": 1,
+        "description": "Pancada",
+        "ba": 4,
+        "damage_description": "1d6+4",
+        "damage": "1d6",
+        "damage_bonus": 4,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 43,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/sibilante-guardiao-petreo.json"
+  },
+  {
+    "id": "soldado-leve-mercenario",
+    "type": "Monster",
+    "name": "Soldado Leve (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "13",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada curta +1 (1d6+1)",
+        "times": 1,
+        "description": "Espada curta",
+        "ba": 1,
+        "damage_description": "1d6+1",
+        "damage": "1d6",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json"
+  },
+  {
+    "id": "soldado-pesado-sargento-mercenario",
+    "type": "Monster",
+    "name": "Soldado Pesado, Sargento (Mercen\u00e1rio)",
+    "flavor": "",
+    "concept": "humanoide",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "neutro",
+    "variant": true,
+    "access": "partial",
+    "description": "  * **Custo**: 2PO por m\u00eas.",
+    "encounters": "-",
+    "encounters_lair": "-",
+    "xp": "15",
+    "treasure": "q",
+    "treasure_lair": "g",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "5",
+    "ca": "16",
+    "jp": "5",
+    "mo": 8,
+    "dv": "1",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Espada longa +1 (1d8+1)",
+        "times": 1,
+        "description": "Espada longa",
+        "ba": 1,
+        "damage_description": "1d8+1",
+        "damage": "1d8",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "variant_modifications": [
+      "Custo: 3 PO por m\u00eas."
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 188,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "parent_monster_url": "https://olddragon.com.br/monstros/soldado-leve-mercenario.json",
+    "url": "https://olddragon.com.br/monstros/soldado-pesado-sargento-mercenario.json"
+  },
+  {
+    "id": "sombra",
+    "type": "Monster",
+    "name": "Sombra",
+    "flavor": "Monstros incorp\u00f3reos semelhantes a sombras que modificam suas formas para atacar seus inimigos.",
+    "concept": "besta",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Surpresa**: surpreende o grupo em 1-5 em 1d6, caso n\u00e3o esteja num ambiente totalmente iluminado e sem nenhuma sombra.\n\n  * **Dreno**: seu ataque drena 1 ponto de For\u00e7a temporariamente. Um personagem reduzido a zero ou menos pontos de For\u00e7a morre imediatamente. Um ponto de For\u00e7a drenado \u00e9 recuperado ap\u00f3s 8 turnos.\n\n  * **Imunidades**: s\u00e3o imunes aos efeitos de encantamentos ou de uma magia Sono, e a todo dano causado por armas n\u00e3o m\u00e1gicas.",
+    "encounters": "1d8",
+    "encounters_lair": "1d12",
+    "xp": "50",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+2",
+    "pv": "12",
+    "ca": "13",
+    "jp": "6",
+    "mo": 12,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Toque +3 (1d4 + Dreno)",
+        "times": 1,
+        "description": "Toque",
+        "ba": 3,
+        "damage_description": "1d4 + Dreno",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 69,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 178,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/sombra.json"
+  },
+  {
+    "id": "sucubo",
+    "type": "Monster",
+    "name": "S\u00facubo",
+    "flavor": "Dem\u00f4nio oriundo do Plano do Caos, um dos lacaios do plano infernal de Orcus. Vivem no dom\u00ednio da Lux\u00faria.",
+    "concept": "humanoide_monstruoso",
+    "size": "medio",
+    "habitats": [
+      "extraplanar"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "De apar\u00eancia luxuriosa, Su\u0301cubos podem se apresentar como pessoas incrivelmente belas, ou em sua forma verdadeira com asas de morcegos e olhos tem\u00edveis. Focam em indiv\u00edduos de mente fraca e suscet\u00edveis aos seus caprichos.\n\n## Combate\n\nSa\u0303o espia\u0303s, agentes infiltradas e coletoras de informac\u0327o\u0303 es. Suas ta\u0301ticas de ac\u0327a\u0303 o sa\u0303o sutis. Preferem manipular um alvo para mata\u0301-lo em seguranc\u0327a, sem testemunhas, com sua habilidade de Drenar Energia.\n\n* **Alterar Forma**: pode alterar sua pro\u0301pria forma assumindo a de qualquer humanoide vivo de tamanho semelhante, escondendo magicamente suas asas gigantes, chifres, e demais caracter\u00edsticas demon\u00edacas.\n\n* **Drenar Energia**: ao beijar o alvo, pode drenar 1 ni\u0301vel deste caso falhe numa JPC. Em caso de sucesso, o alvo afastara\u0301 a Su\u0301cubo e identificara\u0301 seu propo\u0301sito maligno. Se falhar, o alvo tera\u0301 1 ni\u0301vel sugado por rodada ate\u0301 o beijo ser interrompido. Uma criatura com ao menos 1 ni\u0301vel drenado por uma Su\u0301cubo, envelhece 10 anos. Ao ter todos os seus ni\u0301veis drenados assim, morre imediatamente.\n\n* **Magias**: Enfeitic\u0327ar Pessoas, Clarivide\u0302ncia, Escurida\u0303o Conti\u0301nua, Porta Dimensional e Percepc\u0327a\u0303 o Extrassensorial, como um Mago de 5\u00bani\u0301vel.\n\n## Ecologia\n\nAs Su\u0301cubos, geralmente femininas, e suas varia\u00e7\u00f5es comumente mais masculinas, os I\u0301ncubos, sa\u0303o os lordes do Domi\u0301nio da Luxu\u0301ria, um dos 7 domi\u0301nios do inferno governado por Orcus, o Demo\u0302nio Rei. Sa\u0303o mais independentes do que os outros seres infernais, mas jamais desobedecem a uma ordem superior.\n\nS\u00e3o criaturas cautelosas em suas misso\u0303es no Plano Material, evitando ao ma\u0301ximo qualquer risco. Se em perigo, drenam a energia de um alvo e retornam a seguranc\u0327a.\n\nSu\u0301cubos e I\u0301ncubos sa\u0303o criados por meios ma\u0301gicos e rituali\u0301sticos. Na\u0303o se reproduzem entre si de forma a criar mais dem\u00f4nios de sua mesma classe, por\u00e9m, sa\u0303o capazes de gerar prole com seres humanoides, que n\u00e3o s\u00e3o exatamente da mesma esp\u00e9cie de nenhum de seus progenitores.\n\n## Utilidades\n\nNa\u0303o se conhece a utilidade de nenhuma parte da sua carcac\u0327a, mas isso na\u0303o impede que sa\u0301bios e magos queiram pesquisa\u0301-las e testa\u0301-las.",
+    "picture": "https://public.olddragon.com.br/1yn4mv1r9bvm8ehzlnk2qcwj14nd",
+    "thumb_picture": "https://public.olddragon.com.br/okp6ac5z84ggchq4qmqb6lxohy7j",
+    "encounters": "1",
+    "encounters_lair": "1",
+    "xp": "480",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": 15,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "30",
+    "ca": "18",
+    "jp": "9",
+    "mo": 7,
+    "dv": "6",
+    "attacks": [
+      {
+        "text": "2 \u00d7 Garras +6 (1d4+1)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 6,
+        "damage_description": "1d4+1",
+        "damage": "1d4",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 46,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/tu2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/sucubo.json"
+  },
+  {
+    "id": "troll",
+    "type": "Monster",
+    "name": "Troll",
+    "flavor": "Horrendos e extremamente fortes com membros longos e uma desesperadora capacidade de regenera\u00e7\u00e3o.",
+    "concept": "gigante",
+    "size": "grande",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Regenera\u00e7\u00e3o**: um Troll \u00e9 capaz de regenerar 1 ponto de vida a cada rodada.  Esta regenera\u00e7\u00e3o \u00e9 capaz de reconstituir at\u00e9 mesmo membros amputados em at\u00e9 1d6 dias. Um Troll n\u00e3o \u00e9 capaz de regenerar dano causado por fogo ou \u00e1cido.\n\n  * **Falsa Morte**: Trolls reduzidos a 0 pontos de vida retornam a vida em 2d6 rodadas, a n\u00e3o ser que seus restos sejam queimados por fogo ou destru\u00eddos com \u00e1cido.\n\n  * **Medo de fogo e \u00e1cido**: na presen\u00e7a de fogo ou \u00e1cido, o valor do Moral de um Troll \u00e9 8.",
+    "encounters": "1d8",
+    "encounters_lair": "1d8",
+    "xp": "305",
+    "treasure": null,
+    "treasure_lair": "d",
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "+5",
+    "pv": "35",
+    "ca": "16",
+    "jp": "9",
+    "mo": 10,
+    "dv": "6",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +6 (2d6+4)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 6,
+        "damage_description": "2d6+4",
+        "damage": "2d6",
+        "damage_bonus": 4,
+        "weapon": false
+      },
+      {
+        "text": "2 \u00d7 Garras +6 (1d4+4)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 6,
+        "damage_description": "1d4+4",
+        "damage": "1d4",
+        "damage_bonus": 4,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 76,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 178,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 168,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/troll.json"
+  },
+  {
+    "id": "urso-coruja",
+    "type": "Monster",
+    "name": "Urso-Coruja",
+    "flavor": "Com o corpo forte de um urso e a cabe\u00e7a de uma coruja, este predador vive nas florestas e ataca tudo o que encontrar.",
+    "concept": "besta",
+    "size": "grande",
+    "habitats": [
+      "florestas"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Abra\u00e7o**: o Urso-Coruja conseguir\u00e1 agarrar seu alvo se acertar os dois ataques com suas garras, causando 2d8 de dano enquanto estiver agarrando o alvo.",
+    "encounters": "1d4",
+    "encounters_lair": "1d4",
+    "xp": "175",
+    "treasure": "q",
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "25",
+    "ca": "15",
+    "jp": "8",
+    "mo": 12,
+    "dv": "5",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +6 (1d8)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 6,
+        "damage_description": "1d8",
+        "damage": "1d8",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "2 \u00d7 Garras +6 (1d8)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 6,
+        "damage_description": "1d8",
+        "damage": "1d8",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 69,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 179,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 169,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/urso-coruja.json"
+  },
+  {
+    "id": "urso-pardo",
+    "type": "Monster",
+    "name": "Urso Pardo",
+    "flavor": "Vivem em florestas e montanhas e se alimentam principalmente de carne.",
+    "concept": "animal",
+    "size": "grande",
+    "habitats": [
+      "colinas",
+      "florestas",
+      "montanhas"
+    ],
+    "alignment": "neutro",
+    "variant": false,
+    "access": "complete",
+    "description": "\n\n  * **Abra\u00e7o**: se o Urso acertar os dois ataques com suas garras, conseguir\u00e1 agarrar seu alvo, causando 2d8 de dano enquanto estiver agarrando o alvo.\n\n",
+    "picture": null,
+    "thumb_picture": null,
+    "encounters": "1",
+    "encounters_lair": "1d4",
+    "xp": "175",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 9,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "25",
+    "ca": "14",
+    "jp": "8",
+    "mo": 7,
+    "dv": "5",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Mordida +6 (1d8)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 6,
+        "damage_description": "1d8",
+        "damage": "1d8",
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "2 \u00d7 Garras +6 (1d4)",
+        "times": 2,
+        "description": "Garras",
+        "ba": 6,
+        "damage_description": "1d4",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 170,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 19,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/urso-pardo.json"
+  },
+  {
+    "id": "zumbi",
+    "type": "Monster",
+    "name": "Zumbi",
+    "flavor": "Morto-vivo sem intelig\u00eancia. Avan\u00e7a para cima de suas v\u00edtimas com o \u00fanico intuito de destro\u00e7\u00e1-las com garras e dentes.",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "partial",
+    "description": "  * **Silencioso**: n\u00e3o produz som algum ao movimentar- se e se mant\u00e9m silencioso at\u00e9 atacar.\n\n  * **Morto-vivo**: imune a magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou demais formas m\u00e1gicas de interferir na mente de seres vivos. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n\n  * **Lento**: sempre perde a Iniciativa num combate. Um Zumbi sempre ataca por \u00faltimo.\n\n  * **Infec\u00e7\u00e3o**: personagens mordidos devem passar em uma JPC ou se tornar\u00e3o Zumbis em 1d4 dias, a n\u00e3o ser que uma magia de Curar Doen\u00e7as ou Curar Ferimentos seja usada no alvo infectado.\n\n  * **Inabal\u00e1vel**: mortos-vivos n\u00e3o fazem testes de moral a n\u00e3o ser quando sofrem o efeito de um Afastar Mortos-Vivos.",
+    "encounters": "2d4",
+    "encounters_lair": "4d6",
+    "xp": "35",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "10",
+    "ca": "13",
+    "jp": "7",
+    "mo": 7,
+    "dv": "2",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Garra +2 (1d6+2)",
+        "times": 1,
+        "description": "Garra",
+        "ba": 2,
+        "damage_description": "1d6+2",
+        "damage": "1d6",
+        "damage_bonus": 2,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Mordida +2 (1d4+1 + Infec\u00e7\u00e3o)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 2,
+        "damage_description": "1d4+1 + Infec\u00e7\u00e3o",
+        "damage": "1d4",
+        "damage_bonus": 1,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": 71,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/cl1.json"
+      },
+      {
+        "page": 179,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 178,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": null,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/srd.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/zumbi.json"
+  },
+  {
+    "id": "zumbi-canibal",
+    "type": "Monster",
+    "name": "Zumbi Canibal",
+    "flavor": "Vers\u00e3o ainda mais perigosa dos zumbis, que atacam suas v\u00edtimas atr\u00e1s de c\u00e9rebros espalhando medo e horror.",
+    "concept": "morto_vivo",
+    "size": "medio",
+    "habitats": [
+      "qualquer"
+    ],
+    "alignment": "caotico",
+    "variant": false,
+    "access": "complete",
+    "description": "Estes Zumbis Canibais s\u00e3o mortosvivos famintos por c\u00e9rebros. Possuem corpos apodrecidos, aparentemente em avan\u00e7ado est\u00e1gio de decomposi\u00e7\u00e3o, com larvas e fluidos esquisitos que pendem de feridas abertas repletas de purul\u00eancia.\n\n## Combate\n\nNunca planejam nem possuem t\u00e1ticas. Se valem de bandos numerosos que atacam em ondas constantes e avassaladoras.\n\n  * **Morto-vivo**: imune a magias mentais de manipula\u00e7\u00e3o, controle ou ilus\u00e3o, ou formas m\u00e1gicas de interferir na mente. Sofre 1d6 de dano \u00e1cido por frasco de \u00e1gua benta.\n  * **Lento**: sempre perde a Iniciativa num combate e sempre ataca por \u00faltimo.\n  * **Agarrar**: o Zumbi Canibal agarrar\u00e1 seu alvo se acertar seu ataque com as as garras. Um alvo agarrado realiza seus testes como dif\u00edcil.\n  * **Infec\u00e7\u00e3o**: personagens mordidos se tornar\u00e3o Zumbis Canibais em 1d4 dias ou assim que morrerem, a n\u00e3o ser que uma magia de Curar Doen\u00e7as seja usada no infectado.\n  * **Persistente**: ao serem mortos, existe uma chance de 1-2 em 1d6 de retornarem e continuarem lutando. Apenas destruindo sua cabe\u00e7a ou os queimando isso pode ser evitado.\n  * **Ataque em ondas**: a cada nova rodada, existe uma chance de 1-3 em 1d6 de uma nova onda onda de 2d6+4 aparecerem.\n  * **Corredor**: a cada nova onda, existe uma chance de 1-3 em 1d6 de metade dos zumbis serem do tipo corredor com o movimento 12.\n  * **Inabal\u00e1vel**: mortos-vivos n\u00e3o fazem testes de moral a n\u00e3o ser quando sofrem o efeito de um Afastar Mortos-Vivos.\n\n## Ecologia\n\nDotados de uma intelig\u00eancia predadora, que anima seus corpos p\u00fatridos e os fazem vagar em bandos atr\u00e1s da \u00fanica coisa que os motiva, atacar tudo aquilo que \u00e9 vivo para alimentar sua incessante fome de c\u00e9rebros.",
+    "picture": "https://public.olddragon.com.br/4scc4otktmawkcmw2y6c85g0uuy1",
+    "thumb_picture": "https://public.olddragon.com.br/s1mssb35l3ot3zd0oykr70agvxkg",
+    "encounters": "2d6+4",
+    "encounters_lair": null,
+    "xp": "35",
+    "treasure": null,
+    "treasure_lair": null,
+    "mv": 6,
+    "mvc": null,
+    "mve": null,
+    "mvn": null,
+    "mvv": null,
+    "mvo": null,
+    "dv_bonus": "",
+    "pv": "2",
+    "ca": "13",
+    "jp": "4",
+    "mo": 8,
+    "dv": "\u00bd",
+    "attacks": [
+      {
+        "text": "1 \u00d7 Garras +2 (Especial)",
+        "times": 1,
+        "description": "Garras",
+        "ba": 2,
+        "damage_description": "Especial",
+        "damage": null,
+        "damage_bonus": null,
+        "weapon": false
+      },
+      {
+        "text": "1 \u00d7 Mordida +3 (1d4 + Infec\u00e7\u00e3o)",
+        "times": 1,
+        "description": "Mordida",
+        "ba": 3,
+        "damage_description": "1d4 + Infec\u00e7\u00e3o",
+        "damage": "1d4",
+        "damage_bonus": null,
+        "weapon": false
+      }
+    ],
+    "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/monstros/zumbi-canibal.json"
+  }
+]
