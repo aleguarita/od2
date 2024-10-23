@@ -1,8 +1,10 @@
 from dataclasses import dataclass
 
-from .atributos import ATRIBUTOS, ATRIBUTOS_EXTENSO
+from .atributos import ATRIBUTOS, ATRIBUTOS_EXTENSO, ATRIBUTOS_MOD
 
 
+@dataclass
 class DATA:
     ATRIBUTOS = ATRIBUTOS
     ATRIBUTOS_EXTENSO = ATRIBUTOS_EXTENSO
+    ATRIBUTOS_MOD = ATRIBUTOS_MOD
