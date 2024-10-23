@@ -20,10 +20,10 @@ ESTILOS = Literal[
 Atributos = namedtuple('Atributos', ('FOR', 'DES', 'CON', 'INT', 'SAB', 'CAR'))
 
 def rolar_atributos(estilo: ESTILOS = 'clássico'):
-    return RolarAtributos(estilo)
+    return GeradorAtributos(estilo)
 
 
-class RolarAtributos:
+class GeradorAtributos:
     def __init__(self, estilo: ESTILOS):
         self._estilo = estilo
 
@@ -39,12 +39,12 @@ class RolarAtributos:
     def __iniciar_escolhidos__(self):
         self._ordem_escolhidos = [None for _ in range(6)]
 
-    def __rolamento_classico_aventureiro__(self):
-        if self._estilo == 'clássico' or 'aventureiro':
-            self.rolamento = [Dado(3, 6) for _ in range(6)]
-            self._rolamento_totais = [rolamento.total for rolamento in self.rolamento]
+    def __checar_rolamento_classico_aventureiro__(self):
+        if self._estilo == 'clássico' or self._estilo == 'aventureiro':
+            self.rolamento = list(Dado(3, 6) for _ in range(6))
+            self._rolamento_totais = list(rolamento.total for rolamento in self.rolamento)
 
-    def __rolamento_heroico__(self):
+    def __checar_rolamento_heroico__(self):
         if self._estilo == 'heroico':
             self.rolamento = [Dado(4, 6) for _ in range(6)]
 
@@ -54,35 +54,73 @@ class RolarAtributos:
 
             self._rolamento_totais = [rolamento.total for rolamento in retira_menor]
 
-    def __resultado_na_ordem__(self):
-        if self._estilo == 'clássico' or 'duplo':
-            self._ordem_escolhidos = [atr for atr in DATA.ATRIBUTOS]
+    def __aplicar_resultado_na_ordem__(self):
+        if self._estilo == 'clássico' or self._estilo == 'duplo':
+            self._ordem_escolhidos = list(atr for atr in DATA.ATRIBUTOS)
 
-    def __resultado_fora_ordem__(self):
-        pass
-
-    def __resultado_final__(self):
+    def __retornar_resultado_final__(self):
         if None not in self._ordem_escolhidos:
-            final = []
-            for i in DATA.ATRIBUTOS:
-                indice = self._ordem_escolhidos.index(i)
-                final.append(self._rolamento_totais[indice])
-            
-            self.atributos = Atributos(*final)
-                
+            self.__aplicar_lista_final__()
 
         else:
-            pass
+            self.__retorna_lista_incompleta__()
 
+    def __aplicar_lista_final__(self):
+        final = []
+        for i in DATA.ATRIBUTOS:
+            indice = self._ordem_escolhidos.index(i)
+            final.append(self._rolamento_totais[indice])
+
+        self.atributos = Atributos(*final)
+
+    def __retorna_lista_incompleta__(self):
+        atributos_disponiveis = list(i for i in DATA.ATRIBUTOS if i not in self._ordem_escolhidos)
+        valores_disponiveis = list(str(self._rolamento_totais[i]) for i, x in enumerate(
+            self._ordem_escolhidos) if not x)
+
+        self.atributos = f'Atributos não escolhidos: {", ".join(
+            atributos_disponiveis)}. Valores disponíveis: {", ".join(valores_disponiveis)}'
+
+    def __encontrar_indice_livre__(self, valor_escolhido):
+        for i, (valor, atributo) in enumerate(zip(self._rolamento_totais, self._ordem_escolhidos)):
+            if valor == valor_escolhido and atributo is None:
+                return i
+            
+        return None
 
     # ! Métodos públicos
     def rolar(self):
         self.__iniciar_escolhidos__()
-        self.__rolamento_classico_aventureiro__()
-        self.__rolamento_heroico__()
-        self.__resultado_na_ordem__()
-        self.__resultado_fora_ordem__()
-        self.__resultado_final__()
+        self.__checar_rolamento_classico_aventureiro__()
+        self.__checar_rolamento_heroico__()
+
+        self.__aplicar_resultado_na_ordem__()
+        self.__retornar_resultado_final__()
 
 
+    def atribuir_atributo(self, atributo: LISTA_ATRIBUTOS, valor: int):
+        indice = self.__encontrar_indice_livre__(valor)
+
+        if indice is not None:
+            self._ordem_escolhidos[indice] = atributo
+        else:
+            print(f'Não há {valor} livre. Use .zerar_atributo() ou .trocar_atributo() para zerar o reatribuir')
+
+        self.__retornar_resultado_final__()
+
+    def zerar_atributo(self, atributo: LISTA_ATRIBUTOS):
+        if atributo in self._ordem_escolhidos:
+            indice = self._ordem_escolhidos.index(atributo)
+            self._ordem_escolhidos[indice] = None
         
+        self.__retornar_resultado_final__()
+
+    def trocar_atributos(self, atributo1: LISTA_ATRIBUTOS, atributo2: LISTA_ATRIBUTOS):
+        if atributo1 in self._ordem_escolhidos and atributo2 in self._ordem_escolhidos:
+            indice1 = self._ordem_escolhidos.index(atributo1)
+            indice2 = self._ordem_escolhidos.index(atributo2)
+
+            self._ordem_escolhidos[indice2] = atributo1
+            self._ordem_escolhidos[indice1] = atributo2
+
+        self.__retornar_resultado_final__()

@@ -1,3 +1,3 @@
 from .data import DATA
 
-from .gera_atributos import rolar_atributos
+from .gera_atributos import GeradorAtributos, rolar_atributos
