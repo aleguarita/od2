@@ -20,6 +20,14 @@ ESTILOS = Literal[
 Atributos = namedtuple('Atributos', ('FOR', 'DES', 'CON', 'INT', 'SAB', 'CAR'))
 
 def rolar_atributos(estilo: ESTILOS = 'clássico'):
+    """Gera os atributos conforme o estilo de rolagem
+
+    Args:
+        estilo (ESTILOS, optional): escolha entre os estilos de rolamento. Defaults to 'clássico'.
+
+    Returns:
+        GeradorAtributos: Uma classe de gerador para atribuir os atributos
+    """
     return GeradorAtributos(estilo)
 
 
