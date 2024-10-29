@@ -1,6 +1,6 @@
-from ..data import MOD_ATRIBUTOS
+from ..data import DATA
 
 def retorna_mod_atributo(valor: int):
-    lista = MOD_ATRIBUTOS.keys()
+    lista = DATA.ATRIBUTOS_MOD.keys()
 
-    return next((MOD_ATRIBUTOS[x] for x in lista if x >= valor), None)
+    return next((DATA.ATRIBUTOS_MOD[x] for x in lista if x >= valor), None)
