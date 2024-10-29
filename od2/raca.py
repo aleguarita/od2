@@ -4,7 +4,7 @@ def buscar_raca(busca: str, chave: str = 'id'):
     """Busca uma raça na api
     Args:
         busca (str): o id da raça a ser buscado. Pode ser também o nome
-        chave (str, optional): se a busca da chave raca é por id ou nome. Defaults to 'id'.
+        chave (str, optional): se a busca é por id ou nome. Defaults to 'id'.
 
     Returns:
         dict: o dicionário com os dados da raça
