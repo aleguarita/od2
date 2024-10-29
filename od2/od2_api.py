@@ -1,20 +1,12 @@
 import requests
 import json
+import pathlib
 
-url_base = 'https://olddragon.com.br/'
-url_especificas = {
-    'classes': 'classes.json',
-    'monstros': 'monstros.json',
-    'equipamentos': 'equipamentos.json',
-    'livros': 'livros.json',
-    'magias': 'magias.json',
-    'monstros': 'monstros.json',
-    'raças': 'racas.json'
-}
-prefixo = 'od2_api_'
+from .CONFIG import PREFIXO, URL_ESPECIFICAS, URL_BASE
 
-def pega_todos_dados(info_base: str):
-    url = url_base + url_especificas[info_base]
+
+def pegar_todos_dados(info_base: str):
+    url = URL_BASE + URL_ESPECIFICAS[info_base]
     atual = 1
     tem_proximo = True
     dados_total = []
@@ -36,9 +28,9 @@ def pega_todos_dados(info_base: str):
     return dados_total
 
 
-def gera_arquivo(arquivo_base: str):
-    with open(f'../data/{prefixo}{url_especificas[arquivo_base]}', 'w+') as arquivo:
-        info = pega_todos_dados(arquivo_base)
+def gerar_arquivo(arquivo_base: str):
+    with open(f'{PREFIXO}{URL_ESPECIFICAS[arquivo_base]}', 'w+') as arquivo:
+        info = pegar_todos_dados(arquivo_base)
         arquivo.write(json.dumps(info, indent=2))
 
 
@@ -47,10 +39,10 @@ if __name__ == '__main__':
     print('Gerando os arquivos, aguarde')
     print('-'.ljust(30, '-'))
 
-    for chave in url_especificas.keys():
-        print(f'Gerando {prefixo}{url_especificas[chave]}')
-        gera_arquivo(chave)
-        print(f'{url_especificas[chave]} finalizado')
+    for chave in URL_ESPECIFICAS.keys():
+        print(f'Gerando {PREFIXO}{URL_ESPECIFICAS[chave]}')
+        gerar_arquivo(chave)
+        print(f'  {URL_ESPECIFICAS[chave]} finalizado')
 
     print('-'.ljust(30, '-'))
     print('Arquivos gerados')

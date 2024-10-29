@@ -1153,6 +1153,11 @@
         "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
       },
       {
+        "page": 12,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday11.json"
+      },
+      {
         "page": null,
         "compact": true,
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
@@ -1484,6 +1489,11 @@
         "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
       },
       {
+        "page": 12,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday11.json"
+      },
+      {
         "page": null,
         "compact": true,
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
@@ -1792,6 +1802,11 @@
       "Magia como Cl\u00e9rigo de 2\u00ba n\u00edvel."
     ],
     "fontes": [
+      {
+        "page": 6,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday11.json"
+      },
       {
         "page": 16,
         "compact": true,
@@ -2247,6 +2262,11 @@
         "page": 118,
         "compact": false,
         "digital_item_url": "https://olddragon.com.br/livros/lb3.json"
+      },
+      {
+        "page": 6,
+        "compact": true,
+        "digital_item_url": "https://olddragon.com.br/livros/odday11.json"
       },
       {
         "page": null,

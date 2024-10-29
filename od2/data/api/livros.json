@@ -66,6 +66,12 @@
     "url": "https://olddragon.com.br/livros/tu2.json"
   },
   {
+    "id": "odday11",
+    "type": "DigitalItem",
+    "title": "OD Day 2011 Remaster: A \u00c1rvore Morta dos Kobolds Infernais",
+    "url": "https://olddragon.com.br/livros/odday11.json"
+  },
+  {
     "id": "odday21",
     "type": "DigitalItem",
     "title": "OD Day 2021: Os Salo\u0303es Eternos de Thalaknasus",
