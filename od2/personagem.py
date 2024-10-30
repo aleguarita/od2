@@ -1,7 +1,8 @@
 from typing import Literal
+from RPG import rolar_dado_notacao
 
 from .gera_atributos import Atributos
-from .helpers import Atributo, AtributoBase
+from .helpers import Atributo, AtributoBase, Moedas
 from .raca import buscar_raca, Raca
 from .classe import buscar_classe, Classe
 
@@ -21,18 +22,25 @@ class Personagem:
                  classe: dict | str,
                  alinhamento: ALINHAMENTOS,
                  xp: int = 0,
+                 vida: list | None = None,
+                 vida_atual: int | None = None,
+                 moedas: dict | None = None,
                  ):
         
         self._atributos = atributos if type(atributos) is Atributos else Atributos(*atributos)
         self._raca = raca
         self._classe = classe
         self._xp = xp
+        self._vida = vida
+        self._vida_atual = vida_atual
 
         self.nome = nome
         self.alinhamento = alinhamento.capitalize()
+        self.moedas = Moedas(moedas) if moedas else Moedas(0, 0, 0)
 
         self._ajustar_raca()
         self._ajustar_classe()
+        self._ajustar_lista_vida()
 
 
     def __repr__(self) -> str:
@@ -43,6 +51,15 @@ class Personagem:
 
 
     #! Propriedades
+    @property
+    def _modificadores_vida(self):
+        lista = self.classe.vida_bonus
+
+        for i in range(10):
+            lista[i] += self.CON.modificador
+
+        return lista
+
     @property
     def FOR(self):
         return Atributo(self._atributos.FOR)
@@ -105,6 +122,39 @@ class Personagem:
     @property
     def JPS(self):
         return AtributoBase(self.JP + self.SAB.modificador)
+    
+
+    @property
+    def BA(self):
+        return self.classe.ba[self.nivel]
+
+    @property
+    def BAD(self):
+        return AtributoBase(self.BA + self.DES.modificador)
+
+    @property
+    def BAC(self):
+        return AtributoBase(self.BA + self.FOR.modificador)
+
+
+    @property
+    def vida(self):
+        mod_vida = self._modificadores_vida[:self.nivel]
+        lista_resultante = [max(a + b, 1) for a, b in zip(mod_vida, self._vida)]
+
+        return sum(lista_resultante)
+    
+    @property
+    def vida_atual(self):
+        self._vida_atual = self._vida_atual if type(
+            self._vida_atual) is int else self.vida
+        self._vida_atual = min(max(self._vida_atual, 0), self.vida)
+
+        return self._vida_atual
+
+    @vida_atual.setter
+    def vida_atual(self, valor: int):
+        self._vida_atual = valor
 
     
     @property
@@ -125,3 +175,40 @@ class Personagem:
 
         self._classe = Classe(self._classe)
 
+    def _ajustar_lista_vida(self):
+        # cria a lista base para o caso de já não ter valores rolados
+        if not self._vida:
+            self._vida = [self.classe.vida[0]]
+
+        # retira o excesso de dados, caso tenha mais que o nível
+        if len(self._vida) > self.nivel:
+            self._vida = self._vida[0:self.nivel]
+
+
+    #! Métodos
+    def aplicar_xp(self, valor_recebido: int):
+        modificador = 1
+
+        if self._raca == 'humano':
+            modificador += .1
+
+        if self._raca == 'meio-elfo':
+            modificador += .05
+
+        valor_recebido = int(valor_recebido * modificador)
+        self._xp += valor_recebido
+
+    def rolar_vida(self):
+        """
+        Rola a vida de todos os níveis não rolados
+        """
+        while len(self._vida) < self.nivel:
+            vida_atual = self.classe.vida[len(self._vida)]
+            vida_atual = rolar_dado_notacao(vida_atual) if type(
+                vida_atual) is str else vida_atual
+
+            self._vida.append(vida_atual)
+
+    def drenar_nivel(self, qtd_drenado: int):
+        # TODO
+        pass

@@ -54,6 +54,24 @@ class Classe:
     def jp(self):
         return self._retornar_por_nivel('jp')
 
+    @property
+    def vida_bonus(self):
+        lista = [0 for _ in range(15)]
+
+        if self.data['id'] == 'barbaro':
+            for i in range(15):
+                lista[i] += 2
+
+        if self.data['id'] == 'anao-aventureiro':
+            for i in range(2, 10):
+                self.vida[i] = '1d12'
+
+        if self.data['id'] == 'elfo-aventureiro':
+            for i in range(15):
+                lista[i] += 1
+
+        return lista
+    
 
     #! Métodos privados
     def _retornar_por_nivel(self, chave: str):

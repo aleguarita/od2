@@ -53,7 +53,6 @@ class Moedas:
             po = int(troco/100)
             troco = troco % 100
 
-
         return self.po + po + troco
     
 
@@ -128,11 +127,20 @@ class Moedas:
 
         self.pc += pc
 
+    #! Outros métodos
     def otimizar_carga(self):
+        """Reduz a quantidade de moedas carregadas, mantendo o saldo
+        """
         self.pc_para_pp(self.pc)
         self.pp_para_po(self.pp)
 
     def comprar(self, valor_pc: int):
+        """Compra um item, com a base do valor em peças de cobre, que é o padrão
+        da API. Retorna o valor final otimizado
+
+        Args:
+            valor_pc (int): o valor do item a ser comprado
+        """
         if converter_moedas(valor_pc, 'pc', 'po')[0] < self.saldo_po:
             self.po_para_pc(self.po)
             self.pp_para_pc(self.pp)
