@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 from .atributos import ATRIBUTOS, ATRIBUTOS_EXTENSO, ATRIBUTOS_MOD
 from .modificadores import MOD_TESTES
-from .dados_api import classes, racas
+from .dados_api import classes, racas, equipamentos
 
 
 @dataclass
@@ -14,3 +14,4 @@ class DATA:
 
     CLASSES = classes
     RACAS = racas
+    EQUIPAMENTOS = equipamentos

@@ -24,6 +24,7 @@ class Personagem:
                  xp: int = 0,
                  vida: list | None = None,
                  vida_atual: int | None = None,
+                 modificadores: dict | None = None,
                  moedas: dict | None = None,
                  ):
         
@@ -37,6 +38,7 @@ class Personagem:
         self.nome = nome
         self.alinhamento = alinhamento.capitalize()
         self.moedas = Moedas(moedas) if moedas else Moedas(0, 0, 0)
+        self.modificadores = modificadores if modificadores else dict()
 
         self._ajustar_raca()
         self._ajustar_classe()
@@ -109,19 +111,23 @@ class Personagem:
 
     @property
     def JP(self):
-        return self.classe.jp[self.nivel]
+        mod = self._retornar_modificador('jp')
+        return self.classe.jp[self.nivel] + mod
 
     @property
     def JPC(self):
-        return AtributoBase(self.JP + self.CON.modificador)
+        mod = self._retornar_modificador('jpc')
+        return AtributoBase(self.JP + self.CON.modificador + mod)
 
     @property
     def JPD(self):
-        return AtributoBase(self.JP + self.DES.modificador)
+        mod = self._retornar_modificador('jpd')
+        return AtributoBase(self.JP + self.DES.modificador + mod)
 
     @property
     def JPS(self):
-        return AtributoBase(self.JP + self.SAB.modificador)
+        mod = self._retornar_modificador('jps')
+        return AtributoBase(self.JP + self.SAB.modificador + mod)
     
 
     @property
@@ -130,11 +136,11 @@ class Personagem:
 
     @property
     def BAD(self):
-        return AtributoBase(self.BA + self.DES.modificador)
+        return self.BA + self.DES.modificador
 
     @property
     def BAC(self):
-        return AtributoBase(self.BA + self.FOR.modificador)
+        return self.BA + self.FOR.modificador
 
 
     @property
@@ -160,6 +166,29 @@ class Personagem:
     @property
     def movimento(self):
         return self.raca.movimento
+    
+    @property
+    def habilidades(self):
+        habilidades = []
+
+        if self.raca.infravisao:
+            habilidades += [{
+                'name': 'Infravisão',
+                'description': f'infravisão de {self.raca.infravisao} metros'
+            }]
+
+        de_raca = self.raca.data['abilities']
+
+        de_classe = [habilidade for habilidade in self.classe.data['abilities']
+                     if habilidade['level'] <= self.nivel]
+
+        return habilidades + de_raca + de_classe
+
+    @property
+    def carga_maxima(self):
+        modificador = self._retornar_modificador('carga')
+
+        return max(self.FOR.valor, self.CON.valor) + modificador
 
 
     #! Métodos inicializadores ou privados
@@ -184,6 +213,12 @@ class Personagem:
         if len(self._vida) > self.nivel:
             self._vida = self._vida[0:self.nivel]
 
+    def _retornar_modificador(self, chave: str):
+        modificador = 0
+        if chave in self.modificadores.keys():
+            modificador += sum(self.modificadores[chave].values())
+
+        return modificador
 
     #! Métodos
     def aplicar_xp(self, valor_recebido: int):

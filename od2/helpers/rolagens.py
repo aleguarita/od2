@@ -26,11 +26,11 @@ def jogada_protecao(valor_protecao: int, modificador: int = 0):
     return teste_atributo(valor_protecao, modificador)
 
 
-def jogada_ataque(ba: int, ca_alvo: int, modificador: int = 0):
+def jogada_ataque(ba: int, ca_alvo: int, modificador: int = 0, alcance_crit: int = 20):
     rolamento = d20()
     rolamento_modificado = rolamento + modificador + ba
     resultado = rolamento_modificado > ca_alvo
-    critico = rolamento == 20 or rolamento == 1
+    critico = rolamento >= alcance_crit or rolamento == 1
 
     return Ataque(rolamento, rolamento_modificado, resultado, critico)
 
