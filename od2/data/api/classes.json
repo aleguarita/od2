@@ -4,6 +4,7 @@
     "type": "CharacterClass",
     "name": "Acad\u00eamico",
     "flavor": "Um Acad\u00eamico \u00e9 um Cl\u00e9rigo especialista motivado pelo amplo desejo de conhecimento, reverenciando as ci\u00eancias, estudos e o ac\u00famulo de informa\u00e7\u00f5es concedidas pelo deus Curioso.",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "S\u00f3 podem usar armas impactantes.",
     "magic_items_description": "Pode usar qualquer item m\u00e1gico.",
@@ -90,6 +91,8 @@
         "xp": 600000
       }
     },
+    "picture": "https://public.olddragon.com.br/vo55pidbzxakwluwd59r7p2w1qs1",
+    "thumb_picture": "https://public.olddragon.com.br/lxpssl28s7yogb8z363ch4l2jm79",
     "abilities": [
       {
         "level": 1,
@@ -126,13 +129,11 @@
       {
         "page": 35,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -144,6 +145,7 @@
     "type": "CharacterClass",
     "name": "An\u00e3o Aventureiro",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -230,6 +232,8 @@
         "xp": 650000
       }
     },
+    "picture": "https://public.olddragon.com.br/nrjw08bg5frq0pls7cy3c6mq72oa",
+    "thumb_picture": "https://public.olddragon.com.br/lb830cnsrqv5sxc44jlaa8ba6xt0",
     "abilities": [
       {
         "level": 1,
@@ -261,13 +265,11 @@
       {
         "page": 22,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -279,6 +281,7 @@
     "type": "CharacterClass",
     "name": "Arqueiro",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Apenas armaduras de couro ou, caso contr\u00e1rio, n\u00e3o conseguir\u00e1 usar suas habilidades de arqueiro.",
     "weapons_description": "Apenas armas pequenas, por\u00e9m pode utilizar qualquer tipo de arco.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -361,6 +364,8 @@
         "xp": 650000
       }
     },
+    "picture": "https://public.olddragon.com.br/ij3w418akaqh5hla1dzg3u1fq63h",
+    "thumb_picture": "https://public.olddragon.com.br/87x2p1k79v36gd2oyrdoi8hn61cn",
     "abilities": [
       {
         "level": 1,
@@ -402,13 +407,11 @@
       {
         "page": 23,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -420,6 +423,7 @@
     "type": "CharacterClass",
     "name": "Assassino",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
     "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Assassino.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -502,6 +506,8 @@
         "xp": 550000
       }
     },
+    "picture": "https://public.olddragon.com.br/6eb1niau1kiybuer9pqtl0oieiqm",
+    "thumb_picture": "https://public.olddragon.com.br/tiacugh76np83ff893pkbxdlurnu",
     "abilities": [
       {
         "level": 1,
@@ -541,13 +547,11 @@
       {
         "page": 30,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -559,6 +563,7 @@
     "type": "CharacterClass",
     "name": "B\u00e1rbaro",
     "flavor": "B\u00e1rbaros s\u00e3o Guerreiros nascidos em culturas remotas de regi\u00f5es distantes e r\u00fasticas, em comunh\u00e3o com a terra.",
+    "access": "complete",
     "armors_description": "Apenas armaduras de couro, ou perder\u00e1 acesso a todas as suas habilidades de B\u00e1rbaro.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "N\u00e3o pode usar nenhum item m\u00e1gico, ou perder\u00e1 acesso a todas as suas habilidades de B\u00e1rbaro.",
@@ -641,6 +646,8 @@
         "xp": 650000
       }
     },
+    "picture": "https://public.olddragon.com.br/0gi3xu5ya8rh5nw72bckj76prnkm",
+    "thumb_picture": "https://public.olddragon.com.br/euse73abs6pzh1xl317ngcrg7fdp",
     "abilities": [
       {
         "level": 1,
@@ -682,13 +689,11 @@
       {
         "page": 30,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -700,6 +705,7 @@
     "type": "CharacterClass",
     "name": "Bardo",
     "flavor": "O Bardo \u00e9 um personagem ligado \u00e0s artes e \u00e0 performance. S\u00e3o viajantes, rep\u00f3rteres da vida cotidiana e divulgadores de feitos \u00e9picos.",
+    "access": "complete",
     "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
     "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Bardo.",
     "magic_items_description": "Podem usar todos os pergaminhos m\u00e1gicos com metade dos n\u00edveis que possuir.",
@@ -782,6 +788,8 @@
         "xp": 550000
       }
     },
+    "picture": "https://public.olddragon.com.br/bcyaeu2xhk0z0vn3fvkpauwh5sfb",
+    "thumb_picture": "https://public.olddragon.com.br/b6evi44n8tq8wbxgprxlkm1s1ftq",
     "abilities": [
       {
         "level": 1,
@@ -829,13 +837,11 @@
       {
         "page": 41,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -847,6 +853,7 @@
     "type": "CharacterClass",
     "name": "Bruxo",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
     "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Bruxos.",
     "magic_items_description": "Podem usar todos os tipos.",
@@ -929,6 +936,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/mauhhtgxm41pea9jcso48vvm59am",
+    "thumb_picture": "https://public.olddragon.com.br/9ksutoj5s8y2zt4sjy5ccpszssvv",
     "abilities": [
       {
         "level": 1,
@@ -938,22 +947,22 @@
       {
         "level": 1,
         "name": "Iniciado",
-        "description": "O Bruxo consegue conjurar magias de 1\u00ba c\u00edrculo e pode usar armaduras leves sem prejudicar seus rituais."
+        "description": "O Bruxo consegue conjurar magias de 1\u00ba c\u00edrculo e pode usar armas m\u00e9dias e armaduras leves, mesmo as de metal, sem prejudicar seus rituais."
       },
       {
         "level": 3,
         "name": "M\u00e9dium",
-        "description": "O Bruxo consegue conjurar magias de 2\u00ba c\u00edrculo e pode usar armas grandes sem prejudicar seus rituais."
+        "description": "O Bruxo consegue conjurar magias de 2\u00ba c\u00edrculo e pode usar armas grandes, mesmo as de metal, sem prejudicar seus rituais."
       },
       {
         "level": 6,
         "name": "Conjurador",
-        "description": "O Bruxo consegue conjurar magias de 3\u00ba c\u00edrculo e pode usar armaduras m\u00e9dias sem prejudicar seus rituais."
+        "description": "O Bruxo consegue conjurar magias de 3\u00ba c\u00edrculo e pode usar armaduras m\u00e9dias, mesmo as de metal, sem prejudicar seus rituais."
       },
       {
         "level": 10,
         "name": "Entidade",
-        "description": "O Bruxo consegue conjurar magias de 4\u00ba, 5\u00ba e 6\u00ba c\u00edrculos, desde que seu n\u00edvel permita acesso a estes c\u00edrculos, e pode usar todas as armaduras ou armas sem prejudicar seus rituais."
+        "description": "O Bruxo consegue conjurar magias de 4\u00ba, 5\u00ba e 6\u00ba c\u00edrculos, desde que seu n\u00edvel permita acesso a estes c\u00edrculos, e pode usar todas as armaduras ou armas, mesmo as de metal, sem prejudicar seus rituais."
       },
       {
         "level": 1,
@@ -975,13 +984,11 @@
       {
         "page": 34,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -993,6 +1000,7 @@
     "type": "CharacterClass",
     "name": "Cl\u00e9rigo",
     "flavor": "Aventureiro religioso e devoto das for\u00e7as divinas do pante\u00e3o.\nDeterminado e virtuoso, protege a todos usando seus milagres divinos.\n",
+    "access": "complete",
     "armors_description": "Podem usar todas as armaduras.",
     "weapons_description": "S\u00f3 podem usar armas impactantes. Usar armas cortantes ou perfurantes faz o Cl\u00e9rigo perder suas magias at\u00e9 realizar uma penit\u00eancia para restaurar o abalo na sua f\u00e9.",
     "magic_items_description": "O Cl\u00e9rigo \u00e9 capaz de usar todos os tipos de itens m\u00e1gicos desde que sejam ordeiros.",
@@ -1075,6 +1083,8 @@
         "xp": 550000
       }
     },
+    "picture": "https://public.olddragon.com.br/n7pq3ozcj3bwkepuvenwx7tdmwe2",
+    "thumb_picture": "https://public.olddragon.com.br/otp1flrbgmkghb5vs8svhnutccky",
     "abilities": [
       {
         "level": 1,
@@ -1105,13 +1115,11 @@
       {
         "page": 32,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -1122,6 +1130,7 @@
     "type": "CharacterClass",
     "name": "Druida",
     "flavor": "Um Druida \u00e9 um Cl\u00e9rigo especialista silvestre, tendo como sua divindade a Deusa-M\u00e3e da natureza e as for\u00e7as dela al\u00e9m do neutro equil\u00edbrio da roda da vida.",
+    "access": "complete",
     "armors_description": "N\u00e3o pode usar nenhuma armadura met\u00e1lica.",
     "weapons_description": "N\u00e3o pode usar nenhuma arma met\u00e1lica.",
     "magic_items_description": "Pode usar qualquer item m\u00e1gico.",
@@ -1208,6 +1217,8 @@
         "xp": 600000
       }
     },
+    "picture": "https://public.olddragon.com.br/5yjngccfbcnaooepjlvktn8dlmja",
+    "thumb_picture": "https://public.olddragon.com.br/mhqhk88bn2nwi6v399mpgb4tivx7",
     "abilities": [
       {
         "level": 1,
@@ -1241,13 +1252,11 @@
       {
         "page": 34,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -1259,6 +1268,7 @@
     "type": "CharacterClass",
     "name": "Elfo Aventureiro",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Podem usar todas armaduras.",
     "weapons_description": "Podem usar todas armas.",
     "magic_items_description": "Podem usar todos os tipos.",
@@ -1345,6 +1355,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/6uuaa1af4hcgwei7939ay4r1jsrc",
+    "thumb_picture": "https://public.olddragon.com.br/7kr0k5jav5edcozc29742ocu185u",
     "abilities": [
       {
         "level": 1,
@@ -1376,13 +1388,11 @@
       {
         "page": 35,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -1394,6 +1404,7 @@
     "type": "CharacterClass",
     "name": "Feiticeiro (Cl\u00e9rigo)",
     "flavor": "N\u00e3o se conhece a origem dos Feiticeiros nem a causa da sua exist\u00eancia. A natureza do seu poder m\u00e1gico \u00e9 totalmente misterioso.",
+    "access": "complete",
     "armors_description": "Podem usar todas as armaduras.",
     "weapons_description": "S\u00f3 podem usar armas impactantes. Usar armas cortantes ou perfurantes faz o Feiticeiro (Cl\u00e9rigo) perder suas magias at\u00e9 realizar uma penit\u00eancia para restaurar o abalo na sua f\u00e9.",
     "magic_items_description": "O Feiticeiro (Cl\u00e9rigo) \u00e9 capaz de usar todos os tipos de itens m\u00e1gicos desde que sejam ordeiros.",
@@ -1476,6 +1487,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/wyg9b6ywmk4txz6e04ws6f2dxokn",
+    "thumb_picture": "https://public.olddragon.com.br/byvamptl90vo5hnzq92hkuzvne43",
     "abilities": [
       {
         "level": 1,
@@ -1514,7 +1527,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -1526,6 +1538,7 @@
     "type": "CharacterClass",
     "name": "Feiticeiro (Guerreiro)",
     "flavor": "N\u00e3o se conhece a origem dos Feiticeiros nem a causa da sua exist\u00eancia. A natureza do seu poder m\u00e1gico \u00e9 totalmente misterioso.",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -1608,6 +1621,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/do1kbc779qu23pd0qrqrisrrh09k",
+    "thumb_picture": "https://public.olddragon.com.br/vefzw7bu5d1fwmhom7ukt2u8mqax",
     "abilities": [
       {
         "level": 1,
@@ -1644,7 +1659,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -1656,6 +1670,7 @@
     "type": "CharacterClass",
     "name": "Feiticeiro (Ladr\u00e3o)",
     "flavor": "N\u00e3o se conhece a origem dos Feiticeiros nem a causa da sua exist\u00eancia. A natureza do seu poder m\u00e1gico \u00e9 totalmente misterioso.",
+    "access": "complete",
     "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
     "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para Feiticeiros (Ladr\u00f5es).",
     "magic_items_description": "N\u00e3o podem usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -1738,6 +1753,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/5c4j9lc1ggwo0ecf1ljj9vucxdjt",
+    "thumb_picture": "https://public.olddragon.com.br/9ekiikksy8197dald2550fkpbusw",
     "abilities": [
       {
         "level": 1,
@@ -1780,7 +1797,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -1792,6 +1808,7 @@
     "type": "CharacterClass",
     "name": "Guerreiro",
     "flavor": "Aventureiros especializados em combate, est\u00e3o sempre na linha de frente e s\u00e3o mortais quando desembainham suas armas.",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -1874,6 +1891,8 @@
         "xp": 600000
       }
     },
+    "picture": "https://public.olddragon.com.br/kzv3lg3nqiwlnjetiksiglh6c7qn",
+    "thumb_picture": "https://public.olddragon.com.br/f9ynvg64a9vucxgmbrgyxk3mrgoh",
     "abilities": [
       {
         "level": 1,
@@ -1902,13 +1921,11 @@
       {
         "page": 28,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -1919,6 +1936,7 @@
     "type": "CharacterClass",
     "name": "Halfling Aventureiro",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
     "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Halfling Aventureiro.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -2005,6 +2023,8 @@
         "xp": 550000
       }
     },
+    "picture": "https://public.olddragon.com.br/wcwnwc7kgt1uiubqsvv5ru5ugvg9",
+    "thumb_picture": "https://public.olddragon.com.br/kt9dbsde2dbyrhji6pfqoxb9ssh0",
     "abilities": [
       {
         "level": 1,
@@ -2044,13 +2064,11 @@
       {
         "page": 31,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -2062,6 +2080,7 @@
     "type": "CharacterClass",
     "name": "Ilusionista",
     "flavor": "O Ilusionista \u00e9 um personagem ligado \u00e0s artes das ilus\u00f5es, o que significa oculta\u00e7\u00f5es, prestidigita\u00e7\u00e3o e manipula\u00e7\u00e3o da realidade.",
+    "access": "complete",
     "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
     "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Ilusionistas.",
     "magic_items_description": "Podem usar todos os tipos.",
@@ -2144,6 +2163,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/3yd24xxvdkmelsoyeluhksq31od8",
+    "thumb_picture": "https://public.olddragon.com.br/0fb2pex3pqakn1g43ppbdbrcj1i7",
     "abilities": [
       {
         "level": 1,
@@ -2190,13 +2211,11 @@
       {
         "page": 44,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -2208,6 +2227,7 @@
     "type": "CharacterClass",
     "name": "Ladr\u00e3o",
     "flavor": "Aventureiro t\u00e1ctico, perito em sobreviver em masmorras.\nFurtivo, trai\u00e7oeiro e fatal quando ataca suas v\u00edtimas sorrateiramente.\n",
+    "access": "complete",
     "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
     "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para Ladr\u00f5es.",
     "magic_items_description": "N\u00e3o podem usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -2290,6 +2310,8 @@
         "xp": 500000
       }
     },
+    "picture": "https://public.olddragon.com.br/ijergxr5yi26ow9cwdqkfvog5tnc",
+    "thumb_picture": "https://public.olddragon.com.br/aeglx251om0x4cl5lf4940vvoi81",
     "abilities": [
       {
         "level": 1,
@@ -2324,13 +2346,11 @@
       {
         "page": 36,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -2341,6 +2361,7 @@
     "type": "CharacterClass",
     "name": "Legion\u00e1rio",
     "flavor": "Legion\u00e1rios s\u00e3o conhecidos por serem soldados bem treinados e organizados. Por\u00e9m, sempre devem estar dispon\u00edveis para servir a sua legi\u00e3o 1d4 meses por ano. Dependendo de onde se encontrem, Legion\u00e1rios s\u00e3o respeitados, temidos ou ainda odiados.",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -2423,6 +2444,8 @@
         "xp": 650000
       }
     },
+    "picture": "https://public.olddragon.com.br/ii04tsw6ntyh82w7ceso0o2k3lq1",
+    "thumb_picture": "https://public.olddragon.com.br/2k956wcg9hbdwrm1bqe900nu45e5",
     "abilities": [
       {
         "level": 1,
@@ -2437,7 +2460,7 @@
       {
         "level": 1,
         "name": "Soldado",
-        "description": "O Legion\u00e1rio recebe um equipamento e soldo de acordo com a hierarquia que ocupa na legi\u00e3o. Inicialmente ele recebe um soldo de 10 PP por semana e um conjunto de equipamento composto pela arma padr\u00e3o da legi\u00e3o, escudo e armadura de couro. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +1 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.\n\nEste segundo ataque \u00e9 realizado ap\u00f3s o primeiro ataque, logo em sequ\u00eancia, antes da a\u00e7\u00e3o do pr\u00f3ximo jogador na ordem da iniciativa com a mesma BA usada no primeiro ataque.",
+        "description": "O Legion\u00e1rio recebe um equipamento e soldo de acordo com a hierarquia que ocupa na legi\u00e3o. Inicialmente ele recebe um soldo de 10 PP por semana e um conjunto de equipamento composto pela arma padr\u00e3o da legi\u00e3o, escudo e armadura de couro. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +1 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.",
         "level3": "**Sargento**: O Legion\u00e1rio passa a receber um soldo de 30 PP por semana e seu equipamento evolui para arma da legi\u00e3o, escudo e cota de malhas. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +2 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.",
         "level6": "**Capit\u00e3o**: O Legion\u00e1rio passa a receber um soldo de 60 PP por semana e seu equipamento evolui para arma da legi\u00e3o, escudo e armadura de placas. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +3 nos danos causados pela arma padr\u00e3o e outro b\u00f4nus de +1 no seu CA.",
         "level10": "**Comandante**: O Legion\u00e1rio passa a receber um soldo de 100 PP por semana e seu equipamento evolui para arma padr\u00e3o, escudo e armadura completa. Enquanto estiver usando este equipamento, o Legion\u00e1rio recebe um b\u00f4nus de +4 nos danos causados pela espada curta e outro b\u00f4nus de +1 no seu CA."
@@ -2452,7 +2475,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -2464,6 +2486,7 @@
     "type": "CharacterClass",
     "name": "Mago",
     "flavor": "Aventureiro estudioso, especializado nas artes arcanas, dedicado a conjurar magias escritas em grim\u00f3rios e pergaminhos.",
+    "access": "complete",
     "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
     "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Magos.",
     "magic_items_description": "Podem usar todos os tipos.",
@@ -2546,6 +2569,8 @@
         "xp": 650000
       }
     },
+    "picture": "https://public.olddragon.com.br/3cgvufvhw1ujj1pn3vzbycum4d5b",
+    "thumb_picture": "https://public.olddragon.com.br/fhye142ch11c1erobcpj64wx4ajx",
     "abilities": [
       {
         "level": 1,
@@ -2572,13 +2597,11 @@
       {
         "page": 42,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -2589,6 +2612,7 @@
     "type": "CharacterClass",
     "name": "Necromante",
     "flavor": "O Necromante \u00e9 um estudioso dos fatos obscuros os quais cercam a vida e a morte, estudando as energias m\u00edsticas que interferem nos efeitos destes conceitos sobre os seres vivos ou n\u00e3o.",
+    "access": "complete",
     "armors_description": "Nenhuma. Usar escudos ou armaduras impede a conjura\u00e7\u00e3o de magias e protegem apenas metade da CA normal.",
     "weapons_description": "Apenas pequenas. Armas grandes ou m\u00e9dias geram ataques dif\u00edceis para Necromantes.",
     "magic_items_description": "Podem usar todos os tipos.",
@@ -2671,6 +2695,8 @@
         "xp": 700000
       }
     },
+    "picture": "https://public.olddragon.com.br/go86lqiw2v8g2wn3qxy6ygsyfmyj",
+    "thumb_picture": "https://public.olddragon.com.br/i9qg12obpj9ayzb1dweqdniv2mfp",
     "abilities": [
       {
         "level": 1,
@@ -2717,13 +2743,11 @@
       {
         "page": 45,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -2735,6 +2759,7 @@
     "type": "CharacterClass",
     "name": "Paladino",
     "flavor": "O Paladino \u00e9 um her\u00f3i cavalheiresco, errante, destemido e de car\u00e1ter inquestion\u00e1vel que segue o caminho da ordem da verdade e da lei, estando sempre disposto a proteger os fracos e a lutar pela erradica\u00e7\u00e3o do caos.",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "N\u00e3o pode usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -2821,6 +2846,8 @@
         "xp": 650000
       }
     },
+    "picture": "https://public.olddragon.com.br/hz9vbu4tkmhrw0de0qltw1tiz437",
+    "thumb_picture": "https://public.olddragon.com.br/q01bwc9d4bsude883a9kx7uq7j5j",
     "abilities": [
       {
         "level": 1,
@@ -2862,13 +2889,11 @@
       {
         "page": 31,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -2880,6 +2905,7 @@
     "type": "CharacterClass",
     "name": "Proscrito",
     "flavor": "",
+    "access": "complete",
     "armors_description": "Pode usar todas as armaduras.",
     "weapons_description": "Pode usar todas as armas.",
     "magic_items_description": "O Poscrito \u00e9 capaz de usar todos os tipos de itens m\u00e1gicos.",
@@ -2962,6 +2988,8 @@
         "xp": 600000
       }
     },
+    "picture": "https://public.olddragon.com.br/9gkmvbdwr132pzsml4lbmz18s9a3",
+    "thumb_picture": "https://public.olddragon.com.br/n4smhyqbiihmlzfd2ex4pnrhoayj",
     "abilities": [
       {
         "level": 1,
@@ -2993,13 +3021,11 @@
       {
         "page": 27,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -3011,6 +3037,7 @@
     "type": "CharacterClass",
     "name": "Ranger",
     "flavor": "O Ranger \u00e9 um personagem oriundo dos ermos dedicado a patrulhar uma \u00e1rea silvestre, natural ou selvagem protegendo-a de bestas e monstros.",
+    "access": "complete",
     "armors_description": "Apenas as leves. Escudos, Armaduras M\u00e9dia ou Pesadas, impedem o uso das suas habilidades e protegem apenas a metade da CA normal.",
     "weapons_description": "Apenas pequenas ou m\u00e9dias. Armas grandes geram ataques dif\u00edceis para o Ranger.",
     "magic_items_description": "N\u00e3o podem usar cajados, varinhas e pergaminhos m\u00e1gicos com exce\u00e7\u00e3o dos pergaminhos de prote\u00e7\u00e3o.",
@@ -3093,6 +3120,8 @@
         "xp": 550000
       }
     },
+    "picture": "https://public.olddragon.com.br/3f8ykld6rygj8h6hsk8nvs7rsr8g",
+    "thumb_picture": "https://public.olddragon.com.br/hg9sqmr3tsoptmb33j58hxmoq03l",
     "abilities": [
       {
         "level": 1,
@@ -3137,13 +3166,11 @@
       {
         "page": 40,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -3155,6 +3182,7 @@
     "type": "CharacterClass",
     "name": "Xam\u00e3",
     "flavor": "",
+    "access": "complete",
     "armors_description": "N\u00e3o pode usar nenhuma armadura met\u00e1lica.",
     "weapons_description": "N\u00e3o pode usar nenhuma arma met\u00e1lica.",
     "magic_items_description": "Pode usar qualquer item m\u00e1gico.",
@@ -3241,6 +3269,8 @@
         "xp": 600000
       }
     },
+    "picture": "https://public.olddragon.com.br/az3qgnjurj2qsopojgwrh8snyy7p",
+    "thumb_picture": "https://public.olddragon.com.br/sbw60mpbkr6t0d9ntl6aq96vghd5",
     "abilities": [
       {
         "level": 1,
@@ -3277,13 +3307,11 @@
       {
         "page": 26,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],

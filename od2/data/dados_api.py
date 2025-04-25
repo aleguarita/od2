@@ -16,4 +16,4 @@ def converte_json(nome_arquivo: str):
 classes = converte_json('classes')
 racas = converte_json('raças')
 equipamentos = converte_json('equipamentos')
-
+monstros = converte_json('monstros')

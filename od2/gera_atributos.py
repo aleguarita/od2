@@ -43,7 +43,7 @@ class GeradorAtributos:
         return f'{self.atributos}'
     
 
-    # ? Métodos privados
+    #? Métodos privados
     def __iniciar_escolhidos__(self):
         self._ordem_escolhidos = [None for _ in range(6)]
 
@@ -96,7 +96,7 @@ class GeradorAtributos:
             
         return None
 
-    # ! Métodos públicos
+    #! Métodos públicos
     def rolar(self):
         self.__iniciar_escolhidos__()
         self.__checar_rolamento_classico_aventureiro__()
@@ -104,7 +104,6 @@ class GeradorAtributos:
 
         self.__aplicar_resultado_na_ordem__()
         self.__retornar_resultado_final__()
-
 
     def atribuir_atributo(self, atributo: LISTA_ATRIBUTOS, valor: int):
         indice = self.__encontrar_indice_livre__(valor)

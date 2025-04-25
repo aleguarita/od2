@@ -1,5 +1,4 @@
 # od2 - Old Dragon 2
-
 Esse módulo de RPG é para uso do Old Dragons 2. Faz uso da API deles.
 
 Depende do módulo TTRPGaag

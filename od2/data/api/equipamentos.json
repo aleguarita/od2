@@ -1,5 +1,27 @@
 [
   {
+    "id": "acoite-eletrico",
+    "type": "Equipment",
+    "name": "A\u00e7oite El\u00e9trico",
+    "concept": "weapon",
+    "updated_at": "2025-01-29T22:56:04.468-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Impactante.\r\n\r\nUma vez empunhado, suas hastes se tornam pura energia que desferem 2d8 de dano el\u00e9trico m\u00e1gico no alvo.",
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday14.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/acoite-eletrico.json"
+  },
+  {
     "id": "adaga",
     "type": "Equipment",
     "name": "Adaga",
@@ -17,11 +39,64 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/adaga.json"
+  },
+  {
+    "id": "adaga-mais-1",
+    "type": "Equipment",
+    "name": "Adaga +1",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:00.557-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Perfurante, Arremesso (9)",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 109,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/adaga-mais-1.json"
+  },
+  {
+    "id": "adaga-mais-2",
+    "type": "Equipment",
+    "name": "Adaga +2",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:02.299-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Perfurante, Arremesso (9)",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 109,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/adaga-mais-2.json"
   },
   {
     "id": "agua-benta",
@@ -41,7 +116,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -65,7 +139,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -88,7 +161,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -112,7 +184,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -136,7 +207,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -160,11 +230,145 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/aljava.json"
+  },
+  {
+    "id": "anel-amaldicoado",
+    "type": "Equipment",
+    "name": "Anel Amaldi\u00e7oado",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:36.571-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Amaldi\u00e7oam seus usu\u00e1rios, impossibilitando-os de acumularem pontos de experi\u00eancia enquanto amaldi\u00e7oados. Monstros derrotados ou tesouros acumulados n\u00e3o acrescentar\u00e3o nenhum XP \u00e0 sua experi\u00eancia. Livrar-se do anel n\u00e3o elimina a maldi\u00e7\u00e3o que, por sua vez, s\u00f3 pode ser removida com a magia Remover Maldi\u00e7\u00e3o.",
+    "fontes": [
+      {
+        "page": 165,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 118,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/anel-amaldicoado.json"
+  },
+  {
+    "id": "anel-da-invisibilidade",
+    "type": "Equipment",
+    "name": "Anel da Invisibilidade",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:36.896-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "O usu\u00e1rio fica invis\u00edvel enquanto mantiver o anel no dedo ou at\u00e9 atacar, lan\u00e7ar magias ou interagir fisicamente com outra pessoa. S\u00f3 \u00e9 poss\u00edvel usar este anel uma \u00fanica vez por turno.",
+    "fontes": [
+      {
+        "page": 165,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 119,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/anel-da-invisibilidade.json"
+  },
+  {
+    "id": "anel-da-regeneracao",
+    "type": "Equipment",
+    "name": "Anel da Regenera\u00e7\u00e3o",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:37.042-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "O usu\u00e1rio deste anel \u00e9 capaz de regenerar 1 ponto de vida a cada rodada desde que o dano regenerado n\u00e3o tenha sido causado por fogo, e desde que o dano n\u00e3o tenha levado o usu\u00e1rio a zero ou menos pontos de vida. Membros decepados podem ser regenerados, mas em um ritmo lento.",
+    "fontes": [
+      {
+        "page": 165,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 119,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/anel-da-regeneracao.json"
+  },
+  {
+    "id": "anel-de-protecao-mais-1",
+    "type": "Equipment",
+    "name": "Anel de Prote\u00e7\u00e3o +1",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:39.131-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Este anel melhora a CA do usu\u00e1rio em 1 ponto e concede o mesmo b\u00f4nus em uma jogada de prote\u00e7\u00e3o. Um anel de prote\u00e7\u00e3o n\u00e3o pode ser usado com outro anel de prote\u00e7\u00e3o, ainda que em m\u00e3os diferentes. Caso isso seja tentado, os efeitos de ambos se anulam.",
+    "fontes": [
+      {
+        "page": 165,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 119,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/anel-de-protecao-mais-1.json"
+  },
+  {
+    "id": "anel-do-controle-de-animais",
+    "type": "Equipment",
+    "name": "Anel do Controle de Animais",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:39.616-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Este anel permite ao usu\u00e1rio us\u00e1-lo uma vez por turno para controlar at\u00e9 1d6 alvos ou at\u00e9 um alvo gigante (sempre limitado a 6 dados de vida) desde que o alvo esteja fazendo contato visual com o usu\u00e1rio. O controle dura enquanto o usu\u00e1rio do anel estiver concentrado no alvo. O usu\u00e1rio n\u00e3o pode se mover ou atacar. Quando o controle \u00e9 encerrado, o alvo estar\u00e1 livre para fazer o que desejar, sem nenhum elo emp\u00e1tico com o usu\u00e1rio.",
+    "fontes": [
+      {
+        "page": 165,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 118,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/anel-do-controle-de-animais.json"
   },
   {
     "id": "apito",
@@ -184,7 +388,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -208,7 +411,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -232,7 +434,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -256,11 +457,37 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/armadura-acolchoada.json"
+  },
+  {
+    "id": "armadura-acolchoada-mais-1",
+    "type": "Equipment",
+    "name": "Armadura Acolchoada +1",
+    "concept": "armor",
+    "updated_at": "2025-01-09T14:56:35.060-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": 2,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Leve, Couro.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 112,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-acolchoada-mais-1.json"
   },
   {
     "id": "armadura-completa",
@@ -280,7 +507,6 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -304,7 +530,6 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -328,11 +553,64 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/armadura-de-couro-batido.json"
+  },
+  {
+    "id": "armadura-de-couro-batido-mais-1",
+    "type": "Equipment",
+    "name": "Armadura de Couro Batido +1",
+    "concept": "armor",
+    "updated_at": "2025-01-09T14:56:44.536-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": 4,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Couro.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 112,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-de-couro-batido-mais-1.json"
+  },
+  {
+    "id": "armadura-de-couro-mais-1",
+    "type": "Equipment",
+    "name": "Armadura de Couro +1",
+    "concept": "armor",
+    "updated_at": "2025-01-09T14:56:41.950-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": 3,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Leve, Couro.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 112,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/armadura-de-couro-mais-1.json"
   },
   {
     "id": "armadura-de-placas",
@@ -352,7 +630,6 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -375,7 +652,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -398,7 +674,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -422,7 +697,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -446,7 +720,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -470,7 +743,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -494,11 +766,37 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/barril-caixa-pequena.json"
+  },
+  {
+    "id": "bastao-do-cancelamento",
+    "type": "Equipment",
+    "name": "Bast\u00e3o do Cancelamento",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:09.942-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Este bast\u00e3o pode ser utilizado por qualquer personagem. Ele funciona drenando o poder m\u00e1gico de outro item m\u00e1gico, transformando este em um item comum para sempre. Caso resista, o alvo \u00e9 atacado como se tivesse uma CA 10. O Mestre pode determinar uma CA diferente se o alvo usar uma armadura ou uma espada em combate. Um bast\u00e3o do cancelamento possui uma \u00fanica carga.",
+    "fontes": [
+      {
+        "page": 167,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 121,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/bastao-do-cancelamento.json"
   },
   {
     "id": "besta",
@@ -518,7 +816,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -542,11 +839,38 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/besta-de-mao.json"
+  },
+  {
+    "id": "bola-de-cristal",
+    "type": "Equipment",
+    "name": "Bola de Cristal",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:44.799-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "O usu\u00e1rio de uma bola de cristal pode olhar dentro dela e enxergar qualquer lugar, pessoa ou objeto por ele desejado.\r\n\r\nUma bola de cristal funciona at\u00e9 tr\u00eas vezes por dia, e qualquer imagem dura no m\u00e1ximo 1 turno.\r\n\r\nQuanto mais conhecido for o objeto, o lugar ou a pessoa, mais claras as imagens ser\u00e3o.\r\n\r\nApenas Magos podem usar Bolas de Cristal.",
+    "picture": "https://public.olddragon.com.br/8dt60vvvt805l8ltdnszo9kxsvjm",
+    "fontes": [
+      {
+        "page": 167,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 125,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/bola-de-cristal.json"
   },
   {
     "id": "bordao-cajado",
@@ -566,11 +890,37 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/bordao-cajado.json"
+  },
+  {
+    "id": "bota-elfica",
+    "type": "Equipment",
+    "name": "Bota \u00c9lfica",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:44.209-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 1000,
+    "description": "Estas botas de tecido macio e solado amortecedor faz com que o usu\u00e1rio se mova em sil\u00eancio, como um Ladr\u00e3o em qualquer ambiente. Mesmo em pisos barulhentos (como ch\u00e3o forrado de palha, gravetos que estalam, ou t\u00e1buas que rangem) concedem 1-5 chances em 1d6 de andar sem ser ouvido.\r\n\r\nO usu\u00e1rio sempre se mover\u00e1 em sil\u00eancio caso o piso seja limpo e n\u00e3o ruidoso.",
+    "fontes": [
+      {
+        "page": 167,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 125,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/bota-elfica.json"
   },
   {
     "id": "cadeado",
@@ -590,11 +940,86 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/cadeado.json"
+  },
+  {
+    "id": "cajado-da-cura",
+    "type": "Equipment",
+    "name": "Cajado da Cura",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:14.910-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Este cajado cura 1d8+1 de pontos de vida ao alvo tocado. Este cajado n\u00e3o possui cargas, mas s\u00f3 pode ser usado uma \u00fanica vez por dia em cada pessoa, embora possa ser usado em v\u00e1rias pessoas por dia. Este cajado s\u00f3 pode ser usado por Cl\u00e9rigos.",
+    "fontes": [
+      {
+        "page": 166,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 121,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cajado-da-cura.json"
+  },
+  {
+    "id": "cajado-de-ataque",
+    "type": "Equipment",
+    "name": "Cajado de Ataque",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:16.809-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Ao ser usado como arma, em um ataque bem-sucedido causando dano ao alvo, este cajado gasta uma carga e causa um dano adicional de 2d6. Apenas uma carga pode ser usada por ataque. Este cajado pode ser usado por Cl\u00e9rigos e Magos.",
+    "fontes": [
+      {
+        "page": 166,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 121,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cajado-de-ataque.json"
+  },
+  {
+    "id": "cajado-disparador",
+    "type": "Equipment",
+    "name": "Cajado Disparador",
+    "concept": "weapon",
+    "updated_at": "2025-01-29T22:56:12.439-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Madeira, Vers\u00e1til, Impactante.\r\n\r\nO usu\u00e1rio pode fazer um ataque \u00e0 dist\u00e2ncia usando seu BAD e lan\u00e7ar um raio de energia que causa 1d6 de dano m\u00e1gico. O alvo deve estar vis\u00edvel e dentro do alcance de 30 metros. Cont\u00e9m 20 cargas, que s\u00e3o usadas a cada ataque feito, acertando ou n\u00e3o o alvo. As cargas se restauram a cada nascer do sol.",
+    "fontes": [
+      {
+        "page": 9,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday13.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cajado-disparador.json"
   },
   {
     "id": "carroca",
@@ -613,7 +1038,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -636,7 +1060,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -659,7 +1082,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -682,7 +1104,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -705,7 +1126,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -729,7 +1149,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -753,7 +1172,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -777,7 +1195,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -801,7 +1218,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -825,35 +1241,104 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/cota-de-malha.json"
   },
   {
+    "id": "cota-de-malha-mais-1",
+    "type": "Equipment",
+    "name": "Cota de Malha +1",
+    "concept": "armor",
+    "updated_at": "2025-01-09T14:56:49.610-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": 5,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Metal.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 112,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cota-de-malha-mais-1.json"
+  },
+  {
+    "id": "cranio-da-visao",
+    "type": "Equipment",
+    "name": "Cr\u00e2nio da Vis\u00e3o",
+    "concept": "misc",
+    "updated_at": "2025-01-29T22:55:58.366-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Caso seja examinado por um jogador, o cr\u00e2nio emitir\u00e1 um raio de suas cavidades oculares em dire\u00e7\u00e3o aos olhos do personagem, deixando-o cego por 1d4 Turnos de 10 minutos.\r\n\r\nAp\u00f3s esse tempo, a vis\u00e3o retornar\u00e1, seus olhos ficam vermelhos e o personagem adquire uma Infravis\u00e3o tempor\u00e1ria pelo dobro do tempo que ficou cego, com um alcance de 30 metros.\r\n\r\nDurante esse tempo ele tamb\u00e9m pode ler instru\u00e7\u00f5es e f\u00f3rmulas em idiomas desconhecidos, embora n\u00e3o decifre nenhum enigma ou c\u00f3digo, apenas permitindo ao personagem compreender o que est\u00e1 escrito.\r\n\r\n Pode ser usado duas vezes por dia, uma vez para cada cavidade ocular do cr\u00e2nio.",
+    "fontes": [
+      {
+        "page": 10,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday13.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/cranio-da-visao.json"
+  },
+  {
     "id": "cravos-ganchos",
     "type": "Equipment",
     "name": "Cravos/Ganchos",
     "concept": "misc",
-    "updated_at": "2023-12-26T22:09:22.074-03:00",
+    "updated_at": "2025-04-09T12:18:15.639-03:00",
     "access": "complete",
     "cost": 100,
     "damage": null,
     "bonus_ca": null,
     "weight_in_load": null,
-    "weight_in_grams": 500,
+    "weight_in_grams": 100,
     "description": "5 unidades de cravos ou ganchos para escaladas.",
     "picture": "https://public.olddragon.com.br/ineq9bjfvl1cd02j5wugu85pryhr",
     "fontes": [
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/cravos-ganchos.json"
+  },
+  {
+    "id": "erva-relaxante",
+    "type": "Equipment",
+    "name": "Erva Relaxante",
+    "concept": "misc",
+    "updated_at": "2025-03-06T23:39:58.045-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Dose \u00fanica. Recupera 2 PV quando bebida ou 1 PV se ingerida de outra forma.",
+    "fontes": [
+      {
+        "page": 7,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday15.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/erva-relaxante.json"
   },
   {
     "id": "escada",
@@ -873,7 +1358,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -897,11 +1381,37 @@
       {
         "page": 60,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/escudo.json"
+  },
+  {
+    "id": "escudo-mais-1",
+    "type": "Equipment",
+    "name": "Escudo +1",
+    "concept": "shield",
+    "updated_at": "2025-01-09T14:56:52.510-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": 2,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Leve, M\u00e3o Exclusiva, Madeira.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 112,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/escudo-mais-1.json"
   },
   {
     "id": "espada-bastarda",
@@ -921,7 +1431,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -945,7 +1454,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -968,7 +1476,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -992,11 +1499,216 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/espada-longa.json"
+  },
+  {
+    "id": "espada-longa-mais-1",
+    "type": "Equipment",
+    "name": "Espada Longa +1",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:43.432-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 105,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-mais-1.json"
+  },
+  {
+    "id": "espada-longa-mais-1-da-paralisia-caotica",
+    "type": "Equipment",
+    "name": "Espada Longa +1 da Paralisia (Ca\u00f3tica)",
+    "concept": "weapon",
+    "updated_at": "2025-01-29T22:56:27.843-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.\r\n\r\nAo realizar um acerto cr\u00edtico, paralisa o alvo por uma rodada. Em uma falha cr\u00edtica, o portador \u00e9 paralisado por uma rodada.",
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday11.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-mais-1-da-paralisia-caotica.json"
+  },
+  {
+    "id": "espada-longa-mais-1-matadora-de-licantropos",
+    "type": "Equipment",
+    "name": "Espada Longa +1 Matadora de Licantropos",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:46.196-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.\r\n\r\n+2 contra licantropos.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 105,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-mais-1-matadora-de-licantropos.json"
+  },
+  {
+    "id": "espada-longa-mais-1-matadora-de-mortos-vivos",
+    "type": "Equipment",
+    "name": "Espada Longa +1 Matadora de Mortos-Vivos",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:46.318-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.\r\n\r\n+2 contra mortos-vivos.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 105,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-mais-1-matadora-de-mortos-vivos.json"
+  },
+  {
+    "id": "espada-longa-mais-1-matadora-de-orcs",
+    "type": "Equipment",
+    "name": "Espada Longa +1 Matadora de Orcs",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:46.465-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.\r\n\r\n+2 contra orcs.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 105,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-mais-1-matadora-de-orcs.json"
+  },
+  {
+    "id": "espada-longa-mais-2",
+    "type": "Equipment",
+    "name": "Espada Longa +2",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:48.061-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 105,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-mais-2.json"
+  },
+  {
+    "id": "espada-longa-menos-1-amaldicoada",
+    "type": "Equipment",
+    "name": "Espada Longa -1 Amaldi\u00e7oada",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:43.216-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": 2,
+    "weight_in_grams": null,
+    "description": "M\u00e9dia, Cortante.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 105,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-longa-menos-1-amaldicoada.json"
+  },
+  {
+    "id": "espada-lupicida",
+    "type": "Equipment",
+    "name": "Espada Lupicida",
+    "concept": "weapon",
+    "updated_at": "2025-03-06T23:40:36.014-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Cortante.\r\n\r\nEsta espada possui l\u00e2mina de prata. Ataques feitos com essa espada, s\u00e3o f\u00e1ceis contra licantropos e lobos, causando tamb\u00e9m 1d4 de dano extra contra essas criaturas.",
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday15.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/espada-lupicida.json"
   },
   {
     "id": "espelho",
@@ -1016,7 +1728,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1040,7 +1751,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1064,11 +1774,37 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/flecha-de-caca.json"
+  },
+  {
+    "id": "flecha-de-caca-mais-1",
+    "type": "Equipment",
+    "name": "Flecha de Ca\u00e7a +1",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:55.180-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d6",
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Perfurante, Madeira. Peso e pre\u00e7o pelo conjunto de 20 unidades.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 111,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/flecha-de-caca-mais-1.json"
   },
   {
     "id": "flecha-de-guerra",
@@ -1088,11 +1824,37 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/flecha-de-guerra.json"
+  },
+  {
+    "id": "flecha-de-guerra-mais-1",
+    "type": "Equipment",
+    "name": "Flecha de Guerra +1",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:55:56.993-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d8",
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Perfurante. Peso e pre\u00e7o pelo conjunto de 20 unidades.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 111,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/flecha-de-guerra-mais-1.json"
   },
   {
     "id": "funda",
@@ -1112,7 +1874,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1135,7 +1896,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -1159,11 +1919,32 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/giz.json"
+  },
+  {
+    "id": "granada-magica",
+    "type": "Equipment",
+    "name": "Granada M\u00e1gica",
+    "concept": "misc",
+    "updated_at": "2025-01-29T22:55:59.165-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Objeto redondo met\u00e1lico que armazena energia m\u00e1gica que explode ao sofrer um impacto forte.\r\n\r\nAo ser arremessada, causa 1d8 de dano em todas as criaturas num raio de 3m ao redor do local que explodiu.\r\n\r\nOs alvos podem fazer uma JPD para reduzir o dano pela metade.",
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday13.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/granada-magica.json"
   },
   {
     "id": "grimorio",
@@ -1183,7 +1964,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1206,7 +1986,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1230,7 +2009,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1254,7 +2032,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1278,7 +2055,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1302,7 +2078,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1326,7 +2101,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1350,7 +2124,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1374,11 +2147,37 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/machado-de-batalha.json"
+  },
+  {
+    "id": "machado-de-batalha-mais-1",
+    "type": "Equipment",
+    "name": "Machado de Batalha +1",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:56:14.585-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "2d6",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Cortante, Duas M\u00e3os.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 111,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/machado-de-batalha-mais-1.json"
   },
   {
     "id": "machado-ulbariano",
@@ -1397,7 +2196,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -1421,11 +2219,59 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/mangual.json"
+  },
+  {
+    "id": "manoplas-da-forca-do-ogro",
+    "type": "Equipment",
+    "name": "Manoplas da For\u00e7a do Ogro",
+    "concept": "misc",
+    "updated_at": "2025-02-19T12:05:46.544-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Estas manoplas aumentam a For\u00e7a do usu\u00e1rio imediatamente para 18, fazendo com que o personagem receba todos os efeitos de possuir uma For\u00e7a deste valor. Se atacar usando apenas a manopla (ou seja, sem usar nenhuma outra arma), o ataque recebe um b\u00f4nus de +3 para acertar e causa 1d4+3 de dano.",
+    "fontes": [
+      {
+        "page": 167,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 126,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/manoplas-da-forca-do-ogro.json"
+  },
+  {
+    "id": "manoplas-eletricas",
+    "type": "Equipment",
+    "name": "Manoplas El\u00e9tricas",
+    "concept": "misc",
+    "updated_at": "2025-01-29T22:55:59.625-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Impactante, Duas M\u00e3os.\r\n\r\nManoplas met\u00e1licas m\u00e1gicas feitas em cota de malha. Aumenta em +1 o dano em um Ataque Desarmado, al\u00e9m do tipo de ataque ter propriedades m\u00e1gicas. Uma vez por dia, \u00e9 poss\u00edvel conjurar a magia Rel\u00e2mpago, considerando o n\u00edvel do usu\u00e1rio como n\u00edvel de conjurador.",
+    "fontes": [
+      {
+        "page": 9,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday13.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/manoplas-eletricas.json"
   },
   {
     "id": "manto",
@@ -1445,11 +2291,60 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/manto.json"
+  },
+  {
+    "id": "manto-elfico",
+    "type": "Equipment",
+    "name": "Manto \u00c9lfico",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:48.255-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 500,
+    "description": "Este manto, formado por uma elegante malha m\u00e1gica \u00e9lfica, concede ao usu\u00e1rio 1-5 chances em 1d6 de ficar invis\u00edvel at\u00e9 atacar ou conjurar uma magia.\r\n\r\nAo sair do efeito do manto \u00e9lfico, este precisa de 1 turno inteiro para se recarregar e poder tornar o usu\u00e1rio invis\u00edvel novamente.",
+    "fontes": [
+      {
+        "page": 167,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 127,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/manto-elfico.json"
+  },
+  {
+    "id": "mapa-do-tesouro",
+    "type": "Equipment",
+    "name": "Mapa do Tesouro",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:50.348-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Um mapa indicando um tesouro com um valor significativo que chame a aten\u00e7\u00e3o dos personagens. Normalmente os tesouros s\u00e3o guardados em masmorras protegidas por armadilhas, magias ou mesmo guardi\u00f5es poderosos. Um mapa do tesouro nunca \u00e9 uma garantia da real exist\u00eancia do tesouro ou de que este esteja intocado em seu lugar de origem.",
+    "picture": "https://public.olddragon.com.br/mpgyycanvxoc3elw90xyxpogc1d7",
+    "fontes": [
+      {
+        "page": 165,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/mapa-do-tesouro.json"
   },
   {
     "id": "martelo",
@@ -1469,7 +2364,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1493,11 +2387,37 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/martelo-de-batalha.json"
+  },
+  {
+    "id": "martelo-de-batalha-mais-1",
+    "type": "Equipment",
+    "name": "Martelo de Batalha +1",
+    "concept": "weapon",
+    "updated_at": "2025-01-09T14:56:18.814-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "2d4",
+    "bonus_ca": null,
+    "weight_in_load": 3,
+    "weight_in_grams": null,
+    "description": "Grande, Impactante.",
+    "fontes": [
+      {
+        "page": 160,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 110,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/martelo-de-batalha-mais-1.json"
   },
   {
     "id": "martelo-ferramenta",
@@ -1517,11 +2437,54 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/martelo-ferramenta.json"
+  },
+  {
+    "id": "mascara-de-joias",
+    "type": "Equipment",
+    "name": "M\u00e1scara de Joias",
+    "concept": "misc",
+    "updated_at": "2025-01-29T22:56:00.132-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 300,
+    "description": "Uma m\u00e1scara cravejada de joias.\r\n\r\nEnquanto estiver sendo usada, cura 1 PV do usu\u00e1rio a cada minuto, somando 10 PV a cada Turno. Ela cura um m\u00e1ximo de 30 PV a cada dia, voltando a curar no pr\u00f3ximo amanhecer.",
+    "fontes": [
+      {
+        "page": 15,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday11.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/mascara-de-joias.json"
+  },
+  {
+    "id": "medalhao-da-teia-temporal-caotico",
+    "type": "Equipment",
+    "name": "Medalh\u00e3o da Teia Temporal (Ca\u00f3tico)",
+    "concept": "misc",
+    "updated_at": "2025-01-29T22:56:00.302-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Um medalh\u00e3o com um cristal roxo que emite um brilho intenso.\r\n\r\n Proporciona vis\u00f5es do passado ou do futuro, como se o usu\u00e1rio tivesse conjurado a magia arcana Vis\u00e3o.\r\n\r\nH\u00e1 50% de chance de mostrar o passado e 50% de chance de mostrar o futuro.\r\n\r\nPode ser usado uma vez por semana.\r\n\r\nO personagem deve realizar uma JPS para evitar ficar completamente obcecado pelas vis\u00f5es, buscando desesperadamente entender o que elas significam, como se estivesse sob o efeito da magia Miss\u00e3o.",
+    "fontes": [
+      {
+        "page": 13,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday13.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/medalhao-da-teia-temporal-caotico.json"
   },
   {
     "id": "mochila",
@@ -1541,7 +2504,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1565,7 +2527,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1589,7 +2550,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1613,7 +2573,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1637,7 +2596,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1661,7 +2619,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1685,7 +2642,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1709,7 +2665,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1733,11 +2688,119 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/pergaminho.json"
+  },
+  {
+    "id": "pergaminho-amaldicoado",
+    "type": "Equipment",
+    "name": "Pergaminho Amaldi\u00e7oado",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:50.367-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Amaldi\u00e7oam todos os que tentam l\u00ea-los. Apenas tentativas m\u00e1gicas de identificar o conte\u00fado do pergaminho s\u00e3o suficientemente seguras para evitar seus efeitos ca\u00f3ticos.\r\n\r\nApenas uma magia Remover Maldi\u00e7\u00e3o pode remover os efeitos de um pergaminho amaldi\u00e7oado.\r\n\r\nOs efeitos de maldi\u00e7\u00f5es de um pergaminho amaldi\u00e7oado s\u00e3o variados e os Mestres s\u00e3o bem-vindos em criar suas pr\u00f3prias maldi\u00e7\u00f5es.",
+    "fontes": [
+      {
+        "page": 164,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 117,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pergaminho-amaldicoado.json"
+  },
+  {
+    "id": "pergaminho-arcano",
+    "type": "Equipment",
+    "name": "Pergaminho Arcano",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:52.653-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Um pergaminho arcano pode conter at\u00e9 9 c\u00edrculos de magias distribu\u00eddos da forma determinada pelo Mestre. Um pergaminho com 3 c\u00edrculos de magia pode conter ou tr\u00eas magias de 1\u00ba c\u00edrculo, ou uma magia de 1\u00ba c\u00edrculo e outra de 2\u00ba c\u00edrculo, ou uma \u00fanica magia de 3\u00ba c\u00edrculo.",
+    "picture": "https://public.olddragon.com.br/hj964dx9feq6wn2kcs34y46bwpf1",
+    "fontes": [
+      {
+        "page": 164,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 117,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pergaminho-arcano.json"
+  },
+  {
+    "id": "pergaminho-de-protecao",
+    "type": "Equipment",
+    "name": "Pergaminho de Prote\u00e7\u00e3o",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:51.789-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Qualquer personagem alfabetizado \u00e9 capaz de usar um pergaminho de prote\u00e7\u00e3o, que, ao ser lido e ativado, cria um c\u00edrculo de prote\u00e7\u00e3o de 3 metros de raio ao redor do leitor do pergaminho. O c\u00edrculo de prote\u00e7\u00e3o acompanhar\u00e1 o leitor caso este se desloque.\r\n\r\nAs criaturas alvo do c\u00edrculo de prote\u00e7\u00e3o est\u00e3o impedidas de adentrar na \u00e1rea do c\u00edrculo, mas n\u00e3o de realizarem ataques \u00e0 dist\u00e2ncia ou de conjurarem magias contra a \u00e1rea de prote\u00e7\u00e3o ou a alvos dentro dele.\r\n\r\nCaso o protegido pela \u00e1rea de prote\u00e7\u00e3o ataque uma criatura fora do c\u00edrculo em um ataque corpo a corpo, o c\u00edrculo de prote\u00e7\u00e3o \u00e9 extinto.",
+    "fontes": [
+      {
+        "page": 164,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 117,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pergaminho-de-protecao.json"
+  },
+  {
+    "id": "pergaminho-divino",
+    "type": "Equipment",
+    "name": "Pergaminho Divino",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:51.916-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Um pergaminho Divino pode conter at\u00e9 7 c\u00edrculos de magias distribu\u00eddos da forma determinada pelo Mestre. Um pergaminho com 3 c\u00edrculos de magia pode conter ou tr\u00eas magias de 1\u00ba c\u00edrculo, ou uma magia de 1\u00ba c\u00edrculo e outra de 2\u00ba c\u00edrculo, ou uma \u00fanica magia de 3\u00ba c\u00edrculo.",
+    "fontes": [
+      {
+        "page": 164,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 117,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pergaminho-divino.json"
   },
   {
     "id": "pique",
@@ -1757,11 +2820,146 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/pique.json"
+  },
+  {
+    "id": "pocao-amaldicoada",
+    "type": "Equipment",
+    "name": "Po\u00e7\u00e3o Amaldi\u00e7oada",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:52.127-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "S\u00e3o totalmente imprevis\u00edveis. Qualquer tentativa n\u00e3o m\u00e1gica de identificar uma po\u00e7\u00e3o sempre resultar\u00e1 em um engano. O Mestre escolhe aleatoriamente o efeito de uma po\u00e7\u00e3o apenas ap\u00f3s uma po\u00e7\u00e3o ca\u00f3tica ser tomada.",
+    "fontes": [
+      {
+        "page": 163,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 113,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pocao-amaldicoada.json"
+  },
+  {
+    "id": "pocao-da-diminuicao",
+    "type": "Equipment",
+    "name": "Po\u00e7\u00e3o da Diminui\u00e7\u00e3o",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:52.394-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "Seu usu\u00e1rio fica imediatamente diminuto, com apenas 15cm de altura. Com este tamanho, o indiv\u00edduo n\u00e3o consegue atacar nenhuma criatura pequena ou maior, mas pode passar por frestas ou entrar em tocas de ratos. Possui uma chance de 1-5 em 6 de n\u00e3o ser percebido se ficar im\u00f3vel. Esta po\u00e7\u00e3o anula os efeitos de uma po\u00e7\u00e3o de crescimento.",
+    "fontes": [
+      {
+        "page": 163,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 114,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pocao-da-diminuicao.json"
+  },
+  {
+    "id": "pocao-da-forca-gigante",
+    "type": "Equipment",
+    "name": "Po\u00e7\u00e3o da For\u00e7a Gigante",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:54.509-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "O bebedor da po\u00e7\u00e3o recebe a For\u00e7a extraordin\u00e1ria dos gigantes. Qualquer ataque com uma arma neste estado causa dano dobrado. Um personagem sob o efeito desta po\u00e7\u00e3o pode realizar um disparo em \u00e1rea com pequenas pedras, causando 3d6 de dano.",
+    "picture": "https://public.olddragon.com.br/7u1apqvfnzdux8zpnj1f2jtecb5j",
+    "fontes": [
+      {
+        "page": 163,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 115,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pocao-da-forca-gigante.json"
+  },
+  {
+    "id": "pocao-da-forma-gasosa",
+    "type": "Equipment",
+    "name": "Po\u00e7\u00e3o da Forma Gasosa",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:53.786-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "O bebedor da po\u00e7\u00e3o se torna uma imensa nuvem de g\u00e1s. Todos os pertences, roupas, equipamento, etc. caem no ch\u00e3o imediatamente, mesmo se o personagem continuar mantendo controle sobre seu corpo.\r\n\r\nNa forma gasosa, o personagem \u00e9 capaz de passar por pequenos buracos na parede, penetrar em fechaduras ou passar por debaixo de portas, mas n\u00e3o \u00e9 capaz de atacar um alvo. Por\u00e9m, pode ser atacado com um ataque muito dif\u00edcil.",
+    "fontes": [
+      {
+        "page": 163,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 115,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pocao-da-forma-gasosa.json"
+  },
+  {
+    "id": "pocao-de-cura",
+    "type": "Equipment",
+    "name": "Po\u00e7\u00e3o de Cura",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:54.764-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "Cura 1d8 PV perdidos ou qualquer doen\u00e7a no usu\u00e1rio, exatamente como nas magias divinas Curar Ferimentos (1\u00ba c\u00edrculo) ou Curar Doen\u00e7as.",
+    "fontes": [
+      {
+        "page": 163,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 114,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/pocao-de-cura.json"
   },
   {
     "id": "ponei",
@@ -1780,7 +2978,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1803,7 +3000,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1827,7 +3023,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1851,11 +3046,32 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/porta-mapas.json"
+  },
+  {
+    "id": "punhal-reptilicida",
+    "type": "Equipment",
+    "name": "Punhal Reptilicida",
+    "concept": "weapon",
+    "updated_at": "2025-01-29T22:56:52.388-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": "1d4",
+    "bonus_ca": null,
+    "weight_in_load": 1,
+    "weight_in_grams": null,
+    "description": "Pequena, Perfurante, Arremesso (9).\r\n\r\nUm artefato de \u00e9pocas remotas, dedicado ao Rei Sapo e usado contra r\u00e9pteis de todos os tipos, causando 1d4 de dano ou 3d4 de dano em criaturas reptilianas, al\u00e9m de impedir que se regenerem ou se curem por 30 dias ap\u00f3s o ferimento.\r\n\r\nSeu cabo possui uma cabe\u00e7a de sapo esculpida, e na l\u00e2mina, em baixo relevo dourado, a imagem de serpentes sem cabe\u00e7a.",
+    "fontes": [
+      {
+        "page": 10,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/odday24.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/punhal-reptilicida.json"
   },
   {
     "id": "racao-de-viagem",
@@ -1875,7 +3091,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1899,7 +3114,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1923,7 +3137,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1946,11 +3159,37 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/saco-de-estopa.json"
+  },
+  {
+    "id": "sacola-devoradora-caotica",
+    "type": "Equipment",
+    "name": "Sacola Devoradora (Ca\u00f3tica)",
+    "concept": "container",
+    "updated_at": "2025-01-29T22:57:06.605-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 300,
+    "description": "Esta sacola de pano, aparentemente normal, devora literalmente os itens n\u00e3o vivos inseridos dentro do saco em at\u00e9 1d6+6 turnos, fazendo-os desaparecer para sempre.\r\n\r\nAt\u00e9 os itens serem devorados \u00e9 poss\u00edvel enfiar as m\u00e3os dentro da sacola e retir\u00e1-los normalmente como em uma sacola comum.",
+    "fontes": [
+      {
+        "page": 167,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 127,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/sacola-devoradora-caotica.json"
   },
   {
     "id": "selas-e-arreios",
@@ -1969,7 +3208,6 @@
       {
         "page": 64,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -1993,7 +3231,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2017,7 +3254,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2028,20 +3264,19 @@
     "type": "Equipment",
     "name": "Tocha",
     "concept": "misc",
-    "updated_at": "2023-12-26T22:10:25.208-03:00",
+    "updated_at": "2025-04-09T12:18:21.143-03:00",
     "access": "complete",
     "cost": 100,
     "damage": null,
     "bonus_ca": null,
     "weight_in_load": null,
-    "weight_in_grams": 500,
+    "weight_in_grams": 100,
     "description": "5 unidades.",
     "picture": "https://public.olddragon.com.br/h6rl9nbulz5s4kre21jz86t449kf",
     "fontes": [
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2064,7 +3299,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2087,7 +3321,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2110,7 +3343,6 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2134,11 +3366,91 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/vara-de-exploracao.json"
+  },
+  {
+    "id": "varinha-de-bola-de-fogo",
+    "type": "Equipment",
+    "name": "Varinha de Bola de Fogo",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:59.015-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "Quando uma carga \u00e9 usada, a varinha dispara uma bola de fogo do tamanho de uma pequena p\u00e9rola de fogo que explode ao chegar ao alvo. O raio da explos\u00e3o \u00e9 de 6 metros, causando 6d6 de dano a todos na \u00e1rea. Um sucesso em uma JPD reduz o dano pela metade.",
+    "fontes": [
+      {
+        "page": 166,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 122,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/varinha-de-bola-de-fogo.json"
+  },
+  {
+    "id": "varinha-de-deteccao-de-magia",
+    "type": "Equipment",
+    "name": "Varinha de Detec\u00e7\u00e3o de Magia",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:59.346-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "Quando uma carga \u00e9 usada, a varinha faz todos os objetos m\u00e1gicos, itens ou pessoas sob efeito de uma magia brilharem dentro de uma \u00e1rea de 6 metros. Se o item n\u00e3o estiver vis\u00edvel, o brilho n\u00e3o ser\u00e1 visto.",
+    "fontes": [
+      {
+        "page": 166,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 122,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/varinha-de-deteccao-de-magia.json"
+  },
+  {
+    "id": "varinha-de-paralisacao",
+    "type": "Equipment",
+    "name": "Varinha de Paralisa\u00e7\u00e3o",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:54:59.471-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "Quando uma carga \u00e9 usada, a varinha emite um raio em formato de cone com 18m de comprimento e 9 m de largura na extremidade. Qualquer criatura pega pelo raio deve ser bem-sucedida em uma JPC ou ficar\u00e1 paralisada por 6 turnos.",
+    "fontes": [
+      {
+        "page": 166,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 122,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/varinha-de-paralisacao.json"
   },
   {
     "id": "vela",
@@ -2158,11 +3470,37 @@
       {
         "page": 62,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
     "url": "https://olddragon.com.br/equipamentos/vela.json"
+  },
+  {
+    "id": "veneno",
+    "type": "Equipment",
+    "name": "Veneno",
+    "concept": "misc",
+    "updated_at": "2025-01-09T14:55:00.046-03:00",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": 100,
+    "description": "S\u00e3o subst\u00e2ncias mortais e perigosas que se passam perfeitamente por po\u00e7\u00f5es. Se qualquer gole desta subst\u00e2ncia for ingerido (at\u00e9 mesmo os pequenos goles que visam identificar uma po\u00e7\u00e3o), quem a ingeriu precisar\u00e1 de um sucesso em uma JPC ou morrer\u00e1 em 1d4 turnos.",
+    "fontes": [
+      {
+        "page": 163,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
+      },
+      {
+        "page": 116,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/equipamentos/veneno.json"
   },
   {
     "id": "virote",
@@ -2182,7 +3520,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],
@@ -2206,7 +3543,6 @@
       {
         "page": 58,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       }
     ],

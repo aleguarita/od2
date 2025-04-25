@@ -7,6 +7,9 @@ URL_ESPECIFICAS = {
     'equipamentos': 'equipamentos.json',
     'livros': 'livros.json',
     'magias': 'magias.json',
-    'monstros': 'monstros.json',
     'raças': 'racas.json'
+}
+
+HEADERS = {
+    'User-Agent': 'Módulo Python com Utilidades para OD2 (alessandro.guarita@gmail.com)'
 }

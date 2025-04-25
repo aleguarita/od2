@@ -4,9 +4,13 @@
     "type": "CharacterRace",
     "name": "An\u00e3o",
     "flavor": "Orgulhosos Habitantes dos Sal\u00f5es sob a Montanha.",
+    "access": "complete",
+    "description": "Honrados, perfeccionistas e reservados, os an\u00f5es s\u00e3o conhecidos n\u00e3o s\u00f3 pela sua peculiar apar\u00eancia, mas sobretudo pela forma como se relacionam com as outras ra\u00e7as e com a sua pr\u00f3pria hist\u00f3ria.\n\nDe apar\u00eancia robustas e r\u00fastica, corpulentos e com uma inconfund\u00edvel grande barba, an\u00f5es vivem junto dos seus cl\u00e3s com as montanhas sobre suas cabe\u00e7as, minerando, forjando, reverenciando seus antepassados e comemorando com cerveja e suas famosas bebidas fortes.\n\nOs Sal\u00f5es sob a Montanha, onde vivem isolados, s\u00e3o locais sagrados e reverenciados por eles. L\u00e1, adotam um estilo de vida comedido, voltado ao trabalho, entrecortando o sil\u00eancio apenas com suas can\u00e7\u00f5es de trabalho e suas frequentes comemora\u00e7\u00f5es.\n\nS\u00e3o guiados pela honra e pelo sentimento de gratid\u00e3o por todos aqueles que ajudaram a construir o orgulho que sentem das suas origens, quando lideraram a ra\u00e7a an\u00e3 em feitos de supera\u00e7\u00e3o, conquista e guerra contra seus inimigos.\n\nComo bons tradicionalistas, colocam sua fam\u00edlia, seu cl\u00e3 e principalmente sua ra\u00e7a acima de todas as coisas, inclusive de si mesmos e de suas vontades pessoais.\n\nBuscam honrar suas origens tentando demonstrar que s\u00e3o dignos de fazer parte do que eles costumam chamar: povo perfeito.\n\nEx\u00edmios forjadores, trabalham o metal \u00e0 sua vontade. N\u00e3o h\u00e1 nada que eles n\u00e3o possam forjar, e n\u00e3o h\u00e1 nenhum objeto de metal que n\u00e3o fique perfeito ap\u00f3s um an\u00e3o aplicar suas t\u00e9cnicas ancestrais de metalurgia.\n\nCom pensamento l\u00f3gico acurado, se destacam na engenharia, nas constru\u00e7\u00f5es, nos trabalhos pesados, mas, ao mesmo tempo, demonstram pouca aptid\u00e3o \u00e0s artes arcanas.\n\nFora de suas terras, se mostram orgulhosos e defensores de suas origens, fazendo quest\u00e3o de sempre comparar tudo \u00e0 volta com a vers\u00e3o melhorada a qual os an\u00f5es s\u00e3o capazes de criar.\n\n# Personalidade\n\nOrgulho, tradi\u00e7\u00e3o e obsess\u00e3o s\u00e3o tr\u00eas importantes palavras para descrever a personalidade an\u00e3.\n\nOrgulhosos de tudo relativo ao seu povo, est\u00e3o a todo tempo lembrando a todos da import\u00e2ncia, da impon\u00eancia, da qualidade, da grandiosidade do seu povo, das can\u00e7\u00f5es que glorificam as vit\u00f3rias sobre seus inimigos.\n\nUm an\u00e3o \u00e9 quase um escravo dos feitos dos seus antepassados. Um her\u00f3i an\u00e3o \u00e9, antes de tudo, uma r\u00e9gua de perfei\u00e7\u00e3o. Um grau a admirar, perseguir e atingir.\n\nTradi\u00e7\u00e3o, para eles, n\u00e3o \u00e9 uma mera forma de passar aos mais novos os costumes de seu povo, e sim um estilo de vida e um c\u00f3digo de honra. Uma esp\u00e9cie de linha guia para basear suas a\u00e7\u00f5es e seu pensamento.\n\nO an\u00e3o \u00e9 um ser obcecado. Pela defesa dos seus ideais, pelo seu povo, pela perfei\u00e7\u00e3o do seu trabalho.\n\nSeja a excel\u00eancia em batalha, o minucioso trabalho de forja de armas e armaduras, a fermenta\u00e7\u00e3o precisa da cerveja, a composi\u00e7\u00e3o da can\u00e7\u00e3o que zomba dos orcs, o ideal de vida do an\u00e3o est\u00e1 centrado na perfei\u00e7\u00e3o num n\u00edvel pr\u00f3ximo da idolatria espiritual.\n\n# O An\u00e3o nas Aventuras\n\nPartir para as aventuras \u00e9 mais do que uma op\u00e7\u00e3o para alguns an\u00f5es, sendo, em alguns casos, uma forma de reverenciar as tradi\u00e7\u00f5es do seu povo.\n\nCom uma mem\u00f3ria repleta de feitos \u00e9picos e exemplos a admirar e a seguir, provar-se capaz jogando-se no mundo \u00e9, sem d\u00favida, o mais importante dos motivadores para um an\u00e3o aventurar-se.\n\nO an\u00e3o quer provar sua capacidade, sua habilidade, resili\u00eancia e ser digno de portar o nome de seu cl\u00e3.\n\nAn\u00f5es aventureiros s\u00e3o guiados pelo exemplo e pelo orgulho dos feitos os quais podem realizar e que deixar\u00e3o para as futuras gera\u00e7\u00f5es.\n\n## Perguntas para se responder ao criar um an\u00e3o:\n\n* **Pergunta 1:** _Do que seu an\u00e3o mais se orgulha das suas tradi\u00e7\u00f5es?_\n* **Pergunta 2:** _O que seu an\u00e3o busca provar ou realizar?_\n* **Pergunta 3:** _O que seu an\u00e3o possui como principal obsess\u00e3o?_\n",
     "movement": 6,
     "infravision": 18,
     "alignment_tendency": "ordeiro",
+    "picture": "https://public.olddragon.com.br/7s1vfmhibfsow0rp1hhb7358cpch",
+    "thumb_picture": "https://public.olddragon.com.br/1xeonp73mssl5zdlhyubhzhwytqn",
     "abilities": [
       {
         "name": "Mineradores",
@@ -29,98 +33,28 @@
       {
         "page": 22,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
     "url": "https://olddragon.com.br/racas/anao.json"
   },
   {
-    "id": "anao-das-montanhas",
-    "type": "CharacterRace",
-    "name": "An\u00e3o das Montanhas",
-    "flavor": "Sub-Ra\u00e7a de An\u00e3o.",
-    "movement": 6,
-    "infravision": 18,
-    "alignment_tendency": "ordeiro",
-    "abilities": [
-      {
-        "name": "Engenheiros",
-        "description": "Por mil\u00eanios, an\u00f5es das montanhas constru\u00edram, alargaram e aprofundaram seus t\u00faneis no interior das montanhas. Assim, aprendem desde cedo a avaliar passagens, escoras e paredes, conseguindo determinar com 1-2 chances em 1d6 um tremor, uma avalanche, um desmoronamento ou condi\u00e7\u00f5es de estabilidade de qualquer constru\u00e7\u00e3o de pedra."
-      },
-      {
-        "name": "Vigoroso",
-        "description": "Os an\u00f5es das montanhas s\u00e3o muito resistentes aos efeitos que afetem seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPC.\n"
-      },
-      {
-        "name": "Armas grandes",
-        "description": "S\u00e3o restritas para an\u00f5es das montanhas que podem usar apenas armas m\u00e9dias e pequenas. Armas grandes forjadas como um item racial an\u00e3o s\u00e3o consideradas armas m\u00e9dias para um an\u00e3o.\n"
-      },
-      {
-        "name": "Inimigos",
-        "description": "An\u00f5es das montanhas s\u00e3o inimigos naturais e disputam territ\u00f3rio com orcs, ogros e hobgoblins e, por isso, os ataques dos an\u00f5es das montanhas contra essas criaturas s\u00e3o considerados ataques f\u00e1ceis.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 6,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/anao-das-montanhas.json"
-  },
-  {
-    "id": "anao-das-profundezas",
-    "type": "CharacterRace",
-    "name": "An\u00e3o das Profundezas",
-    "flavor": "Sub-Ra\u00e7a de An\u00e3o.",
-    "movement": 6,
-    "infravision": 18,
-    "alignment_tendency": "ordeiro",
-    "abilities": [
-      {
-        "name": "Pr\u00f3ximos da Terra",
-        "description": "An\u00f5es das profundezas se sentem confort\u00e1veis quando est\u00e3o nos subterr\u00e2neos e, por isso, curam um ponto de vida adicional ao repousarem debaixo da terra. Ao contr\u00e1rio, quando estiverem a c\u00e9u aberto e fora dos subterr\u00e2neos, curam um ponto de vida a menos."
-      },
-      {
-        "name": "Vigoroso",
-        "description": "Os an\u00f5es das profundezas s\u00e3o muito resistentes aos efeitos que afetem seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPC.\n"
-      },
-      {
-        "name": "Armas grandes",
-        "description": "S\u00e3o restritas para an\u00f5es das profundezas que podem usar apenas armas m\u00e9dias e pequenas. Armas grandes forjadas como um item racial an\u00e3o s\u00e3o consideradas armas m\u00e9dias para um an\u00e3o das profundezas.\n"
-      },
-      {
-        "name": "Inimigos",
-        "description": "An\u00f5es das profundezas s\u00e3o inimigos naturais e disputam territ\u00f3rio com orcs, ogros e hobgoblins e, por isso, os ataques dos an\u00f5es das profundezas contra essas criaturas s\u00e3o considerados ataques f\u00e1ceis.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 6,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/anao-das-profundezas.json"
-  },
-  {
     "id": "elfo",
     "type": "CharacterRace",
     "name": "Elfo",
     "flavor": "Misteriosos, Longevos e Graciosos habitantes das Florestas.",
+    "access": "complete",
+    "description": "Os elfos s\u00e3o das mais longevas ra\u00e7as encontradas nos mundos de fantasia e a sua rela\u00e7\u00e3o com o tempo doutrina boa parte das suas caracter\u00edsticas, personalidade e a forma como as outras ra\u00e7as os enxergam e se relacionam com eles.\n\nFisicamente s\u00e3o esguios e at\u00e9 um pouco franzinos se comparados a um humano, al\u00e9m de ligeiramente mais baixos. Seus cabelos, compridos para machos e f\u00eameas, est\u00e3o sempre penteados, adornados com acess\u00f3rios e podem ser encontrados em praticamente todas as cores.\n\nA caracter\u00edstica f\u00edsica mais marcante de um elfo est\u00e1 nas suas orelhas \u2013 pontudas e longas \u2013, muito embora o tra\u00e7o dos seus olhos \u2013 amendoados, delicados e levemente alongados \u2013 seja uma caracter\u00edstica igualmente marcante.\n\nA rela\u00e7\u00e3o do elfo com o tempo dita sua forma de pensar e agir. Como frequentemente atingem 1.000 anos de vida, elfos se sentem compelidos a ocuparem suas vidas com o que mais valorizam como a dan\u00e7a, a m\u00fasica, a esgrima, o arqueirismo e a magia arcana.\n\nIsso pode fazer as pessoas acreditarem que Elfos s\u00e3o distantes ou, de certa forma, um pouco f\u00fateis. Um erro comum cometido pelos observadores menos atentos.\n\nOutra caracter\u00edstica dos elfos, sobretudo os que est\u00e3o fora da sua terra, \u00e9 a dist\u00e2ncia, dando-lhes uma certa caracter\u00edstica de frieza e at\u00e9 prepot\u00eancia. Por se considerarem estranhos fora de suas fronteiras, possuem dificuldade de se envolver nos problemas das outras ra\u00e7as, refletindo na dificuldade de criar la\u00e7os de amizade.\n\nNo entanto, quando um elfo \u00e9 conquistado como amigo, a amizade se mostrar\u00e1 duradoura. A amizade de um elfo dura mais do que muitas vidas, costumam dizer os humanos os quais puderam provar desse relacionamento. Vivendo tantos s\u00e9culos, esta \u00e9 uma verdade incontest\u00e1vel.\n\n# Personalidade\n\nViver tanto tempo molda a personalidade de um elfo. O ritmo do tempo \u00e9 excepcional para um elfo. As mudan\u00e7as ocorrem t\u00e3o depressa que se tornam complicadas de seguir, ent\u00e3o, para que se importar? Melhor \u00e9 focar na qualidade e n\u00e3o na quantidade. Se 100 espadas medianas podem ser confeccionadas, um elfo prefere gastar o mesmo tempo numa \u00fanica pe\u00e7a exemplar em qualidade e perfei\u00e7\u00e3o.\n\nCom tanto tempo dispon\u00edvel para aprender tantas coisas, desperdi\u00e7ar tempo seria uma op\u00e7\u00e3o bem \u00f3bvia, mas a\u00ed se esconde uma grandeza da sua ra\u00e7a. Ao contr\u00e1rio do que possa parecer, elfos gostam de coisas bem-feitas e duradouras, assim como eles. Servi\u00e7o bem-feito \u00e9 sempre aquele com a maior dura\u00e7\u00e3o.\n\nEssa rela\u00e7\u00e3o entre qualidade, tempo e perfei\u00e7\u00e3o molda todo o pensamento \u00e9lfico e a constru\u00e7\u00e3o da sua personalidade.\n\n# O Elfo nas Aventuras\n\nApesar de bem mais raros que os humanos, elfos n\u00e3o s\u00e3o aventureiros improv\u00e1veis. A fome por conhecimento, desejo por viajar, a vontade de provar-se para os seus como um elfo exemplar e, principalmente, o tempo dispon\u00edvel, s\u00e3o as principais for\u00e7as a empurrar um elfo para a vida aventureira.\n\nAs coisas mudam t\u00e3o rapidamente que acompanhar as mudan\u00e7as, ou mesmo fazer parte destas mudan\u00e7as, pode ser uma interessante for\u00e7a motriz para eles.\n\nEles querem acompanhar o que acontece, se aperfei\u00e7oarem e se provarem como capazes.\n\nElfos s\u00e3o aventureiros observadores que querem entender o mundo onde vivem.\n\n## Perguntas para se responder ao criar um elfo:\n\n* **Pergunta 1:** _O que seu elfo busca provar? Para si ou para seus iguais?_\n* **Pergunta 2:** _O que seu elfo pensa sobre estar com outras ra\u00e7as?_\n* **Pergunta 3:** _O que seu elfo sente por estar longe de sua terra?_\n",
     "movement": 9,
     "infravision": 18,
     "alignment_tendency": "neutro",
+    "picture": "https://public.olddragon.com.br/0bkgjun19spomx5ulu8epfe6l4ca",
+    "thumb_picture": "https://public.olddragon.com.br/1j3zcqmw25sqoy8wlduncxjihagw",
     "abilities": [
       {
         "name": "Percep\u00e7\u00e3o Natural",
@@ -143,98 +77,28 @@
       {
         "page": 20,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
     "url": "https://olddragon.com.br/racas/elfo.json"
   },
   {
-    "id": "elfo-cinzento",
-    "type": "CharacterRace",
-    "name": "Elfo Cinzento",
-    "flavor": "Sub-Ra\u00e7a de Elfo.",
-    "movement": 9,
-    "infravision": 18,
-    "alignment_tendency": "neutro",
-    "abilities": [
-      {
-        "name": "Estudioso Arcano",
-        "description": "Por dominar a confec\u00e7\u00e3o de itens m\u00e1gicos, um elfo cinzento possui 1 chance em 1d6 de identificar a inten\u00e7\u00e3o de um item m\u00e1gico, conseguindo saber se o Mago que o confeccionou era ordeiro, neutro ou ca\u00f3tico. O elfo cinzento n\u00e3o \u00e9 capaz de determinar a fun\u00e7\u00e3o, o funcionamento ou qualquer outra informa\u00e7\u00e3o sobre o item m\u00e1gico, sendo capaz apenas de identificar se o item \u00e9 ca\u00f3tico (ou n\u00e3o) e, portanto, amaldi\u00e7oado."
-      },
-      {
-        "name": "Graciosos",
-        "description": "Os elfos cinzentos controlam com precis\u00e3o seus movimentos no espa\u00e7o ao redor do seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPD.\n"
-      },
-      {
-        "name": "Arma Racial",
-        "description": "Os elfos cinzentos possuem familiaridade com o arqueirismo, o qual consideram uma arte marcial, recebendo um b\u00f4nus de +1 nos danos causados em seus ataques \u00e0 dist\u00e2ncia com os arcos.\n"
-      },
-      {
-        "name": "Imunidades",
-        "description": "Os elfos cinzentos s\u00e3o imunes a efeitos ou magias que envolvam sono e tamb\u00e9m contra a paralisa\u00e7\u00e3o causada por um Ghoul.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 7,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/elfo-cinzento.json"
-  },
-  {
-    "id": "elfo-silvestre",
-    "type": "CharacterRace",
-    "name": "Elfo Silvestre",
-    "flavor": "Sub-Ra\u00e7a de Elfo.",
-    "movement": 9,
-    "infravision": 18,
-    "alignment_tendency": "neutro",
-    "abilities": [
-      {
-        "name": "Silvestres",
-        "description": "Por estarem habituados a vida nos ermos, ao estarem em uma floresta, os elfos silvestres sempre conseguem encontrar comida e \u00e1gua para si e para seus companheiros, nunca se perdem e todos os acampamentos montados por eles em uma floresta s\u00e3o considerados seguros."
-      },
-      {
-        "name": "Graciosos",
-        "description": "Os elfos silvestres controlam com precis\u00e3o seus movimentos no espa\u00e7o ao redor do seu corpo, recebendo um b\u00f4nus de +1 em qualquer teste de JPD.\n"
-      },
-      {
-        "name": "Arma Racial",
-        "description": "Os elfos silvestres possuem familiaridade com o arqueirismo, o qual consideram uma arte marcial, recebendo um b\u00f4nus de +1 nos danos causados em seus ataques \u00e0 dist\u00e2ncia com os arcos.\n"
-      },
-      {
-        "name": "Imunidades",
-        "description": "Os elfos silvestres s\u00e3o imunes a efeitos ou magias que envolvam sono e tamb\u00e9m contra a paralisa\u00e7\u00e3o causada por um Ghoul.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 7,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/elfo-silvestre.json"
-  },
-  {
     "id": "gnomo",
     "type": "CharacterRace",
     "name": "Gnomo",
     "flavor": "Os desconfiados, mas galhofeiros, habitantes de minas.",
+    "access": "complete",
+    "description": "Gnomos s\u00e3o parentes distantes dos an\u00f5es, sendo um pouco mais baixos e de apar\u00eancia mais r\u00fastica.\n\nO nariz se destaca pelo tamanho grande e pelo formato arredondado, uma esp\u00e9cie de s\u00edmbolo do orgulho racial.\n\nA pele dos gnomos \u00e9 sempre enrugada, morena e bronzeada com tons terrosos e vermelhos escuros. Os cabelos s\u00e3o brancos, platinados e claros, fazendo os humanos acreditarem que todos os gnomos s\u00e3o velhos.\n\nOutra caracter\u00edstica racial famosa \u00e9 o uso do espec\u00edfico chap\u00e9u de feltro, c\u00f4nico, alto e pontudo, sempre de cores fortes ligadas \u00e0s suas fam\u00edlias. Gnomos aventureiros frequentemente abrem m\u00e3o do chap\u00e9u em favor da praticidade, mas nas suas terras e em momentos de paz, o chap\u00e9u pontudo sempre estar\u00e1 em uso.\n\nS\u00e3o conhecidos pelo bom humor e o apre\u00e7o pelas boas piadas, bem como objetos finamente trabalhados, como joias e gemas.\n\nEstas \u00faltimas geram uma verdadeira obsess\u00e3o entre os gnomos, pois s\u00e3o conhecidos como habilidosos joalheiros e lapidadores, fazendo deles \u00f3timos avaliadores de gemas e joias.\n\nVivem em ambientes isolados nas colinas, em suas comunidades sem muita aproxima\u00e7\u00e3o com povoados de outras ra\u00e7as. H\u00e1 uma certa desconfian\u00e7a nutrida pelo povo alto, como s\u00e3o chamados os elfos e humanos.\n\nMuito dificilmente esta desconfian\u00e7a evoluir\u00e1 para a hostilidade, a verdade \u00e9 que gnomos s\u00e3o reservados, preferindo viver mais afastados em suas cidades nas colinas, constru\u00eddas sempre em torno de suas minas.\n\nA mina \u00e9 o ponto central da comunidade dos gnomos. Onde os an\u00f5es escavam a pedra, os gnomos escavam a terra. Se an\u00f5es procuram a\u00e7o e outros metais para forjar, gnomos se preocupam mais com metais brilhosos e valiosos. Tais metais almejados pelos gnomos s\u00e3o usados por estes para a fabrica\u00e7\u00e3o de joias e gemas.\n\n# Personalidade\n\nQuando \u00e0 vontade, s\u00e3o festeiros, divertidos e galhofeiros, donos de um senso de humor sem igual. Caso contr\u00e1rio, s\u00e3o arredios, desconfiados e calados.\n\nEssa dicotomia define o gnomo, fazendo dele uma inc\u00f3gnita para quem n\u00e3o conhece sua forma de agir: uma curiosa mistura entre um ser obstinado e calculista que sabe a hora certa de agir.\n\nCurioso porque possuem uma inata vontade de entender o funcionamento das coisas. Seja um material ou mecanismo, os gnomos precisam entender como funciona. Precisa fazer sentido pra eles.\n\nE a\u00ed entra a obstina\u00e7\u00e3o. Gnomos n\u00e3o s\u00e3o dados a desist\u00eancias. Quando enfiam algo na cabe\u00e7a, far\u00e3o assim que conseguirem.\n\nMas n\u00e3o com a teimosia irritante dos an\u00f5es que pode fazer com que fiquem cegos sem entender o risco que est\u00e3o sofrendo. Os gnomos sabem esperar, mas n\u00e3o se esquecer\u00e3o do que precisam fazer. Na primeira oportunidade segura encontrada... L\u00e1 estar\u00e1 o gnomo.\n\n# O Gnomo nas Aventuras\n\nOs gnomos possuem alguns gatilhos que os empurram para o mundo das aventuras e, assim como os halflings, a curiosidade pelo mundo l\u00e1 fora \u00e9 uma das mais frequentes, mas n\u00e3o a \u00fanica.\n\nCertamente gnomos abandonam a pacificidade de sua terra para compreender o mundo ao seu redor e, claro, por motivos mais mundanos como acumular riquezas, ver o que est\u00e1 acontecendo e se expor aos riscos.\n\nE quando isso vira uma obstina\u00e7\u00e3o, a estrada \u00e9 o \u00fanico caminho o qual eles podem trilhar.\n\nGnomos gostam de participar, gostam de estar no teatro dos acontecimentos. Contar como o Drag\u00e3o Velho foi morto \u00e9 pouco para ele.\n\nO ideal \u00e9 que o gnomo possa dizer como ELE ajudou a matar o Drag\u00e3o Velho e, principalmente, como ele hoje ostenta todas aquelas maravilhosas joias roubadas do covil do Drag\u00e3o Velho.\n\n## Perguntas para se responder ao criar um aventureiro gnomo:\n\n* **Pergunta 1:** _O que \u00e9 o principal motivador da obstina\u00e7\u00e3o de seu gnomo?_\n* **Pergunta 2:** _Sua vida pr\u00e9-aventuras foi divertida ou ele achava tudo enfadonho nas minas?_\n* **Pergunta 3:** _Qual \u00e9 o tipo de humor dele? Prega pe\u00e7as ou prefere os coment\u00e1rios espirituosos?_\n",
     "movement": 6,
     "infravision": 18,
     "alignment_tendency": "neutro",
+    "picture": "https://public.olddragon.com.br/lv8uumgckkuzz2xu1odv88zj4fzj",
+    "thumb_picture": "https://public.olddragon.com.br/o8oqru6krhzlesjnnn5zbebdcwid",
     "abilities": [
       {
         "name": "Avaliadores",
@@ -253,58 +117,28 @@
       {
         "page": 16,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
     "url": "https://olddragon.com.br/racas/gnomo.json"
   },
   {
-    "id": "gnomo-das-florestas",
-    "type": "CharacterRace",
-    "name": "Gnomo das Florestas",
-    "flavor": "Sub-Ra\u00e7a de Gnomo.",
-    "movement": 6,
-    "infravision": 18,
-    "alignment_tendency": "neutro",
-    "abilities": [
-      {
-        "name": "Falar com Animais",
-        "description": "Como habitante das florestas, gnomos t\u00eam a habilidade de falar com as criaturas silvestres possuindo 1-4 chances em 1d6 de conseguir estabelecer uma comunica\u00e7\u00e3o compreens\u00edvel por at\u00e9 1 turno.\n\nSe o resultado for um 5 ou 6, a criatura falar\u00e1, mas responder\u00e1 apenas com informa\u00e7\u00f5es erradas e mentiras. Este teste deve ser realizado em segredo pelo Mestre.\n"
-      },
-      {
-        "name": "Sagazes e Vigorosos",
-        "description": "Os gnomos das florestas s\u00e3o muito espertos e desconfiados, al\u00e9m de vigorosos contra efeitos negativos que afetem sua mente e corpo, assim, podem escolher entre receber um b\u00f4nus de +1 em uma das duas jogadas de prote\u00e7\u00e3o, JPC ou JPS.\n"
-      },
-      {
-        "name": "Restri\u00e7\u00f5es",
-        "description": "Por serem pequenos, mas mineradores e forjadores, gnomos das florestas n\u00e3o possuem restri\u00e7\u00f5es em rela\u00e7\u00e3o a armaduras, mas precisam adquiri-las junto a comunidades de sua ra\u00e7a.\n\nEntretanto, um gnomo das florestas n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um gnomo das florestas s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 8,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/gnomo-das-florestas.json"
-  },
-  {
     "id": "grizzi",
     "type": "CharacterRace",
     "name": "Grizzi",
     "flavor": "Os aventureiros mais irritantemente criativos de Kadur.",
+    "access": "complete",
+    "description": "Grizzis s\u00e3o pequenos humanoides de Ryanon, de grande intelig\u00eancia e criatividade. A maioria dessa ra\u00e7a \u00e9 composta de indiv\u00edduos de natureza pacata, rural e pouco dados a assuntos b\u00e9licos.\n\nS\u00e3o colecionadores compulsivos de qualquer coisa que lhes suscite a obsess\u00e3o, e possuem uma cultura rica e costumes ex\u00f3ticos.\n\nSeu f\u00edsico \u00e9 sua principal caracter\u00edstica.\n\nPossuem a pele clara, em tons que podem ir do branco ao mostarda e repleta de rugas e verrugas, grandes olhos expressivos e esbugalhados e orelhas pontudas voltadas para tr\u00e1s. Suas m\u00e3os possuem 3 dedos (um polegar e dois \"indicadores\") e seus p\u00e9s, tamb\u00e9m com tr\u00eas dedos articulados, se assemelham muito mais a uma m\u00e3o que um p\u00e9 humano.\n\nCostumam viver e se desenvolver exatamente como os humanos. Por volta dos 15 anos, por\u00e9m, adquirem a apar\u00eancia de jovens \"idosos\" com cabelos ralos, brancos e pele enrugada. Apar\u00eancia que se manter\u00e1 pelos pr\u00f3ximos 50 a 60 anos, quando sua figura come\u00e7ar\u00e1 a envelhecer ainda mais.\n\nGostam de habitar comunidades tranquilas, longe do tumulto das grandes e ruidosas cidades humanas. Est\u00e3o quase sempre pr\u00f3ximas de pequenas florestas ou bosques, onde costumam coletar frutas e produzir os famigerados repolhos pretos para o gulash.\n\nTodo Grizzi recebe dos pais, logo ao nascer, uma \u00e1rvore plantada em algum bosque pr\u00f3ximo. A esta \u00e1rvore \u00e9 dado o nome de \"zerele\". Cada zerele pertence ao indiv\u00edduo em espec\u00edfico e adquire status de s\u00edmbolo sagrado para a comunidade.\n\n# Personalidade\n\nApesar de serem pouco amig\u00e1veis \u00e0 princ\u00edpio, n\u00e3o compactuam com a falta de cordialidade e viol\u00eancia gratuita. Voc\u00ea jamais ver\u00e1 um Grizzi chamando algu\u00e9m para briga gratuitamente.\n\nGrizzis podem ser considerados os seres mais mal-humorados de toda Ryanon, especialmente depois de acordar. Grizzis s\u00e3o pessimistas; para eles, tudo sempre dar\u00e1 errado da pior forma poss\u00edvel, e todo dia \u00e9 o pior das suas vidas.\n\nS\u00e3o t\u00e3o pessimistas que o famoso matem\u00e1tico grizzi de nome M\u00e4rphy Galanos estabeleceu que \"se algo possui uma m\u00ednima chance de dar errado, certamente dar\u00e1 errado, e dar\u00e1 errado de novo se voc\u00ea for um Grizzi\".\n\nOutra marca registrada dos grizzi \u00e9 a habilidade de xingar. Usando adjetivos pouco comuns e at\u00e9 estranhos, aliados a palavras de baixo cal\u00e3o, os Grizzis conseguem ofender uns aos outros com grande intensidade.\n\nColecionar \u00e9 a raz\u00e3o principal de viver de todo Grizzi. Eles acreditam piamente que quando morrem v\u00e3o para uma terra vazia sem cor onde as \u00fanicas coisas que poder\u00e3o carregar s\u00e3o suas cole\u00e7\u00f5es, que chamam de \"menish\".\n\nAssim, colecionar n\u00e3o \u00e9 apenas religi\u00e3o, \u00e9 o meio de garantir uma eternidade menos tediosa. E eles escolhem coisas inabituais para colecionar, mesmo dentes incisivos de orcs ou lascas de unhas de ded\u00e3o de monstros encontrados pelo caminho.\n\nO amor pelas cole\u00e7\u00f5es \u00e9 tamanho, que um Grizzi e todas as suas cole\u00e7\u00f5es ser\u00e3o enterrados aos p\u00e9s da sua _zerele_ a sua \u00e1rvore pessoal, para passarem juntos e segundo suas cren\u00e7as, continuarem colecionando por toda a eternidade.\n\n# O Grizzi nas Aventuras\n\nGrizzis n\u00e3o s\u00e3o \u00e0 primeira vista, aventureiros natos. Sua vida pacata, seus gostos pouco ortodoxos e sua imensa vontade de permanecer quieto, colecionando e reclamando da vida, fazem das aventuras algo pouco atrativo para um Grizzi padr\u00e3o.\n\nNo entanto, quando o chamado da aventura surge para um Grizzi, ele n\u00e3o pensa duas vezes. Afinal, esta \u00e9 a oportunidades perfeita de colecionar coisas diferentes, de lugares inimagin\u00e1veis.\n\n## Perguntas para se responder ao criar um Grizzi:\n\n* **Pergunta 1:** _O que seu grizzi coleciona?_\n* **Pergunta 2:** _O que seu grizzi n\u00e3o encontrou na sua vida e que o levou a se aventurar?_\n* **Pergunta 3:** _O que seu grizzi mais despreza nas pessoas a ponto de ser algo imposs\u00edvel de tolerar sem uma boa dose de rabugice?_\n",
     "movement": 6,
     "infravision": 0,
     "alignment_tendency": "caotico",
+    "picture": "https://public.olddragon.com.br/rl9m2qrz527kgbk6yisw96uynabr",
+    "thumb_picture": "https://public.olddragon.com.br/8zeiibty4h6qxv8ak3n62c6071ao",
     "abilities": [
       {
         "name": "Escaladores",
@@ -327,7 +161,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -338,9 +171,13 @@
     "type": "CharacterRace",
     "name": "Halfling",
     "flavor": "Os mais Perspicazes e Curiosos Aventureiros.",
+    "access": "complete",
+    "description": "Pequenos, roli\u00e7os, met\u00f3dicos e corajosos, os halflings s\u00e3o um povo pac\u00edfico e rural habitando as colinas verdejantes, vivendo do que plantam e criam, formando comunidades buc\u00f3licas e pequenas, quase sempre pr\u00f3ximas \u00e0s fronteiras das terras dos humanos.\n\nPossuem uma apar\u00eancia muito similar a dos humanos, como se fossem mini-homens. Suas orelhas levemente pontiagudas, mas n\u00e3o o suficiente para se parecerem com as dos elfos, se destacam juntamente de seus p\u00e9s, os quais s\u00e3o grandes, robustos e cobertos com uma espessa cobertura de pelos desgrenhados. Halflings est\u00e3o, quase sempre, descal\u00e7os.\n\nSuas fei\u00e7\u00f5es s\u00e3o bonachonas, com bochechas grandes brilhosas e rosadas, seus cabelos s\u00e3o encaracolados, grossos e volumosos, como se tivessem sido penteados despretensiosamente com as m\u00e3os.\n\nS\u00e3o trabalhadores eficientes e met\u00f3dicos. Buscam realizar suas tarefas com disciplina e corre\u00e7\u00e3o para poderem desfrutar daquilo que mais gostam: o \u00f3cio regado a doses cavalares de conforto.\n\nGostam de viver bem, de comer com fartura, contar hist\u00f3rias exageradamente longas e de humor duvidoso. Apesar disso, s\u00e3o bons companheiros, sempre amig\u00e1veis, se voc\u00ea n\u00e3o se importar com hist\u00f3rias intermin\u00e1veis e piadas com pouco sentido.\n\nO ideal de vida dos Halflings \u00e9 viver em paz e sob o signo da calma, trabalhar diariamente, descansar \u00e0 beira do rio, ler, comer (de prefer\u00eancia 6 refei\u00e7\u00f5es por dia) e ver o tempo passar, em paz, na tranquilidade e longe da correria e das preocupa\u00e7\u00f5es.\n\nSe o conforto \u00e9 o objeto de desejo de um halfling, outra caracter\u00edstica \u00e9 importante para defini-los: a curiosidade.\n\nHalflings sentem um magnetismo com coisas que n\u00e3o conhecem e com assuntos que n\u00e3o dominam. Um halfling explora, investiga, toca. As lendas e hist\u00f3rias de locais distantes e de terras desconhecidas aliadas ao seu conhecido destemor, s\u00e3o uma das poucas coisas capazes de faz\u00ea-los abandonar suas tocas e um bom livro \u00e0 beira da lareira.\n\nTolerantes, est\u00e1veis e soci\u00e1veis, os halflings s\u00e3o sem d\u00favida os amigos mais f\u00e1ceis de se fazer, fora de um indiv\u00edduo de sua pr\u00f3pria ra\u00e7a.\n\n# Personalidade\n\nSe estabilidade \u00e9 o adjetivo do halfling, a curiosidade \u00e9 a contradi\u00e7\u00e3o que os define. Vivendo em constante conflito entre comodidade e curiosidade, halflings t\u00eam \u201ccontradi\u00e7\u00e3o\u201d como nome do meio.\n\nContradi\u00e7\u00e3o a qual se une a outra igualmente intrigante: a quest\u00e3o ambi\u00e7\u00e3o-riqueza. N\u00e3o que eles n\u00e3o se importem com dinheiro, sim, eles se importam, mas, se para outras ra\u00e7as dinheiro \u00e9 poder, para os halflings dinheiro \u00e9 conforto e tranquilidade.\n\nUma cadeira estofada com tecido confort\u00e1vel, ideal para uma sesta ap\u00f3s uma das muitas refei\u00e7\u00f5es di\u00e1rias, faz mais a cabe\u00e7a de um halfling do que um trono cravejado de gemas preciosas.\n\nAo mesmo tempo, halflings n\u00e3o possuem um forte desejo de ac\u00famulo e ambi\u00e7\u00f5es por poder. Voc\u00ea dificilmente ver\u00e1 um halfling ostentando riqueza ou divagando sobre conquistas pol\u00edticas. Eles s\u00e3o muito mais pr\u00e1ticos nos seus desejos: a sensa\u00e7\u00e3o de pertencimento, a vida em comunidade, as amizades, o conforto, as viagens ao desconhecido, tudo isso temperado com uma boa dose de destemor.\n\n# O Halfling nas Aventuras\n\nHalflings precisam de poucos motivos para se tornarem aventureiros, como sua curiosidade e seu destemor.\n\nJ\u00e1 suas buscas podem ser bem mais variadas. Podem estar indo atr\u00e1s de um rem\u00e9dio para o t\u00e9dio, de divers\u00e3o ou de uma boa hist\u00f3ria para contar. Os cl\u00e1ssicos liter\u00e1rios dos halflings quase sempre descrevem aventuras, her\u00f3is e seus feitos e, em menor n\u00famero, biografias de halflings aventureiros com uma boa dose de exagero (ou n\u00e3o).\n\nHalflings se aventuram porque querem expandir seus horizontes, e n\u00e3o t\u00eam nenhum medo do desconhecido.\n\nEles querem conhecer, ocupar-se, entender e participar.\n\n## Perguntas para se responder ao criar um halfling:\n\n* **Pergunta 1:** _O que seu halfling sentiu quando decidiu se aventurar?_\n* **Pergunta 2:** _O que seu halfling busca enquanto se aventura?_\n* **Pergunta 3:** _O que seu halfling planeja fazer com o que ganhar quando se aposentar?_\n",
     "movement": 6,
     "infravision": 0,
     "alignment_tendency": "neutro",
+    "picture": "https://public.olddragon.com.br/t7nwkll1zaxtorirhh6palz12lkz",
+    "thumb_picture": "https://public.olddragon.com.br/flrpr5qlgdp2id1ubp02vzo4ygzl",
     "abilities": [
       {
         "name": "Furtivos",
@@ -367,106 +204,28 @@
       {
         "page": 24,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
     "url": "https://olddragon.com.br/racas/halfling.json"
   },
   {
-    "id": "halfling-robusto",
-    "type": "CharacterRace",
-    "name": "Halfling Robusto",
-    "flavor": "Sub-Ra\u00e7a de Halfling.",
-    "movement": 6,
-    "infravision": 0,
-    "alignment_tendency": "neutro",
-    "abilities": [
-      {
-        "name": "Esconder-se nos T\u00faneis",
-        "description": "Robustos s\u00e3o especialistas em passar despercebidos, conseguindo se esconder com uma chance de 1-2 em 1d6 quando est\u00e3o em t\u00faneis, cavernas e no subterr\u00e2neo em geral.\n\nSe o robusto adotar a classe Ladr\u00e3o, \u00e9 acrescentado um b\u00f4nus de 1 no seu talento Furtividade.\n"
-      },
-      {
-        "name": "Destemidos",
-        "description": "Os halflings robustos s\u00e3o muito resistentes a efeitos que afetem sua for\u00e7a de vontade, recebendo um b\u00f4nus de +1 em qualquer teste de JPS.\n"
-      },
-      {
-        "name": "Bons de Mira",
-        "description": "Pela tradi\u00e7\u00e3o racial de jogos de arremesso, para os halflings robustos qualquer ataque \u00e0 dist\u00e2ncia com uma arma de arremesso \u00e9 considerado um ataque f\u00e1cil.\n"
-      },
-      {
-        "name": "Pequenos",
-        "description": "Devido \u00e0 baixa estatura e agilidade, todos os ataques provenientes de criaturas grandes ou maiores s\u00e3o considerados ataques dif\u00edceis para acertar um halfling robusto.\n"
-      },
-      {
-        "name": "Restri\u00e7\u00f5es",
-        "description": "Por n\u00e3o terem tradi\u00e7\u00e3o na forja de armaduras, os halflings robustos usam apenas armaduras de couro, a n\u00e3o ser se armadura for confeccionada especialmente para ele.\n\nUm halfling robusto n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um halfling robusto s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 7,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/halfling-robusto.json"
-  },
-  {
-    "id": "halfling-tipossalto",
-    "type": "CharacterRace",
-    "name": "Halfling Tipossalto",
-    "flavor": "Sub-Ra\u00e7a de Halfling.",
-    "movement": 6,
-    "infravision": 0,
-    "alignment_tendency": "neutro",
-    "abilities": [
-      {
-        "name": "Esconder-se na Mata",
-        "description": "Tipossaltos s\u00e3o especialistas em esconder-se em bosques e florestas em geral. Possuem uma chance de 1 em 1d6 de se esconder nestas condi\u00e7\u00f5es, exatamente como a Furtividade de um Ladr\u00e3o e, portanto, indetect\u00e1vel mesmo caso algu\u00e9m o procure.\n\nSe o tipossalto adotar a classe Ladr\u00e3o, \u00e9 acrescentado um b\u00f4nus de 1 no seu talento Furtividade.\n"
-      },
-      {
-        "name": "Destemidos",
-        "description": "Os halflings tipossaltos s\u00e3o muito resistentes a efeitos que afetem sua for\u00e7a de vontade, recebendo um b\u00f4nus de +1 em qualquer teste de JPS.\n"
-      },
-      {
-        "name": "Bons de Mira",
-        "description": "Pela tradi\u00e7\u00e3o racial de jogos de arremesso, para os halflings tipossaltos qualquer ataque \u00e0 dist\u00e2ncia com uma arma de arremesso \u00e9 considerado um ataque f\u00e1cil.\n"
-      },
-      {
-        "name": "Pequenos",
-        "description": "Devido \u00e0 baixa estatura e agilidade, todos os ataques provenientes de criaturas grandes ou maiores s\u00e3o considerados ataques dif\u00edceis para acertar um halfling tipossalto.\n"
-      },
-      {
-        "name": "Restri\u00e7\u00f5es",
-        "description": "Por n\u00e3o terem tradi\u00e7\u00e3o na forja de armaduras, os halflings tipossaltos usam apenas armaduras de couro, a n\u00e3o ser se armadura for confeccionada especialmente para ele.\n\nUm halfling tipossalto n\u00e3o pode usar armas grandes, sendo restrito apenas a armas pequenas ou m\u00e9dias. Um halfling tipossalto s\u00f3 consegue usar uma arma m\u00e9dia como se fosse uma arma de duas m\u00e3os.\n"
-      }
-    ],
-    "fontes": [
-      {
-        "page": 8,
-        "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/kit-do-jogador.json",
-        "digital_item_url": "https://olddragon.com.br/livros/kit-do-jogador.json"
-      }
-    ],
-    "url": "https://olddragon.com.br/racas/halfling-tipossalto.json"
-  },
-  {
     "id": "humano",
     "type": "CharacterRace",
     "name": "Humano",
     "flavor": "Os mais Comuns, Vers\u00e1teis e Adapt\u00e1veis Aventureiros.",
+    "access": "complete",
+    "description": "Com enorme variabilidade cultural e disseminados por todos os cantos do mundo, os humanos possuem muita facilidade em assumir o lugar central na maioria dos cen\u00e1rios e, quando analisados sob essa \u00f3tica, revelam sua verdadeira for\u00e7a.\n\nVoc\u00ea conseguir\u00e1 encontrar humanos em praticamente todos os habitats poss\u00edveis, vivendo sob todos os climas, domando o ambiente ao seu bel prazer. Eles se adaptam, se moldam e se espalham como quase nenhuma outra ra\u00e7a \u2013 e fazem isso r\u00e1pido, muito r\u00e1pido.\n\nPossuem as mais variadas caracter\u00edsticas f\u00edsicas, muitos tons de cabelo, cores de olhos, pesos e alturas. S\u00e3o encontrados dos mais franzinos aos mais brutamontes. Se aparentam serem fr\u00e1geis, com uma vida curta, carecendo de poderes ou habilidades especiais, compensam com sua capacidade de organiza\u00e7\u00e3o e expans\u00e3o, que podem ser impressionantes.\n\nPara o padr\u00e3o dos mundos de fantasia, humanos se reproduzem muito r\u00e1pido. Expandem-se com extrema velocidade, ocupam \u00e1reas as quais outras ra\u00e7as n\u00e3o conseguem e, por viverem pouco se comparados a outras ra\u00e7as, se relacionam com o tempo de uma forma totalmente diferente. Durante o per\u00edodo da inf\u00e2ncia de um elfo, um Imp\u00e9rio humano pode se erguer, viver seu apogeu e desaparecer por completo. Acredite, isso pode ser assustador para um elfo ou um an\u00e3o.\n\nIsso faz com que os humanos sejam a ra\u00e7a padr\u00e3o dos mundos de Fantasia, menos pelo seu poder como indiv\u00edduo e muito mais pela sua capacidade de se organizar, de assimilar, se desenvolver e ocupar.\n\n# Personalidade\n\nComo na apar\u00eancia f\u00edsica, os humanos s\u00e3o diversos e vers\u00e1teis. Sua personalidade \u00e9 plural. Abra\u00e7am todas as linhas de pensamento e \u00e9 dif\u00edcil estabelecer um padr\u00e3o de pensamento e comportamento quando falamos de humanos.\n\nSe observados pelo prisma temporal, os humanos s\u00e3o ultrarr\u00e1pidos, pois aprendem t\u00e9cnicas e tecnologias as quais avan\u00e7am e melhoram no espa\u00e7o de uma \u00fanica gera\u00e7\u00e3o. Quando se expandem, nunca atacam e fogem em seguida. Sempre dominam, se estabelecem, permanecem, colonizam e s\u00f3 v\u00e3o embora quando sua for\u00e7a pol\u00edtica e de organiza\u00e7\u00e3o social os impede de continuar onde est\u00e3o.\n\nHumanos s\u00e3o afeitos a quantidade. Se um elfo leva anos para forjar uma cimitarra obra-prima, aplicando t\u00e9cnicas beirando o sobrenatural na forja, humanos abra\u00e7am a produtividade e quantidade.\n\nDo ponto de vista da pluralidade, apesar de parecer um contrassenso, os humanos aceitam bem as diferen\u00e7as, sobretudo se comparados com outras ra\u00e7as. Convivem com an\u00f5es, halflings e elfos, algumas vezes at\u00e9 mesmo at\u00e9 assimilando suas col\u00f4nias, desde que, claro, estes estrangeiros n\u00e3o impe\u00e7am seus cont\u00ednuos planos de expans\u00e3o, ac\u00famulo de poder e sobreviv\u00eancia.\n\n# O Humano nas Aventuras\n\nO humano aventureiro \u00e9 um retrato do humano padr\u00e3o. Adapt\u00e1vel, imaginativo, aguerrido e ambicioso.\n\nAventuram-se pelas mais diversas raz\u00f5es \u2013 desde para se sustentar at\u00e9 para acumular poder, gl\u00f3ria ou fama. A ambi\u00e7\u00e3o do humano, por qualquer motivo que seja, \u00e9 a for\u00e7a motriz a qual os tira do conforto de suas choupanas levando-os aos t\u00faneis escuros dos subterr\u00e2neos.\n\nEles querem deixar um legado, fazer seu nome famoso, virar uma lenda e se tornar um exemplo.\n\nHumanos aventureiros s\u00e3o orgulhosos por deixarem sua marca no mundo.\n\n## Perguntas para se responder ao criar um humano:\n\n* **Pergunta 1:** _O que seu humano usa como motivo para aventurar-se?_\n* **Pergunta 2:** _O que seu humano respeita? O que ele busca defender?_\n* **Pergunta 3:** _O que seu humano odeia? O que ele deseja destruir?_\n",
     "movement": 9,
     "infravision": 0,
     "alignment_tendency": null,
+    "picture": "https://public.olddragon.com.br/kky9yqsxqgn4pyzvvoxz2twjfeu0",
+    "thumb_picture": "https://public.olddragon.com.br/bzzn9uwm2kskmpvixqbdsyj00cts",
     "abilities": [
       {
         "name": "Aprendizado",
@@ -481,13 +240,11 @@
       {
         "page": 18,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb1.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb1.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -498,9 +255,13 @@
     "type": "CharacterRace",
     "name": "Meio-Elfo",
     "flavor": "Metade de dois mundos, sem pertencer a nenhum deles.",
+    "access": "complete",
+    "description": "Os meio-elfos s\u00e3o o fruto incomum da uni\u00e3o entre elfos e humanos e, como resultado, acabam sendo vistos com reserva entre as duas civiliza\u00e7\u00f5es.\n\nPara eles h\u00e1 pouca margem de manobra, sobre onde se colocar. Ou se retraem, vivendo \u00e0 margem de tudo e de todos, ou usam sua meia entrada entre humanos e elfos como uma oportunidade de se destacar pela intera\u00e7\u00e3o.\n\nMeio-elfos est\u00e3o exatamente no meio do caminho entre homens e elfos quando falamos de apar\u00eancia f\u00edsica.\n\nS\u00e3o mais franzinos que um homem, com uma complei\u00e7\u00e3o f\u00edsica mais delicada, mas s\u00e3o sensivelmente mais encorpados e menos longil\u00edneos que os elfos.\n\nSuas fei\u00e7\u00f5es s\u00e3o ora t\u00edpicas de uma origem ora de outra. Se seus olhos s\u00e3o amendoados e as orelhas levemente mais pontudas que o normal, como a dos elfos, tamb\u00e9m desenvolvem barbas e possuem cabelos e olhos mais t\u00edpicos dos humanos.\n\nPossuem a versatilidade e a praticidade dos humanos, mas mant\u00eam o gosto pelas artes arcanas e a vida silvestre. Alguns, principalmente os criados entres os elfos, podem ser inclusive xen\u00f3fobos, repassando aos outros o sentimento de segrega\u00e7\u00e3o que costumam sofrer de seus pares de sangue puro.\n\nUm meio-elfo vive onde seus pais se estabelecem. Se crescerem entre os humanos, ser\u00e3o oriundos de cidades ou comunidades rurais, mas, se cresceram entre os elfos, compartilhar\u00e3o com estes os ambientes florestais, devido a liga\u00e7\u00e3o da ra\u00e7a com as \u00e1rvores e a vida silvestre em geral.\n\nMeio-elfos n\u00e3o criam agrupamentos raciais e n\u00e3o possuem cultura pr\u00f3pria, visto que vivem entre comunidades \u00e9lficas e humanas.\n\n# Personalidade\n\nSendo sempre muito humano para ser um elfo, e elfo o bastante para ser um humano de verdade, essa \u00e9 a dicotomia que um meio-elfo sente desde que passa a se entender como gente.\n\nMais do que algo que o destaca, \u00e9 algo que o define. Que faz ele ser o que ele \u00e9.\n\nOs efeitos dessa divis\u00e3o constante na sua cabe\u00e7a \u00e9 uma personalidade em eterno conflito.\n\nSer o que todos gostariam que ele fosse, ou dar vaz\u00e3o \u00e0quilo que ele sente que \u00e9 verdadeiramente?\n\nOcultar aquilo que n\u00e3o corresponde \u00e0s expectativas de todos ao seu redor ou dar ainda mais destaque e se diferenciar dando pouca ou nenhuma aten\u00e7\u00e3o ao que todos pensam?\n\nBoa parte das respostas a estas perguntas prov\u00e9m da sua inf\u00e2ncia. Onde nasceu, onde cresceu, que ra\u00e7a ele teve no seu entorno ao ser criado e formar sua personalidade. Este \u00e9 um \u00f3timo ponto de partida para entender um meio-elfo.\n\n# O Meio-Elfo nas Aventuras\n\nSe abandonar uma vida pregressa \u00e9 sempre doloroso, para um meio-elfo isso passa a ser uma quest\u00e3o de autoconhecimento. Meio-elfos s\u00e3o aventureiros ideais por isso. Partir, para meio-elfos, \u00e9 natural.\n\nEntender sua outra origem faz parte dessa busca incessante de conhecer o mundo. E tamb\u00e9m \u00e9 a melhor forma para se conectar com uma cultura que faz parte de sua hist\u00f3ria, mas que n\u00e3o esteve presente na sua inf\u00e2ncia.\n\nAl\u00e9m disso, h\u00e1 a necessidade de provar-se capaz, para ambos os lados, de mostrar que n\u00e3o \u00e9 um arremedo de duas ra\u00e7as, e sim um indiv\u00edduo que deve, que pode e que consegue.\n\nSe entre os elfos tudo muda de forma extremamente devagar, e entre humanos a curiosidade pode ser cruel, empunhar uma espada num ermo qualquer pode ser o meio ideal de entender onde est\u00e1 o seu lugar neste mundo.\n\n## Perguntas para se responder ao criar um aventureiro meio-elfo:\n\n* **Pergunta 1:** _Onde seu meio-elfo nasceu e cresceu, entre os humanos ou entre os elfos?_\n* **Pergunta 2:** _Como seu meio-elfo lida com o fato de um dos seus pais morrer enquanto voc\u00ea \u00e9 jovem e o outro morrer muito tempo depois?_\n* **Pergunta 3:** _O seu meio-elfo acredita pertencer a qual lugar?_\n",
     "movement": 9,
     "infravision": 9,
     "alignment_tendency": "caotico",
+    "picture": "https://public.olddragon.com.br/axkkol5th5qz71ycer6vtbbv4m9x",
+    "thumb_picture": "https://public.olddragon.com.br/ihon5kbxszkl81qcgt11eodxpvxq",
     "abilities": [
       {
         "name": "Aprendizado",
@@ -523,13 +284,11 @@
       {
         "page": 14,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/lb2.json",
         "digital_item_url": "https://olddragon.com.br/livros/lb2.json"
       },
       {
         "page": null,
         "compact": true,
-        "livro_url": "https://olddragon.com.br/livros/srd.json",
         "digital_item_url": "https://olddragon.com.br/livros/srd.json"
       }
     ],
@@ -540,9 +299,13 @@
     "type": "CharacterRace",
     "name": "Meio-Elfo Kaduriano",
     "flavor": "Os aventureiros desprezados por sua origem e perseguidos pelo que s\u00e3o.",
+    "access": "complete",
+    "description": "Inicialmente oriundos de relacionamentos entre humanos e povos elfos, os Meio-Elfos se desenvolveram em uma cultura pr\u00f3pria, com todas as suas peculiaridades.\n\nA variedade de caracter\u00edsticas f\u00edsicas dos Meio-Elfos de Kadur \u00e9 impressionante, devido a mistura de suas linhagens de origem. Mesmo assim, o Meio-Elfo pode ser melhor descrito como um humano, com algumas caracter\u00edsticas f\u00edsicas \u00e9lficas. Jogue na lista abaixo e determine as caracter\u00edsticas do seu Meio-Elfo:\n\n* **1 chance em 1d6** de possuir os tra\u00e7os faciais delicados, finos e graciosos como um elfo;\n\n* **5 chances em 1d6** de possuir as orelhas longas e pontiagudas como um elfo;\n\n* **4 chances em 1d6** de possuir olhos amendoados e apenas levemente alongados;\n\n* **2 chances em 1d6** de possuir cabelos, barbas e demais pelos corporais nas cores t\u00edpicas dos elfos;\n\n* **2 chances em 1d6** de possuir cabelos, mas n\u00e3o possuir nenhum outro tipo de pelo corporal como os elfos;\n\n* **3 chances em 1d6** de possuir tamanho, peso e estrutura corporal de um elfo; \n\n* **5 chances em 1d6** de possuir infertilidade total, sendo absolutamente incapaz de gerar filhos e descendentes de sangue.\n\n# Personalidade\n\nMeio-Elfos costumam se tornar adultos pr\u00f3ximo aos 30 anos, idade esta em que a imensa maioria dos pais humanos j\u00e1 n\u00e3o estar\u00e3o mais vivos, o que acarreta um desenvolvimento afetivo prec\u00e1rio e mais problemas sociais e psicol\u00f3gicos, os tornando \u00f3rf\u00e3os envelhecidos por\u00e9m ainda totalmente imaturos mentalmente.\n\nAssocia-se a isso o fato do Meio-Elfo se considerar um estrangeiro em qualquer lugar que esteja, jamais conseguindo se inserir por inteiro em qualquer sociedade humana e por se achar, dentre outras coisas, incapaz (fruto dos traumas devido ao lento desenvolvimento), um p\u00e1ria (Meio-Elfos s\u00e3o aberra\u00e7\u00f5es aos olhos das culturas humanas), um fugitivo (j\u00e1 que a qualquer momento pode ser capturado e vendido aos elfos para ser escravizado).\n\nEssas caracter\u00edsticas reunidas somadas a m\u00e1 forma\u00e7\u00e3o psicol\u00f3gica faz com que os Meio-Elfos desenvolvam durante a vida adulta algumas doen\u00e7as mentais que, se n\u00e3o s\u00e3o incapacitantes, os tornar\u00e3o sofredores por toda a vida.\n\n# O Meio-Elfo nas Aventuras\n\nOs Meio-Elfos sofrem de muito preconceito na Era da Desola\u00e7\u00e3o. Eles sofrem com a desconfian\u00e7a de todas as demais ra\u00e7as de Ryanon, fazendo com que eles sempre se considerem estrangeiros em qualquer lugar que estejam.\n\nSofrem persegui\u00e7\u00f5es di\u00e1rias e constantemente s\u00e3o tra\u00eddos. Mais do que ningu\u00e9m precisam escolher a dedo em quem confiar, j\u00e1 que sua mania de persegui\u00e7\u00e3o n\u00e3o \u00e9 fruto da sua mente, mas infelizmente bem real.\n\nAssim, a carreira mais atraente para um Meio-Elfo \u00e9 a de Ca\u00e7ador de Recompensas, pois a Licen\u00e7a de Ca\u00e7ador permite, na maioria das vezes, que ele possa caminhar livremente em regi\u00f5es dominadas pelas Inquisi\u00e7\u00f5es das Tr\u00eas Igrejas, sempre dispostas a persegu\u00ed-los.\n\n## Perguntas para se responder ao criar um Meio-Elfo:\n\n* **Pergunta 1:** _Como foi a inf\u00e2ncia de seu Meio-Elfo? E sua rela\u00e7\u00e3o com os pais?_\n* **Pergunta 2:** _Qual o efeito na sua forma\u00e7\u00e3o de ter sido criado com proximidade apenas com uma das ra\u00e7as da sua origem?_\n* **Pergunta 3:** _O que seu Meio-Elfo pensa do futuro? O que ele vislumbra como objetivo?_\n",
     "movement": 9,
     "infravision": 9,
     "alignment_tendency": "caotico",
+    "picture": "https://public.olddragon.com.br/1hqdaikzichvn9un90hrzprjuym1",
+    "thumb_picture": "https://public.olddragon.com.br/riyttzg4mzo1txx6leh3q3uth1b8",
     "abilities": [
       {
         "name": "Aprendizado",
@@ -569,7 +332,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -580,9 +342,13 @@
     "type": "CharacterRace",
     "name": "Tenebrum",
     "flavor": "Os marginalizados aventureiros frutos de experimentos arcanos horrendos.",
+    "access": "complete",
+    "description": "Criados como uma tentativa de combater o Deus Louco, os Tenebruns s\u00e3o fruto de uma expri\u00eancia macabra que visava criar uma esp\u00e9cie de super soldado, usando o sangue de marcados, durante as Guerras do \u00caxodo.\n\nDepois de v\u00e1rias tentativas e erros, de muitas mortes e transforma\u00e7\u00f5es horrendas, os guerreiros e guerreiras selecionados se transformaram nos Tenebruns, super-soldados incans\u00e1veis, incapazes de sentir dor, e totalmente imunes aefeitos m\u00e1gicos.\n\nEntretanto, o verdadeiro pre\u00e7o por esses poderes foi revelado nas primeiras batalhas contra as for\u00e7as de Nastur, durante as Guerras do \u00caxodo. Os Tenebruns eram, na realidade, uma nova ra\u00e7a de criaturas com almas por\u00e9m com corpos mortos-vivos. Mas apesar dessa natureza sombria, de alguma forma a humanidade dos tenebruns foi preservada.\n\nFisicamente possuem o mesmo porte f\u00edsico dos humanos, muito embora possuam a pele branca e p\u00e1lida com cicatrizes aparentes e veias escuras e saltadas. Ao redor dos olhos sua pele \u00e9 negra com aspecto esfuma\u00e7ado, e os cabelos s\u00e3o negros, brilhosos e extremamente lisos.\n\n# Personalidade\n\nPsicologicamente os Tenebruns s\u00e3o arredios, desconfiados e se sentem pouco a vontade perto de estranhos e dificilmente fazem amizades, a n\u00e3o ser com outros tenebruns. Preferem residir nas grandes cidades humanas onde vivem como cidad\u00e3os de segunda categoria em guetos pr\u00f3prios ao inv\u00e9s de pequenas cidades onde a intoler\u00e2ncia frequentemente os coloca em situa\u00e7\u00f5es delicadas.\n\nO fato de terem de manter seus corpos com a compra de cad\u00e1veres e partes de corpos, faz com que sejam ainda mais marginalizados. Como as compras precisam ser realizadas com traficantes de corpos ou lojas do Mercado Negro, isso os deixa ainda mais expostos aos rigores da lei e toda a sorte de persegui\u00e7\u00f5es, assim como a necessidade de beber sangue de seres vivos para manterem seus corpos mortos-vivos em funcionamento, os tornam sempre suspeitos de serem autores de assassinatos misteriosos.\n\n# O Tenebrum nas Aventuras\n\nUm Tenebrum \u00e9 sinal de mau agouro, e constantemente s\u00e3o impedidos de entrar em resid\u00eancias, de frequentar tavernas ou mesmo caminhar ao lado de um humano.\n\nA presen\u00e7a de um tenebrum \u00e9 t\u00e3o indesejada que eles nem sequer s\u00e3o escravizados. N\u00e3o h\u00e1 mercado para eles.\n\nEssa condi\u00e7\u00e3o faz com que a maioria dos tenebruns vivam \u00e0 margem da sociedade, mantendo verdadeiros mercados de \u00f3rg\u00e3os e membros humanos clandestinos, profanando sepulturas frescas ou mesmo assassinando portadores de corpos frescos para se manterem vivos.\n\nIsso por si s\u00f3 j\u00e1 os coloca em uma posi\u00e7\u00e3o de desvantagem ao se aventurarem. Entretanto, quando conseguem espa\u00e7o em um c\u00edrculo de aventuras, sua habilidade com facas os tornam combatentes perfeitos ou ladr\u00f5es e assassinos competentes, sendo de extrema valia para grupos de aventureiros.\n\n## Perguntas para se responder ao criar um Tenebrum:\n\n* **Pergunta 1:** _Como voc\u00ea lida com sua condi\u00e7\u00e3o bizarra de vida?_\n* **Pergunta 2:** _Quais as principais sequelas e marcas que sua condi\u00e7\u00e3o de Tenebrum deixou?_\n* **Pergunta 3:** _Como que a impossibilidade de ser morto se traduz no seu dia a dia?_\n",
     "movement": 9,
     "infravision": 0,
     "alignment_tendency": "neutro",
+    "picture": "https://public.olddragon.com.br/orhxm9g7hfzqbjbdzr23mudg74v8",
+    "thumb_picture": "https://public.olddragon.com.br/57rdqpxkxzw7pbngub5q3n4vooj5",
     "abilities": [
       {
         "name": "P\u00e1ria",
@@ -605,7 +371,6 @@
       {
         "page": null,
         "compact": false,
-        "livro_url": "https://olddragon.com.br/livros/legiao-od2.json",
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],

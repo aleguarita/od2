@@ -1,8 +1,7 @@
 import requests
 import json
-import pathlib
 
-from .CONFIG import PREFIXO, URL_ESPECIFICAS, URL_BASE
+from CONFIG import PREFIXO, URL_ESPECIFICAS, URL_BASE
 
 
 def pegar_todos_dados(info_base: str):
@@ -37,12 +36,12 @@ def gerar_arquivo(arquivo_base: str):
 
 if __name__ == '__main__':
     print('Gerando os arquivos, aguarde')
-    print('-'.ljust(30, '-'))
+    print('-'.ljust(50, '-'))
 
     for chave in URL_ESPECIFICAS.keys():
         print(f'Gerando {PREFIXO}{URL_ESPECIFICAS[chave]}')
         gerar_arquivo(chave)
-        print(f'  {URL_ESPECIFICAS[chave]} finalizado')
+        print(f'        {URL_ESPECIFICAS[chave]} finalizado')
 
     print('-'.ljust(30, '-'))
     print('Arquivos gerados')

@@ -1,7 +1,6 @@
-certifi==2024.8.30
-charset-normalizer==3.4.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
 idna==3.10
 requests==2.32.3
-setuptools==75.2.0
 TTRPGaag==5.0.0
-urllib3==2.2.3
+urllib3==2.4.0
