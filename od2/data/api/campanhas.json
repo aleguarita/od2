@@ -1,0 +1,32 @@
+[
+  {
+    "id": "df0b14ba-c7d3-4324-86fc-7b4abe5bb478",
+    "type": "Campaign",
+    "title": "Teste",
+    "intro": "teste",
+    "created_at": "2024-08-28T14:15:15.834-03:00",
+    "updated_at": "2024-08-28T14:15:15.834-03:00",
+    "personagens": [
+      {
+        "id": "6bc9a4f2-f71e-4418-a604-52e547d359b8",
+        "name": "Hagnos",
+        "level": 1,
+        "health_points": 8,
+        "max_hp": 10,
+        "forca": 13,
+        "destreza": 17,
+        "constituicao": 10,
+        "inteligencia": 3,
+        "sabedoria": 8,
+        "carisma": 15,
+        "ac": 18,
+        "created_at": "2024-08-28T14:09:42.403-03:00",
+        "updated_at": "2025-02-01T12:41:18.298-03:00",
+        "race": "anao",
+        "class": "anao-aventureiro",
+        "url": "https://olddragon.com.br/personagens/6bc9a4f2-f71e-4418-a604-52e547d359b8.json"
+      }
+    ],
+    "url": "https://olddragon.com.br/campanhas/df0b14ba-c7d3-4324-86fc-7b4abe5bb478.json"
+  }
+]

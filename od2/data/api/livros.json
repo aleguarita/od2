@@ -2,7 +2,7 @@
   {
     "id": "lb1",
     "type": "DigitalItem",
-    "title": "Livro I: Regras B\u00e1sicas",
+    "title": "Livro I: Regras Básicas",
     "url": "https://olddragon.com.br/livros/lb1.json"
   },
   {
@@ -20,20 +20,26 @@
   {
     "id": "srd",
     "type": "DigitalItem",
-    "title": "SRD: Documento de Refer\u00eancia",
+    "title": "SRD: Documento de Referência",
     "url": "https://olddragon.com.br/livros/srd.json"
   },
   {
     "id": "arkhi",
     "type": "DigitalItem",
-    "title": "Cen\u00e1rio de Campanha: ARKHI",
+    "title": "Cenário de Campanha: ARKHI",
     "url": "https://olddragon.com.br/livros/arkhi.json"
   },
   {
     "id": "valansia",
     "type": "DigitalItem",
-    "title": "Cen\u00e1rio de Campanha: Her\u00f3is de Valansia",
+    "title": "Cenário de Campanha: Heróis de Valansia",
     "url": "https://olddragon.com.br/livros/valansia.json"
+  },
+  {
+    "id": "legiao",
+    "type": "DigitalItem",
+    "title": "Cenário de Campanha: Legião - A Era da Desolação",
+    "url": "https://olddragon.com.br/livros/legiao.json"
   },
   {
     "id": "cl1",
@@ -44,7 +50,7 @@
   {
     "id": "tu1",
     "type": "DigitalItem",
-    "title": "TU1: A \u00daltima Caravana do Outono",
+    "title": "TU1: A Última Caravana do Outono",
     "url": "https://olddragon.com.br/livros/tu1.json"
   },
   {
@@ -68,13 +74,13 @@
   {
     "id": "ja1",
     "type": "DigitalItem",
-    "title": "JA1: O Santu\u00e1rio Esquecido",
+    "title": "JA1: O Santuário Esquecido",
     "url": "https://olddragon.com.br/livros/ja1.json"
   },
   {
     "id": "odday11",
     "type": "DigitalItem",
-    "title": "OD Day 2011 Remaster: A \u00c1rvore Morta dos Kobolds Infernais",
+    "title": "OD Day 2011 Remaster: A Árvore Morta dos Kobolds Infernais",
     "url": "https://olddragon.com.br/livros/odday11.json"
   },
   {
@@ -98,25 +104,31 @@
   {
     "id": "odday15",
     "type": "DigitalItem",
-    "title": "OD Day 2015 Remaster: Fuga nas Terras B\u00e1rbaras",
+    "title": "OD Day 2015 Remaster: Fuga nas Terras Bárbaras",
     "url": "https://olddragon.com.br/livros/odday15.json"
   },
   {
     "id": "odday16",
     "type": "DigitalItem",
-    "title": "OD Day 2016 Remaster: Maldi\u00e7\u00e3o na Garra da Mant\u00edcora",
+    "title": "OD Day 2016 Remaster: Maldição na Garra da Mantícora",
     "url": "https://olddragon.com.br/livros/odday16.json"
+  },
+  {
+    "id": "odday17",
+    "type": "DigitalItem",
+    "title": "OD Day 2017 Remaster: Caçada nas Terras Gélidas",
+    "url": "https://olddragon.com.br/livros/odday17.json"
   },
   {
     "id": "odday21",
     "type": "DigitalItem",
-    "title": "OD Day 2021: Os Salo\u0303es Eternos de Thalaknasus",
+    "title": "OD Day 2021: Os Salões Eternos de Thalaknasus",
     "url": "https://olddragon.com.br/livros/odday21.json"
   },
   {
     "id": "odday22",
     "type": "DigitalItem",
-    "title": "OD Day 2022: Os Ap\u00f3statas do Deus Polvo",
+    "title": "OD Day 2022: Os Apóstatas do Deus Polvo",
     "url": "https://olddragon.com.br/livros/odday22.json"
   },
   {
@@ -128,7 +140,7 @@
   {
     "id": "odday24",
     "type": "DigitalItem",
-    "title": "OD Day 2024: Incurs\u00e3o ao Charco das Feras",
+    "title": "OD Day 2024: Incursão ao Charco das Feras",
     "url": "https://olddragon.com.br/livros/odday24.json"
   },
   {
@@ -146,13 +158,13 @@
   {
     "id": "legiao-od2",
     "type": "DigitalItem",
-    "title": "Jogando Legi\u00e3o com Old Dragon 2",
+    "title": "Jogando Legião com Old Dragon 2",
     "url": "https://olddragon.com.br/livros/legiao-od2.json"
   },
   {
     "id": "monstros-legiao",
     "type": "DigitalItem",
-    "title": "Monstros & Inimigos II: N\u00f3s Somos a Legi\u00e3o",
+    "title": "Monstros & Inimigos II: Nós Somos a Legião",
     "url": "https://olddragon.com.br/livros/monstros-legiao.json"
   },
   {
