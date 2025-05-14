@@ -7,12 +7,14 @@ PASTA_SAIDA = "../od2/data/api"
 os.makedirs(PASTA_SAIDA, exist_ok=True)
 
 ENDPOINTS = {
+    "campanhas": "campanhas",
     "classes": "classes",
     "equipamentos": "equipamentos",
     "livros": "livros",
     "magias": "magias",
     "monstros": "monstros",
-    "racas": "racas"
+    "personagens": "personagens",
+    "racas": "racas",
 }
 
 

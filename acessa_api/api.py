@@ -29,8 +29,8 @@ def refresh_token():
     data = {
         "grant_type": "refresh_token",
         "refresh_token": token["refresh_token"],
-        "cliente_id": CLIENTE_ID,
-        "cliente_secret": CLIENTE_SECRET,
+        "cliente_id": CLIENT_ID,
+        "cliente_secret": CLIENT_SECRET,
     }
 
     response = requests.post(TOKEN_URL, data=data)

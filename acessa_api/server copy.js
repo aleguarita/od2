@@ -62,34 +62,6 @@ app.get("/", (req, res) => {
 
 app.get("/login", passport.authenticate("oauth2"));
 
-async function fetchAllPages(endpoint, token) {
-  const allData = [];
-  let url = `https://olddragon.com.br/${endpoint}.json`;
-
-  while (url) {
-    const response = await axios.get(url, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-
-    if (Array.isArray(response.data)) {
-      allData.push(...response.data);
-    } else {
-      // Se não for paginado ou não for array, apenas retorna direto
-      return response.data;
-    }
-
-    // Analisa o cabeçalho Link
-    const linkHeader = response.headers.link;
-    const nextMatch = linkHeader && linkHeader.match(/<([^>]+)>;\s*rel="next"/);
-    url = nextMatch ? nextMatch[1] : null;
-  }
-
-  return allData;
-}
-
-
 app.get("/callback", (req, res, next) => {
   passport.authenticate("oauth2", async (err, user, info) => {
     if (err) {
@@ -112,15 +84,21 @@ app.get("/callback", (req, res, next) => {
         const results = await Promise.all(
           endpoints.map(async (endpoint) => {
             try {
-              const data = await fetchAllPages(endpoint, req.user.accessToken);
-              return { endpoint, data };
+              const response = await axios.get(
+                `https://olddragon.com.br/${endpoint}.json`,
+                {
+                  headers: {
+                    Authorization: `Bearer ${req.user.accessToken}`,
+                  },
+                }
+              );
+              return { endpoint, data: response.data };
             } catch (error) {
               console.error(`Erro ao buscar ${endpoint}:`, error.message);
               return { endpoint, error: error.message };
             }
           })
         );
-
 
         // Gera HTML com todos os dados retornados
         const htmlSections = results

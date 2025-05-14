@@ -1,13 +1,13 @@
 import os
 
 # identificação
-CLIENTE_ID = os.getenv('ID')
-CLIENTE_SECRET = os.getenv('CHAVE')
+CLIENT_ID = os.getenv('CLIENT_ID')
+CLIENT_SECRET = os.getenv('CLIENT_SECRET')
 
 # autenticação
 AUTHORIZATION_URL = "https://olddragon.com.br/authorize"
 TOKEN_URL = "https://olddragon.com.br/token"
-REDIRECT_URI = "https://postman-echo.com/oauth/post"
+REDIRECT_URI = "https://postman-echo.com/post"
 
 # escopo autorizado
 SCOPE = "openid email content.read offline_access"

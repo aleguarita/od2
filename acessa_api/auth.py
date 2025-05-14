@@ -19,7 +19,7 @@ def load_token():
 
 def authorize():
     params = {
-        "cliente_id": CLIENTE_ID,
+        "cliente_id": CLIENT_ID,
         "response_type": "code",
         "redirect_uri": REDIRECT_URI,
         "scope": SCOPE,
@@ -38,8 +38,8 @@ def authorize():
         "grant_type": "authorization_code",
         "code": auth_code,
         "redirect_uri": REDIRECT_URI,
-        "cliente_id": CLIENTE_ID,
-        "client_secret": CLIENTE_SECRET,
+        "cliente_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
     }
     response = requests.post(TOKEN_URL, data=token_data)
 
