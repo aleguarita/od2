@@ -12,8 +12,20 @@ def converte_json(nome_arquivo: str):
             return json.loads(arquivo.read())
     else:
         return f'arquivo *{PREFIXO}{URL_ESPECIFICAS[nome_arquivo]}* não encontrado'
+    
 
-classes = converte_json('classes')
-racas = converte_json('raças')
-equipamentos = converte_json('equipamentos')
-monstros = converte_json('monstros')
+def filtrar_acesso_completo(nome_arquivo: str):
+    lista = converte_json(nome_arquivo)
+
+    if 'access' not in lista[0].keys():
+        return lista
+
+    return list(filter(lambda x: x.get('access') == 'complete', lista))
+
+
+classes = filtrar_acesso_completo('classes')
+equipamentos = filtrar_acesso_completo('equipamentos')
+livros = converte_json('livros')
+magias = filtrar_acesso_completo('magias')
+monstros = filtrar_acesso_completo('monstros')
+racas = filtrar_acesso_completo('raças')

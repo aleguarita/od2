@@ -4,7 +4,7 @@ const OAuth2Strategy = require("passport-oauth2");
 const session = require("express-session");
 const axios = require("axios");
 
-endpoints = [
+const endpoints = [
     "campanhas",
     "classes",
     "equipamentos",
@@ -13,6 +13,9 @@ endpoints = [
     "monstros",
     "personagens",
     "racas",
+    "https://olddragon.com.br/livros/lb1.json",
+    "https://olddragon.com.br/livros/lb2.json",
+    "https://olddragon.com.br/livros/lb3.json",
 ]
 
 passport.use(
@@ -64,7 +67,8 @@ app.get("/login", passport.authenticate("oauth2"));
 
 async function fetchAllPages(endpoint, token) {
   const allData = [];
-  let url = `https://olddragon.com.br/${endpoint}.json`;
+  let url = endpoint.startsWith("http") ? endpoint : `https://olddragon.com.br/${endpoint}.json`;
+
 
   while (url) {
     const response = await axios.get(url, {
@@ -133,8 +137,8 @@ app.get("/callback", (req, res, next) => {
               const escapedJson = jsonString.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
               return `
-                <h2>/${result.endpoint}.json</h2>
-                <button onclick="downloadJSON('${safeId}', '${result.endpoint}.json')">Baixar JSON</button>
+                <h2>${result.endpoint.replace("https://olddragon.com.br/", "/")}</h2>
+                <button onclick="downloadJSON('${safeId}', '${result.endpoint.replace(/^https?:\/\/[^/]+\/?/, "").replace(/\.json$/, "")}.json')">Baixar JSON</button>
                 <pre id="${safeId}">${escapedJson}</pre>
               `;
             }

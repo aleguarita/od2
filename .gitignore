@@ -163,3 +163,4 @@ cython_debug/
 
 .testando_execucao.py
 .vscode
+.testes_scripts
