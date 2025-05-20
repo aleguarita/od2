@@ -1,7 +1,7 @@
 import requests
 import json
 
-from CONFIG import PREFIXO, URL_ESPECIFICAS, URL_BASE
+from ..od2.CONFIG import PREFIXO, URL_ESPECIFICAS, URL_BASE
 
 
 def pegar_todos_dados(info_base: str):

@@ -9,7 +9,3 @@ URL_ESPECIFICAS = {
     'monstros': 'monstros.json',
     'raças': 'racas.json'
 }
-
-HEADERS = {
-    'User-Agent': 'Módulo Python com Utilidades para OD2 (alessandro.guarita@gmail.com)'
-}

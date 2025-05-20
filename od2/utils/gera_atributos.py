@@ -2,7 +2,7 @@ from typing import Literal
 from collections import namedtuple
 from RPG.dado import Dado
 
-from .data import DATA
+from ..data import DATA
 
 
 LISTA_ATRIBUTOS = Literal['FOR', 'DES', 'CON', 'INT', 'SAB', 'CAR']

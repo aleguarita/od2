@@ -1,7 +1,7 @@
 from typing import Literal
 from RPG import rolar_dado_notacao
 
-from .gera_atributos import Atributos
+from .utils.gera_atributos import Atributos
 from .helpers import Atributo, AtributoBase, Moedas
 from .raca import buscar_raca, Raca
 from .classe import buscar_classe, Classe

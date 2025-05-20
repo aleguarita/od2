@@ -65,8 +65,19 @@ class DATA:
             maior_que: int | float = float('-inf'),
             menor_que: int | float = float('inf'),
         ):
-        pre_filtro = lambda x: isinstance(x.get(chave), (int, float)) or (isinstance(x, str) and x.get(chave).isdigit())
+        pre_filtro = lambda x: isinstance(x.get(chave), (int, float)) or (isinstance(x.get(chave), str) and x.get(chave).isdigit())
         filtrar = lambda x: maior_que <= float(x.get(chave)) <= menor_que
         resultado = filter(filtrar, filter(pre_filtro, lista))
 
         return list(resultado)
+
+    def filtrar_por_exclusao(
+        lista: list,
+        termo_excluir: str,
+        chave: str = 'name'
+    ):
+        filtrar = lambda x: termo_excluir.lower() not in x.get(chave).lower()
+        resultado = filter(filtrar, lista)
+
+        return list(resultado)
+        
