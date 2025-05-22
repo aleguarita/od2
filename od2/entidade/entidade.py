@@ -21,3 +21,9 @@ class EntidadeBase:
         self.esta_morto = True if self._pv_atual == 0 else False
 
 
+    #? Métodos
+    def ferir(self, valor: int):
+        self.pv_atual -= valor
+
+    def curar(self, valor: int):
+        self.pv_atual += valor

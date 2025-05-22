@@ -42,7 +42,7 @@ def filtrar_equipamento(tipo: str):
 
 
 class Equipamento:
-    def __init__(self, data: str):
+    def __init__(self, data: dict):
         self.data = data
 
     def __str__(self):
@@ -84,14 +84,11 @@ class Arma(Equipamento):
     def dano(self):
         return self.data['damage']
     
-    
     #! Métodos
-    def rolar_ataque(self, ca: int, modificador: int = 0, crit_alvo: int = 20):
-        return jogada_ataque(self.ataque, ca, modificador, crit_alvo)
-
     def rolar_dano(self):
-        converte_dado = [int(i) for i in self.dano.split('d')]
-        return Dado(*converte_dado)
+        if self.dano:
+            converte_dado = [int(i) for i in self.dano.split('d')]
+            return Dado(*converte_dado)
 
 
 class Armadura(Equipamento):
