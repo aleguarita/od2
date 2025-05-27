@@ -1,9 +1,9 @@
-from RPG import Dado, d20
+from RPG import Dado, d20, rolar_dado_notacao
 from collections import namedtuple
 
 from ..helpers import converter_para_numero, converter_para_texto, jogada_ataque
 from .entidade import EntidadeBase
-from ..data import DATA
+from ..data import DATA, buscar
 
 class Monstro(EntidadeBase):
     # Mapeamento de chaves do dicionário original para atributos em português
@@ -45,7 +45,7 @@ class Monstro(EntidadeBase):
     }
 
     def __init__(self, monstro: dict | str):
-        self._dados = dict(monstro) if isinstance(monstro, dict) else DATA.buscar(DATA.MONSTROS, monstro)
+        self._dados = dict(monstro if isinstance(monstro, dict) else buscar(DATA.MONSTROS, monstro))
 
         for chave_original, nome_em_portugues in self.mapa_de_atributos.items():
             setattr(self, nome_em_portugues, self._dados.get(chave_original))
@@ -142,6 +142,14 @@ class Monstro(EntidadeBase):
 
         return dano_total
 
+    def _retornar_encontro(self, texto_encontro: str):
+        if texto_encontro == '-' or isinstance(texto_encontro, type(None)):
+            return 0
+        
+        if 'd' in texto_encontro:
+            return rolar_dado_notacao(texto_encontro)
+        
+        return int(texto_encontro)
 
     #? Métodos públicos
     def calcular_vida(self):
@@ -174,7 +182,7 @@ class Monstro(EntidadeBase):
             arma (dict | str): A arma a ser usada, seja o dicionário da mesma ou o nome
         """
         if isinstance(arma, str):
-            arma = DATA.buscar(DATA.EQUIPAMENTOS, arma, 'name')
+            arma = buscar(DATA.EQUIPAMENTOS, arma, 'name')
 
         for ataque in self.ataques:
             if ataque.get('weapon') == True:
@@ -290,5 +298,9 @@ class Monstro(EntidadeBase):
     def rolar_tesouro(self):
         pass
 
-    def rolar_quantidade(self):
-        pass
+
+    def rolar_quantidade_encontro(self, covil: bool = False):
+        dado = self.encontros if not covil else self.encontros_covil
+
+        return self._retornar_encontro(dado)
+

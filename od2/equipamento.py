@@ -5,45 +5,9 @@ from .data import DATA
 from .helpers import jogada_ataque
 
 
-TIPOS_EQUIPAMENTOS = Literal[
-    'armadura',
-    'recipiente',
-    'veículo',
-    'item',
-    'escudo',
-    'arma'
-]
-
-
-def buscar_equipamento(busca: str, chave: str = 'id'):
-    """Busca um equipamento na api
-    Args:
-        busca (str): o id do equipamento a ser buscado. Pode ser também o nome
-        chave (str, optional): se a busca é por id ou nome. Defaults to 'id'.
-
-    Returns:
-        dict: o dicionário com os dados do equipamento
-    """
-
-    resultado = [item for item in DATA.EQUIPAMENTOS if item[chave] == busca]
-    return resultado[0]
-
-
-def filtrar_equipamento(tipo: str):
-    dicionario = {
-        'armadura': 'armor', 
-        'recipiente': 'container', 
-        'veículo': 'vehicle', 
-        'item': 'misc', 
-        'escudo': 'shield', 
-        'arma': 'weapon'
-    }
-    return [item for item in DATA.EQUIPAMENTOS if item['concept'] == dicionario[tipo]]
-
-
 class Equipamento:
-    def __init__(self, data: dict):
-        self.data = data
+    def __init__(self, equipamento: dict | str):
+        self.data = dict(equipamento)
 
     def __str__(self):
         return f'{self.__class__.__name__}(data["id"]="{self.data['id']}")'
