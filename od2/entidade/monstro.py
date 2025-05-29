@@ -1,9 +1,10 @@
 from RPG import Dado, d20, rolar_dado_notacao
 from collections import namedtuple
 
-from ..helpers import converter_para_numero, converter_para_texto, jogada_ataque
 from .entidade import EntidadeBase
+from ..helpers import converter_para_numero, converter_para_texto, jogada_ataque
 from ..data import DATA, buscar
+from ..utils import TesouroAleatorio
 
 class Monstro(EntidadeBase):
     # Mapeamento de chaves do dicionário original para atributos em português
@@ -113,11 +114,13 @@ class Monstro(EntidadeBase):
             return 0.5
         return converter_para_numero(dv_original)
 
+
     def _retornar_mod_dv(self, dv_original: str):
         if not dv_original:
             return 0
         return converter_para_numero(dv_original)
-    
+
+
     def _retornar_ca(self, ca: str):
         convertido = converter_para_numero(ca)
 
@@ -129,6 +132,7 @@ class Monstro(EntidadeBase):
             return list(int(c) for c in cas)
 
         return ca
+
 
     def _retornar_dano_causado(self, rolamento_ataque, rolamento_dano, mod_aditivo, mod_multiplicativo):
         dano_total = 0
@@ -142,6 +146,7 @@ class Monstro(EntidadeBase):
 
         return dano_total
 
+
     def _retornar_encontro(self, texto_encontro: str):
         if texto_encontro == '-' or isinstance(texto_encontro, type(None)):
             return 0
@@ -150,6 +155,11 @@ class Monstro(EntidadeBase):
             return rolar_dado_notacao(texto_encontro)
         
         return int(texto_encontro)
+
+
+    def _retornar_tesouro(self, tipo: str):
+        return TesouroAleatorio(tipo)
+
 
     #? Métodos públicos
     def calcular_vida(self):
@@ -295,8 +305,29 @@ class Monstro(EntidadeBase):
         return resultado
 
 
-    def rolar_tesouro(self):
-        pass
+    def rolar_tesouro(self, covil: bool = False, tesouro_rapido: bool = False):
+        tipo = self.tesouro if not covil else self.tesouro_covil
+
+        if not tipo:
+            return 'Sem tesouro'
+
+        tesouro = self._retornar_tesouro(tipo[0])
+
+        if len(tipo) == 3:
+            operacao = tipo[1]
+
+            if operacao == 'x':
+                repeticao = eval(tipo[2])
+                for _ in range(1, repeticao):
+                    tesouro += self._retornar_tesouro(tipo[0])
+
+            if operacao == '+':
+                tesouro += self._retornar_encontro(tipo[2])
+
+        if tesouro_rapido:
+            return tesouro.tesouro_rapido
+        
+        return tesouro.tesouro
 
 
     def rolar_quantidade_encontro(self, covil: bool = False):

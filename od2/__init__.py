@@ -1,5 +1,5 @@
 from .data import DATA, buscar, filtrar, filtrar_alcance, filtrar_por_exclusao, filtrar_livro_basico
 
-from .utils import GeradorAtributos, rolar_atributos, rolar_renda_inicial
+from .utils import GeradorAtributos, rolar_atributos, rolar_renda_inicial, TesouroAleatorio
 from .personagem import Personagem, Raca, Classe
 from .equipamento import Equipamento, Arma, Armadura
