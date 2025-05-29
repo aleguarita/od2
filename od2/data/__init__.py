@@ -4,6 +4,7 @@ from .atributos import ATRIBUTOS, ATRIBUTOS_EXTENSO, ATRIBUTOS_MOD
 from .modificadores import MOD_TESTES
 from .dados_api import classes, equipamentos, livros, magias, monstros, racas
 from .filtros import buscar, filtrar, filtrar_alcance, filtrar_por_exclusao, filtrar_livro_basico
+from .tesouros import tesouro_aleatorio, equipamentos_raridade, equipamentos_tipos
 
 
 @dataclass
@@ -12,6 +13,10 @@ class DATA:
     ATRIBUTOS_EXTENSO = ATRIBUTOS_EXTENSO
     ATRIBUTOS_MOD = ATRIBUTOS_MOD
     TESTES_MOD = MOD_TESTES
+
+    TESOURO_ALEATORIO = tesouro_aleatorio
+    TESOURO_EQUIPAMENTOS_RARIDADE = equipamentos_raridade
+    TESOURO_EQUIPAMENTOS = equipamentos_tipos
 
     CLASSES = classes
     EQUIPAMENTOS = equipamentos
