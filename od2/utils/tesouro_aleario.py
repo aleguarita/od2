@@ -13,7 +13,6 @@ objetos_valor_raridade = DATA.TESOURO_OBJ_VALOR_RARIDADE
 objetos_valor_tipo = DATA.TESOURO_OBJ_VALOR
 
 
-
 class TesouroAleatorio:
     def __init__(self, tipo_tesouro: str):
         """Gera um tesouro aleatório baseado no tipo, na tabela 9.5.\n
@@ -161,6 +160,13 @@ class TesouroAleatorio:
             equipamento_tipo)
         return [self._substituir_notacao_dado(item) for item in equipamentos]
 
+    def _retornar_valor_tesouro(self):
+        valor_gemas = sum([item['valor'] for item in self.tesouro.get('gemas')])
+        valor_bens = sum([item['valor'] for item in self.tesouro.get('objetos de valor')])
+        valor_moedas = self.tesouro.get('po') + int(self.tesouro.get('pp') / 10) + int(self.tesouro.get('pc') / 100)
+
+        return valor_gemas + valor_bens + valor_moedas
+
     def _retornar_tesouro(self):
         self._tesouro['po'] = self._retornar_moedas('po')
         self._tesouro['pp'] = self._retornar_moedas('pp')
@@ -168,6 +174,7 @@ class TesouroAleatorio:
         self._tesouro['gemas'] = self._retornar_gema()
         self._tesouro['objetos de valor'] = self._retornar_obj_valor()
         self._tesouro['equipamentos'] = self._retornar_equipamentos()
+        self._tesouro['valor total'] = self._retornar_valor_tesouro()
 
     #? Métodos públicos
     def rolar(self):

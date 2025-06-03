@@ -205,7 +205,6 @@ equipamentos_raridade = [
     ((11, 11), "incomum"),
     ((12, 12), "raro")
 ]
-
 equipamentos_tipos = [
     ((2, 2), {
         "comum": "símbolo divino",
@@ -273,7 +272,6 @@ objetos_valor_raridade = [
     ((10, 11), "louças"),
     ((12, 12), "joias")
 ]
-
 objetos_valor_tipos = [
     ((2, 3), {
         "mercadoria": "peles de animais raros *",
@@ -328,10 +326,308 @@ gemas = [
     ((10, 11), {"categoria": "semipreciosa", "valor": 100}),
     ((12, 12), {"categoria": "joia", "valor": 1000})
 ]
-
 gema_modificador = [
     ((1, 2), {'qualidade':'bruta', 'modificador': 0.75}),
     ((3, 3), {'qualidade':'trincada', 'modificador': 0.5}),
     ((4, 6), {'qualidade':'lapidada', 'modificador': 1}),
 ]
+
+#! Tabela 8.2
+qualquer = [
+    ((1, 20), "espada"),
+    ((21, 30), "outra arma"),
+    ((31, 40), "armadura"),
+    ((41, 65), "poção"),
+    ((66, 85), "pergaminho"),
+    ((86, 90), "anel"),
+    ((91, 95), "haste mágica"),
+    ((96, 100), "itens mágicos gerais")
+]
+nao_arma = [
+    ((1, 14), "armadura"),
+    ((15, 50), "poção"),
+    ((51, 85), "pergaminho"),
+    ((86, 90), "anel"),
+    ((91, 95), "haste mágica"),
+    ((96, 100), "itens mágicos gerais")
+]
+arma = [
+    ((1, 65), "espada"),
+    ((66, 100), "outra arma")
+]
+
+#! Tabela 8.3
+espada_tipo = [
+    ((1, 79), "espada longa"),
+    ((80, 89), "espada curta"),
+    ((90, 94), "cimitarra"),
+    ((95, 99), "espada bastarda"),
+    ((100, 100), "montante")
+]
+espada_bonus = [
+    ((1, 3), "-2 amaldiçoada (caótica)"),
+    ((4, 10), "-1 amaldiçoada (caótica)"),
+    ((11, 64), "+1"),
+    ((65, 84), "+2"),
+    ((85, 94), "+3 (+5% na escolha do talento)"),
+    ((95, 99), "+4 (+10% na escolha do talento)"),
+    ((100, 100), "+5 (+20% na escolha do talento)")
+]
+espada_talento = [
+    ((1, 59), "Nenhum Talento"),
+    ((60, 62), "Matadora de licantropos"),
+    ((63, 65), "Matadora de orcs"),
+    ((66, 68), "Matadora de mortos-vivos"),
+    ((69, 71), "Matadora de usuários de magia"),
+    ((72, 74), "Matadora de gigantes"),
+    ((75, 77), "Matadora de regeneradores"),
+    ((78, 79), "Matadora de dragões"),
+    ((80, 81), "Matadora de extraplanares"),
+    ((82, 83), "Defensora"),
+    ((84, 85), "da Cura"),
+    ((86, 87), "de Drenar Energia"),
+    ((88, 89), "da Luz"),
+    ((90, 91), "Flamejante"),
+    ((92, 93), "Gélida"),
+    ((94, 95), "da Respiração"),
+    ((96, 97), "da Velocidade"),
+    ((98, 99), "Vorpal"),
+    ((100, 100), "Inteligente")
+]
+
+#! Tabela 8.4
+espada_inteligente = [
+    ((7, 7), {
+        "comunicação": "empatia",
+        "idiomas": None,
+        "poderes de detecção": 1,
+        "poderes maiores": None
+    }),
+    ((8, 8), {
+        "comunicação": "empatia",
+        "idiomas": None,
+        "poderes de detecção": 2,
+        "poderes maiores": None
+    }),
+    ((9, 9), {
+        "comunicação": "empatia",
+        "idiomas": None,
+        "poderes de detecção": 3,
+        "poderes maiores": None
+    }),
+    ((10, 10), {
+        "comunicação": "fala",
+        "idiomas": "1d3",
+        "poderes de detecção": 3,
+        "poderes maiores": None
+    }),
+    ((11, 11), {
+        "comunicação": "fala",
+        "idiomas": "1d4",
+        "poderes de detecção": 3,
+        "poderes maiores": None
+    }),
+    ((12, 12), {
+        "comunicação": "fala",
+        "idiomas": "1d6",
+        "poderes de detecção": 3,
+        "poderes maiores": 1
+    })
+]
+
+#! Tabela 8.5
+arma_tipo = [
+    ((1, 3), "flecha de guerra (2d6+6 unidades)"),
+    ((4, 4), "arco curto"),
+    ((5, 5), "arco longo"),
+    ((6, 6), "besta de mão"),
+    ((7, 7), "besta"),
+    ((8, 9), "funda (2d10+4 unidades de munição)"),
+    ((10, 19), "adaga"),
+    ((20, 21), "alabarda"),
+    ((22, 23), "azagaia"),
+    ((24, 25), "bordão/cajado"),
+    ((26, 30), "lança"),
+    ((31, 40), "lança longa"),
+    ((41, 50), "maça"),
+    ((51, 60), "machado"),
+    ((61, 65), "machado de arremesso"),
+    ((66, 80), "machado de batalha"),
+    ((81, 85), "mangual"),
+    ((86, 95), "martelo de batalha"),
+    ((96, 98), "pique"),
+    ((99, 100), "porrete/clava")
+]
+arma_bonus = [
+    ((1, 3), "-2 amaldiçoada (caótica)"),
+    ((4, 10), "-1 amaldiçoada (caótica)"),
+    ((11, 74), "+1"),
+    ((75, 94), "+2"),
+    ((95, 100), "+3 (+5% no teste de talento)")
+]
+arma_talento = [
+    ((1, 90), "nenhum talento"),
+    ((91, 100), "especial (por tipo de arma)")
+]
+
+#! Tabela 8.6
+armadura_tipo = [
+    ((1, 40), "escudo"),
+    ((41, 45), "armadura acolchoada"),
+    ((46, 50), "armadura de couro"),
+    ((51, 55), "armadura de couro batido"),
+    ((56, 85), "cota de malha"),
+    ((86, 95), "armadura de placas"),
+    ((96, 100), "armadura completa")
+]
+armadura_bonus = [
+    ((1, 3), "-2 amaldiçoada (caótica)"),
+    ((4, 10), "-1 amaldiçoada (caótica)"),
+    ((11, 74), "+1"),
+    ((75, 94), "+2"),
+    ((95, 100), "+3 (+5% no teste de talento)")
+]
+armadura_talento = [
+    ((1, 93), "nenhum talento"),
+    ((94, 94), "absorção"),
+    ((95, 95), "velocidade"),
+    ((96, 96), "curadora"),
+    ((97, 97), "retribuição"),
+    ((98, 98), "invisibilidade"),
+    ((99, 99), "reflexão"),
+    ((100, 100), "projéteis")
+]
+
+#! Tabela 8.7
+pocoes = [
+    ((1, 5), "poção amaldiçoada (caótica)"),
+    ((6, 15), "poção placebo (caótica)"),
+    ((16, 50), "poção de cura"),
+    ((51, 64), "poção de controle"),
+    ((65, 66), "diminuição"),
+    ((67, 68), "forma gasosa"),
+    ((69, 70), "força gigante"),
+    ((71, 72), "crescimento"),
+    ((73, 74), "invisibilidade"),
+    ((75, 76), "veneno"),
+    ((77, 78), "antídoto"),
+    ((79, 80), "defesa"),
+    ((81, 82), "metamorfose"),
+    ((83, 84), "velocidade"),
+    ((85, 86), "clarividência"),
+    ((87, 88), "percepção extrassensorial"),
+    ((89, 90), "resistência ao fogo"),
+    ((91, 92), "voo"),
+    ((93, 94), "heroísmo"),
+    ((95, 96), "respirar na água"),
+    ((97, 98), "sorte"),
+    ((99, 100), "salto")
+]
+
+#! Tabela 8.8
+pergaminhos = [
+    ((1, 15), "pergaminho amaldiçoado (caótico)"),
+    ((16, 30), "pergaminho arcano (1 círculo)"),
+    ((31, 40), "pergaminho arcano (3 círculos)"),
+    ((41, 45), "pergaminho arcano (4 círculos)"),
+    ((46, 48), "pergaminho arcano (7 círculos)"),
+    ((49, 50), "pergaminho arcano (9 círculos)"),
+    ((51, 60), "pergaminho divino (1 círculo)"),
+    ((61, 63), "pergaminho divino (3 círculos)"),
+    ((64, 65), "pergaminho divino (7 círculos)"),
+    ((66, 67), "proteção ao caos"),
+    ((68, 69), "proteção à ordem"),
+    ((70, 71), "proteção à magia"),
+    ((72, 73), "proteção à mortos-vivos"),
+    ((74, 74), "proteção à licantropos"),
+    ((75, 75), "proteção à elementais"),
+    ((76, 78), "mapa do tesouro (tipo a)"),
+    ((79, 81), "mapa do tesouro (tipo b)"),
+    ((82, 84), "mapa do tesouro (tipo c)"),
+    ((85, 87), "mapa do tesouro (tipo d)"),
+    ((88, 90), "mapa do tesouro (tipo e)"),
+    ((91, 93), "mapa do tesouro (tipo f)"),
+    ((94, 96), "mapa do tesouro (tipo g)"),
+    ((97, 99), "mapa do tesouro (tipo h)"),
+    ((100, 100), "mapa do tesouro (tipo m)")
+]
+
+#! Tabela 8.9
+aneis = [
+    ((1, 15), "anel amaldiçoado (caótico)"),
+    ((16, 45), "anel de proteção +1"),
+    ((46, 65), "anel de proteção +2"),
+    ((66, 68), "anel de proteção +3"),
+    ((69, 69), "anel de proteção +4"),
+    ((70, 71), "anel do controle de animais"),
+    ((72, 73), "anel do controle de humanos"),
+    ((74, 75), "anel do controle de plantas"),
+    ((76, 77), "anel da regeneração"),
+    ((78, 79), "anel da invisibilidade"),
+    ((80, 81), "anel da resistência ao fogo"),
+    ((82, 83), "anel da telecinesia"),
+    ((84, 85), "anel de andar sobre as águas"),
+    ((86, 87), "anel de refletir magias"),
+    ((88, 89), "anel de armazenar magias"),
+    ((90, 91), "anel da anti-ilusão"),
+    ((92, 93), "anel da verdade"),
+    ((94, 95), "anel do ouro de tolo"),
+    ((96, 97), "anel da santidade"),
+    ((98, 99), "anel da visão de raio x"),
+    ((100, 100), "anel do desejo")
+]
+
+#! Tabela 8.10
+hastes = [
+    ((1, 15), "haste amaldiçoada"),
+    ((16, 22), "varinha de detecção de inimigos"),
+    ((23, 30), "varinha de detecção de magia"),
+    ((31, 37), "varinha de detecção de armadilhas"),
+    ((38, 44), "varinha de paralisação"),
+    ((45, 51), "varinha de bolas de fogo"),
+    ((52, 58), "varinha do medo"),
+    ((59, 65), "varinha do congelamento"),
+    ((66, 72), "varinha da ilusão"),
+    ((73, 79), "varinha do relâmpago"),
+    ((80, 86), "varinha da transformação"),
+    ((87, 88), "cajado da cura"),
+    ((89, 90), "cajado de ataque"),
+    ((91, 92), "cajado da serpente"),
+    ((93, 94), "cajado da anulação"),
+    ((95, 96), "cajado do controle"),
+    ((97, 97), "bastão do governante"),
+    ((98, 98), "bastão do bloqueio"),
+    ((99, 99), "bastão do armamento"),
+    ((100, 100), "bastão do cancelamento")
+]
+
+#! Tabela 8.11
+itens_magicos_gerais = [
+    ((1, 4), "livro dos grandes feitos"),
+    ((5, 8), "bestiario: o livro dos monstros"),
+    ((9, 12), "grande livro da conjuração"),
+    ((13, 16), "medalhão da PES"),
+    ((17, 20), "camafeu do aprisionamento"),
+    ((21, 24), "manto do deslocamento"),
+    ((25, 28), "manto élfico"),
+    ((29, 32), "bota da levitação"),
+    ((33, 36), "botas élficas"),
+    ((37, 40), "manoplas da força do ogro"),
+    ((41, 44), "elmo da mudança de alinhamento (caótica)"),
+    ((45, 48), "cinto da força do gigante"),
+    ((49, 52), "elmo da telepatia"),
+    ((53, 56), "tambores do pânico"),
+    ((57, 60), "trombeta da destruição"),
+    ((61, 64), "sacola devoradora (caótica)"),
+    ((65, 68), "sacola guardiã"),
+    ((69, 72), "buraco portátil"),
+    ((73, 76), "corda da escalada"),
+    ((77, 80), "vassoura de voo"),
+    ((81, 84), "bola de cristal"),
+    ((85, 88), "baralho das maravilhas"),
+    ((89, 92), "baralho da navegação planar"),
+    ((93, 96), "garrafa do gênio"),
+    ((97, 100), "tapete voador")
+]
+
 

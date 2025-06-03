@@ -21,6 +21,26 @@ class DATA:
     TESOURO_OBJ_VALOR = objetos_valor_tipos
     TESOURO_GEMA = gemas
     TESOURO_GEMA_QUALIDADE = gema_modificador
+    TESOURO_MAGICO = {
+        'qualquer': qualquer,
+        'não arma': nao_arma,
+        'arma': arma,
+        'espada tipo': espada_tipo,
+        'espada bônus': espada_bonus,
+        'espada talento': espada_talento,
+        'espada inteligente': espada_inteligente,
+        'arma tipo': arma_tipo,
+        'arma bônus': arma_bonus,
+        'arma talento': arma_talento,
+        'armadura tipo': armadura_tipo,
+        'armadura bônus': armadura_bonus,
+        'armadura talento': armadura_talento,
+        'poções': pocoes,
+        'pergaminhos': pergaminhos,
+        'anéis': aneis,
+        'hastes': hastes,
+        'itens mágicos gerais': itens_magicos_gerais
+    }
 
     CLASSES = classes
     EQUIPAMENTOS = equipamentos
