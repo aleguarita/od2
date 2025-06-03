@@ -1,4 +1,5 @@
 import string
+import re
 from collections import Counter
 from RPG import rolar_dado_notacao, rolar_tabela, d6
 
@@ -8,6 +9,8 @@ from ..data import DATA
 tesouro_aleatorio = DATA.TESOURO_ALEATORIO
 equipamento_raridade = DATA.TESOURO_EQUIPAMENTOS_RARIDADE
 equipamento_tipo = DATA.TESOURO_EQUIPAMENTOS
+objetos_valor_raridade = DATA.TESOURO_OBJ_VALOR_RARIDADE
+objetos_valor_tipo = DATA.TESOURO_OBJ_VALOR
 
 
 
@@ -77,6 +80,29 @@ class TesouroAleatorio:
     def _verificar_se_tem_item(self, tabela: dict):
         return x_em_d6(tabela.get('chance', 0)).sucesso if tabela else False
 
+    def _retornar_lista_bens(self, tabela: str, tabela_raridade: list, tabela_tipo: list):
+        base = self.tabela.get(tabela)
+        tem_item = self._verificar_se_tem_item(base)
+        resultado = []
+
+        if tem_item:
+            qtd_itens = base.get('rolamento')
+            qtd_itens = rolar_dado_notacao(qtd_itens) if isinstance(qtd_itens, str) else int(qtd_itens)
+
+            for _ in range(qtd_itens):
+                raridade = rolar_tabela(tabela_raridade, d6(2))
+                item = rolar_tabela(tabela_tipo, d6(2), raridade, rolar_dados=True)
+                resultado.append(item)
+
+        return resultado
+
+    def _substituir_notacao_dado(self, texto: str):
+        regex = r'\d*d\d+(?:[-+*/]\d+)?'
+        dado = re.search(regex, texto)
+        dado = str(rolar_dado_notacao(dado.group())) if dado else ''
+
+        return re.sub(regex, dado, texto)
+
     def _retornar_moedas(self, chave: str):
         base = self.tabela.get(chave)
         tem_item_valor = self._verificar_se_tem_item(base)
@@ -89,33 +115,51 @@ class TesouroAleatorio:
     def _retornar_gema(self):
         base = self.tabela.get('gemas')
         tem_gema = self._verificar_se_tem_item(base)
-        # TODO
-        pass
+        gemas = []
+
+        if tem_gema:
+            qtd_gemas = base.get('rolamento')
+            qtd_gemas = rolar_dado_notacao(qtd_gemas) if isinstance(qtd_gemas, str) else int(qtd_gemas)
+
+            for _ in range(qtd_gemas):
+                gema = rolar_tabela(DATA.TESOURO_GEMA, d6(2))
+                qualidade = rolar_tabela(DATA.TESOURO_GEMA_QUALIDADE, d6())
+                nome = f'{gema['categoria']} {qualidade['qualidade']}'
+                valor = int(gema['valor'] * qualidade['modificador'])
+
+                gemas.append({
+                    'categoria': nome,
+                    'valor': valor,
+                    'descrição': f'{nome}, valor {valor} PO'
+                })
+
+        return gemas
 
     def _retornar_obj_valor(self):
-        base = self.tabela.get('objetos_de_valor')
-        tem_obj_valor = self._verificar_se_tem_item(base)
-        # TODO
-        pass
+        objetos_valor = self._retornar_lista_bens(
+            'objetos_de_valor',
+            objetos_valor_raridade, 
+            objetos_valor_tipo)
+        
+        for i, objeto in enumerate(objetos_valor):
+            valor = d6(2) * 100
+            peso = 1 if objeto[-1] == '*' else 0
+            texto = objeto.replace(' *', '')
+            objetos_valor[i] = {
+                'objeto': texto,
+                'valor': valor,
+                'carga': peso,
+                'descrição': f'{texto}, {valor} PO (carga: {peso})'
+            }
+        
+        return objetos_valor
 
     def _retornar_equipamentos(self):
-        base = self.tabela.get('equipamentos')
-        tem_equipamento = self._verificar_se_tem_item(base)
-        equipamentos = []
-
-        if tem_equipamento:
-            qtd_equipamentos = base.get('rolamento')
-            qtd_equipamentos = rolar_dado_notacao(qtd_equipamentos) if isinstance(qtd_equipamentos, str) else int(qtd_equipamentos)
-
-            for _ in range(qtd_equipamentos):
-                raridade = rolar_tabela(equipamento_raridade, d6(2))
-                item = rolar_tabela(equipamento_tipo, d6(2), raridade, rolar_dados=True)
-
-                equipamentos.append(item)
-
-
-        return equipamentos
-
+        equipamentos = self._retornar_lista_bens(
+            'equipamentos',
+            equipamento_raridade,
+            equipamento_tipo)
+        return [self._substituir_notacao_dado(item) for item in equipamentos]
 
     def _retornar_tesouro(self):
         self._tesouro['po'] = self._retornar_moedas('po')

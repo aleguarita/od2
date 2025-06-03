@@ -4,7 +4,7 @@ from .atributos import ATRIBUTOS, ATRIBUTOS_EXTENSO, ATRIBUTOS_MOD
 from .modificadores import MOD_TESTES
 from .dados_api import classes, equipamentos, livros, magias, monstros, racas
 from .filtros import buscar, filtrar, filtrar_alcance, filtrar_por_exclusao, filtrar_livro_basico
-from .tesouros import tesouro_aleatorio, equipamentos_raridade, equipamentos_tipos
+from .tesouros import *
 
 
 @dataclass
@@ -17,6 +17,10 @@ class DATA:
     TESOURO_ALEATORIO = tesouro_aleatorio
     TESOURO_EQUIPAMENTOS_RARIDADE = equipamentos_raridade
     TESOURO_EQUIPAMENTOS = equipamentos_tipos
+    TESOURO_OBJ_VALOR_RARIDADE = objetos_valor_raridade
+    TESOURO_OBJ_VALOR = objetos_valor_tipos
+    TESOURO_GEMA = gemas
+    TESOURO_GEMA_QUALIDADE = gema_modificador
 
     CLASSES = classes
     EQUIPAMENTOS = equipamentos

@@ -175,7 +175,7 @@ tesouro_aleatorio = [
         'po': {'chance': 1, 'rolamento': '1d10'},
         'pp': {'chance': 1, 'rolamento': '1d10'},
         'pc': {'chance': 1, 'rolamento': '1d10'},
-        'objetos_de_valor': {'chance': 1, 'rolamento': '1'},
+        'objetos_de_valor': {'chance': 1, 'rolamento': 1},
         'itens_magicos': {'chance': 1, 'itens': Counter({'qualquer': 1})},
         'equipamentos': {'chance': 1, 'rolamento': '1d4'}
     },
@@ -263,3 +263,75 @@ equipamentos_tipos = [
         "raro": "rede"
     })
 ]
+
+#! Tabela 9.7
+objetos_valor_raridade = [
+    ((2, 3), "obras de arte"),
+    ((4, 5), "utensílios"),
+    ((6, 7), "mercadoria"),
+    ((8, 9), "mercadoria"),
+    ((10, 11), "louças"),
+    ((12, 12), "joias")
+]
+
+objetos_valor_tipos = [
+    ((2, 3), {
+        "mercadoria": "peles de animais raros *",
+        "louças": "objetos de vidro soprado",
+        "utensílios": "religiosos de cobre",
+        "obras de arte": "móveis com marchetaria *",
+        "joias": "cordão de prata"
+    }),
+    ((4, 5), {
+        "mercadoria": "objetos de marfim",
+        "louças": "copos de vidro e com prata",
+        "utensílios": "talheres de prata",
+        "obras de arte": "tapeçaria fina *",
+        "joias": "brincos de prata"
+    }),
+    ((6, 7), {
+        "mercadoria": "sacas de especiaria *",
+        "louças": "baixelas de louça",
+        "utensílios": "candelabros de prata",
+        "obras de arte": "livro raro",
+        "joias": "bracelete de prata"
+    }),
+    ((8, 9), {
+        "mercadoria": "sacas de incenso *",
+        "louças": "baixelas de porcelana com ouro",
+        "utensílios": "cutelaria fina",
+        "obras de arte": "escultura *",
+        "joias": "pingente de pedraria"
+    }),
+    ((10, 11), {
+        "mercadoria": "tecidos nobres *",
+        "louças": "vasos de porcelana",
+        "utensílios": "cálices de ouro",
+        "obras de arte": "tela pintada *",
+        "joias": "camafeu de ouro"
+    }),
+    ((12, 12), {
+        "mercadoria": "metros de fina seda *",
+        "louças": "cálices de vidro com pedra",
+        "utensílios": "religiosos de ouro",
+        "obras de arte": "estatueta em bronze *",
+        "joias": "tiara de pedra rara"
+    })
+]
+
+#! Tabela 9.8
+gemas = [
+    ((2, 3), {"categoria": "preciosa", "valor": 500}),
+    ((4, 5), {"categoria": "ornamental", "valor": 50}),
+    ((6, 7), {"categoria": "decorativa", "valor": 10}),
+    ((8, 9), {"categoria": "decorativa", "valor": 10}),
+    ((10, 11), {"categoria": "semipreciosa", "valor": 100}),
+    ((12, 12), {"categoria": "joia", "valor": 1000})
+]
+
+gema_modificador = [
+    ((1, 2), {'qualidade':'bruta', 'modificador': 0.75}),
+    ((3, 3), {'qualidade':'trincada', 'modificador': 0.5}),
+    ((4, 6), {'qualidade':'lapidada', 'modificador': 1}),
+]
+
