@@ -1,7 +1,8 @@
 import string
 import re
 from collections import Counter
-from RPG import rolar_dado_notacao, rolar_tabela, d6
+from random import choice
+from RPG import rolar_dado_notacao, rolar_tabela, d6, d100
 
 from ..helpers import x_em_d6
 from ..data import DATA
@@ -11,7 +12,7 @@ equipamento_raridade = DATA.TESOURO_EQUIPAMENTOS_RARIDADE
 equipamento_tipo = DATA.TESOURO_EQUIPAMENTOS
 objetos_valor_raridade = DATA.TESOURO_OBJ_VALOR_RARIDADE
 objetos_valor_tipo = DATA.TESOURO_OBJ_VALOR
-
+tipos_item = DATA.TESOURO_MAGICO
 
 class TesouroAleatorio:
     def __init__(self, tipo_tesouro: str):
@@ -77,7 +78,12 @@ class TesouroAleatorio:
         return tipo
 
     def _verificar_se_tem_item(self, tabela: dict):
+        # TODO DELETAR LINHA ABAIXO (DEBUG)
+        return True if tabela else False
         return x_em_d6(tabela.get('chance', 0)).sucesso if tabela else False
+
+    def _rolar_quantidade(self, dados: str):
+        return rolar_dado_notacao(dados) if isinstance(dados, str) else int(dados)
 
     def _retornar_lista_bens(self, tabela: str, tabela_raridade: list, tabela_tipo: list):
         base = self.tabela.get(tabela)
@@ -86,7 +92,7 @@ class TesouroAleatorio:
 
         if tem_item:
             qtd_itens = base.get('rolamento')
-            qtd_itens = rolar_dado_notacao(qtd_itens) if isinstance(qtd_itens, str) else int(qtd_itens)
+            qtd_itens = self._rolar_quantidade(qtd_itens)
 
             for _ in range(qtd_itens):
                 raridade = rolar_tabela(tabela_raridade, d6(2))
@@ -118,7 +124,7 @@ class TesouroAleatorio:
 
         if tem_gema:
             qtd_gemas = base.get('rolamento')
-            qtd_gemas = rolar_dado_notacao(qtd_gemas) if isinstance(qtd_gemas, str) else int(qtd_gemas)
+            qtd_gemas = self._rolar_quantidade(qtd_gemas)
 
             for _ in range(qtd_gemas):
                 gema = rolar_tabela(DATA.TESOURO_GEMA, d6(2))
@@ -167,6 +173,17 @@ class TesouroAleatorio:
 
         return valor_gemas + valor_bens + valor_moedas
 
+    def _retorna_itens_magicos(self):
+        base = self.tabela.get('itens_magicos')
+        tem_item = self._verificar_se_tem_item(base)
+        resultado = []
+
+        if tem_item:
+            itens = base.get('itens')
+            resultado = self._retornar_lista_itens_magicos(itens)
+
+        return resultado
+
     def _retornar_tesouro(self):
         self._tesouro['po'] = self._retornar_moedas('po')
         self._tesouro['pp'] = self._retornar_moedas('pp')
@@ -175,6 +192,118 @@ class TesouroAleatorio:
         self._tesouro['objetos de valor'] = self._retornar_obj_valor()
         self._tesouro['equipamentos'] = self._retornar_equipamentos()
         self._tesouro['valor total'] = self._retornar_valor_tesouro()
+        self._tesouro['itens mágicos'] = self._retorna_itens_magicos()
+
+    #? Métodos privados para geração de itens
+    def _retornar_lista_itens_magicos(self, itens):
+        categoria_itens = Counter({chave: self._rolar_quantidade(qtd) for chave, qtd in itens.items()})
+        return self._determinar_tipos_itens(categoria_itens)
+    
+    def _retornar_tipo_modificador(self, tipo_tesouro: str):
+        tipo = rolar_tabela(tipos_item[f'{tipo_tesouro} tipo'], d100())
+        mod_magico = rolar_tabela(tipos_item[f'{tipo_tesouro} bônus'], d100())
+
+        return tipo, mod_magico
+    
+    def _retornar_mod_rolamento_talento(self, mod_magico: str):
+        mod_talento = 0
+
+        if '+3' in mod_magico:
+            mod_magico = '+3'
+            mod_talento = 5
+        if '+4' in mod_magico:
+            mod_magico = '+4'
+            mod_talento = 10
+        if '+5' in mod_magico:
+            mod_magico = '+5'
+            mod_talento = 20
+
+        return mod_magico, mod_talento
+    
+    def _retornar_talento(self, item, mod_talento, mod_magico):
+        talento = rolar_tabela(tipos_item[f'{item} talento'], d100() + mod_talento).lower()
+        return '' if talento == 'nenhum talento' or 'amaldiçoad' in mod_magico else f' {talento}'
+
+    def _determinar_tipos_itens(self, categoria_itens: dict):
+        resultado = []
+        for tipo, qtd in categoria_itens.items():
+            for _ in range(qtd):
+                resultado.append(tipo)
+
+        tipos = [self._rolar_categoria_tesouro(tipo) for tipo in resultado]
+        return [self._rolar_tesouro(item) for item in tipos]
+    
+    def _rolar_categoria_tesouro(self, tipo: str):
+        tabela_base = ['qualquer', 'arma', 'não arma']
+        return rolar_tabela(tipos_item[tipo], d100()) if tipo in tabela_base else tipo
+
+    def _rolar_tesouro(self, tipo: str):
+        tipos_especiais = ['armadura', 'outra arma', 'espada']
+
+        if tipo in tipos_especiais:
+            if tipo == 'armadura':
+                item = self._rolar_armaduras()
+            if tipo == 'espada':
+                item = self._rolar_espada()
+            if tipo == 'outra arma':
+                item = self._rolar_arma()
+        else:
+            item = rolar_tabela(tipos_item[tipo], d100())
+
+        return {tipo: item if isinstance(item, str) else choice(item)}
+
+    def _rolar_armaduras(self):
+        tipo, mod_magico = self._retornar_tipo_modificador('armadura')
+        mod_magico, mod_talento = self._retornar_mod_rolamento_talento(mod_magico)
+        talento = self._retornar_talento('armadura', mod_talento, mod_magico)
+        
+        # ajusta para o masculino
+        if tipo in ['escudo']:
+            mod_magico = mod_magico.replace('amaldiçoada', 'amaldiçoado')
+            talento = talento.replace('curadora', 'curador')
+
+        return f'{tipo} {mod_magico}{talento}'
+    
+    def _rolar_espada(self):
+        tipo, mod_magico = self._retornar_tipo_modificador('espada')
+        mod_magico, mod_talento = self._retornar_mod_rolamento_talento(mod_magico)
+        talento = self._retornar_talento('espada', mod_talento, mod_magico)
+
+        # ajusta para o masculino
+        if tipo.lower() in ['montante']:
+            talento = talento.lower().replace('amaldiçoada', 'amaldiçoado')
+            talento = talento.lower().replace('matadora', 'matador')
+            talento = talento.lower().replace('defensora', 'defensor')
+            talento = talento.lower().replace('gélida', 'gélido')
+
+        return f'{tipo} {mod_magico}{talento}'
+
+    def _rolar_arma(self):
+        tipo, mod_magico = self._retornar_tipo_modificador('arma')
+        mod_magico, mod_talento = self._retornar_mod_rolamento_talento(mod_magico)
+        talento = self._retornar_talento('arma', mod_talento, mod_magico)
+
+        # Ajusta mjnições
+        qtd = ''
+        if 'flecha' in tipo or 'virote' in tipo:
+            tipo = choice(DATA.TESOURO_MAGICO['tipo flecha'])
+            qtd = f' ({rolar_dado_notacao(DATA.TESOURO_MAGICO.get('qtd flecha'))})'
+        if 'funda' in tipo:
+            tipo = 'funda'
+            qtd = f' ({rolar_dado_notacao(DATA.TESOURO_MAGICO.get('qtd funda'))})'
+
+        # Pega o talento
+        talento = choice(DATA.TESOURO_MAGICO.get(f'{tipo} talento'))
+
+        # Ajusta o talento matador
+        if 'matador' in talento:
+            talento += ' ' + choice(DATA.TESOURO_MAGICO['talento matador'])
+
+        # talento = '' if talento.lower(
+        # ) == 'nenhum talento' or talento == 'amaldiçoad' in talento else f' {talento}'
+
+        return f'{tipo}{qtd} {mod_magico}{talento}'
+
 
     #? Métodos públicos
     def rolar(self):
