@@ -5,10 +5,6 @@
 - [] Fazer um criador de monstros que aplica no dicionário
 - [] Personalização de monstro específico (classe `Monstro()`). Pegar aqueles modelos do livro 3
 
-## Tesouro Aleatório
-- [] Rolador de tesouro 
-- [] A classe deve somar com outra, soma os valores específicos
-- [] __str__ e __repr__
 
 ## Outras coisas
 - [] Gerador de encontro: monstro errante / covil. Gera a quantidade de monstros e o tesouro

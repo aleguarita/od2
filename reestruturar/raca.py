@@ -1,4 +1,4 @@
-from .data import DATA
+from ..od2.data import DATA
 
 def buscar_raca(busca: str, chave: str = 'id'):
     """Busca uma raça na api

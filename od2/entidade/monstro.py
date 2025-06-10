@@ -319,10 +319,11 @@ class Monstro(EntidadeBase):
             if operacao == 'x':
                 repeticao = eval(tipo[2])
                 for _ in range(1, repeticao):
-                    tesouro += self._retornar_tesouro(tipo[0])
+                    tesouro + self._retornar_tesouro(tipo[0])
 
             if operacao == '+':
-                tesouro += self._retornar_encontro(tipo[2])
+                tesouro + self._retornar_encontro(tipo[2])
+
 
         if tesouro_rapido:
             return tesouro.tesouro_rapido

@@ -36,7 +36,7 @@ class TesouroAleatorio:
 
         self._tipo = self._retornar_tipo(tipo_tesouro)
         self._rapido = Counter(self.tabela.get('tesouro_rapido'))
-        self._tesouro = Counter()
+        self._tesouro = {}
         self.rolar()
 
     def __str__(self):
@@ -90,7 +90,18 @@ class TesouroAleatorio:
     
     def __repr__(self):
         return f'<TesouroAleatorio(tipo={self.tipo})>'
-
+    
+    def __add__(self, other):
+        self.tesouro_rapido += other.tesouro_rapido
+        self._tesouro['po'] += other._tesouro['po']
+        self._tesouro['pp'] += other._tesouro['pp']
+        self._tesouro['pc'] += other._tesouro['pc']
+        self._tesouro['gemas'] += other._tesouro['gemas']
+        self._tesouro['objetos de valor'] += other._tesouro['objetos de valor']
+        self._tesouro['equipamentos'] += other._tesouro['equipamentos']
+        self._tesouro['valor total'] += other._tesouro['valor total']
+        self._tesouro['itens mágicos'] += other._tesouro['itens mágicos']
+    
 
     #? Propriedades
     @property
@@ -119,8 +130,7 @@ class TesouroAleatorio:
     @property
     def tesouro(self):
         return self._tesouro
-
-
+    
     #? Métodos privados
     def _retornar_tipo(self, tipo: str):
         tipo = tipo.upper()
@@ -183,14 +193,14 @@ class TesouroAleatorio:
             valor = int(gema['valor'] * qualidade['modificador'])
             qtd = f'({qtd_gemas}) ' if qtd_gemas > 1 else ''
 
-            return {
+            return Counter({
                 'categoria': nome,
                 'valor': valor,
                 'quantidade': qtd_gemas,
                 'descrição': f'{qtd}{nome}, valor {valor} PO.'
-            }
+            })
 
-        return {}
+        return Counter()
 
     def _retornar_obj_valor(self):
         objetos_valor = self._retornar_lista_bens(
@@ -202,12 +212,12 @@ class TesouroAleatorio:
             valor = d6(2) * 100
             peso = 1 if objeto[-1] == '*' else 0
             texto = objeto.replace(' *', '')
-            objetos_valor[i] = {
+            objetos_valor[i] = Counter({
                 'objeto': texto,
                 'valor': valor,
                 'carga': peso,
                 'descrição': f'{texto}, {valor} PO (carga: {peso})'
-            }
+            })
         
         return objetos_valor
 
