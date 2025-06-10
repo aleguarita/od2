@@ -13,6 +13,8 @@ equipamento_tipo = DATA.TESOURO_EQUIPAMENTOS
 objetos_valor_raridade = DATA.TESOURO_OBJ_VALOR_RARIDADE
 objetos_valor_tipo = DATA.TESOURO_OBJ_VALOR
 tipos_item = DATA.TESOURO_MAGICO
+tesouro_gemas = DATA.TESOURO_GEMA
+gemas_qualidade = DATA.TESOURO_GEMA_QUALIDADE
 
 class TesouroAleatorio:
     def __init__(self, tipo_tesouro: str):
@@ -36,6 +38,58 @@ class TesouroAleatorio:
         self._rapido = Counter(self.tabela.get('tesouro_rapido'))
         self._tesouro = Counter()
         self.rolar()
+
+    def __str__(self):
+        texto_final = []
+
+        #* moedas
+        pc = self.tesouro.get('pc', 0)
+        pp = self.tesouro.get('pp', 0)
+        po = self.tesouro.get('po', 0)
+
+        if pc:
+            texto_final.append(f'{pc}pc')
+        if pp:
+            texto_final.append(f'{pp}pp')
+        if po:
+            texto_final.append(f'{po}po')
+
+
+        #* gemas
+        gemas = self.tesouro.get('gemas').get('descrição') if self.tesouro.get('gemas') else ''
+        gemas = f'Gemas: {gemas}' if gemas else ''
+        if gemas:
+            texto_final.append(gemas)
+
+        #* objetos de valor
+        bens = self.tesouro.get('objetos de valor')
+        total = sum([bem.get('valor', 0) for bem in bens])
+        bens = f'Objetos de valor: {len(bens)} itens no valor total de {total}PO.' if bens else ''
+        if bens:
+            texto_final.append(bens)
+
+        #* equipamentos
+        equipamentos = ', '.join(self.tesouro.get('equipamentos'))
+        equipamentos = f'Equipamentos: {equipamentos}.' if equipamentos else ''
+        if equipamentos:
+            texto_final.append(equipamentos)
+
+        #* itens mágicos
+        itens_magicos = [list(item.values())[0] for item in self.tesouro.get('itens mágicos')]
+        itens_magicos = ', '.join(itens_magicos)
+        itens_magicos = f'Itens mágicos: {itens_magicos}.' if itens_magicos else ''
+        if itens_magicos:
+            texto_final.append(itens_magicos)
+
+        #* final
+        if texto_final:
+            texto_final.insert(0, 'Tesouro:')
+            return '\n'.join(texto_final)
+        else:
+            return 'Sem tesouro'
+    
+    def __repr__(self):
+        return f'<TesouroAleatorio(tipo={self.tipo})>'
 
 
     #? Propriedades
@@ -78,8 +132,6 @@ class TesouroAleatorio:
         return tipo
 
     def _verificar_se_tem_item(self, tabela: dict):
-        # TODO DELETAR LINHA ABAIXO (DEBUG)
-        return True if tabela else False
         return x_em_d6(tabela.get('chance', 0)).sucesso if tabela else False
 
     def _rolar_quantidade(self, dados: str):
@@ -120,25 +172,25 @@ class TesouroAleatorio:
     def _retornar_gema(self):
         base = self.tabela.get('gemas')
         tem_gema = self._verificar_se_tem_item(base)
-        gemas = []
 
         if tem_gema:
             qtd_gemas = base.get('rolamento')
             qtd_gemas = self._rolar_quantidade(qtd_gemas)
 
-            for _ in range(qtd_gemas):
-                gema = rolar_tabela(DATA.TESOURO_GEMA, d6(2))
-                qualidade = rolar_tabela(DATA.TESOURO_GEMA_QUALIDADE, d6())
-                nome = f'{gema['categoria']} {qualidade['qualidade']}'
-                valor = int(gema['valor'] * qualidade['modificador'])
+            gema = rolar_tabela(tesouro_gemas, d6(2))
+            qualidade = rolar_tabela(gemas_qualidade, d6())
+            nome = f'{gema['categoria']} {qualidade['qualidade']}'
+            valor = int(gema['valor'] * qualidade['modificador'])
+            qtd = f'({qtd_gemas}) ' if qtd_gemas > 1 else ''
 
-                gemas.append({
-                    'categoria': nome,
-                    'valor': valor,
-                    'descrição': f'{nome}, valor {valor} PO'
-                })
+            return {
+                'categoria': nome,
+                'valor': valor,
+                'quantidade': qtd_gemas,
+                'descrição': f'{qtd}{nome}, valor {valor} PO.'
+            }
 
-        return gemas
+        return {}
 
     def _retornar_obj_valor(self):
         objetos_valor = self._retornar_lista_bens(
@@ -167,7 +219,8 @@ class TesouroAleatorio:
         return [self._substituir_notacao_dado(item) for item in equipamentos]
 
     def _retornar_valor_tesouro(self):
-        valor_gemas = sum([item['valor'] for item in self.tesouro.get('gemas')])
+        gemas = self.tesouro.get('gemas')
+        valor_gemas = gemas.get('quantidade', 0) * gemas.get('valor', 0)
         valor_bens = sum([item['valor'] for item in self.tesouro.get('objetos de valor')])
         valor_moedas = self.tesouro.get('po') + int(self.tesouro.get('pp') / 10) + int(self.tesouro.get('pc') / 100)
 
@@ -286,21 +339,19 @@ class TesouroAleatorio:
         # Ajusta mjnições
         qtd = ''
         if 'flecha' in tipo or 'virote' in tipo:
-            tipo = choice(DATA.TESOURO_MAGICO['tipo flecha'])
-            qtd = f' ({rolar_dado_notacao(DATA.TESOURO_MAGICO.get('qtd flecha'))})'
+            tipo = choice(tipos_item['tipo flecha'])
+            qtd = f' ({rolar_dado_notacao(tipos_item.get('qtd flecha'))})'
         if 'funda' in tipo:
             tipo = 'funda'
-            qtd = f' ({rolar_dado_notacao(DATA.TESOURO_MAGICO.get('qtd funda'))})'
+            qtd = f' ({rolar_dado_notacao(tipos_item.get('qtd funda'))})'
 
         # Pega o talento
-        talento = choice(DATA.TESOURO_MAGICO.get(f'{tipo} talento'))
+        talento = choice(tipos_item.get(f'arma talento'))
 
         # Ajusta o talento matador
         if 'matador' in talento:
-            talento += ' ' + choice(DATA.TESOURO_MAGICO['talento matador'])
+            talento += ' ' + choice(tipos_item['talento matador'])
 
-        # talento = '' if talento.lower(
-        # ) == 'nenhum talento' or talento == 'amaldiçoad' in talento else f' {talento}'
 
         return f'{tipo}{qtd} {mod_magico}{talento}'
 

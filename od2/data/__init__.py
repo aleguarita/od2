@@ -14,6 +14,8 @@ class DATA:
     ATRIBUTOS_MOD = ATRIBUTOS_MOD
     TESTES_MOD = MOD_TESTES
 
+    TIPOS_TESOURO = tipos_tesouro
+
     TESOURO_ALEATORIO = tesouro_aleatorio
     TESOURO_EQUIPAMENTOS_RARIDADE = equipamentos_raridade
     TESOURO_EQUIPAMENTOS = equipamentos_tipos

@@ -1,5 +1,8 @@
 from collections import Counter
+import string
 
+
+tipos_tesouro = string.ascii_uppercase[:string.ascii_uppercase.index('V') + 1]
 
 #! Tabela 9.5
 tesouro_aleatorio = [
