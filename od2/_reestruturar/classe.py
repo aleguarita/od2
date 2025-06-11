@@ -1,4 +1,4 @@
-from ..od2.data import DATA
+from ...od2.data import DATA
 
 
 def buscar_classe(busca: str, chave: str = 'id'):

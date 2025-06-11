@@ -96,7 +96,7 @@ class GeradorAtributos:
             
         return None
 
-    #! Métodos públicos
+    #? Métodos públicos
     def rolar(self):
         self._iniciar_escolhidos()
         self._checar_rolamento_classico_aventureiro()

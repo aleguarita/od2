@@ -4,6 +4,6 @@ from .utils import GeradorAtributos, rolar_atributos, rolar_renda_inicial, Tesou
 from .entidade import Monstro
 
 """
-from ..reestruturar.personagem import Personagem, Raca, Classe
-from ..reestruturar.equipamento import Equipamento, Arma, Armadura
+from ._reestruturar.personagem import Personagem, Raca, Classe
+from ._reestruturar.equipamento import Equipamento, Arma, Armadura
 """

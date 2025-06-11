@@ -15,6 +15,6 @@ setup(
     long_description=le_arquivo('README.md'),
     long_description_content_type='text/markdown',
     LICENCE='MIT',
-    python_requires='>=3.11',
+    python_requires='>=3.13',
 )
 

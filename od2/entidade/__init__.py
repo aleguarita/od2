@@ -1,2 +1,2 @@
 from .monstro import Monstro
-from ...reestruturar.personagem import Personagem
+from .._reestruturar.personagem import Personagem

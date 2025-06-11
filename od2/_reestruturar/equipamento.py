@@ -1,8 +1,8 @@
 from RPG import Dado
 from typing import Literal
 
-from ..od2.data import DATA
-from ..od2.helpers import jogada_ataque
+from ...od2.data import DATA
+from ...od2.helpers import jogada_ataque
 
 
 TIPOS_EQUIPAMENTOS = Literal[
