@@ -5,7 +5,7 @@ from ..CONFIG import PREFIXO, URL_ESPECIFICAS
 
 
 def converte_json(nome_arquivo: str):
-    arquivo = pathlib.Path(f'od2/{PREFIXO}{URL_ESPECIFICAS[nome_arquivo]}').resolve()
+    arquivo = pathlib.Path(f'src/od2/{PREFIXO}{URL_ESPECIFICAS[nome_arquivo]}').resolve()
     
     if arquivo.exists():
         with open(arquivo) as arquivo:
