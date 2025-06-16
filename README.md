@@ -3,6 +3,10 @@ Esse módulo de RPG é para uso do Old Dragons 2. Faz uso da API deles.
 
 Depende do módulo TTRPGaag
 
+## Changelog
+- **0.1.1**: correção da abertura do arquivo
+- **0.1.0**: lançamento com DATA, Monstro() e TesouroAleatorio()
+
 ## Atualizando a API
 Para obter os json da API, vá em `od2-aleguarita.glitch.me` e baixe os .json, copiando para a pasta da api.
 
