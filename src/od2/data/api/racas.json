@@ -236,6 +236,11 @@
       {
         "page": null,
         "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao.json"
+      },
+      {
+        "page": null,
+        "compact": false,
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -542,6 +547,11 @@
       {
         "page": null,
         "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao.json"
+      },
+      {
+        "page": null,
+        "compact": false,
         "digital_item_url": "https://olddragon.com.br/livros/legiao-od2.json"
       }
     ],
@@ -578,6 +588,11 @@
       }
     ],
     "fontes": [
+      {
+        "page": null,
+        "compact": false,
+        "digital_item_url": "https://olddragon.com.br/livros/legiao.json"
+      },
       {
         "page": null,
         "compact": false,

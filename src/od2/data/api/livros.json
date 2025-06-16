@@ -120,6 +120,12 @@
     "url": "https://olddragon.com.br/livros/odday17.json"
   },
   {
+    "id": "odday18",
+    "type": "DigitalItem",
+    "title": "OD Day 2018 Remaster: A Sombra que Veio do Mar",
+    "url": "https://olddragon.com.br/livros/odday18.json"
+  },
+  {
     "id": "odday21",
     "type": "DigitalItem",
     "title": "OD Day 2021: Os Salões Eternos de Thalaknasus",

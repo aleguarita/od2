@@ -9513,7 +9513,13 @@
     "name": "Cogumelo de Combate",
     "concept": "misc",
     "updated_at": "2025-04-24T19:13:26.562-03:00",
-    "access": "limited",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Fungos mágicos criados pelos feiticeiros hecatianos que, ao serem ingeridos, modificam temporariamente o corpo do personagem, concedendo +3 em Força por 1d4+1 rodadas de combate.\r\n\r\nApós o efeito, o usuário perde 1d4 PV, recuperados apenas com uma noite de sono.",
     "fontes": [
       {
         "page": 14,
@@ -17263,7 +17269,13 @@
     "name": "Extrato de Mandra",
     "concept": "misc",
     "updated_at": "2025-04-24T19:13:28.110-03:00",
-    "access": "limited",
+    "access": "complete",
+    "cost": null,
+    "damage": null,
+    "bonus_ca": null,
+    "weight_in_load": null,
+    "weight_in_grams": null,
+    "description": "Pílulas feitas a partir do Extrato de Mandra, uma raiz com propriedades curativas.\r\n\r\nCada dose cura instantaneamente 4d6 PV, além de servir como antídoto universal, curar doenças e regenerar membros decepados ou ossos quebrados.\r\n\r\nNo entanto, o extrato é altamente viciante e seu uso prolongado pode causar sérios danos mentais.",
     "fontes": [
       {
         "page": 5,
