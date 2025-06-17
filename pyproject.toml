@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "od2aag"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
     { name = "Alessandro Guarita" }, 
 ]
@@ -17,6 +17,11 @@ readme = "README.md"
 license = { text = "MIT" } # Forma moderna de especificar a licença
 
 requires-python = ">=3.13"
+
+dependencies = [
+    "TTRPGaag"
+]
+
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
